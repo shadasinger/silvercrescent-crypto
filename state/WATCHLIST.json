@@ -1,0 +1,38 @@
+{
+  "updated_utc": "2026-08-02T20:45:00Z",
+  "slot_changes_this_week": 0,
+  "notes": "Inception watchlist. Sector cap note: the Major-L1 sector is fully consumed by permanents (ETH, SOL, ADA, TRX), so no rotating L1 adds are permitted until a permanent rotates out of top-8 (AVAX/SUI/NEAR were top-scored L1 candidates, held back by the 4-per-sector cap). CryptoPanic headlines unavailable this run (no API key) — red-flag screen done from model knowledge; add CRYPTOPANIC_KEY later for headline cards.",
+  "coins": [
+    {"ticker": "BTC", "binance_symbol": "BTCUSDT", "slot": "permanent", "sector": "Store of Value", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Cycle anchor and regime proxy; the book's beta reference."},
+    {"ticker": "ETH", "binance_symbol": "ETHUSDT", "slot": "permanent", "sector": "Major L1", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Settlement layer for stables/RWA; +7.9% 30d, strongest permanent momentum."},
+    {"ticker": "BNB", "binance_symbol": "BNBUSDT", "slot": "permanent", "sector": "Exchange", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Binance ecosystem cashflow proxy; steady grinder."},
+    {"ticker": "XRP", "binance_symbol": "XRPUSDT", "slot": "permanent", "sector": "Payments", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Institutional payments/ETF narrative; rangebound."},
+    {"ticker": "SOL", "binance_symbol": "SOLUSDT", "slot": "permanent", "sector": "Major L1", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "High-throughput L1, retail flow hub; -10% 30d, watch for base."},
+    {"ticker": "TRX", "binance_symbol": "TRXUSDT", "slot": "permanent", "sector": "Major L1", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Stablecoin settlement rails; low-vol, low-beta."},
+    {"ticker": "DOGE", "binance_symbol": "DOGEUSDT", "slot": "permanent", "sector": "Meme", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Meme beta bellwether; moves late-cycle with retail."},
+    {"ticker": "ZEC", "binance_symbol": "ZECUSDT", "slot": "permanent", "sector": "Privacy", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Privacy narrative re-rate into top-15; momentum cooled, structural bid intact."},
+    {"ticker": "ADA", "binance_symbol": "ADAUSDT", "slot": "permanent", "sector": "Major L1", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "+14.9% 7d breakout leader among majors; verify volume conviction."},
+    {"ticker": "LINK", "binance_symbol": "LINKUSDT", "slot": "permanent", "sector": "Oracle", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Oracle monopoly + institutional data rails (CCIP); +5.5% 30d."},
+
+    {"ticker": "UNI", "binance_symbol": "UNIUSDT", "slot": "rotating", "sector": "DEX", "score": 8, "date_added": "2026-08-02", "locked": false, "thesis": "+28% 30d on DEX volume share and fee-value narrative; best momentum on the board."},
+    {"ticker": "AAVE", "binance_symbol": "AAVEUSDT", "slot": "rotating", "sector": "DeFi Lending", "score": 7, "date_added": "2026-08-02", "locked": false, "thesis": "DeFi lending blue chip; deepest liquidity in class (vol/mcap 0.15)."},
+    {"ticker": "ENA", "binance_symbol": "ENAUSDT", "slot": "rotating", "sector": "DeFi Lending", "score": 7, "date_added": "2026-08-02", "locked": false, "thesis": "Synthetic-dollar growth story; +12.7% 30d, extreme liquidity (vol/mcap 0.19)."},
+    {"ticker": "MORPHO", "binance_symbol": "MORPHOUSDT", "slot": "rotating", "sector": "DeFi Lending", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Institutional lending infra taking AAVE share; thin volume is the risk."},
+    {"ticker": "ONDO", "binance_symbol": "ONDOUSDT", "slot": "rotating", "sector": "RWA", "score": 7, "date_added": "2026-08-02", "locked": false, "thesis": "RWA/tokenized-treasuries leader; +15.9% 30d with sector tailwind."},
+    {"ticker": "ETHFI", "binance_symbol": "ETHFIUSDT", "slot": "rotating", "sector": "Liquid Staking", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "ETH staking/restaking beta with fee switch; +7.8% 30d."},
+    {"ticker": "CAKE", "binance_symbol": "CAKEUSDT", "slot": "rotating", "sector": "DEX", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "BNB-chain DEX with burn mechanics; quietly positive both windows."},
+    {"ticker": "JUP", "binance_symbol": "JUPUSDT", "slot": "rotating", "sector": "DEX", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "Solana aggregator monopoly; cheap after -20% 30d if SOL flow returns."},
+    {"ticker": "LTC", "binance_symbol": "LTCUSDT", "slot": "rotating", "sector": "Payments", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Payments legacy + ETF optionality; mean-reversion candidate."},
+    {"ticker": "BCH", "binance_symbol": "BCHUSDT", "slot": "rotating", "sector": "Payments", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "Liquid large-cap payments fork; low-beta placeholder."},
+    {"ticker": "XLM", "binance_symbol": "XLMUSDT", "slot": "rotating", "sector": "Payments", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "Payments/RWA rails; washed out -14% 30d, capitulation watch."},
+    {"ticker": "HBAR", "binance_symbol": "HBARUSDT", "slot": "rotating", "sector": "Enterprise", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Enterprise/ETF narrative; flat and coiled vs majors."},
+    {"ticker": "SHIB", "binance_symbol": "SHIBUSDT", "slot": "rotating", "sector": "Meme", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Meme #2 with +12.9% 30d divergence vs DOGE."},
+    {"ticker": "PEPE", "binance_symbol": "PEPEUSDT", "slot": "rotating", "sector": "Meme", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Highest-beta liquid meme (vol/mcap 0.13); pure risk-appetite gauge."},
+    {"ticker": "PUMP", "binance_symbol": "PUMPUSDT", "slot": "rotating", "sector": "Meme", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "+31.6% 30d on revenue/buyback story; watch the no-chase rule."},
+    {"ticker": "TAO", "binance_symbol": "TAOUSDT", "slot": "rotating", "sector": "AI", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Decentralized AI bellwether; -10% 30d pullback in secular narrative."},
+    {"ticker": "RENDER", "binance_symbol": "RENDERUSDT", "slot": "rotating", "sector": "AI", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "GPU compute proxy; weak tape, cheap AI beta if regime turns."},
+    {"ticker": "VIRTUAL", "binance_symbol": "VIRTUALUSDT", "slot": "rotating", "sector": "AI", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "AI-agent launchpad; high beta to AI narrative revivals."},
+    {"ticker": "ARB", "binance_symbol": "ARBUSDT", "slot": "rotating", "sector": "L2", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Leading ETH L2; stabilizing tape, leveraged to ETH strength."},
+    {"ticker": "FIL", "binance_symbol": "FILUSDT", "slot": "rotating", "sector": "DePIN/Storage", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "Storage/DePIN proxy for AI-data narrative; deep value territory."}
+  ]
+}
