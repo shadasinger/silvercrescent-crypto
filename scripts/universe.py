@@ -55,7 +55,9 @@ def get(url, retries=3, quiet=False):
 
 
 def binance_usdt_bases():
-    info = get("https://api.binance.com/api/v3/exchangeInfo")
+    # data-api.binance.vision mirrors api.binance.com market data and is not
+    # geo-blocked from cloud regions (api.binance.com returns 451 there)
+    info = get("https://data-api.binance.vision/api/v3/exchangeInfo")
     return {
         s["baseAsset"].upper()
         for s in info["symbols"]

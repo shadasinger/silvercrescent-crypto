@@ -21,12 +21,17 @@ STATE = ROOT / "state"
 
 SPOT = "https://data-api.binance.vision"   # mirror of api.binance.com, market data only
 FUT = "https://fapi.binance.com"
+HL = "https://api.hyperliquid.xyz/info"    # fallback for params 6-7 when fapi is geo-blocked
+HL_TICKER_MAP = {"SHIB": "kSHIB", "PEPE": "kPEPE", "BONK": "kBONK", "FLOKI": "kFLOKI"}
 
 
-def get(url, retries=3, quiet=False):
+def get(url, retries=3, quiet=False, data=None):
     for i in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "confluence/1.0"})
+            req = urllib.request.Request(url, headers={"User-Agent": "confluence/1.0"},
+                                         data=data)
+            if data is not None:
+                req.add_header("Content-Type", "application/json")
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
         except Exception:
@@ -35,6 +40,65 @@ def get(url, retries=3, quiet=False):
                     return None
                 raise
             time.sleep(3 * (i + 1))
+
+
+def binance_futures_ok():
+    """fapi.binance.com returns HTTP 451 from some cloud regions (geo-block)."""
+    return get(f"{FUT}/fapi/v1/ping", retries=1, quiet=True) is not None
+
+
+def hl_snapshot():
+    """Hyperliquid perp snapshot: ticker -> {funding_pct_8h, oi_notional_usd}.
+    HL funding is an HOURLY decimal rate -> x8 x100 = %/8h (Binance-comparable)."""
+    d = get(HL, quiet=True, data=json.dumps({"type": "metaAndAssetCtxs"}).encode())
+    if not d:
+        return {}
+    meta, ctxs = d
+    out = {}
+    for a, c in zip(meta["universe"], ctxs):
+        try:
+            out[a["name"]] = {
+                "funding_pct_8h": round(float(c["funding"]) * 8 * 100, 4),
+                "oi_notional_usd": float(c["openInterest"]) * float(c["markPx"]),
+            }
+        except (KeyError, TypeError, ValueError):
+            continue
+    return out
+
+
+def update_oi_history(snap):
+    """Append HL OI snapshot to state/OI_HISTORY.json (self-built history — HL has
+    no public OI-history endpoint). Returns {ticker: (delta_24h_pct, delta_7d_pct)};
+    deltas are None until enough history accumulates (label p7 Neutral then)."""
+    import bisect
+    path = STATE / "OI_HISTORY.json"
+    hist = json.loads(path.read_text()) if path.exists() else {}
+    now = time.time()
+    for name, v in snap.items():
+        hist.setdefault(name, []).append([round(now), round(v["oi_notional_usd"], 2)])
+        hist[name] = [e for e in hist[name] if now - e[0] < 10 * 86400][-80:]
+    path.write_text(json.dumps(hist))
+    deltas = {}
+    for name, entries in hist.items():
+        cur = entries[-1][1]
+        times = [e[0] for e in entries]
+        d24 = d7 = None
+        for target, tol in ((86400, 6 * 3600), (7 * 86400, 24 * 3600)):
+            i = bisect.bisect_left(times, now - target)
+            best, err = None, tol
+            for j in (i - 1, i, i + 1):
+                if 0 <= j < len(entries) - 1:
+                    e = abs((now - entries[j][0]) - target)
+                    if e <= err:
+                        best, err = entries[j][1], e
+            if best:
+                pct = round((cur / best - 1) * 100, 1)
+                if target == 86400:
+                    d24 = pct
+                else:
+                    d7 = pct
+        deltas[name] = (d24, d7)
+    return deltas
 
 
 def rsi14(closes):
@@ -79,20 +143,6 @@ def coin_params(bsym):
     chg24 = round((closes[-1] / closes[-2] - 1) * 100, 2)
     chg7d = round((closes[-1] / closes[-8] - 1) * 100, 2) if len(closes) >= 8 else None
 
-    # funding (param 6) and open interest (param 7) — may not exist for all coins
-    funding = None
-    fr = get(f"{FUT}/fapi/v1/fundingRate?symbol={bsym}&limit=6", quiet=True)
-    if isinstance(fr, list) and fr:
-        funding = round(statistics.mean(float(x["fundingRate"]) for x in fr) * 100, 4)  # %/8h
-
-    oi_24h = oi_7d = None
-    oh = get(f"{FUT}/futures/data/openInterestHist?symbol={bsym}&period=1d&limit=8", quiet=True)
-    if isinstance(oh, list) and len(oh) >= 2:
-        vals = [float(x["sumOpenInterestValue"]) for x in oh]
-        oi_24h = round((vals[-1] / vals[-2] - 1) * 100, 1)
-        if len(vals) >= 8:
-            oi_7d = round((vals[-1] / vals[0] - 1) * 100, 1)
-
     return {
         "price": price, "chg_24h_pct": chg24, "chg_7d_pct": chg7d,
         "dma50": round(dma50, 6) if dma50 else None,
@@ -101,9 +151,36 @@ def coin_params(bsym):
         "rsi14": rsi14(closes),
         "rv_ratio_7d_30d": round(rv7 / rv30, 2) if rv30 else None,
         "volume_z": vz,
-        "funding_pct_8h": funding,
-        "oi_delta_24h_pct": oi_24h, "oi_delta_7d_pct": oi_7d,
     }
+
+
+def futures_params(ticker, bsym, fut_ok, hl, hl_deltas):
+    """Params 6-7. Primary: Binance futures. Fallback (geo-block): Hyperliquid.
+    Rulebook amendment 2026-08-03 (user sign-off) — venue substitution, logged."""
+    if fut_ok:
+        funding = None
+        fr = get(f"{FUT}/fapi/v1/fundingRate?symbol={bsym}&limit=6", quiet=True)
+        if isinstance(fr, list) and fr:
+            funding = round(statistics.mean(float(x["fundingRate"]) for x in fr) * 100, 4)
+        oi_24h = oi_7d = None
+        oh = get(f"{FUT}/futures/data/openInterestHist?symbol={bsym}&period=1d&limit=8",
+                 quiet=True)
+        if isinstance(oh, list) and len(oh) >= 2:
+            vals = [float(x["sumOpenInterestValue"]) for x in oh]
+            oi_24h = round((vals[-1] / vals[-2] - 1) * 100, 1)
+            if len(vals) >= 8:
+                oi_7d = round((vals[-1] / vals[0] - 1) * 100, 1)
+        if funding is not None or oi_24h is not None:
+            return {"funding_pct_8h": funding, "oi_delta_24h_pct": oi_24h,
+                    "oi_delta_7d_pct": oi_7d, "futures_source": "binance"}
+    hname = HL_TICKER_MAP.get(ticker, ticker)
+    if hname in hl:
+        d24, d7 = hl_deltas.get(hname, (None, None))
+        return {"funding_pct_8h": hl[hname]["funding_pct_8h"],
+                "oi_delta_24h_pct": d24, "oi_delta_7d_pct": d7,
+                "futures_source": "hyperliquid"}
+    return {"funding_pct_8h": None, "oi_delta_24h_pct": None,
+            "oi_delta_7d_pct": None, "futures_source": None}
 
 
 def suggest_labels(p, g):
@@ -234,15 +311,25 @@ def main():
     from concurrent.futures import ThreadPoolExecutor
     wl = json.loads((STATE / "WATCHLIST.json").read_text())
     g = global_params()
+    fut_ok = binance_futures_ok()
+    hl = hl_snapshot()                      # always snapshot: builds OI history
+    hl_deltas = update_oi_history(hl) if hl else {}
+    g["futures_primary_ok"] = fut_ok
+    if not fut_ok:
+        g["futures_note"] = "fapi.binance.com unreachable (geo-block?) — params 6-7 from Hyperliquid fallback"
     tickers = [(c["ticker"], c.get("binance_symbol") or (c["ticker"] + "USDT"))
                for c in wl["coins"]]
     coins = {}
     with ThreadPoolExecutor(max_workers=10) as ex:
-        results = ex.map(lambda t: (t[0], coin_params(t[1])), tickers)
-    for tick, p in results:
+        results = ex.map(
+            lambda t: (t[0], coin_params(t[1]),
+                       futures_params(t[0], t[1], fut_ok, hl, hl_deltas)),
+            tickers)
+    for tick, p, f in results:
         if p is None:
             coins[tick] = {"error": "no kline data"}
             continue
+        p.update(f)
         p["suggested_labels"] = suggest_labels(p, g)
         coins[tick] = p
     out = {
