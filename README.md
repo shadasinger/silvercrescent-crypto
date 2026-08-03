@@ -15,7 +15,14 @@ state/                 all persistent state (portfolio, watchlist, signals,
 data/universe.json     latest candidate universe (regenerated at MID)
 ```
 
-Both scripts are Python 3 stdlib-only — no installs needed. Data sources (all free, no keys): Binance spot & futures, CoinGecko, DefiLlama, Coin Metrics community, alternative.me.
+Both scripts are Python 3 stdlib-only — no installs needed. Data sources (all free): Binance spot & futures, CoinGecko, DefiLlama, Coin Metrics community, alternative.me.
+
+**Environment variables** (set in the cloud routine environment):
+
+| Variable | Required | Purpose |
+|---|---|---|
+| `COINGECKO_API_KEY` | recommended | CoinGecko demo key. Unlocks MID data-card enrichment (category/sector tags + community sentiment votes for the top-60 candidates) and rate-limit headroom. Without it, `universe.py` still runs; enrichment is skipped. |
+| `CG_ENRICH_TOP` | no | How many top candidates to enrich (default 60; throttled to demo-tier 30 calls/min). |
 
 ## Cloud routine setup (Claude Code on the web)
 
@@ -34,7 +41,7 @@ A run that doesn't end in a commit did not happen. Commit format: `checkpoint(AM
 ## Known gaps (logged at inception)
 
 - **Sentiment (parameter 1)** has no wired source in `parameters.py` — it is deliberately the LLM's job. The routine prompts above tell Claude to do a contrarian sentiment pass for near-gate coins; until then p1 defaults to Neutral (never fabricated).
-- **CryptoPanic headlines** for MID data cards need a free API key (`CRYPTOPANIC_KEY`); red-flag screening currently relies on model knowledge + web search.
+- **News red-flag screening** runs on web search during MID Step 3 — CoinGecko's `/news` endpoint is Pro-only, so no news API is wired (CryptoPanic was considered and dropped in favor of the CoinGecko key, 2026-08-03).
 - SHIB and PEPE have no Binance USDT perp → parameters 6–7 are structurally Neutral for them (ceiling 8/10).
 
 ## Status

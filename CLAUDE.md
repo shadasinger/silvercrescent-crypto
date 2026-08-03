@@ -75,7 +75,7 @@ Run a book of medium-term crypto plays (**2–8 week horizon**, crypto moves fas
 - Pull all coins from CoinGecko; keep market cap > $100M AND listed on Binance spot (USDT pair).
 - Exclude stablecoins and wrapped tokens. Output: ~250–350 candidates.
 
-**Step 2 — Data cards (code).** Per candidate: market cap, 24h volume, volume/mcap ratio, 7d/30d/90d price change, sector tag (CoinGecko categories), last 5 news headlines (CryptoPanic free API).
+**Step 2 — Data cards (code).** Per candidate: market cap, 24h volume, volume/mcap ratio, 7d/30d/200d price change; for the top-60 by mcap also CoinGecko category tags (sector data) and community sentiment votes (requires `COINGECKO_API_KEY` env var — demo tier). News red-flag screening (hack / regulatory / team-exit) is done by you via web search during Step 3, since no news API is wired. *(Amended 2026-08-03 with user sign-off: CoinGecko key replaces the planned CryptoPanic integration.)*
 
 **Step 3 — Score candidates (you, batched).** Score each 1–10 on catalyst quality, news red flags, liquidity health.
 - Penalize coins already up **> 50% in 7d** (no chasing).

@@ -1,7 +1,7 @@
 {
   "updated_utc": "2026-08-02T20:45:00Z",
   "slot_changes_this_week": 0,
-  "notes": "Inception watchlist. Sector cap note: the Major-L1 sector is fully consumed by permanents (ETH, SOL, ADA, TRX), so no rotating L1 adds are permitted until a permanent rotates out of top-8 (AVAX/SUI/NEAR were top-scored L1 candidates, held back by the 4-per-sector cap). CryptoPanic headlines unavailable this run (no API key) — red-flag screen done from model knowledge; add CRYPTOPANIC_KEY later for headline cards.",
+  "notes": "Inception watchlist. Sector cap note: the Major-L1 sector is fully consumed by permanents (ETH, SOL, ADA, TRX), so no rotating L1 adds are permitted until a permanent rotates out of top-8 (AVAX/SUI/NEAR were top-scored L1 candidates, held back by the 4-per-sector cap). Red-flag screen at inception done from model knowledge (no news API). 2026-08-03: COINGECKO_API_KEY wired for MID data-card enrichment (categories + sentiment votes); news screening stays on web search.",
   "coins": [
     {"ticker": "BTC", "binance_symbol": "BTCUSDT", "slot": "permanent", "sector": "Store of Value", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Cycle anchor and regime proxy; the book's beta reference."},
     {"ticker": "ETH", "binance_symbol": "ETHUSDT", "slot": "permanent", "sector": "Major L1", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Settlement layer for stables/RWA; +7.9% 30d, strongest permanent momentum."},

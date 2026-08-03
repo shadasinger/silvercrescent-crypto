@@ -6,6 +6,7 @@ excludes stablecoins/wrapped tokens, and writes data cards to data/universe.json
 No LLM judgment here — scoring happens in the MID routine (CLAUDE.md Section 6).
 """
 import json
+import os
 import re
 import time
 import urllib.request
@@ -17,6 +18,10 @@ DATA = ROOT / "data"
 DATA.mkdir(exist_ok=True)
 
 MIN_MCAP = 100_000_000
+CG_KEY = os.environ.get("COINGECKO_API_KEY", "")  # demo key; header x-cg-demo-api-key
+# Enrich top-N candidates by mcap with CoinGecko categories + sentiment votes.
+# Demo tier is 30 calls/min, so this step is throttled; tune via env for testing.
+ENRICH_TOP = int(os.environ.get("CG_ENRICH_TOP", "60"))
 
 # Symbols/name fragments that mark stablecoins, wrapped/staked wrappers, etc.
 EXCLUDE_SYMBOLS = {
@@ -32,14 +37,19 @@ EXCLUDE_PATTERNS = re.compile(
 )
 
 
-def get(url, retries=3):
+def get(url, retries=3, quiet=False):
+    headers = {"User-Agent": "confluence/1.0"}
+    if CG_KEY and "coingecko.com" in url:
+        headers["x-cg-demo-api-key"] = CG_KEY
     for i in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "confluence/1.0"})
+            req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
-        except Exception as e:
+        except Exception:
             if i == retries - 1:
+                if quiet:
+                    return None
                 raise
             time.sleep(5 * (i + 1))
 
@@ -65,6 +75,26 @@ def coingecko_markets(pages=4):
         out += get(url)
         time.sleep(3)  # free-tier rate limit
     return out
+
+
+def enrich(cards):
+    """CoinGecko per-coin enrichment for the top-N candidates by mcap:
+    category tags (sector data) + community sentiment votes. Needs
+    COINGECKO_API_KEY (demo tier, 30 calls/min) — skipped without it."""
+    if not CG_KEY:
+        print("enrich: COINGECKO_API_KEY not set — skipping categories/sentiment")
+        return
+    for c in cards[:ENRICH_TOP]:
+        d = get(
+            f"https://api.coingecko.com/api/v3/coins/{c['coingecko_id']}"
+            "?localization=false&tickers=false&market_data=false"
+            "&community_data=false&developer_data=false&sparkline=false",
+            quiet=True,
+        )
+        if d:
+            c["categories"] = (d.get("categories") or [])[:8]
+            c["sentiment_votes_up_pct"] = d.get("sentiment_votes_up_percentage")
+        time.sleep(2.2)  # stay under 30 calls/min
 
 
 def main():
@@ -101,9 +131,11 @@ def main():
             "chg_200d": c.get("price_change_percentage_200d_in_currency"),
             "price": c.get("current_price"),
         })
+    enrich(cards)
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "candidate_count": len(cards),
+        "enriched_top": ENRICH_TOP if CG_KEY else 0,
         "candidates": cards,
         "excluded_stable_wrapped": excluded,
     }
