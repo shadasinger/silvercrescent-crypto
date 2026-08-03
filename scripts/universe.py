@@ -55,7 +55,10 @@ def get(url, retries=3, quiet=False):
 
 
 def binance_usdt_bases():
-    info = get("https://api.binance.com/api/v3/exchangeInfo")
+    # api.binance.com is geo-restricted (HTTP 451) from some egress locations;
+    # data-api.binance.vision is Binance's own public market-data mirror
+    # (already used by scripts/parameters.py for the same reason).
+    info = get("https://data-api.binance.vision/api/v3/exchangeInfo")
     return {
         s["baseAsset"].upper()
         for s in info["symbols"]
