@@ -26,9 +26,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "state"
 
-API = "https://api.x.ai/v1/chat/completions"
+API = "https://api.x.ai/v1/responses"  # /v1/chat/completions is retired (HTTP 410)
 KEY = os.environ.get("XAI_API_KEY", "")
-MODEL = os.environ.get("XAI_MODEL", "grok-3-mini")
+MODEL = os.environ.get("XAI_MODEL", "grok-4.3")
 WINDOW_H = int(os.environ.get("SENTIMENT_WINDOW_H", "48"))
 
 SYSTEM = (
@@ -52,41 +52,49 @@ Return JSON with exactly these keys:
 def collect(ticker, name):
     body = {
         "model": MODEL,
-        "temperature": 0,
-        "messages": [
-            {"role": "system", "content": SYSTEM},
-            {"role": "user", "content": USER_TMPL.format(
-                name=name, ticker=ticker, h=WINDOW_H)},
-        ],
-        "search_parameters": {
-            "mode": "on",
-            "sources": [{"type": "x", "post_favorite_count": 30}],
-            "from_date": (datetime.now(timezone.utc)
-                          - timedelta(hours=WINDOW_H)).strftime("%Y-%m-%d"),
-            "max_search_results": 25,
-            "return_citations": True,
-        },
+        "instructions": SYSTEM,
+        "input": USER_TMPL.format(name=name, ticker=ticker, h=WINDOW_H),
+        "tools": [{"type": "x_search"}],  # server-side X search (Agent Tools API)
     }
     req = urllib.request.Request(
         API, data=json.dumps(body).encode(),
         headers={"Authorization": f"Bearer {KEY}",
                  "Content-Type": "application/json"})
-    with urllib.request.urlopen(req, timeout=120) as r:
+    with urllib.request.urlopen(req, timeout=180) as r:
         resp = json.load(r)
-    msg = resp["choices"][0]["message"]
-    text = msg["content"].strip()
+    text, citations, queries = "", [], []
+    for item in resp.get("output", []):
+        if item.get("type") == "message":
+            for c in item.get("content", []):
+                if c.get("type") == "output_text":
+                    text += c.get("text", "")
+                    for a in c.get("annotations", []) or []:
+                        url = a.get("url") or a.get("uri")
+                        if url:
+                            citations.append(url)
+        elif item.get("type") == "custom_tool_call":
+            queries.append(item.get("input", ""))
+    text = text.strip()
     if text.startswith("```"):
         text = text.strip("`").lstrip("json").strip()
     try:
         data = json.loads(text)
     except json.JSONDecodeError:
-        data = {"raw": text, "parse_error": True}
+        start, end = text.find("{"), text.rfind("}")
+        if start >= 0 and end > start:
+            try:
+                data = json.loads(text[start:end + 1])
+            except json.JSONDecodeError:
+                data = {"raw": text, "parse_error": True}
+        else:
+            data = {"raw": text, "parse_error": True}
     return {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "model": MODEL,
         "window_h": WINDOW_H,
         "data": data,
-        "citations": resp.get("citations") or msg.get("citations") or [],
+        "citations": citations,
+        "search_queries": queries,
         "note": "descriptive only — contrarian Bullish/Neutral/Bearish read is "
                 "made by the decision engine and logged in SIGNALS.csv",
     }

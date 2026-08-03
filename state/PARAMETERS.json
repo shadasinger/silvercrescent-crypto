@@ -242,6 +242,44 @@
         "p8_stables": "Bearish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-03T18:32:24.517407+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "rocket emojis",
+            "fire emojis on interoperability news"
+          ],
+          "capitulation_markers": [],
+          "dominant_narrative": "Cardano's new IBC testnet integration with Injective enabling native cross-chain access for $ADA and $INJ.",
+          "narrative_change": "Shift toward positive integration and ETF timeline mentions versus earlier low-price stagnation discussions.",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "Huge win for interoperability as $ADA connects to Injective via live onchain rail.",
+            "KAIZN delegators paid staking rewards on $ADA.",
+            "$INJ more lively than $ADA historically per user comparison.",
+            "Detailed breakdown of short squeeze, CME/ETF expectations driving recent $ADA moves."
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2084343925276299669",
+          "https://x.com/i/status/2084345893285720300",
+          "https://x.com/i/status/2084345970720956753",
+          "https://x.com/i/status/2084345586384322628",
+          "https://x.com/i/status/2084343939990004195",
+          "https://x.com/i/status/2084344397072593189",
+          "https://x.com/i/status/2084344013751017625",
+          "https://x.com/i/status/2084344444262797630",
+          "https://x.com/i/status/2084343942414205165",
+          "https://x.com/i/status/2084345630613504021"
+        ],
+        "search_queries": [
+          "{\"query\":\"$ADA OR ADA crypto OR cardano since:2026-08-01\",\"limit\":\"10\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "LINK": {
