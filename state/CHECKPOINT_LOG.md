@@ -24,3 +24,24 @@ Simulated fills: n/a
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-02 PM), this report. JOURNAL/SHADOW_BOOK: nothing to write (no entries, no rejected confirmed-candidates).
 
 Known gaps for next runs: (1) p1 sentiment source not wired — cloud routine should do an X/web sentiment pass per coin near the gate (counts ≥6) and log contrarian reasoning; (2) CryptoPanic key missing; (3) SHIB/PEPE have no Binance USDT perp → p6/p7 read Neutral structurally, their ceiling is 8/10.
+
+## CHECKPOINT — 2026-08-04, AM
+
+Global params: stablecoins −0.47% 7d ($306.9B, shrinking) | MVRV BTC 1.20 / ETH 0.91 | F&G 25 (Fear, Δ7d −4) | funding regime: near-zero to mildly negative across the board (no crowding either way) | futures: fapi.binance.com unreachable (geo-block) — params 6-7 sourced from Hyperliquid fallback for all 30 coins, noted per-coin `futures_source`; p7 (OI Δ) reads null → Neutral for every coin, only ~3 snapshots (~12.7h) of self-built OI_HISTORY.json so far, well short of the 1–7 day threshold.
+Deployed: 0% across 0 positions | Cash: 100% ($10,000.00)
+Holdings: none
+Signals: armed — none (top mechanical counts: BNB 4/10, ENA 4/10, ONDO 4/10, PEPE 4/10, PUMP 4/10 [entry_blocked — red flag], SHIB 4/10, TRX 4/10, ZEC 4/10) | confirmed — none | exit-warned — n/a
+
+Decisions & reasoning:
+- Second checkpoint since inception (first since 2026-08-02 PM; no AM/PM/MID ran on 08-03 — tooling commits only). Nothing was armed at the prior checkpoint, so no coin could confirm today regardless.
+- No coin reaches ≥5 mechanical Bullish (p2–p10), so per the Section 0 amendment the Grok/X sentiment pass (`scripts/sentiment.py`) was not triggered this run — there are also no holdings. p1 (sentiment) is logged Neutral for all 30 coins this checkpoint, never fabricated.
+- Reviewed all mechanical p2–p10 labels against the Section 7 rubric (raw values in PARAMETERS.json cross-checked against golden-state/RSI/overextension/rvol/volz thresholds for every coin). No overrides warranted — no RSI<30-capitulation-with-intact-thesis cases (RENDER 34.4, TAO 41.8, XLM 39.2, SOL 44.8, LTC 42.2 are all in downtrends without a clean capitulation setup), no overextension mislabels (PUMP correctly Bearish on p2 at +34.7% above 50DMA despite its uptrend).
+- LTC and PUMP remain `entry_blocked` (MWEB reorg / class-action + unlock, both flagged 2026-08-03, proposed drop 2026-08-16) — correctly excluded from any arming consideration regardless of count; both scored below the gate anyway (LTC 3/10, PUMP 4/10 mechanical).
+- Regime read: F&G 25 sits right on the fear boundary with MVRV<1.2 (not overheated), but stablecoin supply is still shrinking (p8 Bearish globally) — sideline liquidity is not confirming a bottom. Correct posture is unchanged: 100% USDT, patience.
+
+Red-team summary: Strongest case against another do-nothing checkpoint — F&G at 25 and sub-1.2 MVRV argue the market is cheap, and BNB/TRX/ZEC (low-beta, structurally resilient) sit at 4/10 holding up while risk names lag. Rebuttal: none of them clear even half the 7/10 gate, and part of today's ceiling is a structural data gap (p7 OI still null pending Hyperliquid history) rather than a genuine bearish read — lowering the bar to compensate for missing data is exactly the failure mode Section 9 warns against. The 2-consecutive-checkpoint gate exists so a real move gets caught one cycle late at acceptable cost, not chased on a partial board.
+
+Sector exposure: none (100% cash)
+Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked from 2026-08-03.
+Simulated fills: n/a
+Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-04 AM), this report, state/BRIEFING.md. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only, today is Tuesday).
