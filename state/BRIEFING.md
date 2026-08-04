@@ -1,15 +1,15 @@
-BRIEFING — 2026-08-04 AM
+BRIEFING — 2026-08-04 MID
 
 Top 5 considerations:
-1. BNB — confluence 4/10 — steady grinder: RSI 57.6 and rvol compression are constructive, but funding/OI can't lift it past neutral-to-mixed; needs sentiment plus a real trend signal (p2) to even approach the gate.
-2. ENA — confluence 4/10 — synthetic-dollar momentum (RSI 60.3, rvol expansion) undercut by a negative volume z-score (no conviction behind the move); watch for volume to confirm.
-3. ONDO — confluence 4/10 — golden-state price structure (above both MAs) and rvol compression are the bright spots; RSI and volume are flat, nothing else pushing it toward the gate.
-4. SHIB — confluence 4/10 — RSI 60.3 and rvol expansion look constructive but price structure (p2) is only neutral; needs sentiment plus a stronger trend read.
-5. TRX — confluence 4/10 — low-vol grinder still in golden-state (50>200DMA); everything else reads neutral, no urgency either way.
-(ZEC and PUMP also sit at 4/10; PUMP is entry_blocked on red-flag news regardless of count.)
+1. BNB — confluence 4/10 — RSI, rvol, funding, MVRV all Bullish; needs sentiment + DMA/volz/OI to firm up before this gets close to the 7/10 gate — not armed.
+2. ONDO — confluence 4/10 — golden-state DMA, rvol, funding, MVRV Bullish on RWA tailwind; RSI and volz still Neutral, shrinking stablecoin supply (p8) caps the board — not armed.
+3. SHIB — confluence 4/10 — RSI, rvol, funding, MVRV Bullish, meme-beta divergence vs DOGE; DMA and volz Neutral, p8 Bearish — not armed.
+4. TRX — confluence 4/10 — DMA, rvol, funding, MVRV Bullish, low-beta grinder; RSI/volz Neutral — not armed.
+5. ZEC — confluence 4/10 — DMA, rvol, funding, MVRV Bullish; RSI/volz Neutral — not armed.
 
 Holdings:
 None — 100% USDT ($10,000.00)
 
 Portfolio: $10,000.00 (+0.0% / +$0.00 since inception)
-Regime: Fear & Greed 25 (near the fear line, falling), stablecoin supply still shrinking (−0.47% 7d), BTC/ETH MVRV 1.20/0.91 — cheap but liquidity isn't confirming a bottom yet.
+Regime: F&G 25 (Fear, falling), stablecoin supply shrinking (−0.51% 7d, sideline liquidity not confirming a bottom), MVRV BTC 1.20 / ETH 0.91 (mid-cycle, not overheated).
+Watchlist: no changes — all 20 rotating slots locked under the 2-week minimum hold until 2026-08-16; LTC and PUMP remain entry_blocked (red flags unchanged).
