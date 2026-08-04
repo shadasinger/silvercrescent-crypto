@@ -1,15 +1,15 @@
-BRIEFING — 2026-08-04 MID
+BRIEFING — 2026-08-04 PM
 
 Top 5 considerations:
-1. BNB — confluence 4/10 — RSI, rvol, funding, MVRV all Bullish; needs sentiment + DMA/volz/OI to firm up before this gets close to the 7/10 gate — not armed.
-2. ONDO — confluence 4/10 — golden-state DMA, rvol, funding, MVRV Bullish on RWA tailwind; RSI and volz still Neutral, shrinking stablecoin supply (p8) caps the board — not armed.
-3. SHIB — confluence 4/10 — RSI, rvol, funding, MVRV Bullish, meme-beta divergence vs DOGE; DMA and volz Neutral, p8 Bearish — not armed.
-4. TRX — confluence 4/10 — DMA, rvol, funding, MVRV Bullish, low-beta grinder; RSI/volz Neutral — not armed.
-5. ZEC — confluence 4/10 — DMA, rvol, funding, MVRV Bullish; RSI/volz Neutral — not armed.
+1. SHIB — confluence 5/10 — RSI 63, funding+OI+MVRV all Bullish; but euphoric X hype ("100x", "alt szn incoming") flipped p1 Bearish, and it still needs 2 more of DMA/volz/F&G to reach the gate — not armed.
+2. PUMP — confluence 5/10 — same bullish RSI/funding/OI/MVRV cluster, but overextended DMA and euphoric sentiment both Bearish; also entry_blocked (class-action + 41% unlock), so moot even if it armed.
+3. ZEC — confluence 5/10 — golden-state DMA, funding+OI+MVRV Bullish; volume z-score and hype-driven p1 both Bearish, needs those plus one more to arm — not armed.
+4. ADA — confluence 4/10 — RSI, funding, OI, MVRV Bullish; DMA/rvol/volz/F&G Neutral, p1 Neutral (below the ≥5 sentiment-check threshold) — needs 3 more to arm.
+5. BNB — confluence 4/10 — RSI, funding, MVRV Bullish, volume z modestly positive; DMA/OI/F&G Neutral — needs 3 more to arm.
 
 Holdings:
 None — 100% USDT ($10,000.00)
 
 Portfolio: $10,000.00 (+0.0% / +$0.00 since inception)
-Regime: F&G 25 (Fear, falling), stablecoin supply shrinking (−0.51% 7d, sideline liquidity not confirming a bottom), MVRV BTC 1.20 / ETH 0.91 (mid-cycle, not overheated).
-Watchlist: no changes — all 20 rotating slots locked under the 2-week minimum hold until 2026-08-16; LTC and PUMP remain entry_blocked (red flags unchanged).
+Regime: Fear & Greed 25 (fear, Δ7d −4) with stablecoin supply still shrinking 0.46%/7d and BTC/ETH MVRV at 1.20/0.91 — cheap but liquidity not yet confirming a bottom.
+Pre-mortem: BTC −15% overnight is the standing worst-case scenario; book is 100% USDT so damage is $0 — no de-risk action needed or possible.

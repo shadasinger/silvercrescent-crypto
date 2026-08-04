@@ -63,3 +63,26 @@ Sector exposure: none (100% cash)
 Watchlist changes (MID only): none — 2-week minimum hold blocks all rotation until 2026-08-16 regardless of scoring. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03).
 Simulated fills: n/a
 Learning artifacts written: `state/WATCHLIST.json` (updated_utc + notes refreshed, no coin changes), `state/PARAMETERS.json` (full refresh, 30 coins + global), `data/universe.json` (116 candidates), this report, `state/BRIEFING.md`.
+
+## CHECKPOINT — 2026-08-04, PM
+
+Global params: stablecoins −0.46% 7d ($306.9B, shrinking) | MVRV BTC 1.20 / ETH 0.91 | F&G 25 (Fear, Δ7d −4) | funding regime: near-zero to mildly negative across the board (no crowding either way) | futures: fapi.binance.com still geo-blocked — params 6-7 sourced from Hyperliquid fallback for all 30 coins; p7 (OI Δ) mostly reads null/Neutral pending OI_HISTORY.json reaching the 1–7 day threshold.
+Deployed: 0% across 0 positions | Cash: 100% ($10,000.00)
+Holdings: none
+
+Decisions & reasoning:
+- Third checkpoint since inception. Nothing was armed at AM or MID (max mechanical count 4/10 both times), so nothing could confirm today regardless of this run's counts.
+- Sentiment pass: ran `scripts/sentiment.py ZEC SHIB PUMP` (the three coins at ≥5 mechanical Bullish this run — no holdings to add). Grok/X pulls for all three showed clear euphoria markers (price-target chasing, rocket-emoji hype, "100x"/"alt szn incoming"/"biggest bull run incoming" posts) with zero capitulation markers — contrarian read is **Bearish** on p1 for all three, logged with one-line reasoning each in SIGNALS.csv. This pulls ZEC and PUMP down to 5/10 bull vs 3 bear, and SHIB to 5/10 bull vs 2 bear — none close the gate.
+- Remaining 27 coins: mechanical count <5 and no holdings, so per the Section 0 amendment p1 stays Neutral (not fabricated), unchanged from AM/MID.
+- Mechanical label review: checked all 30 coins' raw values against the Section 7 rubric (RSI<30 capitulation-with-intact-thesis scan found zero coins below 30 RSI this run; overextension and rvol/volz thresholds spot-checked against suggested_labels). No overrides warranted.
+- LTC and PUMP remain `entry_blocked` (unchanged since 2026-08-03, proposed drop 2026-08-16); PUMP's 5/10 mechanical count is moot for trading regardless of today's read.
+- Top board: PUMP/SHIB/ZEC 5/10, then a cluster at 4/10 (ADA, ARB, BNB, ENA, HBAR, ONDO, PEPE, TAO, TRX, UNI, XRP). Nothing within 2 of the 7/10 gate. Regime unchanged: F&G 25 (fear, not yet at the <25 contrarian-Bullish threshold... at the boundary), MVRV sub-1.2 (not overheated), but stablecoin supply still shrinking (p8 Bearish globally) — sideline liquidity isn't confirming a bottom. Correct posture: 100% USDT, patience.
+
+Red-team summary: Strongest case against another do-nothing PM — three coins (PUMP, SHIB, ZEC) cleared 5/9 mechanically and only missed sentiment because the contrarian read caught genuine euphoria; if that euphoria cools without the underlying trend breaking, the mechanical board alone still isn't close to 7/10, so the miss isn't costing much. Rebuttal accepted: none of tonight's candidates are within 2 parameters of the gate even under the most generous read, and PUMP is red-flag entry_blocked besides. No change of posture is defensible.
+
+Pre-mortem (PM): scenario "BTC −15% overnight" — book is 100% USDT, damage $0. No positions to de-risk; cash remains the correct hedge given shrinking stablecoin supply and a fear-leaning but not-yet-capitulating regime.
+
+Sector exposure: none (100% cash)
+Watchlist changes (MID only): n/a — PM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked.
+Simulated fills: n/a
+Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-04 PM, incl. logged p1 sentiment reasoning for ZEC/SHIB/PUMP), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only).
