@@ -107,3 +107,21 @@ Sector exposure: none (100% cash)
 Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
 Simulated fills: n/a
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-05 AM, incl. logged p1 sentiment reasoning for ZEC/BNB), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; today is Wednesday, not the Monday shadow-book refresh; not the first AM of the month, no monthly review due).
+
+## CHECKPOINT — 2026-08-05, MID (sourcing)
+
+Global params: stablecoins −0.04% 7d ($306.9B, essentially flat) | MVRV BTC 1.22 / ETH 0.91 | F&G 27 (Fear, Δ7d −2) | funding regime: near-zero to mildly negative | futures: fapi.binance.com still geo-blocked — params 6-7 sourced from Hyperliquid fallback for all 30 coins.
+Deployed: 0% across 0 positions | Cash: 100% ($10,000.00). No trading decisions this routine (MID never trades).
+
+Universe build: `scripts/universe.py` → 114 candidates (12 stablecoin/wrapped excluded), enriched top 60 (categories + CoinGecko sentiment votes via COINGECKO_API_KEY).
+
+Scoring & rotation review: Reviewed enriched candidates not on the watchlist (GRAM, AVAX, SUI, NEAR, WLFI, ASTER, DOT, SKY, ICP, WLD, ETC, QNT, ALGO, POL, ATOM, etc. — top by mcap) against catalyst quality / liquidity / no-chase (>50% 7d exclude — none triggered; highest non-watchlist 7d mover, DOT at +11.3%, isn't close). No candidate is actionable: **all 20 rotating slots were added 2026-08-02 and remain inside the Section 2 two-week minimum hold (unlocks 2026-08-16)** — no slot-change is legal this run regardless of score. AVAX/SUI/NEAR remain additionally blocked by the Major-L1 4-per-sector cap (fully consumed by permanents ETH/SOL/ADA/TRX) even after 08-16.
+
+Red-flag screen: fresh web-search pass across all 30 watchlist tickers, news window 2026-08-04 → 2026-08-05. No new hack / regulatory-action / team-exit events. LTC and PUMP remain `entry_blocked` (unchanged since 2026-08-03, proposed drop 2026-08-16) — both saw incremental escalation of their *existing* logged incidents, not new triggers: LTC issued a critical MWEB soft fork on 2026-08-04 (miners given 7 days to upgrade, hardens the same validation flaw); PUMP's class action advanced with a RICO case statement plus fresh layoff claims. FYI only, no exclude triggered (governance turnover, not a protocol hack/regulatory action/project-team exit, and not ticker-specific to a single watchlist coin): broad Ethereum Foundation leadership churn (8 senior figures departed over 5 months, including a co-executive director exit) — logged for awareness; ETH is a permanent slot and not subject to rotation/exclude regardless.
+
+Decisions & reasoning: No watchlist changes this run — mechanically locked by the 2-week minimum, not a judgment call. Refreshed `state/PARAMETERS.json` for all 30 coins so the PM checkpoint starts warm (prices, DMA/RSI/vol/funding/OI recomputed; global block updated). Mechanical confluence board (p1 sentiment excluded, judgment-only at trading checkpoints): ZEC leads 6/9, UNI and BNB 5/9, then a 4/9 cluster (TRX, SHIB, PUMP, TAO, SOL, ONDO, ENA) — unchanged leadership from this morning's AM checkpoint, nothing new to flag ahead of PM.
+
+Sector exposure: none (100% cash)
+Watchlist changes (MID only): none — 2-week minimum hold blocks all rotation until 2026-08-16 regardless of scoring. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03).
+Simulated fills: n/a
+Learning artifacts written: `state/WATCHLIST.json` (updated_utc + notes refreshed, no coin changes), `state/PARAMETERS.json` (full refresh, 30 coins + global), `data/universe.json` (114 candidates), this report, `state/BRIEFING.md`.
