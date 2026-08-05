@@ -1,15 +1,14 @@
-BRIEFING — 2026-08-04 PM
+BRIEFING — 2026-08-05 AM
 
 Top 5 considerations:
-1. SHIB — confluence 5/10 — RSI 63, funding+OI+MVRV all Bullish; but euphoric X hype ("100x", "alt szn incoming") flipped p1 Bearish, and it still needs 2 more of DMA/volz/F&G to reach the gate — not armed.
-2. PUMP — confluence 5/10 — same bullish RSI/funding/OI/MVRV cluster, but overextended DMA and euphoric sentiment both Bearish; also entry_blocked (class-action + 41% unlock), so moot even if it armed.
-3. ZEC — confluence 5/10 — golden-state DMA, funding+OI+MVRV Bullish; volume z-score and hype-driven p1 both Bearish, needs those plus one more to arm — not armed.
-4. ADA — confluence 4/10 — RSI, funding, OI, MVRV Bullish; DMA/rvol/volz/F&G Neutral, p1 Neutral (below the ≥5 sentiment-check threshold) — needs 3 more to arm.
-5. BNB — confluence 4/10 — RSI, funding, MVRV Bullish, volume z modestly positive; DMA/OI/F&G Neutral — needs 3 more to arm.
+1. ZEC — confluence 6/10 — golden-state DMA, RSI, rvol, funding, OI all Bullish; sentiment read Neutral (flat X chatter, no euphoria or capitulation) — needs one more flip to arm, none yet.
+2. BNB — confluence 5/10 — RSI, rvol, funding, OI all Bullish; volume z-score Bearish and sentiment Neutral — needs two more flips to arm.
+3. ONDO — confluence 4/10 — DMA/rvol/funding Bullish on the RWA tailwind, but OI falling on the rally (no conviction) — far from the gate.
+4. PUMP — confluence 4/10 — rvol/funding/OI Bullish but 47% above 50DMA (overextended, Bearish DMA) and entry_blocked (class-action + token unlock) — moot for trading either way.
+5. SHIB — confluence 4/10 — RSI/rvol/funding Bullish, quiet meme-beta grind — needs three more flips, no urgency.
 
 Holdings:
 None — 100% USDT ($10,000.00)
 
 Portfolio: $10,000.00 (+0.0% / +$0.00 since inception)
-Regime: Fear & Greed 25 (fear, Δ7d −4) with stablecoin supply still shrinking 0.46%/7d and BTC/ETH MVRV at 1.20/0.91 — cheap but liquidity not yet confirming a bottom.
-Pre-mortem: BTC −15% overnight is the standing worst-case scenario; book is 100% USDT so damage is $0 — no de-risk action needed or possible.
+Regime: Fear & Greed 27 (fear, ticking up from 25) with stablecoin supply turning marginally positive (+0.08%/7d, first non-shrinking read since inception) and BTC/ETH MVRV at 1.22/0.91 — mildly improving but not yet a confirmed liquidity-in signal.

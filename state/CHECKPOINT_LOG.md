@@ -86,3 +86,24 @@ Sector exposure: none (100% cash)
 Watchlist changes (MID only): n/a — PM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked.
 Simulated fills: n/a
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-04 PM, incl. logged p1 sentiment reasoning for ZEC/SHIB/PUMP), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only).
+
+## CHECKPOINT — 2026-08-05, AM
+
+Global params: stablecoins +0.08% 7d ($307.2B, flat/marginally growing — first non-shrinking read since inception) | MVRV BTC 1.22 / ETH 0.91 | F&G 27 (Fear, Δ7d −2) | funding regime: near-zero to mildly negative across the board (no crowding either way) | futures: fapi.binance.com still unreachable (geo-block) — params 6-7 sourced from Hyperliquid fallback for all 30 coins; p7 (OI Δ 24h) now populated for all coins, p7 OI Δ 7d still null pending OI_HISTORY.json reaching the 7-day threshold.
+Deployed: 0% across 0 positions | Cash: 100% ($10,000.00)
+Holdings: none
+
+Decisions & reasoning:
+- No holdings to review (Section 5 step 4 n/a).
+- Sentiment pass: mechanical count ≥5 this run for ZEC (6/9) and BNB (5/9) — ran `scripts/sentiment.py ZEC BNB`. Both pulls show flat/low-engagement X activity, no euphoria markers, no capitulation markers, no narrative change (ZEC: scattered $470-490 consolidation chat + long-term store-of-value framing; BNB: low-volume price/chain-promo/CZ posts). Neither everyone's-in hype nor capitulation-with-thesis — logged p1 **Neutral** for both with reasoning in SIGNALS.csv, this is a genuine "nothing interesting" read, not a fallback default.
+- Remaining 28 coins: mechanical count <5 and no holdings, so per the Section 0 amendment p1 stays Neutral (not triggered, not fabricated).
+- Mechanical label review: checked all 30 coins' raw values against the Section 7 rubric. No RSI<30 capitulation-with-intact-thesis cases (lowest RSI this run: XLM 35.4, RENDER 37.2 — both above the 30 threshold, no override candidates). No overextension mislabels (PUMP correctly Bearish on p2 at +47.0% above 50DMA, most extreme dev50 on the board). p8 stablecoin flip to +0.08% correctly reads Neutral under the ±0.1% mechanical band (script threshold), not a strong enough signal to call Bullish yet — noted as a regime watch-item, not an override. No overrides applied this run.
+- Final confluence: **ZEC leads at 6/10** (6 bull / 1 bear, p1 Neutral), **BNB second at 5/10** (5 bull / 1 bear, p1 Neutral). Both short of the 7/10 arming bar — no coin arms or confirms this checkpoint. Next tier: ONDO/PUMP/SHIB/TAO/TRX/VIRTUAL all at 4/10. LTC (3/10) and PUMP (4/10, entry_blocked) remain correctly excluded from arming consideration regardless — moot this run since neither reaches the gate anyway.
+- Regime read: F&G ticked up to 27 (still Fear-leaning, not yet the <25 contrarian-Bullish threshold), MVRV sub-1.2 on BTC / sub-1.0 on ETH (healthy, not overheated), and stablecoin supply's 7d change turned marginally positive for the first time since inception — a mild tailwind, but +0.08% is noise-level, not a confirmed liquidity-in signal. Correct posture: 100% USDT, patience.
+
+Red-team summary: Strongest case against another do-nothing AM — ZEC at 6/10 is the closest any coin has come to arming since inception, and the stablecoin flow turning positive alongside a slightly-less-fearful F&G could mark the start of a broader bid. Rebuttal: 6/10 is still one full parameter short of even arming (which itself only starts the 2-checkpoint clock), the stablecoin move is within noise of the mechanical Neutral band, and manufacturing a 7th Bullish label to force an arm is exactly the failure mode Section 9 exists to prevent. No change of posture is defensible — hold and let the data clear the bar on its own.
+
+Sector exposure: none (100% cash)
+Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
+Simulated fills: n/a
+Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-05 AM, incl. logged p1 sentiment reasoning for ZEC/BNB), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; today is Wednesday, not the Monday shadow-book refresh; not the first AM of the month, no monthly review due).
