@@ -125,3 +125,30 @@ Sector exposure: none (100% cash)
 Watchlist changes (MID only): none — 2-week minimum hold blocks all rotation until 2026-08-16 regardless of scoring. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03).
 Simulated fills: n/a
 Learning artifacts written: `state/WATCHLIST.json` (updated_utc + notes refreshed, no coin changes), `state/PARAMETERS.json` (full refresh, 30 coins + global), `data/universe.json` (114 candidates), this report, `state/BRIEFING.md`.
+
+## CHECKPOINT — 2026-08-05, PM
+
+Global params: stablecoins −0.02% 7d ($307.2B, essentially flat) | MVRV BTC 1.22 / ETH 0.91 | F&G 27 (Fear, Δ7d −2) | funding regime: near-zero to mildly positive across the board (no crowding either way) | futures: fapi.binance.com still geo-blocked — params 6-7 sourced from Hyperliquid fallback for all 30 coins; p7 OI Δ 7d still null pending OI_HISTORY.json reaching the 7-day threshold.
+Deployed: 0% across 0 positions | Cash: 100% ($10,000.00)
+Holdings: none
+
+Decisions & reasoning:
+- No holdings to review (Section 5 step 4 n/a).
+- Sentiment pass: mechanical count ≥5 this run for ZEC (6/9), BNB (6/9), PEPE (5/9), UNI (5/9) — ran `scripts/sentiment.py ZEC BNB PEPE UNI`. Contrarian reads, logged with reasoning in SIGNALS.csv:
+  - **ZEC → Bearish**: euphoria markers present (price-target chasing $512-530, "incredibly bullish", "looks great"), zero capitulation. Narrative also carries an unverified red-flag claim (an Orchard exploit attempt, reportedly caught by whitehats) — not a confirmed hack, so no watchlist exclude triggered, but flagged for the next MID red-flag screen.
+  - **BNB → Neutral**: genuinely mixed — bullish-structure calls offset by dismissive/bearish posts ("BNB called shit due to MEV issues," rotate to SOL) and "bearish distribution" chatter. Neither euphoria nor capitulation dominates.
+  - **PEPE → Bearish**: textbook meme-coin euphoria (new-ATH calls, "3x-5x is all I see," rocket emojis), zero capitulation markers.
+  - **UNI → Bullish**: zero euphoria and zero capitulation despite UNI +97%/month — discussion is fundamentals-driven (fee-switch buybacks live, token burns, V4/RWA shipping, Robinhood Chain integration). Matches "improving interest without euphoria" cleanly; a genuine bullish p1 read, not a default.
+- Remaining 26 coins: mechanical count <5 and no holdings, so per the Section 0 amendment p1 stays Neutral (not triggered, not fabricated).
+- Mechanical label review: checked all 30 coins' raw values against the Section 7 rubric. No RSI<30 capitulation-with-intact-thesis cases (lowest RSI this run: RENDER 33.4, XLM 36.7 — both above the 30 threshold). PUMP correctly Bearish on p2 at +44.6% above 50DMA (most extreme dev50 on the board, overextension rule). Funding reads Bullish across the board (all near-zero-to-capped-positive, well under the 0.05%/8h crowded-longs threshold) — consistent with prior checkpoints, no anomaly. No overrides applied this run.
+- Final confluence: **BNB, UNI, and ZEC tie at 6/10** (BNB 6 bull/0 bear, UNI 6 bull/0 bear, ZEC 6 bull/1 bear). All short of the 7/10 arming bar — no coin arms or confirms this checkpoint (AM's board also topped out at 6/10 with none armed, so there was no "second consecutive" possibility regardless). Next tier: DOGE/VIRTUAL/TAO/SOL/PUMP/ONDO/TRX/SHIB/ETH/ENA all at 4/10.
+- Regime read: F&G 27 (Fear-leaning, not yet the <25 contrarian-Bullish threshold), MVRV sub-1.25 BTC / sub-1.0 ETH (healthy, not overheated — p9 Bullish), stablecoin supply flipped back to essentially flat/marginally negative (−0.02%, noise-level, not a confirmed liquidity-in signal). Correct posture: 100% USDT, patience.
+
+Red-team summary: Strongest case against another do-nothing PM — three separate coins (BNB, UNI, ZEC) now sit at 6/10, the closest the board has been to arming since inception, and UNI's p1 read is a genuine, not-manufactured Bullish on real fundamental catalysts (fee switch, burns, V4). Rebuttal: 6/10 is still one full parameter short of even arming, and manufacturing a 7th Bullish label on any of the three (e.g. squinting at BNB's p2 DMA position or ZEC's p5 volume z-score) to force an arm is exactly the failure mode Section 9 exists to prevent. Two of the three closest candidates (ZEC, PEPE) got pulled down specifically because contrarian sentiment caught real euphoria — that's the system working, not a miss. No change of posture is defensible — hold and let the data clear the bar on its own.
+
+Pre-mortem (PM): scenario "BTC −15% overnight" — book is 100% USDT, damage $0. No positions to de-risk; cash remains the correct hedge given a still-fear-leaning regime, flat (not clearly growing) stablecoin sidelines, and no coin within one parameter of the entry gate.
+
+Sector exposure: none (100% cash)
+Watchlist changes (MID only): n/a — PM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16). ZEC's unverified Orchard-exploit claim (caught by whitehats per the sentiment pull) is not a confirmed hack — no exclude triggered, flagged for the next MID news screen to verify.
+Simulated fills: n/a
+Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-05 PM, incl. logged p1 sentiment reasoning for ZEC/BNB/PEPE/UNI), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only).
