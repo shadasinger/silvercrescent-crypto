@@ -180,3 +180,22 @@ Sector exposure: none (100% cash)
 Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
 Simulated fills: n/a
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-06 AM, incl. logged p1 sentiment reasoning for BNB/TRX/ZEC/ENA/ONDO/SHIB/VIRTUAL), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only, today is Thursday).
+
+## CHECKPOINT — 2026-08-06, MID
+
+Global params (refreshed): stablecoins +0.27% 7d ($307.8B, growing) | MVRV BTC 1.23 / ETH 0.93 | F&G 25 (Fear, Δ7d −3) | funding regime: near-zero across the board | futures: fapi.binance.com still geo-blocked — params 6-7 sourced from Hyperliquid fallback for all 30 coins; p7 (OI Δ) 7d still null pending OI_HISTORY.json reaching the 7-day threshold.
+
+Step 1 — Universe: `scripts/universe.py` rerun. 113 candidates (12 stablecoin/wrapped excluded), top 60 enriched with CoinGecko categories + community sentiment votes.
+
+Step 2/3 — Data cards & scoring: Reviewed top ~25 non-watchlist candidates by market-cap rank plus a full 7d-change sweep for chasers. No-chase check clean — zero candidates (watchlist or not) at >50% 7d gain this run. Top non-watchlist names unchanged from prior runs: AVAX/SUI/NEAR/DOT/ALGO/ATOM (all L1-tagged, blocked by the Major-L1 4-per-sector cap already filled by ETH/SOL/ADA/TRX permanents) and WLFI/ASTER (uncapped sectors, but score below the current DeFi-Lending/DEX rotating names on catalyst quality). Red-flag web screen (window 2026-08-05 to 2026-08-06) across all 30 watchlist tickers plus top candidates: no new hack/regulatory/team-exit events found.
+  - LTC: MWEB root-cause fix confirmed deployed (patches the spring 2026 exploit family behind the 2026-08-03 incident). Incident stays logged; LTC stays `entry_blocked` — a deployed fix doesn't reverse an active block mid-cycle, per the 2-week-minimum hold. Drop review remains 2026-08-16.
+  - PUMP: class-action status unchanged (pre-SAC-deadline, no new filing this window). Stays `entry_blocked`, drop review 2026-08-16.
+  - ZEC: the "Orchard exploit" chatter flagged by sentiment.py in the 2026-08-05 PM checkpoint was run down — it references the already-disclosed, already-patched June 2026 Orchard counterfeiting bug (fixed 2026-06-01, no evidence it was ever exploited). Recycled old news, not a new incident. No exclude triggered.
+  - FYI-only, no exclude (not ticker-specific to any watchlist protocol): broad crypto team-exit headlines this window (1inch co-founder firing, Polygon layoffs) — neither POL nor 1inch's token is on the watchlist.
+
+Step 4 — Watchlist reassembly: **No changes.** All 20 rotating slots were added 2026-08-02 and remain inside the 2-week minimum hold (unlocks 2026-08-16) — no drops or adds are legal this run regardless of scoring, identical to the 2026-08-05 MID conclusion. 10 permanents untouched. `slot_changes_this_week` stays 0.
+
+Step 5 — Parameters refresh: `scripts/parameters.py` rerun for all 30 coins + global block → `state/PARAMETERS.json` updated, PM checkpoint starts warm. Mechanical suggested-label sweep (p2–p10, pre-sentiment) tops out at 5/9 this run (TRX, ONDO, ENA — ENA carrying 1 mechanical Bearish on p7 OI), consistent with AM's post-sentiment board (also topped at 5/10: BNB/ONDO/SHIB/TRX/VIRTUAL clean, ENA/ZEC at 5/10 with 2 Bearish). No trading decisions taken (MID routine, per Section 6).
+
+Watchlist changes: none. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, drop proposed 2026-08-16).
+Learning artifacts written: `state/WATCHLIST.json` (notes updated with this run's screen), `state/PARAMETERS.json` (refreshed), this report, `state/BRIEFING.md`.
