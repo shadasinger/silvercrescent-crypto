@@ -152,3 +152,31 @@ Sector exposure: none (100% cash)
 Watchlist changes (MID only): n/a — PM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16). ZEC's unverified Orchard-exploit claim (caught by whitehats per the sentiment pull) is not a confirmed hack — no exclude triggered, flagged for the next MID news screen to verify.
 Simulated fills: n/a
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-05 PM, incl. logged p1 sentiment reasoning for ZEC/BNB/PEPE/UNI), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only).
+
+## CHECKPOINT — 2026-08-06, AM
+
+Global params: stablecoins +0.23% 7d ($307.7B, growing) | MVRV BTC 1.23 / ETH 0.93 | F&G 25 (Fear, Δ7d −3) | funding regime: near-zero across the board (no crowding either way) | futures: fapi.binance.com still geo-blocked — params 6-7 sourced from Hyperliquid fallback for all 30 coins; p7 (OI Δ) 7d still reads null pending OI_HISTORY.json reaching the 7-day threshold (24h deltas are populated and used).
+Deployed: 0% across 0 positions | Cash: 100% ($10,000.00)
+Holdings: none
+
+Decisions & reasoning:
+- No holdings to review (Section 5 step 4 n/a).
+- Sentiment pass: mechanical count (p2–p10) ≥5 this run for BNB, TRX, ZEC, ENA, ONDO, SHIB, VIRTUAL (5/9 each) — ran `scripts/sentiment.py BNB TRX ZEC ENA ONDO SHIB VIRTUAL`. Contrarian reads, logged with reasoning in SIGNALS.csv:
+  - **BNB → Neutral**: interest trend falling, zero euphoria/capitulation markers, scattered low-engagement chatter. No crowd extremity either direction.
+  - **TRX → Neutral**: interest flat (not improving), zero euphoria/capitulation markers — fundamentals chatter (JustLend staking, MoonPay gasless tx) doesn't clear the "improving interest" bar on its own.
+  - **ZEC → Bearish**: euphoria markers present (price targets $3,900–8,000 vs BTC, "hype zec pump"), zero capitulation. Same euphoria pattern flagged 2026-08-05 PM, persisting.
+  - **ENA → Bearish**: rising interest with clear euphoria markers (rocket emojis on accumulation posts, "whales piling in," Arthur Hayes conviction narrative dominant) — crowd-follows-whales hype outweighs the lone fee-switch criticism (a capitulation-flavored counter-marker, but not dominant).
+  - **ONDO → Neutral**: interest falling, zero euphoria/capitulation markers, low-volume promotional/TA chatter only.
+  - **SHIB → Neutral**: interest flat, zero euphoria/capitulation markers — chart-pattern and burn-stat chatter, no crowd extremity.
+  - **VIRTUAL → Neutral**: interest flat, zero euphoria/capitulation markers — mixed TA calls (one bearish-trend note), no crowd extremity.
+- Remaining 23 coins: mechanical count <5 and no holdings, so per the Section 0 amendment p1 stays Neutral (not triggered, not fabricated).
+- Mechanical label review: checked all 30 coins' raw values against the Section 7 rubric. No RSI<30 capitulation-with-intact-thesis cases this run (lowest RSI: XLM 32.1, RENDER 33.6 — both above the 30 threshold, no override). No overextension mislabels (PUMP correctly Bearish on p2 at +38.0% above 50DMA, the most extreme dev50 on the board; SHIB's +21.0% dev50 stays under the 25% cap, correctly Bullish). Funding reads Bullish across the board (all near-zero, well under the 0.05%/8h crowded-longs threshold), consistent with prior checkpoints. No overrides applied this run.
+- Final confluence: **BNB, ENA, ONDO, SHIB, TRX, VIRTUAL, ZEC all tie at 5/10** (BNB/ONDO/SHIB/TRX 5 bull/0 bear; VIRTUAL 5 bull/1 bear; ENA/ZEC 5 bull/2 bear — the two coins where the contrarian sentiment flip cost them a clean board). All well short of the 7/10 arming bar; no coin arms or confirms this checkpoint. PM's 08-05 board topped out at 6/10 with nothing armed, so no "second consecutive" possibility existed regardless. Next tier: a broad cluster at 4/10 (AAVE, ADA, ARB, BCH, DOGE, ETH, FIL, HBAR, JUP, MORPHO, PEPE, PUMP, SOL, TAO, UNI, XLM, XRP).
+- Regime read: F&G 25 sits back at the fear boundary (Δ7d −3, falling — not yet the "rising from <30" contrarian-Bullish pattern), MVRV sub-1.25 BTC / sub-1.0 ETH (healthy, not overheated — p9 Bullish), stablecoin supply flipped back to growing (+0.23% 7d, a reversal from PM's flat/marginal-negative read) — a mild liquidity-in signal but not yet a strong one. Correct posture: 100% USDT, patience.
+
+Red-team summary: Strongest case against another do-nothing AM — seven coins now cluster at 5/10 with clean mechanical boards (four of them 5/0, no bearish parameter at all), and stablecoin supply just turned positive after two checkpoints of flat/negative — a first hint the liquidity picture may be turning. Rebuttal: 5/10 is two full parameters short of arming, and the four cleanest names (BNB, ONDO, SHIB, TRX) are clean specifically because they're unremarkable — flat sentiment, no catalyst, no volume conviction (p4/p5 mostly Neutral) — not because they're building toward a breakout. Manufacturing urgency from a one-day stablecoin uptick, before it's even confirmed as a trend, is the action-bias failure mode Section 9 warns against. Hold and let the data clear the bar on its own.
+
+Sector exposure: none (100% cash)
+Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
+Simulated fills: n/a
+Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-06 AM, incl. logged p1 sentiment reasoning for BNB/TRX/ZEC/ENA/ONDO/SHIB/VIRTUAL), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only, today is Thursday).
