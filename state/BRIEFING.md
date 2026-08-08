@@ -1,12 +1,12 @@
-BRIEFING — 2026-08-08 MID
+BRIEFING — 2026-08-08 PM
 Top 5 considerations:
-1. SOL — confluence 6/10 (AM read; MID scores no confluence) — network fundamentals + a "capitulation while thesis intact" sentiment flip are offset by price still under both DMAs; needs 1 more param and a 2nd consecutive 7/10 to arm.
-2. ZEC — confluence 6/10 — trend/funding/OI still bullish but sentiment stays euphoric (target-chasing) and volume lacks conviction; 1 short of arming.
-3. BNB — confluence 5/10 — steady grinder, clean board (0 bearish), but no catalyst pushing it further; 2 short.
-4. TRX — confluence 5/10 — clean board, but Friday's ETF-filing sentiment catalyst faded out of the window; 2 short.
-5. UNI — confluence 5/10 — protocol growth outpacing price per the crowd, but no crowd extremity to read Bullish on sentiment; 2 short.
+1. LINK — confluence 6/10 — capitulation talk ("no value accrual despite tech utility") flipped sentiment Bullish while thesis stays intact; price/RSI haven't confirmed a turn yet, so needs one more param plus a repeat 7/10 next checkpoint to arm.
+2. ZEC — confluence 6/10 — prior Bearish sentiment reversed to Neutral (chatter went quiet, not bullish); volume-z still Bearish (rally lacks conviction) is the missing piece, no armed/confirmed status.
+3. BTC — confluence 5/10 — clean board, zero bearish params; price-vs-DMA, volume-z, OI-delta and Fear&Greed all sit Neutral, needs any one to tip bullish.
+4. ETH — confluence 5/10 — same clean structure as BTC (RSI/rvol/funding/stables/MVRV bullish); price-vs-DMA, volume-z, OI-delta, F&G still Neutral.
+5. TRX — confluence 5/10 — clean board; sentiment reverted to Neutral this run (last PM's ETF-filing catalyst chatter absent today); RSI, volume-z, OI-delta, F&G all Neutral.
 Holdings:
 None — 100% USDT ($10,000.00)
 Portfolio: $10,000.00 (+0.0% / +$0.00 since inception)
-Regime: F&G 30 (Fear, mildly rising), stablecoin supply +0.29% 7d (growing, decelerating), MVRV BTC 1.23 / ETH 0.94 (healthy, not overheated).
-Watchlist: no changes — all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16; no new red flags (LTC/PUMP unchanged, both entry_blocked, drop review 2026-08-16).
+Regime: Fear & Greed 30 (Fear, Δ7d +3, mild reversal off recent low), stablecoin supply +0.30% 7d ($307.3B, growing), MVRV BTC 1.23 / ETH 0.94 (healthy, not overheated).
+Pre-mortem: BTC −15% overnight would cost $0 today (100% cash); if LINK/ZEC were live positions both would likely fall with BTC per default correlation — cash remains the structural hedge, no de-risking action needed.
