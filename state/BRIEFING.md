@@ -1,12 +1,11 @@
-BRIEFING — 2026-08-07 PM
+BRIEFING — 2026-08-08 AM
 Top 5 considerations:
-1. TRX — confluence 6/10 — sentiment flipped Bullish this window (new Staked-TRX ETF filing + S&P index inclusion, no euphoria) on top of clean DMA/rvol/funding/stables/MVRV; needs 1 more Bullish read at 2 straight checkpoints — not armed.
-2. ZEC — confluence 6/10 — clean DMA/rvol/funding/OI/stables/MVRV, but sentiment flipped Bearish (10x price-target chasing, "$500 buy" calls); needs 1 more Bullish read (and a calmer crowd) — not armed.
-3. ETH — confluence 5/10 — RSI/rvol/funding/stables/MVRV Bullish, but OI fell 17.8% 24h against a rising price (Bearish) and sentiment stays flat/mixed; needs 2 more Bullish reads — not armed.
-4. ADA — confluence 4/10 (0 Bearish) — RSI 69.7 breakout on the +19.9% 7d move, clean funding/stables/MVRV, but DMA/rvol/volume/sentiment all Neutral; several parameters away — not armed.
-5. ENA — confluence 4/10 (0 Bearish) — RSI 61.8 on the +16.9% 7d move, clean funding/stables/MVRV, but DMA/rvol/sentiment Neutral; several parameters away — not armed.
+1. SOL — confluence 6/10 — network fundamentals + a "capitulation while thesis intact" sentiment flip are offset by price still under both DMAs; needs 1 more param and a 2nd consecutive 7/10 to arm.
+2. ZEC — confluence 6/10 — trend/funding/OI still bullish but sentiment stays euphoric (target-chasing) and volume lacks conviction; 1 short of arming.
+3. BNB — confluence 5/10 — steady grinder, clean board (0 bearish), but no catalyst pushing it further; 2 short.
+4. TRX — confluence 5/10 — clean board, but yesterday's ETF-filing sentiment catalyst faded out of the window; 2 short.
+5. UNI — confluence 5/10 — protocol growth outpacing price per the crowd, but no crowd extremity to read Bullish on sentiment; 2 short.
 Holdings:
 None — 100% USDT ($10,000.00)
 Portfolio: $10,000.00 (+0.0% / +$0.00 since inception)
-Regime: Fear & Greed 29 (fear-leaning but rising, Δ7d +4), stablecoin supply +0.50% 7d (fourth straight positive print), MVRV BTC 1.22 / ETH 0.93 (healthy, not overheated).
-Pre-mortem: "BTC −15% overnight" — book is 100% USDT so damage is $0; cash remains the structural hedge against the single scenario that would hit the most positions at once.
+Regime: F&G 30 (Fear, mildly rising), stablecoin supply +0.29% 7d (growing but decelerating), MVRV BTC 1.23 / ETH 0.94 (healthy, not overheated).
