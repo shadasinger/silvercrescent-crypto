@@ -377,3 +377,31 @@ Sector exposure: none (100% cash)
 Watchlist changes (MID only): n/a — PM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
 Simulated fills: n/a
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-08 PM, incl. logged p1 sentiment reasoning for ZEC/ARB/TAO/PUMP/PEPE/ONDO/DOGE/UNI/TRX/LINK/ETH/CAKE/BTC/BNB), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only, today is Saturday).
+
+## CHECKPOINT — 2026-08-09, AM
+
+Global params: stablecoins +0.31% 7d ($306.8B, growing) | MVRV BTC 1.23 / ETH 0.94 (healthy, sub-2 band) | F&G 31 (Fear, Δ7d +4) | funding regime: near-zero to slightly positive across the board (no crowding either way) | futures: fapi.binance.com still geo-blocked (HTTP 451) — params 6-7 sourced from Hyperliquid fallback for all 30 coins; p7 (OI Δ) 7d still reads null pending OI_HISTORY.json reaching the 7-day threshold (24h deltas populated and used).
+Deployed: 0% across 0 positions | Cash: 100% ($10,000.00)
+Holdings: none
+
+Decisions & reasoning:
+- No holdings to review (Section 5 step 4 n/a).
+- `scripts/parameters.py` rerun for all 30 coins + global block → `state/PARAMETERS.json` refreshed. Mechanical sweep (p2-p10, pre-sentiment) topped out at 6/9 (ETH, TRX, SOL, ZEC) with a 5/9 tier below (VIRTUAL, TAO, CAKE, BNB, ADA).
+- Sentiment pass: ran `scripts/sentiment.py ZEC TRX SOL ETH VIRTUAL TAO CAKE BNB ADA` (all holdings — none — plus every coin at mechanical count ≥5). Contrarian reads, logged with reasoning in SIGNALS.csv:
+  - **SOL → Bearish**: euphoria markers present — "breakout has just happened, higher" / "$90 target" posts stacking on top of a wave of memecoin/airdrop spam tagging $SOL. Crowd already chasing the move.
+  - **ADA → Bearish**: interest rising with clear euphoria — 200% pump talk, rocket emojis, whale-accumulation hype, and an explicit narrative shift to bullish momentum after ADA was already +17-25% on the week. Textbook chase-the-pump setup, contrarian Bearish.
+  - **TAO → Bullish**: interest rising on conviction-buy language and accelerating subnet/alpha-staking volume (2.23M+ cumulative since Jul 22) — improving interest without euphoria, the clean Bullish case in the rubric.
+  - **ZEC, TRX, ETH, VIRTUAL, CAKE, BNB → Neutral**: flat interest, no euphoria or capitulation markers reaching crowd-extremity scale this window (full reasoning per coin logged in SIGNALS.csv). BNB carries some mild price-target hype ($730-770) and unverified ex-employee-scandal noise but neither dominates the tape.
+- Remaining 21 coins: mechanical count <5 and no holdings, so per the Section 0 amendment p1 stays Neutral (not triggered, not fabricated).
+- Mechanical label review: checked all 30 coins' raw values against the Section 7 rubric. No RSI<30 capitulation-with-intact-thesis cases this run (lowest RSI: RENDER 34.1, XLM 35.9 — both above the 30 threshold, no override). No overextension mislabels — no coin's dev-from-50DMA exceeded the 25% Bearish-overextension threshold (largest was ETH at 2.3% above). Funding reads Bullish/near-zero across the board (largest read still sub-0.01%/8h). MVRV BTC 1.23 / ETH 0.94 stay in the healthy 1-2 band, correctly Bullish, not cycle-top territory. No overrides applied this run.
+- Final confluence: **ETH, TRX, ZEC all reach 6/10 clean (0 Bearish)**; **SOL and TAO also reach 6/10** but each carries 1 Bearish (SOL from p5 volume-z, TAO from p5 volume-z) alongside their sentiment read. A 5/10 tier follows: BNB, CAKE (clean 5/0), ADA, VIRTUAL (5/1). All well short of the 7/10 arming bar — no coin arms or confirms this checkpoint. Even the leaders (ETH/TRX/ZEC) are missing a full parameter, several of which (p2 price/DMA, p7 OI) show no trend confirmation yet.
+- Regime read: F&G 31 (barely off AM 08-08's boundary reads, still fear-leaning), MVRV healthy, stablecoin supply +0.31% 7d (consistent multi-day positive print — sideline liquidity continuing to build, not yet rotating in). Correct posture remains 100% USDT, patience.
+
+Red-team summary: Strongest case against another do-nothing checkpoint — three coins (ETH, TRX, ZEC) now sit at a clean 6/10 with zero mechanical Bearish parameters, and the stablecoin-growth trend has been positive for well over a week, arguably building the case for imminent capital rotation into majors. A case could be made that ETH's mix of Bullish RSI/rvol/funding/OI/stables/MVRV, all clean, is about as strong a "almost there" signal as this system produces without forcing anything. Rebuttal: "6/10 clean" is still a full parameter short of the 7/10 gate by design — the system's whole premise (Section 9) is that most checkpoints should produce no trades, and forcing p1 or a marginal p2/p10 read to manufacture a 7th Bullish on ETH, TRX, or ZEC today would be exactly the failure mode the rulebook exists to prevent. None of the three has moved on price/DMA structure yet (all p2 Neutral except TRX/ZEC Bullish, ETH still Neutral) — the setup is building but unconfirmed. Hold and let the data clear the bar on its own; if any of ETH/TRX/ZEC/SOL/TAO holds or improves at PM, that's the first leg toward arming, not a reason to jump the gate now.
+
+Pre-mortem: n/a (AM checkpoint; pre-mortem is PM-only per Section 5 step 11).
+
+Sector exposure: none (100% cash)
+Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
+Simulated fills: n/a
+Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-09 AM, incl. logged p1 sentiment reasoning for ZEC/TRX/SOL/ETH/VIRTUAL/TAO/CAKE/BNB/ADA), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only, today is Sunday; not first AM of month, no monthly review).
