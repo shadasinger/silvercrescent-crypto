@@ -405,3 +405,24 @@ Sector exposure: none (100% cash)
 Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
 Simulated fills: n/a
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-09 AM, incl. logged p1 sentiment reasoning for ZEC/TRX/SOL/ETH/VIRTUAL/TAO/CAKE/BNB/ADA), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow book refresh is Monday-only, today is Sunday; not first AM of month, no monthly review).
+
+## CHECKPOINT — 2026-08-09, MID
+
+Global params (refreshed): stablecoins +0.3% 7d ($306.8B, growing) | MVRV BTC 1.23 / ETH 0.94 (healthy, sub-2 band) | F&G 31 (Fear, Δ7d +4) | funding regime: near-zero to slightly positive across the board | futures: fapi.binance.com still geo-blocked (HTTP 451) — params 6-7 sourced from Hyperliquid fallback for all 30 coins; p7 (OI Δ) 7d still reads null pending OI_HISTORY.json reaching the 7-day threshold.
+
+Step 1 — Universe: `scripts/universe.py` rerun. 116 candidates (12 stablecoin/wrapped excluded), top 60 enriched with CoinGecko categories + community sentiment votes.
+
+Step 2/3 — Data cards & scoring: Reviewed top 40 non-watchlist candidates by market-cap plus a full 7d-change sweep for chasers. No-chase check: only TUT cleared 50% 7d (+813.9%, an illiquid/irrelevant outlier — mcap rank in the 150s, not a real contender); next-highest were CVX +27.1%, PUMP +21.1% (already on-list/entry_blocked), ZRO +16.9%, CRV +16.3% — all well under the exclusion threshold. Top non-watchlist names unchanged from prior runs: AVAX/SUI/NEAR/DOT/ALGO/ATOM (all L1-tagged, blocked by the Major-L1 4-per-sector cap — confirmed fully consumed by permanents ETH/SOL/TRX/ADA) and WLFI/ASTER (uncapped sectors, but score below the current DeFi-Lending/DEX rotating names on catalyst quality).
+
+Red-flag web screen (window 2026-08-08 to 2026-08-09): general market sweep plus a targeted check on AVAX/SUI/NEAR/DOT/ALGO/ATOM/WLFI/ASTER. No new hack/regulatory/team-exit events found on any watchlist ticker or top non-watchlist contender. Broad sweep surfaced only items outside the watchlist entirely — Drift Protocol $286M suspected-DPRK-linked exploit (not a watchlist protocol), Coldcard hardware-wallet seed-gen flaw now reported past $130M cumulative drained (wallet-layer, not protocol-specific — already logged 2026-08-04, not new).
+  - LTC: Litecoin Core v0.21.5.6 (released 2026-08-02, sixth patch in the 0.21.5.x series) continues hardening MWEB validation against the same original exploit family — a maintenance release, not a new incident. Stays `entry_blocked` (MWEB reorg, 2026-08-03), drop review remains 2026-08-16.
+  - PUMP: class-action procedural posture unchanged from the 2026-08-07 escalation (whistleblower evidence, second amended complaint) — no new filing surfaced this window. Stays `entry_blocked`, drop review remains 2026-08-16.
+
+Step 4 — Watchlist assembly: **No changes.** All 20 rotating slots remain inside the 2-week minimum hold (added 2026-08-02, unlocks 2026-08-16 — 7 days out); no drops/adds are legal this run regardless of scoring. `state/WATCHLIST.json` updated (metadata/notes only — coin list unchanged).
+
+`scripts/parameters.py` rerun for all 30 watchlist coins + global block → `state/PARAMETERS.json` refreshed so the PM checkpoint starts warm. Mechanical sweep (p2-p10, pre-sentiment) unchanged from this morning's AM read: ETH/TRX/SOL/ZEC top the mechanical count. No trading decisions taken (Section 6 — MID never scores confluence/sentiment or arms/confirms candidates).
+
+Sector exposure: none (100% cash)
+Watchlist changes (MID only): none. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
+Simulated fills: n/a
+Learning artifacts written: `state/WATCHLIST.json` (metadata refresh), `state/PARAMETERS.json` (refreshed for all 30 coins), this report, `state/BRIEFING.md`.
