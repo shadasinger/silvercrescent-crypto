@@ -534,3 +534,31 @@ Sector exposure: none (100% cash)
 Watchlist changes (MID only): n/a — PM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
 Simulated fills: n/a
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-10 PM, incl. logged p1 sentiment reasoning for BNB/TRX/UNI/ZEC), this report, `state/BRIEFING.md`. JOURNAL/SHADOW_BOOK: nothing to write (no entries/exits this run; shadow-book refresh is Monday-only).
+
+## CHECKPOINT — 2026-08-11, AM
+
+Global params: stablecoins −0.07% 7d ($306.3B, first negative print in several checkpoints — flat/wobble, not yet a trend) | MVRV BTC 1.21 / ETH 0.91 (healthy, sub-2 band) | F&G 29 (Fear, Δ7d +4) | funding regime: near-zero to slightly positive across most of the board, several deeply-negative crowded-shorts outliers (JUP −0.0476%/8h, ARB −0.0196%/8h, FIL −0.0112%/8h, ADA −0.0266%/8h, AAVE −0.0073%/8h — all contrarian Bullish per rubric) | futures: fapi.binance.com still geo-blocked (HTTP 451) — params 6-7 sourced from Hyperliquid fallback for all 30 coins.
+Deployed: 0% across 0 positions | Cash: 100% ($10,000.00)
+Holdings: none — 100% USDT ($10,000.00)
+Signals: armed — none | confirmed — none | exit-warned — n/a
+
+Decisions & reasoning:
+- No holdings to review (Section 5 step 4 n/a).
+- `scripts/parameters.py` rerun for all 30 coins + global block → `state/PARAMETERS.json` refreshed. Mechanical sweep (p2-p10, pre-sentiment) topped out at BNB/TRX/UNI, all 5/9 — ZEC dropped out of the top tier this run (4/9, funding/OI cooled). Next tier down: ADA/CAKE/DOGE/ENA/ETHFI/LINK/LTC/ZEC, all 4/9.
+- Sentiment pass: no holdings exist; only BNB/TRX/UNI cleared the mechanical ≥5 trigger this run, so ran `scripts/sentiment.py BNB TRX UNI` (3 tickers). Contrarian reads, logged with reasoning in SIGNALS.csv:
+  - **TRX → Bearish**: flat interest but euphoria markers stack again — price targets ($0.334), rocket emojis, "ATH LFG" framing, breakout calls — the same euphoric-chase pattern flagged the last three consecutive checkpoints (08-10 AM/PM, now 08-11 AM). Contrarian fade holds.
+  - **BNB → Neutral**: flat interest, dominant narrative is BNB Chain ecosystem catalysts (AWS AI Agent Studio integration, ongoing token burns) plus routine price-level technicals — no euphoria, no capitulation, no crowd extremity.
+  - **UNI → Neutral**: interest falling (consistent with the PM 08-10 read), no euphoria/capitulation; dominant chatter is scattered short-term trading signals and liquidation-map levels rather than narrative extremity.
+- Remaining 27 coins: mechanical count <5 and no holdings, so per the Section 0 amendment p1 stays Neutral (not triggered, not fabricated).
+- Mechanical label review: checked all 30 coins' raw values against the Section 7 rubric. RSI extremes: RENDER 29.8 (technically under the 30 capitulation line) and XLM 33.4 — RENDER is not held and carries no active thesis to judge "intact" against, so the capitulation-override clause doesn't apply; stays mechanical Bearish, no override. Overextension: PUMP still the lone case at +58.6% above its 50DMA, correctly Bearish (entry_blocked regardless). Funding crowding: no coin exceeded the ~0.05%/8h positive-crowding threshold; several deeply-negative prints (JUP, ARB, FIL, ADA, AAVE) correctly read contrarian Bullish per the mechanical labels already applied — no override needed either direction. MVRV BTC 1.21 / ETH 0.91 stay in the healthy 1–2 band, correctly Bullish. No overrides applied this run beyond the routine p1 sentiment judgment calls above.
+- Final confluence: **no coin reaches 7/10.** Top readings are BNB 5 bull/0 bear, TRX 5 bull/1 bear, UNI 5 bull/0 bear — all 5/10. Nothing was armed coming into this checkpoint (PM 08-10 closed with nothing armed), so there is no lapse to report either — a clean continuation of "no signal" rather than a broken sequence. No coin arms or confirms this checkpoint. No trade.
+- Regime read: F&G 29 (barely softer than PM 08-10's 30, still fear-leaning), MVRV healthy, stablecoin supply −0.07% 7d — the first negative 7d print after several checkpoints of positive growth (+0.38%, +0.02%, +0.04% recently). One data point, not a trend; worth tracking next checkpoint rather than acting on now. Correct posture remains 100% USDT, patience.
+
+Red-team summary: Strongest case against another do-nothing checkpoint — BNB/TRX/UNI have now each spent multiple checkpoints hovering at 5/10, and one could argue the system is stuck in a rut where nothing ever quite clears the bar, raising the question of whether the 7/10 gate is calibrated too high for current market conditions (F&G in fear, MVRV healthy — a genuinely constructive backdrop with no confirmed entries in 9 days since inception). Rebuttal: a book that goes 9 days without a trade in a genuinely mixed regime (fear-leaning sentiment, flattening stablecoin growth, no coin cleanly above 5/9 mechanically) is the system doing exactly what Section 9 says it should — "most checkpoints should produce no trades" is the design, not a malfunction. The honest read is that no watchlist coin currently has a clean board: BNB/TRX/UNI all carry the same 5/9 mechanical ceiling with muted OI/RSI/rvol activity, not a strong setup being held back only by the sentiment slot. Forcing an entry here, or loosening the gate without evidence from a monthly review, is precisely the failure mode the system exists to prevent. Hold, let the AM/PM cadence keep collecting evidence, and revisit gate calibration at the first monthly review (2026-09-01) with real data instead of impatience.
+
+Pre-mortem: n/a (AM checkpoint; pre-mortem is PM-only per Section 5 step 11).
+
+Sector exposure: none (100% cash)
+Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
+Simulated fills: n/a
+Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-11 AM, incl. logged p1 sentiment reasoning for BNB/TRX/UNI), this report, `state/BRIEFING.md`. Not Monday — no shadow-book refresh. Not first AM of month — no monthly review. JOURNAL: nothing to write (no entries/exits this run).
