@@ -1,4 +1,4 @@
-BRIEFING — 2026-08-11 AM
+BRIEFING — 2026-08-11 MID
 
 Top 5 considerations:
 1. BNB — confluence 5/10 — RSI/rvol/funding/OI/MVRV Bullish, sentiment Neutral (flat interest, AWS AI Agent Studio + burn chatter, no crowd extremity); needs 2 more Bullish flips to reach the gate.
@@ -11,4 +11,5 @@ Holdings:
 None — 100% USDT ($10,000.00)
 
 Portfolio: $10,000.00 (+0.0% / +$0.00 since inception)
-Regime: F&G 29 (Fear, Δ7d +4), stablecoin supply −0.07% 7d (first negative print after several positive checkpoints — one data point, not yet a trend), MVRV BTC 1.21 / ETH 0.91 (healthy, sub-2 band).
+Regime: F&G 29 (Fear, Δ7d +4), stablecoin supply +0.01% 7d (growth re-flattened after this morning's first-negative print), MVRV BTC 1.21 / ETH 0.91 (healthy, sub-2 band).
+Watchlist: no changes — all 20 rotating slots inside the 2-week minimum hold through 2026-08-16 (5 days out); LTC and PUMP remain entry_blocked, no new red flags found.
