@@ -1,15 +1,12 @@
-BRIEFING — 2026-08-11 MID
-
+BRIEFING — 2026-08-11 PM
 Top 5 considerations:
-1. BNB — confluence 5/10 — RSI/rvol/funding/OI/MVRV Bullish, sentiment Neutral (flat interest, AWS AI Agent Studio + burn chatter, no crowd extremity); needs 2 more Bullish flips to reach the gate.
-2. TRX — confluence 5/10 (1 Bearish) — Mechanically strong (DMA/RSI/rvol/funding/MVRV Bullish) but sentiment flagged Bearish again: rocket-emoji chatter and stacked breakout price targets read as euphoric chase, a contrarian fade holding it back for the third straight checkpoint.
-3. UNI — confluence 5/10 — DMA/rvol/funding/OI/MVRV Bullish, sentiment Neutral (interest falling, no extremity); no arm active — its last two attempts (7/10 then lapse) reset, needs a fresh 2-checkpoint sequence.
-4. ADA — confluence 4/10 — RSI/rvol/funding/MVRV Bullish, sentiment untriggered (Neutral); one Bullish flip short of the mechanical-count sentiment trigger.
-5. CAKE — confluence 4/10 — RSI/rvol/funding/MVRV Bullish, sentiment untriggered (Neutral); same tier as ADA, nothing distinguishing it yet.
-
+1. TRX — confluence 8/10 — armed for the first time (was 5/10 this AM); RSI/OI/volume all firm and euphoria markers that faded it the last 4 checkpoints are gone. Needs another ≥7/10 read tomorrow AM to confirm.
+2. BNB — confluence 7/10 — armed for the first time (was 5/10 this AM); clean board, RSI 66, OI/volume expanding. A BitMart withdrawal rumor checked out as that exchange's own shutdown, not a BNB issue.
+3. LINK — confluence 7/10 — armed for the first time (was 4/10 this AM); volume z-score spike (+5.3) plus institutional tokenization coverage (Standard Chartered). Needs confirmation tomorrow AM.
+4. CAKE — confluence 6/10 — closest non-armer; missing volume conviction (z near flat) and sentiment stayed Neutral (falling interest, no chase).
+5. DOGE — confluence 5/10 — one Bearish (price below 50DMA); OI/volume constructive but DMA structure not yet golden.
 Holdings:
 None — 100% USDT ($10,000.00)
-
 Portfolio: $10,000.00 (+0.0% / +$0.00 since inception)
-Regime: F&G 29 (Fear, Δ7d +4), stablecoin supply +0.01% 7d (growth re-flattened after this morning's first-negative print), MVRV BTC 1.21 / ETH 0.91 (healthy, sub-2 band).
-Watchlist: no changes — all 20 rotating slots inside the 2-week minimum hold through 2026-08-16 (5 days out); LTC and PUMP remain entry_blocked, no new red flags found.
+Regime: F&G 29 (Fear), stablecoins +0.32% 7d (growing), MVRV BTC 1.21 / ETH 0.91 — healthy, sub-2 band.
+Pre-mortem: BTC −15% overnight would hit nothing today (100% cash), but if TRX/BNB/LINK confirm tomorrow, staged half-size entries are the built-in de-risk against that correlated scenario.
