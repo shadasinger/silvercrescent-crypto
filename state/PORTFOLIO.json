@@ -1,8 +1,39 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 10000.0,
+  "cash_usdt": 9500.0,
   "portfolio_value_usdt": 10000.0,
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "TRX",
+      "sector": "Major L1",
+      "entry_utc": "2026-08-12T07:17:14Z",
+      "entry_price": 0.3361,
+      "qty": 1487.65,
+      "notional_usdt": 500.0,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "half_open",
+      "target": 0.375,
+      "invalidation": 0.318,
+      "planned_R": 2.15,
+      "stated_p": 0.42,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-09-09",
+      "interim_review_date": "2026-08-26",
+      "thesis": "TRON stablecoin-settlement-rail dominance + deflationary burn mechanics (burns outpacing emissions) with rising OI (+12.7%/24h, +13.1%/7d) confirming the price uptrend on near-zero funding (0.01%/8h, no crowded-long risk); price above both 50DMA ($0.3269) and 200DMA ($0.31839) in golden-cross state with moderate (2.8%) extension; RSI 66.3 in the healthy 55-70 band.",
+      "thesis_test": "OI keeps expanding alongside price (not diverging); price holds above the 50DMA; funding stays near-zero to slightly positive (no crowding); confluence holds >=7/10 at the next checkpoint to justify the stage-2 add to full 10% size.",
+      "invalidation_conditions": "Price closes below $0.318 (just under the 200DMA, breaking the 'price>50DMA>200DMA' golden-cross structure) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-12 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10"
+        }
+      ]
+    }
+  ],
   "closed_positions": []
 }
