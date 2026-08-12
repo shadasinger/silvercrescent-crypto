@@ -1,15 +1,12 @@
-BRIEFING — 2026-08-12 MID
-
+BRIEFING — 2026-08-12 PM
 Top 5 considerations:
-1. TRX — confluence 7/9 mechanical (sentiment not read at MID) — CONFIRMED & ENTERED (5% staged this AM): burns outpacing emissions, OI +10.3%/24h, near-zero funding, golden-cross DMA intact. Second half opens if it still holds ≥7/10 at PM.
-2. CAKE — confluence 6/9 mechanical — none: RSI/rvol/funding/OI/stables/MVRV all Bullish, but sentiment flipped Bearish this AM (rocket-emoji $10 target, stacked hype) and DMA/volume-z stay Neutral. Needs the DMA to clear for a real shot at 7/10.
-3. LINK — confluence 5/9 mechanical — ARM BROKEN: was armed 7/10 at PM Mon, fell to 5/10 this AM as rvol/volume-z rolled over. Would need to re-arm from scratch.
-4. SOL — confluence 5/9 mechanical — none: funding/OI/stables/MVRV Bullish, but DMA/RSI/rvol/volume-z sit Neutral. Needs a decisive technical break to add flags.
-5. ENA — confluence 5/9 mechanical — none: rvol/funding/stables/MVRV Bullish, DMA/RSI/OI Neutral. Two mechanical flags plus a Bullish sentiment read still needed.
-
+1. TRX — confluence 7/10 — Held position, fully staged to 10% target this checkpoint (confluence held for 2nd straight check); burn/OI/DMA structure all intact, sentiment read Neutral (no hype).
+2. CAKE — confluence 6/10 — RSI and OI flipped Bullish on real burn/buyback fundamentals, no hype this read; needs one more mechanical param or a Bullish sentiment flip to arm at 7/10.
+3. VIRTUAL — confluence 6/10 — RSI, volume-z, and OI all turned Bullish; sentiment stayed Neutral (thin, no crowd extreme). One param short of arming.
+4. ZEC — confluence 5/10 — DMA and rvol Bullish, but RSI/OI/sentiment sit Neutral; two params short of arming.
+5. BNB — confluence 4/10 — Arm broke this morning (rvol/volume-z/OI rolled over from last week's 7/10); would need a mechanical recovery plus a full re-arm sequence to matter again.
 Holdings:
-TRX | 5% | entry $0.3361 -> now $0.3359 | -0.06% | -$0.30 per coin | position P&L -$0.30
-
-Portfolio: $9,999.70 (-0.0% / -$0.30 since inception)
-Regime: Fear & Greed 27 (flat 7d, fear-leaning) | stablecoin supply +0.24% 7d (growing) | MVRV BTC 1.21 / ETH 0.92 (healthy, sub-2 band).
-Watchlist: no changes (all 20 rotating slots inside the 2-week minimum hold through 2026-08-16; LTC/PUMP remain entry_blocked, drop review 2026-08-16).
+TRX | 10.0% | entry $0.3360 -> now $0.3358 | -0.04% | -$0.0002 per coin | position P&L -$0.45
+Portfolio: $9,999.55 (-0.0% / -$0.45 since inception)
+Regime: Fear & Greed 27 (flat 7d, fear-leaning), stablecoin supply still growing (+0.24% 7d), MVRV healthy (BTC 1.21 / ETH 0.92, sub-2 band) — constructive but no risk-on extreme.
+Pre-mortem: BTC -15% overnight would drag TRX (majors-correlated) but only 1 of 5 slots is filled (10% of book) with a defined -5.3% stop — worst case ~1-2% portfolio impact, doesn't hit >=3 positions, no de-risk action taken.
