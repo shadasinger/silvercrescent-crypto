@@ -731,3 +731,26 @@ Sector exposure: Major L1 10.05% (TRX only)
 Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
 Simulated fills: n/a — no trades this checkpoint.
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-13 AM, incl. logged p1 sentiment reasoning for TRX/CAKE/SOL/UNI/VIRTUAL/ZEC/ETHFI), `state/PORTFOLIO.json` (TRX status-history entry appended, portfolio value refreshed to $10,005.51), this report, `state/BRIEFING.md`. Not Monday — no shadow-book refresh. Not first AM of month — no monthly review.
+
+## CHECKPOINT — 2026-08-13, MID
+
+Global params: stablecoins +0.17% 7d ($306.9B, growth continues) | MVRV BTC 1.20 / ETH 0.92 (healthy, sub-2 band) | F&G 29 (Fear, Δ7d +4) | funding regime: near-zero to slightly positive across the board | futures: fapi.binance.com still geo-blocked (HTTP 451) — params 6-7 sourced from Hyperliquid fallback for all 30 coins.
+Deployed: ~9.96% across 1 position | Cash: ~90.04% ($9,000.00)
+Holdings: TRX | 10.0% target size | mechanical 7/9 (p1 not run this routine — MID does no sentiment/trading judgment) | price $0.3345 (−0.43% vs avg entry $0.33595)
+
+Decisions & reasoning (MID sourcing routine — no trading decisions per Section 6):
+- **Step 1 (universe):** ran `scripts/universe.py` — 110 candidates (12 stable/wrapped excluded), top 60 enriched w/ categories + sentiment votes.
+- **Step 2 (data cards):** market cap, volume, vol/mcap, 7d/30d/200d change pulled for all candidates; categories + community sentiment for top 60.
+- **No-chase check:** highest 7d gainer across all 110 candidates was CRV +20.5% (mcap rank 108, illiquid/irrelevant), next PUMP +19.5% (already on-list/entry_blocked), CVX +12.7%, JTO +12.5% — all well under the 50% threshold, no exclusions triggered.
+- **Red-flag web screen** (window 2026-08-12 to 2026-08-13): general hack/exploit sweep (Coldcard hardware-wallet exploit ~$130M cumulative, wallet-firmware layer not protocol-specific, already logged, not new) and regulatory sweep (SEC's "Regulation Crypto" rulemaking package — an industry-wide tailored-offering-regime/safe-harbor proposal, not an enforcement action against any specific ticker — heads to an Aug 14 Commission vote; CLARITY Act delayed to September) plus targeted AVAX/SUI/NEAR/DOT/ATOM/WLFI/ASTER check (all clean — WLFI Binance transfer and ASTER perp-listing/burn news are neutral-to-bullish, not red flags). No new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender.
+  - **LTC:** no new incident this window (MWEB Validation Hardening / v0.21.5.6 patch, record 505K+ LTC locked in MWEB — continued hardening of the same privacy layer post-exploit, not a new incident). Stays `entry_blocked` (2026-08-03 MWEB reorg); drop review remains 2026-08-16 (3 days out).
+  - **PUMP:** no new filing this window (same second-amended-complaint/whistleblower-chat-log posture already logged). Stays `entry_blocked`; drop proposed 2026-08-16 (3 days out).
+- **Step 3/4 (score + assemble watchlist):** all 20 rotating slots (added 2026-08-02) remain inside the 2-week minimum hold through 2026-08-16 (3 days out) — no legal adds/drops this run regardless of scoring. Next-best non-watchlist candidates once unlocked remain AVAX/SUI/NEAR/DOT/ATOM (blocked by the Major-L1 sector cap, fully consumed by permanents ETH/SOL/TRX/ADA at 4/4) and WLFI/ASTER (uncapped sectors but scoring below current DeFi-Lending/DEX rotating names). `state/WATCHLIST.json` notes updated with this run's findings; `slot_changes_this_week` unchanged at 0.
+- **Step (parameters refresh):** `scripts/parameters.py` rerun for all 30 coins + global block so the PM checkpoint starts warm. Mechanical leaderboard: TRX 7/9 (held, unchanged), CAKE 6/9, SOL/ZEC/LINK/ETHFI/VIRTUAL all 5/9 — shape consistent with the AM checkpoint. No mechanical-label overrides applied (informational only; full review happens at PM).
+
+Red-team summary: n/a — MID is a sourcing/data routine, no trading decisions to red-team.
+Pre-mortem: n/a (MID; pre-mortem is PM-only).
+Sector exposure: Major L1 ~9.96% (TRX only) — unchanged.
+Watchlist changes (MID only): none — all 20 rotating slots locked through 2026-08-16 (3 days out). Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16).
+Simulated fills: n/a — no trades this checkpoint.
+Learning artifacts written: `data/universe.json` (110 candidates), `state/WATCHLIST.json` (notes updated, no slot changes), `state/PARAMETERS.json` (refreshed, all 30 coins + global), this report, `state/BRIEFING.md`.

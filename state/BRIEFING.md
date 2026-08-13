@@ -1,14 +1,15 @@
-BRIEFING — 2026-08-13 AM
+BRIEFING — 2026-08-13 MID
 
-Top 5 considerations:
-1. TRX — confluence 7/10 — held at full 10% size; DMA/RSI/rvol/funding/OI structure all clean and Bullish, sentiment read Neutral (two-sided TA chatter, not one-sided hype); would need 2 consecutive checkpoints of ≥4/10 Bearish to trigger an exit review — none yet.
-2. CAKE — confluence 6/10 — RSI, rvol, funding, OI and MVRV all Bullish; sentiment flat/Neutral (no crowd extreme) so it isn't the blocker — needs one more mechanical flip (DMA, volume-z, or F&G) to reach the 7/10 arming bar.
-3. SOL — confluence 6/10 (1 Bearish: volume-z, weak-conviction rally) — RSI/rvol/funding/OI/MVRV Bullish; sentiment Neutral (mostly SOL-memecoin noise, not SOL-itself conviction) — volume-z recovering would put it in arming range.
-4. UNI — confluence 5/10 (1 Bearish) — rvol/DMA/funding/MVRV Bullish, but sentiment flipped Bearish this run on a falling-interest price-dip narrative — narrative needs to stabilize before this is a real candidate.
-5. VIRTUAL — confluence 5/10 (1 Bearish) — rvol/OI/funding/MVRV Bullish, but sentiment flipped Bearish on a fresh euphoria cluster (+200% breakout calls, "flying to ATH") — needs the hype to cool for a clean contrarian read.
+Top 5 considerations (mechanical count /9 — MID doesn't judge sentiment/p1; full 10-param confluence resumes at PM):
+1. TRX — mechanical 7/9 — held position, structure unchanged and clean (DMA/RSI/rvol/funding/OI/stables/MVRV all Bullish); no exit trigger.
+2. CAKE — mechanical 6/9 — RSI/rvol/funding/OI/MVRV Bullish; needs one more mechanical flip plus a non-Bearish sentiment read at PM to reach the 7/10 arming bar.
+3. SOL — mechanical 5/9 — RSI/rvol/funding/OI/MVRV Bullish; still short of arming range even before sentiment.
+4. ZEC — mechanical 5/9 (1 Bearish) — not held, not near the gate.
+5. LINK — mechanical 5/9 (1 Bearish) — not held, not near the gate.
 
 Holdings:
-TRX | 10.05% | entry $0.33595 -> now $0.3378 | +0.55% | +$0.0019/coin | position P&L +$5.51
+TRX | 10.0% | entry $0.33595 -> now $0.3345 | -0.43% | -$0.00145/coin | position P&L -$4.32
 
-Portfolio: $10,005.51 (+0.06% / +$5.51 since inception)
-Regime: Fear & Greed 29 (Fear, rising +4 over 7d), stablecoin supply +0.19% 7d (still growing — sideline liquidity healthy), MVRV BTC 1.20 / ETH 0.92 (both in the healthy sub-2 band).
+Portfolio: $9,995.68 (-0.04% / -$4.32 since inception)
+Regime: Fear & Greed 29 (Fear, rising +4 over 7d), stablecoin supply +0.17% 7d (still growing — sideline liquidity healthy), MVRV BTC 1.20 / ETH 0.92 (both in the healthy sub-2 band).
+Watchlist: no changes — all 20 rotating slots locked through 2026-08-16 (3 days out); LTC and PUMP remain entry_blocked, drop review 2026-08-16.
