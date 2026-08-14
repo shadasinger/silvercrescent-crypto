@@ -2,7 +2,7 @@
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
   "cash_usdt": 9000.0,
-  "portfolio_value_usdt": 9993.3,
+  "portfolio_value_usdt": 9995.09,
   "positions": [
     {
       "ticker": "TRX",
@@ -12,7 +12,7 @@
       "qty": 2976.6315,
       "notional_usdt": 1000.0,
       "avg_entry_price": 0.33595,
-      "size_pct_current": 9.94,
+      "size_pct_current": 9.96,
       "target_size_pct": 10.0,
       "stage": "full_open",
       "target": 0.375,
@@ -53,6 +53,13 @@
           "conviction": "Intact",
           "confluence": "6/10",
           "action": "hold, no changes -- price $0.3337 (-0.67% vs avg entry $0.33595), still above 50DMA ($0.32703) and 200DMA ($0.318582), RSI 59.5 (mid 55-70 band), OI 7d still expanding (+14.0%) though 24h dipped -2.9% alongside a flat/soft tape, funding flat (0.01%/8h), 0/10 Bearish -- confluence eased to 6/10 (p4 rvol and p5 volz rolled off Bullish to Neutral) but no exit trigger; invalidation $0.318 not breached"
+        },
+        {
+          "checkpoint": "2026-08-14 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10",
+          "action": "hold, no changes -- price $0.3343 (-0.49% vs avg entry $0.33595), still above 50DMA ($0.327256) and 200DMA ($0.318774) in golden-cross structure, RSI 61.0 (mid 55-70 band), OI 7d still expanding (+15.6%) though 24h dipped -3.8% alongside a near-flat tape (-0.06% 24h), funding flat (0.01%/8h), 0/10 Bearish -- confluence held flat at 6/10 (p1 sentiment Neutral, p4 rvol and p5 volz still Neutral), no exit trigger; invalidation $0.318 not breached"
         }
       ]
     }
