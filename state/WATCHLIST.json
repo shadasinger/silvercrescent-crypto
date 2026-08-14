@@ -1,38 +1,309 @@
 {
-  "updated_utc": "2026-08-13T13:11:06Z",
+  "updated_utc": "2026-08-14T17:07:56Z",
   "slot_changes_this_week": 0,
-  "notes": "2026-08-13 MID: universe.py rerun (110 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible -- all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (3 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ATOM next-best L1s, still blocked by the Major L1 sector cap fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors -- BNB Chain/Solana/Stablecoin-Issuer and DEX/Perpetuals respectively -- but score below current DeFi-Lending/DEX rotating names). No-chase check: highest 7d gainer across all 110 candidates was CRV +20.5% (mcap rank 108, illiquid/irrelevant), next PUMP +19.5% (already on-list/entry_blocked), CVX +12.7%, JTO +12.5% -- all well under the 50% threshold, no exclusions triggered. Fresh red-flag web screen (window 2026-08-12 to 2026-08-13): general hack/exploit sweep (Coldcard hardware-wallet exploit ~$130M cumulative, wallet-firmware layer not protocol-specific, already logged, not new; no new incident on any watchlist ticker) and regulatory sweep (SEC 'Regulation Crypto' rulemaking package -- an industry-wide tailored offering-regime/safe-harbor proposal, not an enforcement action against any specific ticker -- heads to an Aug 14 Commission vote; CLARITY Act delayed to September) plus targeted AVAX/SUI/NEAR/DOT/ATOM/WLFI/ASTER check (all clean -- WLFI Binance transfer and ASTER perp-listing/burn news are neutral-to-bullish, not red flags) -- no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. LTC: no new incident this window (MWEB Validation Hardening / v0.21.5.6 patch and record 505K+ LTC locked in MWEB continue to be reported -- same post-exploit hardening story, not a new incident) -- stays entry_blocked (2026-08-03 MWEB reorg), drop review remains 2026-08-16 (3 days out). PUMP: no new filing this window (same second-amended-complaint/whistleblower-chat-log posture already logged) -- stays entry_blocked, drop proposed 2026-08-16 (3 days out). 2026-08-12 MID: universe.py rerun (113 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible -- all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (4 days out). Same non-watchlist candidates lead the pack once unlocked (SUI/AVAX/NEAR/DOT next-best L1s, still blocked by the Major L1 sector cap fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors -- BNB Chain/Solana/Stablecoin-Issuer and DEX/Perpetuals respectively -- but score below current DeFi-Lending/DEX rotating names). No-chase check: highest 7d gainer across all 113 candidates was CRV +34.6% (mcap rank 106, illiquid/irrelevant), next CVX +26.2%, HOLO +15.4%, SFP +12.9% -- all well under the 50% threshold, no exclusions triggered. Fresh red-flag web screen (window 2026-08-11 to 2026-08-12): general hack/exploit sweep (Coldcard hardware-wallet exploit total climbed to ~$111M across 1,719 BTC, wallet-firmware layer not protocol-specific, already logged, not new) and regulatory sweep (no new SEC/CFTC enforcement action against any specific watchlist ticker; ongoing SEC-CFTC coordination/classification-framework work only) -- no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. LTC: no new incident this window (MWEB Validation Hardening release confirmed, record 505,481 LTC locked in MWEB -- continued hardening of the same privacy layer post-exploit, not a new incident) -- stays entry_blocked (2026-08-03 MWEB reorg), drop review remains 2026-08-16. PUMP: no new filing this window (same second-amended-complaint/whistleblower-chat-log posture already logged) -- stays entry_blocked, drop proposed 2026-08-16. 2026-08-11 MID: universe.py rerun (113 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible -- all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (5 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM -- L1 sector cap confirmed still fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors -- BNB Chain/Solana/Stablecoin-Issuer and DEX/Perpetuals respectively -- but score below current DeFi-Lending/DEX rotating names). No-chase check: highest 7d gainer across all 113 candidates was CRV +30.6% (mcap rank 106, illiquid/irrelevant), next CVX +25.0%, PUMP +20.8% (already on-list/entry_blocked), SFP +16.3% -- all well under the 50% threshold, no exclusions triggered. Fresh red-flag web screen (window 2026-08-10 to 2026-08-11): general hack/exploit sweep (Coinsbuy ~$7.9M wallet drain across ETH/TRON, not a watchlist ticker; Coldcard hardware-wallet exploit ongoing ~$116M cumulative, wallet-firmware not protocol-specific, already logged; Bybit secured injunction vs Lazarus Group over the 2025 hack, litigation update only) and regulatory sweep (SEC set to vote 2026-08-14 on a crypto-asset classification rule, CLARITY Act still stalled in Senate -- no enforcement action against any specific ticker) plus targeted AVAX/SUI/NEAR/DOT/ALGO/ATOM/WLFI/ASTER check (all clean -- WLFI's Binance airdrop extension/treasury transfer and ASTER's buyback-burn/volume news are neutral-to-bullish, not red flags) -- no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. LTC: no new incident this window (current coverage is bullish/technical -- price near $45 resistance, cbLTC >81,000 LTC wrapped, record 500K LTC locked in MWEB, upcoming core upgrade -- no official resolution/statement on the 2026-08-03 MWEB/reorg incident found either way) -- stays entry_blocked, drop review remains 2026-08-16. PUMP: most recent docket news is a judge approving the second amended complaint (RICO/securities-fraud claims, same case timeline already logged) -- no new filing dated to this window -- stays entry_blocked, drop proposed 2026-08-16. 2026-08-10 MID: universe.py rerun (114 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible -- all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (6 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM -- L1 sector cap confirmed still fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No-chase check: highest 7d gainer across all 114 candidates was CVX +34.1% (mcap rank 190, illiquid/irrelevant), next PUMP +28.2% (already on-list/entry_blocked), CRV +20.7%, ZRO +18.6% -- all well under the 50% threshold, no exclusions triggered. Fresh red-flag web screen (window 2026-08-09 to 2026-08-10): general hack/exploit sweep and regulatory-action sweep plus targeted AVAX/SUI/NEAR/DOT/ALGO/ATOM/WLFI/ASTER check -- no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. Notable off-watchlist-only items: Coldcard hardware-wallet seed-gen flaw total climbed to ~$116M in that one incident within a ~$1.2B/276-incident 2026 total (wallet-layer, not protocol-specific, already logged 2026-08-04, not new); an FBI agent's unrelated criminal misuse of Sui's Suilend protocol (SUI is not a watchlist ticker, not a protocol hack). LTC: no new incident this window (price/technical chatter only, LitVM/smart-contract roadmap notes) -- stays entry_blocked (MWEB reorg, 2026-08-03), drop review remains 2026-08-16. PUMP: class-action procedural posture unchanged (second amended complaint status quo, same whistleblower chat-log allegations already logged) -- no new filing this window, stays entry_blocked, drop proposed 2026-08-16. 2026-08-09 MID: universe.py rerun (116 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible — all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (7 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM — L1 sector cap confirmed still fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No-chase check: only TUT cleared 50% 7d (+813.9%, illiquid/irrelevant outlier, not a real contender); next-highest was CVX +27.1%, PUMP +21.1% (already on-list/entry_blocked), ZRO +16.9%, CRV +16.3% — all well under threshold. Fresh red-flag web screen (window 2026-08-08 to 2026-08-09, general market sweep plus targeted AVAX/SUI/NEAR/DOT/ALGO/ATOM/WLFI/ASTER check): no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. Notable off-watchlist items only: Drift Protocol $286M DPRK-linked exploit (not a watchlist ticker), Coldcard hardware-wallet flaw now reported past $130M drained cumulative (wallet-layer, not protocol-specific, already logged 2026-08-04 — not new). LTC: Core v0.21.5.6 maintenance release (2026-08-02, sixth patch in the 0.21.5.x series) continues hardening MWEB against the same original exploit family; no new incident this window, still entry_blocked (MWEB reorg, 2026-08-03), drop review remains 2026-08-16. PUMP: class-action procedural posture unchanged from prior windows (whistleblower evidence and SAC timeline already logged, no new filing surfaced this search) — stays entry_blocked, drop proposed 2026-08-16. 2026-08-08 MID: universe.py rerun (115 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible — all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (8 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM — L1 sector cap; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No candidate at >50% 7d gain (no-chase check clean this run — zero candidates cleared even 15%). Fresh red-flag web screen (window 2026-08-07 to 2026-08-08): no new hack/regulatory/team-exit events on any watchlist ticker. LTC: no new incident, still entry_blocked (MWEB reorg, 2026-08-03), drop review remains 2026-08-16 — network technicals stayed bullish (MWEB adoption at a record 500k LTC locked, testing $45 resistance) but a deployed fix/bullish tape doesn't reverse an active red-flag block mid-cycle. PUMP: class-action status unchanged from 2026-08-07's escalation (second amended complaint still in the same procedural posture, whistleblower messages already logged) — no new filing this window; stays entry_blocked, drop proposed 2026-08-16. FYI only, no exclude triggered (wallet-layer, not protocol-specific to any watchlist ticker): Coldcard hardware-wallet seed-gen flaw continues to be reported (5,200+ addresses drained since 2026-07-30, patched 2026-07-31) — already logged 2026-08-04, not new. Inception watchlist. Sector cap note: the Major-L1 sector is fully consumed by permanents (ETH, SOL, ADA, TRX), so no rotating L1 adds are permitted until a permanent rotates out of top-8 (AVAX/SUI/NEAR were top-scored L1 candidates, held back by the 4-per-sector cap). Red-flag screen at inception done from model knowledge (no news API). 2026-08-03: COINGECKO_API_KEY wired for MID data-card enrichment (categories + sentiment votes); news screening stays on web search. 2026-08-05 MID: universe.py rerun (114 candidates, 12 stable/wrapped excluded, enriched top 60 w/ categories+sentiment); no watchlist changes possible this run — all 20 rotating slots added 2026-08-02 remain inside the 2-week minimum hold (unlocks 2026-08-16), so no drops/adds are legal regardless of scoring. No non-watchlist candidate is within the top mcap ranks or scoring range that would matter once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM remain the top-scored non-watchlist names, still blocked by the L1 sector cap or the 2-week lock post-08-16 for the L1 names). No candidate at >50% 7d gain (no-chase check clean; PUMP +35.2% 7d is the highest and is already on-list/entry_blocked). Fresh red-flag web screen (window 2026-08-04 to 2026-08-05) found no new hack/regulatory/team-exit events beyond LTC and PUMP (both already entry_blocked, drop proposed 2026-08-16) — both saw incremental escalation of their existing incidents (LTC: critical MWEB soft fork issued 2026-08-04, miners given 7 days to upgrade; PUMP: RICO case statement filed in the ongoing class action, plus fresh layoff claims), reinforcing rather than changing their blocked status. FYI only, no exclude triggered (not protocol/ticker-specific to any single watchlist coin): broad Ethereum Foundation leadership churn (8 senior figures departed over 5 months, incl. a co-executive director exit) — foundation governance turnover, not an ETH protocol hack/regulatory action/project-team exit, and ETH is a permanent slot regardless; logged for awareness only. 2026-08-06 MID: universe.py rerun (113 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible — all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16. Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM — L1 sector cap; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No candidate at >50% 7d gain (no-chase check clean). Fresh red-flag web screen (window 2026-08-05 to 2026-08-06): no new hack/regulatory/team-exit events on any watchlist ticker. LTC MWEB fix confirmed deployed (root-cause patch for the spring 2026 exploit family, addresses the 2026-08-03 incident) but incident stays logged and LTC stays entry_blocked pending its 2026-08-16 drop review per the 2-week-minimum rule — a deployed fix doesn't reverse an active block mid-cycle. PUMP class-action unchanged (still pre-SAC-deadline, no new filing); stays entry_blocked, drop proposed 2026-08-16. ZEC's sentiment-flagged \"Orchard exploit\" chatter (raised in the 2026-08-05 PM checkpoint) confirmed via web search to reference the already-known, already-patched June 2026 Orchard counterfeiting bug (fixed 2026-06-01, no evidence of exploitation) — recycled old news, not a new incident; no exclude triggered. 2026-08-07 MID: universe.py rerun (117 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible — all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16. Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM — L1 sector cap; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No candidate at >50% 7d gain (no-chase check clean; ALGO +13.8% and ZRO +13.2% are the highest, well under the threshold). Fresh red-flag web screen (window 2026-08-06 to 2026-08-07): no new hack/regulatory/team-exit events on any watchlist ticker — broad sweep surfaced only exchange-level items outside the watchlist (Coinbase leadership reshuffle, BitMEX September shutdown, Drift Protocol $286M DPRK-linked hack — none are watchlist tickers). PUMP's class action escalated (whistleblower evidence, 5,000+ internal messages alleging coordinated MEV/market rigging, second amended complaint in progress) but this is an escalation of the existing incident, not a new one — stays entry_blocked, drop proposed 2026-08-16. LTC unchanged, stays entry_blocked, drop proposed 2026-08-16.",
+  "notes": "2026-08-14 MID: universe.py rerun (108 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible -- all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (2 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ATOM next-best L1s, still blocked by the Major L1 sector cap fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors -- BNB Chain/Solana/Stablecoin-Issuer and DEX/Perpetuals respectively -- but score below current DeFi-Lending/DEX rotating names). No-chase check: highest 7d gainer across all 108 candidates was PUMP +21.2% (already on-list/entry_blocked), next ATOM +12.1%, WLD +11.7%, WLFI +7.2% -- all well under the 50% threshold, no exclusions triggered. Fresh red-flag web screen (window 2026-08-13 to 2026-08-14): general hack/exploit sweep (Coldcard hardware-wallet exploit ~$130M cumulative confirmed as third-largest 2026 hack within a $1.2B/276-incident year total, wallet-firmware layer not protocol-specific, already logged, not new) and regulatory sweep (SEC's 'Regulation Crypto' rulemaking package -- the Aug 14 open-meeting vote flagged in prior runs -- proposes a tailored offering regime with public comment before a 2027 effective date; industry-wide rulemaking, not an enforcement action against any specific ticker) plus targeted AVAX/SUI/NEAR/DOT/ATOM/WLFI/ASTER check via a broader Cosmos/Polkadot-ecosystem team-exit sweep (surfaced Moonbeam parachain permanent shutdown 2026-07-31 and a Cosmos-stack exodus -- Penumbra shut down, Osmosis to maintenance mode, Noble and Akash leaving the stack -- none of these are watchlist or top-candidate tickers themselves; DOT and ATOM are non-watchlist candidates already capped out by the Major-L1 sector limit regardless) -- no new hack/regulatory/team-exit events on any watchlist ticker. Follow-up check on AAVE (rotating, DeFi Lending) prompted by the same sweep surfacing a BGD Labs / Aave Chan Initiative / Chaos Labs contributor-exit governance rift: confirmed this is March-April 2026 history (BGD offboarding effective 2026-04-01, ACI wind-down announced 2026-03-03), predates system inception (2026-08-02) and AAVE's addition to the watchlist, and current AAVE news is constructive, not deteriorating -- Grayscale added AAVE to its DeFi Fund 2026-08-06 (~20% allocation), Aavenomics 3.0 live with buybacks, biggest network-growth day in ~5 years in early July. Treated as stale/priced-in background, not a fresh red-flag trigger -- no exclude, no entry_block applied; logged for the record since it hadn't been surfaced in this log before. LTC: no new incident this window (same MWEB hardening / cbLTC / MiCA-compliance coverage, no reorg follow-up) -- stays entry_blocked (2026-08-03 MWEB reorg), drop review remains 2026-08-16 (2 days out). PUMP: no new filing this window (same MEV/whistleblower-chat-log class-action posture already logged, last docket activity still April 2026) -- stays entry_blocked, drop proposed 2026-08-16 (2 days out).\n\n2026-08-13 MID: universe.py rerun (110 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible -- all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (3 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ATOM next-best L1s, still blocked by the Major L1 sector cap fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors -- BNB Chain/Solana/Stablecoin-Issuer and DEX/Perpetuals respectively -- but score below current DeFi-Lending/DEX rotating names). No-chase check: highest 7d gainer across all 110 candidates was CRV +20.5% (mcap rank 108, illiquid/irrelevant), next PUMP +19.5% (already on-list/entry_blocked), CVX +12.7%, JTO +12.5% -- all well under the 50% threshold, no exclusions triggered. Fresh red-flag web screen (window 2026-08-12 to 2026-08-13): general hack/exploit sweep (Coldcard hardware-wallet exploit ~$130M cumulative, wallet-firmware layer not protocol-specific, already logged, not new; no new incident on any watchlist ticker) and regulatory sweep (SEC 'Regulation Crypto' rulemaking package -- an industry-wide tailored offering-regime/safe-harbor proposal, not an enforcement action against any specific ticker -- heads to an Aug 14 Commission vote; CLARITY Act delayed to September) plus targeted AVAX/SUI/NEAR/DOT/ATOM/WLFI/ASTER check (all clean -- WLFI Binance transfer and ASTER perp-listing/burn news are neutral-to-bullish, not red flags) -- no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. LTC: no new incident this window (MWEB Validation Hardening / v0.21.5.6 patch and record 505K+ LTC locked in MWEB continue to be reported -- same post-exploit hardening story, not a new incident) -- stays entry_blocked (2026-08-03 MWEB reorg), drop review remains 2026-08-16 (3 days out). PUMP: no new filing this window (same second-amended-complaint/whistleblower-chat-log posture already logged) -- stays entry_blocked, drop proposed 2026-08-16 (3 days out). 2026-08-12 MID: universe.py rerun (113 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible -- all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (4 days out). Same non-watchlist candidates lead the pack once unlocked (SUI/AVAX/NEAR/DOT next-best L1s, still blocked by the Major L1 sector cap fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors -- BNB Chain/Solana/Stablecoin-Issuer and DEX/Perpetuals respectively -- but score below current DeFi-Lending/DEX rotating names). No-chase check: highest 7d gainer across all 113 candidates was CRV +34.6% (mcap rank 106, illiquid/irrelevant), next CVX +26.2%, HOLO +15.4%, SFP +12.9% -- all well under the 50% threshold, no exclusions triggered. Fresh red-flag web screen (window 2026-08-11 to 2026-08-12): general hack/exploit sweep (Coldcard hardware-wallet exploit total climbed to ~$111M across 1,719 BTC, wallet-firmware layer not protocol-specific, already logged, not new) and regulatory sweep (no new SEC/CFTC enforcement action against any specific watchlist ticker; ongoing SEC-CFTC coordination/classification-framework work only) -- no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. LTC: no new incident this window (MWEB Validation Hardening release confirmed, record 505,481 LTC locked in MWEB -- continued hardening of the same privacy layer post-exploit, not a new incident) -- stays entry_blocked (2026-08-03 MWEB reorg), drop review remains 2026-08-16. PUMP: no new filing this window (same second-amended-complaint/whistleblower-chat-log posture already logged) -- stays entry_blocked, drop proposed 2026-08-16. 2026-08-11 MID: universe.py rerun (113 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible -- all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (5 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM -- L1 sector cap confirmed still fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors -- BNB Chain/Solana/Stablecoin-Issuer and DEX/Perpetuals respectively -- but score below current DeFi-Lending/DEX rotating names). No-chase check: highest 7d gainer across all 113 candidates was CRV +30.6% (mcap rank 106, illiquid/irrelevant), next CVX +25.0%, PUMP +20.8% (already on-list/entry_blocked), SFP +16.3% -- all well under the 50% threshold, no exclusions triggered. Fresh red-flag web screen (window 2026-08-10 to 2026-08-11): general hack/exploit sweep (Coinsbuy ~$7.9M wallet drain across ETH/TRON, not a watchlist ticker; Coldcard hardware-wallet exploit ongoing ~$116M cumulative, wallet-firmware not protocol-specific, already logged; Bybit secured injunction vs Lazarus Group over the 2025 hack, litigation update only) and regulatory sweep (SEC set to vote 2026-08-14 on a crypto-asset classification rule, CLARITY Act still stalled in Senate -- no enforcement action against any specific ticker) plus targeted AVAX/SUI/NEAR/DOT/ALGO/ATOM/WLFI/ASTER check (all clean -- WLFI's Binance airdrop extension/treasury transfer and ASTER's buyback-burn/volume news are neutral-to-bullish, not red flags) -- no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. LTC: no new incident this window (current coverage is bullish/technical -- price near $45 resistance, cbLTC >81,000 LTC wrapped, record 500K LTC locked in MWEB, upcoming core upgrade -- no official resolution/statement on the 2026-08-03 MWEB/reorg incident found either way) -- stays entry_blocked, drop review remains 2026-08-16. PUMP: most recent docket news is a judge approving the second amended complaint (RICO/securities-fraud claims, same case timeline already logged) -- no new filing dated to this window -- stays entry_blocked, drop proposed 2026-08-16. 2026-08-10 MID: universe.py rerun (114 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible -- all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (6 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM -- L1 sector cap confirmed still fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No-chase check: highest 7d gainer across all 114 candidates was CVX +34.1% (mcap rank 190, illiquid/irrelevant), next PUMP +28.2% (already on-list/entry_blocked), CRV +20.7%, ZRO +18.6% -- all well under the 50% threshold, no exclusions triggered. Fresh red-flag web screen (window 2026-08-09 to 2026-08-10): general hack/exploit sweep and regulatory-action sweep plus targeted AVAX/SUI/NEAR/DOT/ALGO/ATOM/WLFI/ASTER check -- no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. Notable off-watchlist-only items: Coldcard hardware-wallet seed-gen flaw total climbed to ~$116M in that one incident within a ~$1.2B/276-incident 2026 total (wallet-layer, not protocol-specific, already logged 2026-08-04, not new); an FBI agent's unrelated criminal misuse of Sui's Suilend protocol (SUI is not a watchlist ticker, not a protocol hack). LTC: no new incident this window (price/technical chatter only, LitVM/smart-contract roadmap notes) -- stays entry_blocked (MWEB reorg, 2026-08-03), drop review remains 2026-08-16. PUMP: class-action procedural posture unchanged (second amended complaint status quo, same whistleblower chat-log allegations already logged) -- no new filing this window, stays entry_blocked, drop proposed 2026-08-16. 2026-08-09 MID: universe.py rerun (116 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible \u2014 all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (7 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM \u2014 L1 sector cap confirmed still fully consumed by permanents ETH/SOL/TRX/ADA at 4/4; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No-chase check: only TUT cleared 50% 7d (+813.9%, illiquid/irrelevant outlier, not a real contender); next-highest was CVX +27.1%, PUMP +21.1% (already on-list/entry_blocked), ZRO +16.9%, CRV +16.3% \u2014 all well under threshold. Fresh red-flag web screen (window 2026-08-08 to 2026-08-09, general market sweep plus targeted AVAX/SUI/NEAR/DOT/ALGO/ATOM/WLFI/ASTER check): no new hack/regulatory/team-exit events on any watchlist ticker or top non-watchlist contender. Notable off-watchlist items only: Drift Protocol $286M DPRK-linked exploit (not a watchlist ticker), Coldcard hardware-wallet flaw now reported past $130M drained cumulative (wallet-layer, not protocol-specific, already logged 2026-08-04 \u2014 not new). LTC: Core v0.21.5.6 maintenance release (2026-08-02, sixth patch in the 0.21.5.x series) continues hardening MWEB against the same original exploit family; no new incident this window, still entry_blocked (MWEB reorg, 2026-08-03), drop review remains 2026-08-16. PUMP: class-action procedural posture unchanged from prior windows (whistleblower evidence and SAC timeline already logged, no new filing surfaced this search) \u2014 stays entry_blocked, drop proposed 2026-08-16. 2026-08-08 MID: universe.py rerun (115 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible \u2014 all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16 (8 days out). Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM \u2014 L1 sector cap; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No candidate at >50% 7d gain (no-chase check clean this run \u2014 zero candidates cleared even 15%). Fresh red-flag web screen (window 2026-08-07 to 2026-08-08): no new hack/regulatory/team-exit events on any watchlist ticker. LTC: no new incident, still entry_blocked (MWEB reorg, 2026-08-03), drop review remains 2026-08-16 \u2014 network technicals stayed bullish (MWEB adoption at a record 500k LTC locked, testing $45 resistance) but a deployed fix/bullish tape doesn't reverse an active red-flag block mid-cycle. PUMP: class-action status unchanged from 2026-08-07's escalation (second amended complaint still in the same procedural posture, whistleblower messages already logged) \u2014 no new filing this window; stays entry_blocked, drop proposed 2026-08-16. FYI only, no exclude triggered (wallet-layer, not protocol-specific to any watchlist ticker): Coldcard hardware-wallet seed-gen flaw continues to be reported (5,200+ addresses drained since 2026-07-30, patched 2026-07-31) \u2014 already logged 2026-08-04, not new. Inception watchlist. Sector cap note: the Major-L1 sector is fully consumed by permanents (ETH, SOL, ADA, TRX), so no rotating L1 adds are permitted until a permanent rotates out of top-8 (AVAX/SUI/NEAR were top-scored L1 candidates, held back by the 4-per-sector cap). Red-flag screen at inception done from model knowledge (no news API). 2026-08-03: COINGECKO_API_KEY wired for MID data-card enrichment (categories + sentiment votes); news screening stays on web search. 2026-08-05 MID: universe.py rerun (114 candidates, 12 stable/wrapped excluded, enriched top 60 w/ categories+sentiment); no watchlist changes possible this run \u2014 all 20 rotating slots added 2026-08-02 remain inside the 2-week minimum hold (unlocks 2026-08-16), so no drops/adds are legal regardless of scoring. No non-watchlist candidate is within the top mcap ranks or scoring range that would matter once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM remain the top-scored non-watchlist names, still blocked by the L1 sector cap or the 2-week lock post-08-16 for the L1 names). No candidate at >50% 7d gain (no-chase check clean; PUMP +35.2% 7d is the highest and is already on-list/entry_blocked). Fresh red-flag web screen (window 2026-08-04 to 2026-08-05) found no new hack/regulatory/team-exit events beyond LTC and PUMP (both already entry_blocked, drop proposed 2026-08-16) \u2014 both saw incremental escalation of their existing incidents (LTC: critical MWEB soft fork issued 2026-08-04, miners given 7 days to upgrade; PUMP: RICO case statement filed in the ongoing class action, plus fresh layoff claims), reinforcing rather than changing their blocked status. FYI only, no exclude triggered (not protocol/ticker-specific to any single watchlist coin): broad Ethereum Foundation leadership churn (8 senior figures departed over 5 months, incl. a co-executive director exit) \u2014 foundation governance turnover, not an ETH protocol hack/regulatory action/project-team exit, and ETH is a permanent slot regardless; logged for awareness only. 2026-08-06 MID: universe.py rerun (113 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible \u2014 all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16. Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM \u2014 L1 sector cap; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No candidate at >50% 7d gain (no-chase check clean). Fresh red-flag web screen (window 2026-08-05 to 2026-08-06): no new hack/regulatory/team-exit events on any watchlist ticker. LTC MWEB fix confirmed deployed (root-cause patch for the spring 2026 exploit family, addresses the 2026-08-03 incident) but incident stays logged and LTC stays entry_blocked pending its 2026-08-16 drop review per the 2-week-minimum rule \u2014 a deployed fix doesn't reverse an active block mid-cycle. PUMP class-action unchanged (still pre-SAC-deadline, no new filing); stays entry_blocked, drop proposed 2026-08-16. ZEC's sentiment-flagged \"Orchard exploit\" chatter (raised in the 2026-08-05 PM checkpoint) confirmed via web search to reference the already-known, already-patched June 2026 Orchard counterfeiting bug (fixed 2026-06-01, no evidence of exploitation) \u2014 recycled old news, not a new incident; no exclude triggered. 2026-08-07 MID: universe.py rerun (117 candidates, 12 stable/wrapped excluded, top 60 enriched); still no watchlist changes possible \u2014 all 20 rotating slots remain inside the 2-week minimum hold through 2026-08-16. Same non-watchlist candidates lead the pack once unlocked (AVAX/SUI/NEAR/DOT/ALGO/ATOM \u2014 L1 sector cap; WLFI/ASTER next-best uncapped sectors but score below current DeFi-Lending/DEX rotating names). No candidate at >50% 7d gain (no-chase check clean; ALGO +13.8% and ZRO +13.2% are the highest, well under the threshold). Fresh red-flag web screen (window 2026-08-06 to 2026-08-07): no new hack/regulatory/team-exit events on any watchlist ticker \u2014 broad sweep surfaced only exchange-level items outside the watchlist (Coinbase leadership reshuffle, BitMEX September shutdown, Drift Protocol $286M DPRK-linked hack \u2014 none are watchlist tickers). PUMP's class action escalated (whistleblower evidence, 5,000+ internal messages alleging coordinated MEV/market rigging, second amended complaint in progress) but this is an escalation of the existing incident, not a new one \u2014 stays entry_blocked, drop proposed 2026-08-16. LTC unchanged, stays entry_blocked, drop proposed 2026-08-16.",
   "coins": [
-    {"ticker": "BTC", "binance_symbol": "BTCUSDT", "slot": "permanent", "sector": "Store of Value", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Cycle anchor and regime proxy; the book's beta reference."},
-    {"ticker": "ETH", "binance_symbol": "ETHUSDT", "slot": "permanent", "sector": "Major L1", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Settlement layer for stables/RWA; +7.9% 30d, strongest permanent momentum."},
-    {"ticker": "BNB", "binance_symbol": "BNBUSDT", "slot": "permanent", "sector": "Exchange", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Binance ecosystem cashflow proxy; steady grinder."},
-    {"ticker": "XRP", "binance_symbol": "XRPUSDT", "slot": "permanent", "sector": "Payments", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Institutional payments/ETF narrative; rangebound."},
-    {"ticker": "SOL", "binance_symbol": "SOLUSDT", "slot": "permanent", "sector": "Major L1", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "High-throughput L1, retail flow hub; -10% 30d, watch for base."},
-    {"ticker": "TRX", "binance_symbol": "TRXUSDT", "slot": "permanent", "sector": "Major L1", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Stablecoin settlement rails; low-vol, low-beta."},
-    {"ticker": "DOGE", "binance_symbol": "DOGEUSDT", "slot": "permanent", "sector": "Meme", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Meme beta bellwether; moves late-cycle with retail."},
-    {"ticker": "ZEC", "binance_symbol": "ZECUSDT", "slot": "permanent", "sector": "Privacy", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Privacy narrative re-rate into top-15; momentum cooled, structural bid intact."},
-    {"ticker": "ADA", "binance_symbol": "ADAUSDT", "slot": "permanent", "sector": "Major L1", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "+14.9% 7d breakout leader among majors; verify volume conviction."},
-    {"ticker": "LINK", "binance_symbol": "LINKUSDT", "slot": "permanent", "sector": "Oracle", "score": null, "date_added": "2026-08-02", "locked": false, "thesis": "Oracle monopoly + institutional data rails (CCIP); +5.5% 30d."},
-
-    {"ticker": "UNI", "binance_symbol": "UNIUSDT", "slot": "rotating", "sector": "DEX", "score": 8, "date_added": "2026-08-02", "locked": false, "thesis": "+28% 30d on DEX volume share and fee-value narrative; best momentum on the board."},
-    {"ticker": "AAVE", "binance_symbol": "AAVEUSDT", "slot": "rotating", "sector": "DeFi Lending", "score": 7, "date_added": "2026-08-02", "locked": false, "thesis": "DeFi lending blue chip; deepest liquidity in class (vol/mcap 0.15)."},
-    {"ticker": "ENA", "binance_symbol": "ENAUSDT", "slot": "rotating", "sector": "DeFi Lending", "score": 7, "date_added": "2026-08-02", "locked": false, "thesis": "Synthetic-dollar growth story; +12.7% 30d, extreme liquidity (vol/mcap 0.19)."},
-    {"ticker": "MORPHO", "binance_symbol": "MORPHOUSDT", "slot": "rotating", "sector": "DeFi Lending", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Institutional lending infra taking AAVE share; thin volume is the risk."},
-    {"ticker": "ONDO", "binance_symbol": "ONDOUSDT", "slot": "rotating", "sector": "RWA", "score": 7, "date_added": "2026-08-02", "locked": false, "thesis": "RWA/tokenized-treasuries leader; +15.9% 30d with sector tailwind."},
-    {"ticker": "ETHFI", "binance_symbol": "ETHFIUSDT", "slot": "rotating", "sector": "Liquid Staking", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "ETH staking/restaking beta with fee switch; +7.8% 30d."},
-    {"ticker": "CAKE", "binance_symbol": "CAKEUSDT", "slot": "rotating", "sector": "DEX", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "BNB-chain DEX with burn mechanics; quietly positive both windows."},
-    {"ticker": "JUP", "binance_symbol": "JUPUSDT", "slot": "rotating", "sector": "DEX", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "Solana aggregator monopoly; cheap after -20% 30d if SOL flow returns."},
-    {"ticker": "LTC", "binance_symbol": "LTCUSDT", "slot": "rotating", "sector": "Payments", "score": 6, "date_added": "2026-08-02", "locked": false, "entry_blocked": "2026-08-03: MWEB exploit forced 13-block reorg — settlement-assurance failure vs payments thesis. Red-flag exclude; proposed drop 08-16.", "thesis": "Payments legacy + ETF optionality; mean-reversion candidate."},
-    {"ticker": "BCH", "binance_symbol": "BCHUSDT", "slot": "rotating", "sector": "Payments", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "Liquid large-cap payments fork; low-beta placeholder."},
-    {"ticker": "XLM", "binance_symbol": "XLMUSDT", "slot": "rotating", "sector": "Payments", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "Payments/RWA rails; washed out -14% 30d, capitulation watch."},
-    {"ticker": "HBAR", "binance_symbol": "HBARUSDT", "slot": "rotating", "sector": "Enterprise", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Enterprise/ETF narrative; flat and coiled vs majors."},
-    {"ticker": "SHIB", "binance_symbol": "SHIBUSDT", "slot": "rotating", "sector": "Meme", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Meme #2 with +12.9% 30d divergence vs DOGE."},
-    {"ticker": "PEPE", "binance_symbol": "PEPEUSDT", "slot": "rotating", "sector": "Meme", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Highest-beta liquid meme (vol/mcap 0.13); pure risk-appetite gauge."},
-    {"ticker": "PUMP", "binance_symbol": "PUMPUSDT", "slot": "rotating", "sector": "Meme", "score": 6, "date_added": "2026-08-02", "locked": false, "entry_blocked": "2026-08-03: live class action alleging unlawful business + 41% supply unlock. Red-flag exclude; proposed drop 08-16.", "thesis": "+31.6% 30d on revenue/buyback story; watch the no-chase rule."},
-    {"ticker": "TAO", "binance_symbol": "TAOUSDT", "slot": "rotating", "sector": "AI", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Decentralized AI bellwether; -10% 30d pullback in secular narrative."},
-    {"ticker": "RENDER", "binance_symbol": "RENDERUSDT", "slot": "rotating", "sector": "AI", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "GPU compute proxy; weak tape, cheap AI beta if regime turns."},
-    {"ticker": "VIRTUAL", "binance_symbol": "VIRTUALUSDT", "slot": "rotating", "sector": "AI", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "AI-agent launchpad; high beta to AI narrative revivals."},
-    {"ticker": "ARB", "binance_symbol": "ARBUSDT", "slot": "rotating", "sector": "L2", "score": 6, "date_added": "2026-08-02", "locked": false, "thesis": "Leading ETH L2; stabilizing tape, leveraged to ETH strength."},
-    {"ticker": "FIL", "binance_symbol": "FILUSDT", "slot": "rotating", "sector": "DePIN/Storage", "score": 5, "date_added": "2026-08-02", "locked": false, "thesis": "Storage/DePIN proxy for AI-data narrative; deep value territory."}
+    {
+      "ticker": "BTC",
+      "binance_symbol": "BTCUSDT",
+      "slot": "permanent",
+      "sector": "Store of Value",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Cycle anchor and regime proxy; the book's beta reference."
+    },
+    {
+      "ticker": "ETH",
+      "binance_symbol": "ETHUSDT",
+      "slot": "permanent",
+      "sector": "Major L1",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Settlement layer for stables/RWA; +7.9% 30d, strongest permanent momentum."
+    },
+    {
+      "ticker": "BNB",
+      "binance_symbol": "BNBUSDT",
+      "slot": "permanent",
+      "sector": "Exchange",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Binance ecosystem cashflow proxy; steady grinder."
+    },
+    {
+      "ticker": "XRP",
+      "binance_symbol": "XRPUSDT",
+      "slot": "permanent",
+      "sector": "Payments",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Institutional payments/ETF narrative; rangebound."
+    },
+    {
+      "ticker": "SOL",
+      "binance_symbol": "SOLUSDT",
+      "slot": "permanent",
+      "sector": "Major L1",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "High-throughput L1, retail flow hub; -10% 30d, watch for base."
+    },
+    {
+      "ticker": "TRX",
+      "binance_symbol": "TRXUSDT",
+      "slot": "permanent",
+      "sector": "Major L1",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Stablecoin settlement rails; low-vol, low-beta."
+    },
+    {
+      "ticker": "DOGE",
+      "binance_symbol": "DOGEUSDT",
+      "slot": "permanent",
+      "sector": "Meme",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Meme beta bellwether; moves late-cycle with retail."
+    },
+    {
+      "ticker": "ZEC",
+      "binance_symbol": "ZECUSDT",
+      "slot": "permanent",
+      "sector": "Privacy",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Privacy narrative re-rate into top-15; momentum cooled, structural bid intact."
+    },
+    {
+      "ticker": "ADA",
+      "binance_symbol": "ADAUSDT",
+      "slot": "permanent",
+      "sector": "Major L1",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "+14.9% 7d breakout leader among majors; verify volume conviction."
+    },
+    {
+      "ticker": "LINK",
+      "binance_symbol": "LINKUSDT",
+      "slot": "permanent",
+      "sector": "Oracle",
+      "score": null,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Oracle monopoly + institutional data rails (CCIP); +5.5% 30d."
+    },
+    {
+      "ticker": "UNI",
+      "binance_symbol": "UNIUSDT",
+      "slot": "rotating",
+      "sector": "DEX",
+      "score": 8,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "+28% 30d on DEX volume share and fee-value narrative; best momentum on the board."
+    },
+    {
+      "ticker": "AAVE",
+      "binance_symbol": "AAVEUSDT",
+      "slot": "rotating",
+      "sector": "DeFi Lending",
+      "score": 7,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "DeFi lending blue chip; deepest liquidity in class (vol/mcap 0.15)."
+    },
+    {
+      "ticker": "ENA",
+      "binance_symbol": "ENAUSDT",
+      "slot": "rotating",
+      "sector": "DeFi Lending",
+      "score": 7,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Synthetic-dollar growth story; +12.7% 30d, extreme liquidity (vol/mcap 0.19)."
+    },
+    {
+      "ticker": "MORPHO",
+      "binance_symbol": "MORPHOUSDT",
+      "slot": "rotating",
+      "sector": "DeFi Lending",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Institutional lending infra taking AAVE share; thin volume is the risk."
+    },
+    {
+      "ticker": "ONDO",
+      "binance_symbol": "ONDOUSDT",
+      "slot": "rotating",
+      "sector": "RWA",
+      "score": 7,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "RWA/tokenized-treasuries leader; +15.9% 30d with sector tailwind."
+    },
+    {
+      "ticker": "ETHFI",
+      "binance_symbol": "ETHFIUSDT",
+      "slot": "rotating",
+      "sector": "Liquid Staking",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "ETH staking/restaking beta with fee switch; +7.8% 30d."
+    },
+    {
+      "ticker": "CAKE",
+      "binance_symbol": "CAKEUSDT",
+      "slot": "rotating",
+      "sector": "DEX",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "BNB-chain DEX with burn mechanics; quietly positive both windows."
+    },
+    {
+      "ticker": "JUP",
+      "binance_symbol": "JUPUSDT",
+      "slot": "rotating",
+      "sector": "DEX",
+      "score": 5,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Solana aggregator monopoly; cheap after -20% 30d if SOL flow returns."
+    },
+    {
+      "ticker": "LTC",
+      "binance_symbol": "LTCUSDT",
+      "slot": "rotating",
+      "sector": "Payments",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "entry_blocked": "2026-08-03: MWEB exploit forced 13-block reorg \u2014 settlement-assurance failure vs payments thesis. Red-flag exclude; proposed drop 08-16.",
+      "thesis": "Payments legacy + ETF optionality; mean-reversion candidate."
+    },
+    {
+      "ticker": "BCH",
+      "binance_symbol": "BCHUSDT",
+      "slot": "rotating",
+      "sector": "Payments",
+      "score": 5,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Liquid large-cap payments fork; low-beta placeholder."
+    },
+    {
+      "ticker": "XLM",
+      "binance_symbol": "XLMUSDT",
+      "slot": "rotating",
+      "sector": "Payments",
+      "score": 5,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Payments/RWA rails; washed out -14% 30d, capitulation watch."
+    },
+    {
+      "ticker": "HBAR",
+      "binance_symbol": "HBARUSDT",
+      "slot": "rotating",
+      "sector": "Enterprise",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Enterprise/ETF narrative; flat and coiled vs majors."
+    },
+    {
+      "ticker": "SHIB",
+      "binance_symbol": "SHIBUSDT",
+      "slot": "rotating",
+      "sector": "Meme",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Meme #2 with +12.9% 30d divergence vs DOGE."
+    },
+    {
+      "ticker": "PEPE",
+      "binance_symbol": "PEPEUSDT",
+      "slot": "rotating",
+      "sector": "Meme",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Highest-beta liquid meme (vol/mcap 0.13); pure risk-appetite gauge."
+    },
+    {
+      "ticker": "PUMP",
+      "binance_symbol": "PUMPUSDT",
+      "slot": "rotating",
+      "sector": "Meme",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "entry_blocked": "2026-08-03: live class action alleging unlawful business + 41% supply unlock. Red-flag exclude; proposed drop 08-16.",
+      "thesis": "+31.6% 30d on revenue/buyback story; watch the no-chase rule."
+    },
+    {
+      "ticker": "TAO",
+      "binance_symbol": "TAOUSDT",
+      "slot": "rotating",
+      "sector": "AI",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Decentralized AI bellwether; -10% 30d pullback in secular narrative."
+    },
+    {
+      "ticker": "RENDER",
+      "binance_symbol": "RENDERUSDT",
+      "slot": "rotating",
+      "sector": "AI",
+      "score": 5,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "GPU compute proxy; weak tape, cheap AI beta if regime turns."
+    },
+    {
+      "ticker": "VIRTUAL",
+      "binance_symbol": "VIRTUALUSDT",
+      "slot": "rotating",
+      "sector": "AI",
+      "score": 5,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "AI-agent launchpad; high beta to AI narrative revivals."
+    },
+    {
+      "ticker": "ARB",
+      "binance_symbol": "ARBUSDT",
+      "slot": "rotating",
+      "sector": "L2",
+      "score": 6,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Leading ETH L2; stabilizing tape, leveraged to ETH strength."
+    },
+    {
+      "ticker": "FIL",
+      "binance_symbol": "FILUSDT",
+      "slot": "rotating",
+      "sector": "DePIN/Storage",
+      "score": 5,
+      "date_added": "2026-08-02",
+      "locked": false,
+      "thesis": "Storage/DePIN proxy for AI-data narrative; deep value territory."
+    }
   ]
 }

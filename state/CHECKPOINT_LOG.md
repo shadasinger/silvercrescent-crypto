@@ -821,3 +821,31 @@ Sector exposure: Major L1 9.96% (TRX only)
 Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16, 2 days out).
 Simulated fills: n/a — no trades this checkpoint.
 Learning artifacts written: SIGNALS.csv (30 rows, checkpoint 2026-08-14 AM, incl. logged p1 sentiment reasoning for TRX/PUMP/VIRTUAL/SOL/ZEC/ETHFI/CAKE), `state/PORTFOLIO.json` (TRX status-history entry appended, portfolio value refreshed to $9,995.09, size_pct_current updated to 9.96%), this report, `state/BRIEFING.md`. Not Monday — no shadow-book refresh. Not first AM of month — no monthly review.
+
+## CHECKPOINT — 2026-08-14, MID
+
+Global params: stablecoins +0.40% 7d ($307.6B, growth continues) | MVRV BTC 1.20 / ETH 0.92 (healthy, sub-2 band) | F&G 29 (Fear, Δ7d 0 — flat) | funding regime: near-zero to slightly positive across the board, no crowded-long risk anywhere | futures: fapi.binance.com still geo-blocked (HTTP 451) — params 6-7 sourced from Hyperliquid fallback for all 30 coins.
+Deployed: 9.90% across 1 position | Cash: 90.10% ($9,000.00)
+Holdings: TRX | 9.90% | price $0.3324 (-1.06% vs avg entry $0.33595) — no trading action this routine (MID does not review/exit holdings, Section 6).
+Signals: n/a — MID performs no confluence scoring/labeling; mechanical p2-p9 leaderboard only (informational).
+
+Decisions & reasoning:
+- **Step 1 (universe.py):** rerun — 108 candidates (12 stable/wrapped excluded), top 60 enriched with CoinGecko categories + sentiment votes. No candidate cleared the >50% 7d no-chase threshold (highest: PUMP +21.2%, already on-list/entry_blocked; next ATOM +12.1%, WLD +11.7%, WLFI +7.2%).
+- **Step 2 (data cards):** built from universe.json; mcap, volume, vol/mcap ratio, 7d/30d/200d change, categories, sentiment votes captured for top-60.
+- **Step 3 (score + red-flag screen):** full red-flag web sweep (window 2026-08-13 to 2026-08-14):
+  - General hack/exploit sweep: Coldcard hardware-wallet exploit reconfirmed at ~$130M cumulative (third-largest 2026 hack, part of a $1.2B/276-incident year total) — wallet-firmware layer, not protocol-specific, already logged 2026-08-04, not new.
+  - Regulatory sweep: SEC's "Regulation Crypto" open-meeting vote (flagged in prior runs as scheduled for today, 2026-08-14) proposes a tailored crypto-offering regime with public comment ahead of a 2027 effective date — industry-wide rulemaking, not an enforcement action against any specific ticker.
+  - Targeted AVAX/SUI/NEAR/DOT/ATOM/WLFI/ASTER check, broadened this run into a Cosmos/Polkadot-ecosystem team-exit sweep given ongoing "2026 shakeout" coverage: surfaced Moonbeam parachain's permanent shutdown (2026-07-31) and a Cosmos-stack exodus (Penumbra shut down, Osmosis to maintenance mode, Noble and Akash leaving the stack). None of these are watchlist or current top-candidate tickers themselves (DOT/ATOM remain non-watchlist candidates, capped out by the Major-L1 sector limit regardless) — no exclude triggered.
+  - **AAVE follow-up (watchlist, DeFi Lending, rotating):** the same sweep surfaced a BGD Labs / Aave Chan Initiative / Chaos Labs contributor-exit governance rift. Verified this is March–April 2026 history (ACI wind-down announced 2026-03-03; BGD offboarding effective 2026-04-01) — predates system inception (2026-08-02) and AAVE's addition to the watchlist. Checked for a live/ongoing angle: current AAVE news is constructive, not deteriorating — Grayscale added AAVE to its DeFi Fund 2026-08-06 (~20% allocation), Aavenomics 3.0 live with buybacks and DAO-spending cuts, biggest single-day network growth in ~5 years in early July. Treated as stale/priced-in background, **not** a fresh red-flag trigger — no exclude, no entry_block applied. Logged for the record since this history hadn't previously appeared in this checkpoint log despite AAVE being on-list for 12 days.
+  - No new hack/regulatory/team-exit events found on any watchlist ticker this window.
+  - **LTC:** no new incident (same MWEB hardening / cbLTC / MiCA-compliance coverage, no reorg follow-up) — stays `entry_blocked` (2026-08-03 MWEB reorg), drop review remains 2026-08-16 (2 days out).
+  - **PUMP:** no new filing this window (same MEV/whistleblower-chat-log class-action posture already logged, last docket activity still dated April 2026) — stays `entry_blocked`, drop proposed 2026-08-16 (2 days out).
+- **Step 4 (assemble watchlist of 30):** no legal changes — all 20 rotating slots (added 2026-08-02) remain inside the 2-week minimum hold through 2026-08-16 (2 days out). Next-best non-watchlist candidates once unlocked remain AVAX/SUI/NEAR/DOT/ATOM (blocked by the Major-L1 sector cap, fully consumed by permanents ETH/SOL/TRX/ADA at 4/4) and WLFI/ASTER (uncapped sectors but scoring below current DeFi-Lending/DEX rotating names). `state/WATCHLIST.json` notes updated with this run's findings; `slot_changes_this_week` unchanged at 0.
+- **Step (parameters refresh):** `scripts/parameters.py` rerun for all 30 coins + global block so the PM checkpoint starts warm. Mechanical leaderboard (p2-p9, informational only): TRX 6/9 (held, unchanged), PUMP 6/9 (entry_blocked, moot), ZEC/LINK/CAKE all 5/9 — shape consistent with the AM checkpoint. No mechanical-label overrides applied (informational only; full review happens at PM).
+
+Red-team summary: n/a — MID is a sourcing/data routine, no trading decisions to red-team.
+Pre-mortem: n/a (MID; pre-mortem is PM-only).
+Sector exposure: Major L1 ~9.90% (TRX only) — unchanged.
+Watchlist changes (MID only): none — all 20 rotating slots locked through 2026-08-16 (2 days out). Excluded (red flags): none new; LTC and PUMP remain entry_blocked (unchanged since 2026-08-03, proposed drop 2026-08-16, 2 days out). AAVE: pre-existing (Mar/Apr 2026) contributor-exit history surfaced and evaluated — stale/priced-in, not treated as a fresh red flag, no entry_block applied.
+Simulated fills: n/a — no trades this checkpoint.
+Learning artifacts written: `data/universe.json` (108 candidates), `state/WATCHLIST.json` (notes updated, no slot changes), `state/PARAMETERS.json` (refreshed, all 30 coins + global), this report, `state/BRIEFING.md`.
