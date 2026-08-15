@@ -2,7 +2,7 @@
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
   "cash_usdt": 9000.0,
-  "portfolio_value_usdt": 9990.62,
+  "portfolio_value_usdt": 9987.65,
   "positions": [
     {
       "ticker": "TRX",
@@ -12,7 +12,7 @@
       "qty": 2976.6315,
       "notional_usdt": 1000.0,
       "avg_entry_price": 0.33595,
-      "size_pct_current": 9.92,
+      "size_pct_current": 9.89,
       "target_size_pct": 10.0,
       "stage": "full_open",
       "target": 0.375,
@@ -74,6 +74,13 @@
           "conviction": "Intact",
           "confluence": "6/10",
           "action": "hold, no changes -- price $0.3328 (flat vs PM close, -0.94% vs avg entry $0.33595), still above 50DMA ($0.327468) and 200DMA ($0.318956) in golden-cross structure, RSI 57.1 (mid 55-70 band), OI 7d still expanding (+7.2%, decelerating further) though 24h dipped -6.0% alongside a flat tape (+0.03% 24h), funding flat (0.01%/8h), 0/10 Bearish -- confluence held flat at 6/10 for a fourth straight checkpoint (p1 sentiment Neutral, p4 rvol and p5 volz still Neutral), no exit trigger; invalidation $0.318 not breached"
+        },
+        {
+          "checkpoint": "2026-08-15 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "4/10",
+          "action": "hold, no changes -- price $0.3318 (-0.30% vs AM close, -1.24% vs avg entry $0.33595), still above 50DMA ($0.327448) and 200DMA ($0.318951) in golden-cross structure, RSI 54.7 (mid 55-70 band, continuing to cool), OI 7d rolled to near-flat (+0.7%, decelerating further from +7.2% AM) with 24h down -7.1% -- p7 OI flipped Bullish to Neutral, dropping confluence to 4/10, but still 0/10 Bearish so no exit trigger; funding flat (0.01%/8h), p1 sentiment Neutral (routine treasury/staking narrative, no crowd extreme); invalidation $0.318 not breached. Flagging the multi-checkpoint OI deceleration (7d: +15.6% -> +8.8% -> +7.2% -> +0.7%) as the thesis-test metric to watch into the 2026-08-26 interim review -- not yet a Bearish signal, but the confirming-OI leg of the thesis is thinning."
         }
       ]
     }
