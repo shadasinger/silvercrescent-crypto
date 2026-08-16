@@ -1,20 +1,20 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 9000.0,
-  "portfolio_value_usdt": 9987.65,
+  "cash_usdt": 9492.78,
+  "portfolio_value_usdt": 9985.56,
   "positions": [
     {
       "ticker": "TRX",
       "sector": "Major L1",
       "entry_utc": "2026-08-12T07:17:14Z",
       "entry_price": 0.3361,
-      "qty": 2976.6315,
-      "notional_usdt": 1000.0,
+      "qty": 1488.3158,
+      "notional_usdt": 492.78,
       "avg_entry_price": 0.33595,
-      "size_pct_current": 9.89,
+      "size_pct_current": 4.93,
       "target_size_pct": 10.0,
-      "stage": "full_open",
+      "stage": "trimmed_half",
       "target": 0.375,
       "invalidation": 0.318,
       "planned_R": 2.15,
@@ -81,6 +81,13 @@
           "conviction": "Intact",
           "confluence": "4/10",
           "action": "hold, no changes -- price $0.3318 (-0.30% vs AM close, -1.24% vs avg entry $0.33595), still above 50DMA ($0.327448) and 200DMA ($0.318951) in golden-cross structure, RSI 54.7 (mid 55-70 band, continuing to cool), OI 7d rolled to near-flat (+0.7%, decelerating further from +7.2% AM) with 24h down -7.1% -- p7 OI flipped Bullish to Neutral, dropping confluence to 4/10, but still 0/10 Bearish so no exit trigger; funding flat (0.01%/8h), p1 sentiment Neutral (routine treasury/staking narrative, no crowd extreme); invalidation $0.318 not breached. Flagging the multi-checkpoint OI deceleration (7d: +15.6% -> +8.8% -> +7.2% -> +0.7%) as the thesis-test metric to watch into the 2026-08-26 interim review -- not yet a Bearish signal, but the confirming-OI leg of the thesis is thinning."
+        },
+        {
+          "checkpoint": "2026-08-16 AM",
+          "thesis_status": "Stalled",
+          "conviction": "Weakening",
+          "confluence": "4/10 (1/10 Bearish)",
+          "action": "TRIM HALF -- price $0.3311 (-0.21% vs PM close, -1.44% vs avg entry $0.33595), still above 50DMA ($0.327632) and 200DMA ($0.319127) but headroom to invalidation $0.318 now just 3.96% (tightest of the hold). RSI 53.0 (mid band, still cooling). OI 7d printed -0.4% -- the first NEGATIVE 7d OI reading of the hold, completing the deceleration flagged explicitly by the PM 08-14 and PM 08-15 red-team passes (7d OI: +19.0% -> +15.6% -> +8.8% -> +7.2% -> +0.7% -> -0.4%; 24h OI -7.0%, sixth straight negative 24h print). The entry thesis's OI-confirmation leg (\"OI keeps expanding alongside price, not diverging\") has now failed outright, not just cooled -- judged this a rubric misread and overrode p7_oi Neutral->Bearish (fits \"OI collapsing after a rally\" better than Neutral; logged in SIGNALS.csv). Confluence unchanged at 4/10 Bullish but Bearish count moved 0->1 (still short of the 4/10-for-2-checkpoints mechanical exit gate). Downgraded conviction Intact->Weakening and thesis status Playing Out->Stalled on this thesis-test failure -- per Section 5 step 4, Weakening conviction triggers trim-half. Sold 1488.3157 TRX @ $0.3311 (proceeds $492.78, realized P&L -$7.22 / realized R -0.27 on the tranche vs planned R 2.15). Remaining 1488.3158 TRX (avg entry unchanged $0.33595) held at ~4.93% of portfolio -- flagged for confirmation next checkpoint per the trim-half rule; a further deterioration (Bearish count reaching 4/10, or invalidation $0.318 breached) triggers a full exit, not just discussion."
         }
       ]
     }
