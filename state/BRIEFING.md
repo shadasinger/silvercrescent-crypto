@@ -1,11 +1,12 @@
-BRIEFING — 2026-08-16 AM
+BRIEFING — 2026-08-16 MID
 Top 5 considerations:
-1. PUMP — confluence 6/10 — RSI/funding/OI all Bullish, but +41.6% above 50DMA keeps price Bearish and it's entry_blocked (live class action) — can't trade regardless of count.
-2. BNB — confluence 5/10 — steady, low-conviction consolidation near $605; needs a volume/OI push to gain further ground toward the gate.
-3. ETHFI — confluence 5/10 — OI up sharply (+40.7% 7d), RSI in-band, but volume z-score flags no-conviction and it's +17.4% above 50DMA, getting stretched.
-4. LINK — confluence 5/10 — OI/RSI/funding Bullish on real catalysts (agent-layer launch, buybacks), but weak-volume rally (z-score Bearish) and 13.5% extension cap it.
-5. TRX — confluence 4/10 (1/10 Bearish) — held; 7d OI turned net negative for the first time (thesis-test failure) — just trimmed half, remaining half on a short leash into next checkpoint.
+1. BNB — confluence 5/10 — funding/OI/MVRV/stables all bullish, RSI healthy at 61.8, but tape is described as "neutral low-conviction consolidation" — needs 2 more bullish reads to arm, no sentiment tailwind yet.
+2. LINK — confluence 5/10 — funding/OI/MVRV/stables bullish, RSI 68.1 (near top of band) on a +14.2% 7d pop, but sentiment is genuinely split (institutional hype vs. "Chainlink is dead" dissent) so p1 stays Neutral — needs 2 more to arm.
+3. ETHFI — confluence 5/10 — same bullish funding/OI/MVRV/stables base, up +30% 7d and RSI 70.4 (edge of overheated), sentiment cooled to Neutral this pass after a euphoric prior read — needs 2 more, and further RSI extension would flip p3 Bearish first.
+4. ZEC — confluence 4/10 — funding/rvol/MVRV/stables bullish but price down -4.7% 7d, RSI mid-band, no sentiment or DMA support — needs 3 more, furthest from the gate of this group.
+5. ADA — confluence 4/10 — funding/rvol/MVRV/stables bullish but down -9.3% 7d and RSI 45.4 (soft), no DMA/sentiment support — needs 3 more.
 Holdings:
-TRX | 4.93% | entry $0.33595 -> now $0.3311 | -1.4% | -$0.0049/coin | position P&L -$7.22
-Portfolio: $9,985.56 (-0.1% / -$14.44 since inception)
-Regime: F&G 34 (Fear, Δ7d +3) | stablecoins +0.15% 7d ($307.4B, still growing) | MVRV BTC 1.20 / ETH 0.92 — healthy sub-2 regime, no crowding signals anywhere.
+TRX | 4.94% | entry $0.33595 -> now $0.3318 | -1.24% | -$0.0042/coin | position P&L -$6.18 (half-trimmed this AM: thesis Stalled, conviction Weakening, remaining half flagged for confirmation next checkpoint)
+Portfolio: $9,986.60 (-0.13% / -$13.40 since inception)
+Regime: F&G 34 (Fear, steady), stablecoin supply +0.15% 7d (still growing), MVRV BTC 1.20 / ETH 0.92 (healthy, sub-2 band) — backdrop unchanged and non-alarming.
+Watchlist: dropped LTC (Payments, red-flagged MWEB reorg, 2-week block expired) and PUMP (Meme, red-flagged securities-fraud litigation, 2-week block expired); added ASTER (DEX, score 7/10 — AOS-2 perp-listing catalyst) and ICP (AI, score 6/10 — best sentiment screened, clean regulatory recheck). WLFI/JTO/NEXO considered, rejected on red flags.
