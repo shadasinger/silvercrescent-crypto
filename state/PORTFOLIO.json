@@ -2,7 +2,7 @@
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
   "cash_usdt": 9492.78,
-  "portfolio_value_usdt": 9985.56,
+  "portfolio_value_usdt": 9986.75,
   "positions": [
     {
       "ticker": "TRX",
@@ -10,9 +10,9 @@
       "entry_utc": "2026-08-12T07:17:14Z",
       "entry_price": 0.3361,
       "qty": 1488.3158,
-      "notional_usdt": 492.78,
+      "notional_usdt": 493.97,
       "avg_entry_price": 0.33595,
-      "size_pct_current": 4.93,
+      "size_pct_current": 4.95,
       "target_size_pct": 10.0,
       "stage": "trimmed_half",
       "target": 0.375,
@@ -88,6 +88,13 @@
           "conviction": "Weakening",
           "confluence": "4/10 (1/10 Bearish)",
           "action": "TRIM HALF -- price $0.3311 (-0.21% vs PM close, -1.44% vs avg entry $0.33595), still above 50DMA ($0.327632) and 200DMA ($0.319127) but headroom to invalidation $0.318 now just 3.96% (tightest of the hold). RSI 53.0 (mid band, still cooling). OI 7d printed -0.4% -- the first NEGATIVE 7d OI reading of the hold, completing the deceleration flagged explicitly by the PM 08-14 and PM 08-15 red-team passes (7d OI: +19.0% -> +15.6% -> +8.8% -> +7.2% -> +0.7% -> -0.4%; 24h OI -7.0%, sixth straight negative 24h print). The entry thesis's OI-confirmation leg (\"OI keeps expanding alongside price, not diverging\") has now failed outright, not just cooled -- judged this a rubric misread and overrode p7_oi Neutral->Bearish (fits \"OI collapsing after a rally\" better than Neutral; logged in SIGNALS.csv). Confluence unchanged at 4/10 Bullish but Bearish count moved 0->1 (still short of the 4/10-for-2-checkpoints mechanical exit gate). Downgraded conviction Intact->Weakening and thesis status Playing Out->Stalled on this thesis-test failure -- per Section 5 step 4, Weakening conviction triggers trim-half. Sold 1488.3157 TRX @ $0.3311 (proceeds $492.78, realized P&L -$7.22 / realized R -0.27 on the tranche vs planned R 2.15). Remaining 1488.3158 TRX (avg entry unchanged $0.33595) held at ~4.93% of portfolio -- flagged for confirmation next checkpoint per the trim-half rule; a further deterioration (Bearish count reaching 4/10, or invalidation $0.318 breached) triggers a full exit, not just discussion."
+        },
+        {
+          "checkpoint": "2026-08-16 PM",
+          "thesis_status": "Stalled",
+          "conviction": "Weakening",
+          "confluence": "4/10 (1/10 Bearish)",
+          "action": "hold remaining half, no further trim -- price $0.3319 (+0.24% vs AM close $0.3311, -1.21% vs avg entry $0.33595), still above 50DMA ($0.327648) and 200DMA ($0.319131), headroom to invalidation $0.318 ~4.19% (roughly unchanged from AM's 3.96%, not tighter). RSI 54.7 (mid band). 7d OI printed -1.6%, continuing to deteriorate from AM's -0.4% first-negative print (7d OI: +0.7% -> -0.4% -> -1.6%) -- reaffirmed the p7_oi Neutral->Bearish override on the same standing trigger, logged in SIGNALS.csv; 24h OI improved to -2.6% (from -7.0% AM), a partial stabilization on the shorter window even as the 7d trend (the metric the thesis actually tests) kept worsening. Confluence held flat at 4/10 Bullish, 1/10 Bearish -- unchanged from AM, nowhere near the 4/10-for-2-consecutive-checkpoints mechanical exit gate. Checked the AM red-team's explicit restore/escalate criteria: OI has NOT re-expanded (7d OI got more negative, not less) and there was no clean re-break above the 50DMA (dev is 1.3%, essentially flat vs AM's structure) -- neither condition met to restore conviction to Intact. But the mechanical Bearish count also did not increase beyond the single p7 override (still 1/10, not 2/10+), and invalidation was not breached and did not tighten -- so no basis to escalate to a full exit either. Judgment: hold conviction at Weakening (no change), thesis stays Stalled, remaining half held unchanged, flagged again for the next checkpoint -- a second consecutive Bearish-count increase, any invalidation-headroom compression, or a $0.318 breach closes the remainder out; genuine OI re-expansion or a clean 50DMA re-break restores Intact."
         }
       ]
     }
