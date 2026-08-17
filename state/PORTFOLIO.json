@@ -2,7 +2,7 @@
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
   "cash_usdt": 9492.78,
-  "portfolio_value_usdt": 9986.75,
+  "portfolio_value_usdt": 9988.09,
   "positions": [
     {
       "ticker": "TRX",
@@ -10,9 +10,9 @@
       "entry_utc": "2026-08-12T07:17:14Z",
       "entry_price": 0.3361,
       "qty": 1488.3158,
-      "notional_usdt": 493.97,
+      "notional_usdt": 495.31,
       "avg_entry_price": 0.33595,
-      "size_pct_current": 4.95,
+      "size_pct_current": 4.96,
       "target_size_pct": 10.0,
       "stage": "trimmed_half",
       "target": 0.375,
@@ -95,6 +95,13 @@
           "conviction": "Weakening",
           "confluence": "4/10 (1/10 Bearish)",
           "action": "hold remaining half, no further trim -- price $0.3319 (+0.24% vs AM close $0.3311, -1.21% vs avg entry $0.33595), still above 50DMA ($0.327648) and 200DMA ($0.319131), headroom to invalidation $0.318 ~4.19% (roughly unchanged from AM's 3.96%, not tighter). RSI 54.7 (mid band). 7d OI printed -1.6%, continuing to deteriorate from AM's -0.4% first-negative print (7d OI: +0.7% -> -0.4% -> -1.6%) -- reaffirmed the p7_oi Neutral->Bearish override on the same standing trigger, logged in SIGNALS.csv; 24h OI improved to -2.6% (from -7.0% AM), a partial stabilization on the shorter window even as the 7d trend (the metric the thesis actually tests) kept worsening. Confluence held flat at 4/10 Bullish, 1/10 Bearish -- unchanged from AM, nowhere near the 4/10-for-2-consecutive-checkpoints mechanical exit gate. Checked the AM red-team's explicit restore/escalate criteria: OI has NOT re-expanded (7d OI got more negative, not less) and there was no clean re-break above the 50DMA (dev is 1.3%, essentially flat vs AM's structure) -- neither condition met to restore conviction to Intact. But the mechanical Bearish count also did not increase beyond the single p7 override (still 1/10, not 2/10+), and invalidation was not breached and did not tighten -- so no basis to escalate to a full exit either. Judgment: hold conviction at Weakening (no change), thesis stays Stalled, remaining half held unchanged, flagged again for the next checkpoint -- a second consecutive Bearish-count increase, any invalidation-headroom compression, or a $0.318 breach closes the remainder out; genuine OI re-expansion or a clean 50DMA re-break restores Intact."
+        },
+        {
+          "checkpoint": "2026-08-17 AM",
+          "thesis_status": "Stalled",
+          "conviction": "Weakening",
+          "confluence": "4/10 (0/10 Bearish)",
+          "action": "hold, no changes -- price $0.3328 (+0.27% vs PM close $0.3319, -0.92% vs avg entry $0.33595), still above 50DMA ($0.327846) and 200DMA ($0.319317) in golden-cross structure, headroom to invalidation $0.318 widened slightly to 4.65% (from 4.19% PM). RSI 56.7 (mid band). 7d OI printed -0.3%, breaking the three-checkpoint deterioration streak that justified the standing override (+0.7% -> -0.4% -> -1.6% -> -0.3%); 24h OI also improved to -0.5% (from -2.6% PM, -7.0% AM 08-16). Mechanical p7_oi read Neutral this run -- LIFTED the p7 Bearish override since its specific trigger (worsening each checkpoint) no longer holds; logged in SIGNALS.csv. Bearish count now 0/10 (down from 1/10 the last two checkpoints). This is real stabilization but not yet the 'genuine OI re-expansion' the 08-16 AM red-team set as the bar to restore conviction to Intact (7d OI is still net negative, not positive) -- keeping conviction at Weakening and thesis at Stalled for one more checkpoint to confirm the trend has actually turned before upgrading. No exit trigger (0/10 Bearish, invalidation not breached). Sentiment (p1) read Neutral -- flat interest, no euphoria, no capitulation, no red-flag claims this run."
         }
       ]
     }
