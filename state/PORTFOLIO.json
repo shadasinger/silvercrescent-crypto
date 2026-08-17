@@ -2,7 +2,7 @@
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
   "cash_usdt": 9492.78,
-  "portfolio_value_usdt": 9988.09,
+  "portfolio_value_usdt": 9985.56,
   "positions": [
     {
       "ticker": "TRX",
@@ -10,9 +10,9 @@
       "entry_utc": "2026-08-12T07:17:14Z",
       "entry_price": 0.3361,
       "qty": 1488.3158,
-      "notional_usdt": 495.31,
+      "notional_usdt": 492.78,
       "avg_entry_price": 0.33595,
-      "size_pct_current": 4.96,
+      "size_pct_current": 4.93,
       "target_size_pct": 10.0,
       "stage": "trimmed_half",
       "target": 0.375,
@@ -102,6 +102,13 @@
           "conviction": "Weakening",
           "confluence": "4/10 (0/10 Bearish)",
           "action": "hold, no changes -- price $0.3328 (+0.27% vs PM close $0.3319, -0.92% vs avg entry $0.33595), still above 50DMA ($0.327846) and 200DMA ($0.319317) in golden-cross structure, headroom to invalidation $0.318 widened slightly to 4.65% (from 4.19% PM). RSI 56.7 (mid band). 7d OI printed -0.3%, breaking the three-checkpoint deterioration streak that justified the standing override (+0.7% -> -0.4% -> -1.6% -> -0.3%); 24h OI also improved to -0.5% (from -2.6% PM, -7.0% AM 08-16). Mechanical p7_oi read Neutral this run -- LIFTED the p7 Bearish override since its specific trigger (worsening each checkpoint) no longer holds; logged in SIGNALS.csv. Bearish count now 0/10 (down from 1/10 the last two checkpoints). This is real stabilization but not yet the 'genuine OI re-expansion' the 08-16 AM red-team set as the bar to restore conviction to Intact (7d OI is still net negative, not positive) -- keeping conviction at Weakening and thesis at Stalled for one more checkpoint to confirm the trend has actually turned before upgrading. No exit trigger (0/10 Bearish, invalidation not breached). Sentiment (p1) read Neutral -- flat interest, no euphoria, no capitulation, no red-flag claims this run."
+        },
+        {
+          "checkpoint": "2026-08-17 PM",
+          "thesis_status": "Stalled",
+          "conviction": "Weakening",
+          "confluence": "4/10 (0/10 Bearish)",
+          "action": "hold, no changes -- price $0.3311 (-0.51% vs AM close $0.3328, -1.44% vs avg entry $0.33595), still above 50DMA ($0.327812) and 200DMA ($0.319308) in golden-cross structure, headroom to invalidation $0.318 ~3.96% (narrowed back from AM's 4.65%). RSI 53.0 (mid band, cooling further). 7d OI printed -3.4%, reversing AM's -0.3% stabilization print and the worst 7d OI reading since the -1.6% mid-week low (7d OI run: +0.7% -> -0.4% -> -1.6% -> -0.3% -> -3.4%); 24h OI improved to +0.4% (first positive 24h print of the hold) -- a mixed signal, short-window stabilizing while the 7d trend the thesis actually tests got worse again. Mechanical p7_oi still reads Neutral (the 'OI collapsing after a rally' Bearish threshold requires oi_7d < -15% with a rising week; TRX's 7d price change is only +0.06%, essentially flat, not a rally, so the literal rubric test isn't met) -- no override applied, logged reasoning in SIGNALS.csv. Bearish count held at 0/10, confluence flat at 4/10 Bullish -- no exit trigger (invalidation not breached, no 2-consecutive-checkpoint Bearish gate crossed). The AM 08-17 red-team's bar to restore conviction to Intact (genuine OI re-expansion, or a clean 50DMA re-break) was NOT met -- OI moved further from re-expansion, not closer -- so conviction stays Weakening and thesis stays Stalled for another checkpoint. No new trim: the trim-half rule already fired once on the Weakening transition (2026-08-16 AM); this checkpoint's deterioration is a continuation of the same unresolved signal, not a fresh threshold crossing, consistent with how the two prior 'held, Weakening' checkpoints (PM 08-16, AM 08-17) were treated. Sentiment (p1) read Neutral -- flat interest, no euphoria beyond generic TA chatter, no capitulation, no red-flag claims. Flagging explicitly for the 2026-08-26 interim review: three of the last five checkpoints have now printed negative 7d OI, and the one 'improving' print (AM 08-17) proved a single-checkpoint blip rather than a turn -- if the next checkpoint fails to show real re-expansion, this should be treated as a stronger case for a full exit rather than continued half-sized holding."
         }
       ]
     }

@@ -1,15 +1,15 @@
-BRIEFING — 2026-08-17 MID
+BRIEFING — 2026-08-17 PM
 
 Top 5 considerations:
-1. MORPHO — confluence 6/10 — DMA/RSI/rvol/funding/OI/stables/MVRV all Bullish territory, but the 2026-08-16 PM arm LAPSED this morning (dropped from 7/9 to 6/9 mechanical) as sentiment stayed a flat Neutral despite a cleaner, more positive narrative ($5B Base TVL, exchange outflows) — needs a fresh 7/10+ print to re-arm.
-2. ETH — confluence 5/10 — OI and price both rising on calm funding, but mild euphoria markers (whale-buy talk, "local bottom" calls) kept sentiment Neutral rather than Bullish; 2 short of arming.
-3. TRX (held) — confluence 4/10, 0/10 Bearish — the OI deterioration behind last week's trim has stabilized (7d OI -0.3% this AM, further improved to -0.5% 24h in this refresh); Bearish count at zero but conviction stays Weakening pending one more checkpoint to confirm the turn.
-4. BNB — confluence 4/10 — RSI/funding/OI/MVRV Bullish, still below the 50DMA and sentiment untested (mechanical count under the 5-trigger); 3 short of arming.
-5. CAKE — confluence 4/10 — RSI/rvol/funding/MVRV Bullish, same 50DMA cap holding it back, sentiment untested; 3 short of arming.
+1. ETH — confluence 6/10 — RSI/rvol/funding/OI/stables/MVRV all Bullish; sentiment stayed flat/Neutral (no crowd extreme) — 1 short of arming.
+2. ZEC — confluence 6/10 — DMA/RSI/volz/funding/stables/MVRV Bullish; a couple of bullish TA calls but not a lopsided crowd read — 1 short of arming.
+3. MORPHO — confluence 6/10 — DMA/RSI/funding/OI/stables/MVRV Bullish for a third straight checkpoint; sentiment still flat/Neutral, same story as this morning — 1 short of arming.
+4. CAKE — confluence 6/10 — RSI/rvol/funding/OI/stables/MVRV Bullish; sentiment flat/Neutral on routine technical chatter — 1 short of arming.
+5. TRX (held) — confluence 4/10, 0/10 Bearish — 7d OI reversed hard (-0.3% -> -3.4%), worst OI print of the hold, but doesn't cross the rubric's Bearish threshold since TRX isn't in a "rally" (7d price flat); conviction stays Weakening — flagged for likely exit if OI doesn't turn by next checkpoint.
 
 Holdings:
-TRX | 4.95% | entry $0.33595 -> now $0.332 | -1.18% | -$0.0040 per coin | position P&L -$5.88
+TRX | 4.93% | entry $0.33595 -> now $0.3311 | -1.44% | -$0.0049 per coin | position P&L -$7.22
 
-Portfolio: $9,986.90 (-0.13% / -$13.10 since inception)
-Regime: F&G 31 (steady Fear), MVRV healthy (BTC 1.19 / ETH 0.92), stablecoin supply still growing (+0.34% 7d) — broadly unchanged backdrop.
-Watchlist: no changes — full re-score of all 18 uncapped rotating members completed (deferred from 2026-08-16); WLFI and JTO reaffirmed rejected on red flags, AVAX/SUI/NEAR/DOT stay sector-capped, no other candidate outscores current holdings.
+Portfolio: $9,985.56 (-0.14% / -$14.44 since inception)
+Regime: F&G 31 (steady Fear), MVRV healthy (BTC 1.19 / ETH 0.92), stablecoin supply still growing (+0.13% 7d) — broadly unchanged backdrop.
+Pre-mortem: "BTC -15% overnight" wouldn't hit >=3 positions (only 1, half-sized) — no de-risk action; 95%+ cash remains the primary buffer.
