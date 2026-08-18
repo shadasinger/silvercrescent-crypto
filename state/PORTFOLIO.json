@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 9492.78,
-  "portfolio_value_usdt": 9988.84,
+  "cash_usdt": 6995.47,
+  "portfolio_value_usdt": 9989.28,
   "positions": [
     {
       "ticker": "TRX",
@@ -116,6 +116,137 @@
           "conviction": "Weakening",
           "confluence": "7/10 (0/10 Bearish)",
           "action": "hold, no changes -- price $0.3333 (+0.66% vs PM close $0.3311, -0.79% vs avg entry $0.33595), still above 50DMA ($0.328054) and 200DMA ($0.319505) in golden-cross structure, headroom to invalidation $0.318 widened to ~4.59% (from 3.96% PM). RSI 57.9 (mid band). 7d OI printed -3.1%, a marginal improvement on PM's -3.4% but still net negative for the fourth checkpoint running; 24h OI -0.1% (down from PM's +0.4%). Mechanical p7_oi reads Neutral again (unchanged). Confluence jumped mechanically to 7/10 Bullish, 0/10 Bearish this run (p5 volz and p1 sentiment both landed Neutral, p2-p4/p6/p8-p10 all Bullish) -- a real improvement in the surrounding parameter picture (DMA structure, RSI, funding, MVRV, F&G all constructive), but this is a held position under Section 5 step 4 (thesis/conviction review), not a new-entry decision, so the 7/10 read does not itself trigger any action. Checked the standing 08-17 red-team bar to restore conviction to Intact (genuine OI re-expansion -- i.e. 7d OI turning positive -- or a clean 50DMA re-break): NEITHER met -- 7d OI is still negative, and price was already above the 50DMA (no re-break, just continued extension). Keeping conviction at Weakening and thesis at Stalled for one more checkpoint pending an actual OI turn. No exit trigger (0/10 Bearish, invalidation not breached), no new trim (no fresh threshold crossed since the 2026-08-16 AM trim-half). Sentiment (p1) read Neutral -- flat interest, factual treasury-buy/ETF-filing narrative, no euphoria or capitulation. Interim review remains 2026-08-26; if 7d OI has not turned positive by then, bias shifts toward a full exit of the remaining half rather than continued holding on an unresolved thesis-test."
+        },
+        {
+          "checkpoint": "2026-08-18 PM",
+          "thesis_status": "Stalled",
+          "conviction": "Weakening",
+          "confluence": "8/10 (1/10 Bearish)",
+          "action": "hold, no changes -- price $0.3336 (+0.09% vs AM close $0.3333, -0.70% vs avg entry $0.33595), still above 50DMA ($0.32806) and 200DMA ($0.319506) in golden-cross structure, headroom to invalidation $0.318 ~4.68% (roughly unchanged from AM's 4.59%). RSI 58.5 (mid band). 7d OI printed -7.4%, more than doubling the prior worst single-checkpoint reading (-3.4% PM 08-17) and continuing an OI series that has now been net negative for five of the last six checkpoints (-0.4,-1.6,-0.3,-3.4,-3.1,-7.4); 24h OI +0.6% (mild). This is the sharpest single-checkpoint deterioration of the hold on the exact metric the entry thesis names as its confirmation leg (\"OI keeps expanding alongside price, not diverging\"). OVERRODE p7_oi Neutral->Bearish this checkpoint (literal rubric threshold oi_7d<-15% with a rising week still not met -- TRX 7d price chg is -0.48%, not a rally -- but the magnitude/direction of the move warrants the override on rubric-misread grounds, reinstating the logic first applied 2026-08-16 AM), logged in SIGNALS.csv. Bearish count moved 0->1/10; mechanical confluence read 8/10 Bullish this checkpoint (DMA/RSI/rvol/volz/funding/stables/MVRV/F&G all Bullish, only the overridden p7 not Bullish) -- a held position under Section 5 step 4, so the high Bullish count does not itself trigger anything. Checked the standing red-team bar to restore conviction to Intact (genuine OI re-expansion, i.e. 7d OI turning positive, or a clean 50DMA re-break): neither met -- OI moved sharply further from re-expansion, not closer. Conviction stays Weakening, thesis stays Stalled. No exit trigger (1/10 Bearish, not 2 consecutive checkpoints at >=4/10; invalidation not breached), no new trim (no fresh 4/10-Bearish threshold crossed since the 2026-08-16 AM trim-half, and per the precedent set on 08-16 PM/08-17 AM/08-17 PM a continuation of the same unresolved OI signal is not treated as a fresh threshold crossing on its own). Sentiment (p1) read Neutral -- rising interest but factual (Tron Inc. treasury buys, GasFree/USDD, staked-TRX ETF filing), no crowd extreme. Escalating the interim-review flag explicitly: this is the worst OI print of the hold, more than double any prior checkpoint's move: if 7d OI has not clearly turned positive by the 2026-08-26 interim review -- or if it deteriorates further past this checkpoint's level -- the remaining half should be treated as a strong full-exit candidate rather than continuing to hold on an unresolved and now-accelerating thesis-test failure."
+        }
+      ]
+    },
+    {
+      "ticker": "CAKE",
+      "sector": "DEX",
+      "entry_utc": "2026-08-18T19:05:57Z",
+      "entry_price": 1.504,
+      "qty": 332.0878,
+      "notional_usdt": 499.46,
+      "avg_entry_price": 1.504,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 1.75,
+      "invalidation": 1.39,
+      "planned_R": 2.16,
+      "stated_p": 0.48,
+      "tier": "C",
+      "confluence_at_entry": 8,
+      "hold_until": "2026-09-15",
+      "interim_review_date": "2026-09-01",
+      "thesis": "BNB-chain DEX with burn mechanics; PancakeSwap fee/burn engine driving a DEX-volume-share narrative, real OI expansion confirming the price uptrend (24h +10.6%, 7d +11.6%), price above both 50DMA ($1.41348) and 200DMA ($1.41011) in a tight golden-cross cluster, RSI 67.0 upper-mid band with some room before overbought. Confluence confirmed 8/10 Bullish at 2 consecutive checkpoints (AM 08-18 8/10 armed -> PM 08-18 8/10 confirmed). Contrarian sentiment read Bearish this checkpoint (rocket-emoji / \"$50 target, 55x\" / tokenization-hype cluster) -- the one caution flag on an otherwise clean mechanical picture, logged as the parameter to watch.",
+      "thesis_test": "OI keeps expanding alongside price (not diverging); price holds above the $1.41 50/200DMA cluster; funding stays near-zero (no crowding). The contrarian-Bearish sentiment read is the explicit watch item -- if euphoria intensifies further alongside price stalling or reversing, that combination is the early-warning signal for this thesis.",
+      "invalidation_conditions": "Price closes below $1.39 (below the tight 50/200DMA cluster, breaking the golden-cross structure) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-18 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "8/10"
+        }
+      ]
+    },
+    {
+      "ticker": "ETH",
+      "sector": "Major L1",
+      "entry_utc": "2026-08-18T19:05:57Z",
+      "entry_price": 1916.02,
+      "qty": 0.2607,
+      "notional_usdt": 499.46,
+      "avg_entry_price": 1916.02,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 2100.0,
+      "invalidation": 1830.0,
+      "planned_R": 2.13,
+      "stated_p": 0.42,
+      "tier": "C",
+      "confluence_at_entry": 8,
+      "hold_until": "2026-09-15",
+      "interim_review_date": "2026-09-01",
+      "thesis": "Settlement-layer/RWA L1 in a base-building phase: price ($1916.02) sits between the 50DMA ($1850.76, below price) and the 200DMA ($2005.38, still overhead) -- DMA structure reads mechanically Neutral (not a golden cross), the weakest structural leg of this entry. RSI 57.1 mid-band, OI expanding (24h +1.0%, 7d +13.4%) confirming the tape, funding flat, MVRV/stables/F&G all constructive. Confluence confirmed >=7/10 Bullish at 2 consecutive checkpoints (AM 08-18 7/10 armed -> PM 08-18 8/10 confirmed). Contrarian sentiment read Bullish (net capitulation-tilted chatter, 3:1 despair-to-euphoria, though the offset was thinner than a clean one-sided read) -- flagged as a lower-conviction sentiment call than usual.",
+      "thesis_test": "A clean reclaim of the 200DMA ($2005.38) not diverging from OI is the specific structural confirmation this thesis needs -- until then this is the weakest-structure entry of the four opened this checkpoint and the first candidate for a cut if the DMA structure fails to improve.",
+      "invalidation_conditions": "Price closes below $1830 (below the 50DMA, eliminating even the partial structural support) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-18 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "8/10"
+        }
+      ]
+    },
+    {
+      "ticker": "ZEC",
+      "sector": "Privacy",
+      "entry_utc": "2026-08-18T19:05:57Z",
+      "entry_price": 509.37,
+      "qty": 1.9611,
+      "notional_usdt": 998.93,
+      "avg_entry_price": 509.37,
+      "size_pct_current": 10.0,
+      "target_size_pct": 20.0,
+      "stage": "stage1_half",
+      "target": 590.0,
+      "invalidation": 482.0,
+      "planned_R": 2.95,
+      "stated_p": 0.45,
+      "tier": "B",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-09-15",
+      "interim_review_date": "2026-09-01",
+      "thesis": "Privacy narrative re-rate (permanent slot) with the cleanest structure of the four adds: price above both 50DMA ($494.49) and 200DMA ($395.42) in golden-cross state with a wide cushion to the 200DMA, RSI 54.8 mid-band with real room to run, OI confirming (24h +6.0%, 7d +9.5%). Mining-expansion (Cypherpunk/Winklevoss-backed, now 1.92% of supply) and privacy-tooling (ShieldedLabs zero-indexer) narrative constructive but not hyped. Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (AM 08-18 7/10 armed, 1/10 Bearish -> PM 08-18 7/10 confirmed, 0/10 Bearish -- the AM Bearish flag on p5 volume-z cleared). Sentiment read Neutral (factual, no crowd extreme) both checkpoints.",
+      "thesis_test": "OI keeps expanding alongside price; price holds above the 50DMA ($494.49); RSI stays out of overbought (<75) as price extends toward target.",
+      "invalidation_conditions": "Price closes below $482 (below the 50DMA) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-18 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10"
+        }
+      ]
+    },
+    {
+      "ticker": "MORPHO",
+      "sector": "DeFi Lending",
+      "entry_utc": "2026-08-18T19:05:57Z",
+      "entry_price": 2.131,
+      "qty": 234.3782,
+      "notional_usdt": 499.46,
+      "avg_entry_price": 2.131,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 2.55,
+      "invalidation": 1.95,
+      "planned_R": 2.32,
+      "stated_p": 0.45,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-09-15",
+      "interim_review_date": "2026-09-01",
+      "thesis": "Institutional DeFi-lending infra taking AAVE share; the strongest OI conviction of the four adds (24h +17.6%, 7d +29.8%), price above both 50DMA ($1.9925) and 200DMA ($1.82542) in golden-cross state, RSI 64.6 upper-mid band. Dev-from-50DMA is +7.0%, the most extended of the four adds -- overextension is the main structural risk to watch, not a lack of momentum. Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (AM 08-18 7/10 armed -> PM 08-18 7/10 confirmed, 0/10 Bearish both checkpoints). Sentiment read Neutral (factual TVL/institutional-ties chatter, no crowd extreme) both checkpoints. Note: MORPHO armed once before (2026-08-16 PM at 7/10) and lapsed the next checkpoint -- this arm/confirm sequence started fresh 2026-08-18 AM.",
+      "thesis_test": "OI keeps expanding alongside price (currently the strongest OI signal of the four adds); dev-from-50DMA does not run past the ~25% overextension threshold; price holds above the 50DMA ($1.9925).",
+      "invalidation_conditions": "Price closes below $1.95 (below the 50DMA) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-18 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10"
         }
       ]
     }
