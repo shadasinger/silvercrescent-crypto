@@ -2,7 +2,7 @@
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
   "cash_usdt": 9492.78,
-  "portfolio_value_usdt": 9985.56,
+  "portfolio_value_usdt": 9988.84,
   "positions": [
     {
       "ticker": "TRX",
@@ -12,7 +12,7 @@
       "qty": 1488.3158,
       "notional_usdt": 492.78,
       "avg_entry_price": 0.33595,
-      "size_pct_current": 4.93,
+      "size_pct_current": 4.97,
       "target_size_pct": 10.0,
       "stage": "trimmed_half",
       "target": 0.375,
@@ -109,6 +109,13 @@
           "conviction": "Weakening",
           "confluence": "4/10 (0/10 Bearish)",
           "action": "hold, no changes -- price $0.3311 (-0.51% vs AM close $0.3328, -1.44% vs avg entry $0.33595), still above 50DMA ($0.327812) and 200DMA ($0.319308) in golden-cross structure, headroom to invalidation $0.318 ~3.96% (narrowed back from AM's 4.65%). RSI 53.0 (mid band, cooling further). 7d OI printed -3.4%, reversing AM's -0.3% stabilization print and the worst 7d OI reading since the -1.6% mid-week low (7d OI run: +0.7% -> -0.4% -> -1.6% -> -0.3% -> -3.4%); 24h OI improved to +0.4% (first positive 24h print of the hold) -- a mixed signal, short-window stabilizing while the 7d trend the thesis actually tests got worse again. Mechanical p7_oi still reads Neutral (the 'OI collapsing after a rally' Bearish threshold requires oi_7d < -15% with a rising week; TRX's 7d price change is only +0.06%, essentially flat, not a rally, so the literal rubric test isn't met) -- no override applied, logged reasoning in SIGNALS.csv. Bearish count held at 0/10, confluence flat at 4/10 Bullish -- no exit trigger (invalidation not breached, no 2-consecutive-checkpoint Bearish gate crossed). The AM 08-17 red-team's bar to restore conviction to Intact (genuine OI re-expansion, or a clean 50DMA re-break) was NOT met -- OI moved further from re-expansion, not closer -- so conviction stays Weakening and thesis stays Stalled for another checkpoint. No new trim: the trim-half rule already fired once on the Weakening transition (2026-08-16 AM); this checkpoint's deterioration is a continuation of the same unresolved signal, not a fresh threshold crossing, consistent with how the two prior 'held, Weakening' checkpoints (PM 08-16, AM 08-17) were treated. Sentiment (p1) read Neutral -- flat interest, no euphoria beyond generic TA chatter, no capitulation, no red-flag claims. Flagging explicitly for the 2026-08-26 interim review: three of the last five checkpoints have now printed negative 7d OI, and the one 'improving' print (AM 08-17) proved a single-checkpoint blip rather than a turn -- if the next checkpoint fails to show real re-expansion, this should be treated as a stronger case for a full exit rather than continued half-sized holding."
+        },
+        {
+          "checkpoint": "2026-08-18 AM",
+          "thesis_status": "Stalled",
+          "conviction": "Weakening",
+          "confluence": "7/10 (0/10 Bearish)",
+          "action": "hold, no changes -- price $0.3333 (+0.66% vs PM close $0.3311, -0.79% vs avg entry $0.33595), still above 50DMA ($0.328054) and 200DMA ($0.319505) in golden-cross structure, headroom to invalidation $0.318 widened to ~4.59% (from 3.96% PM). RSI 57.9 (mid band). 7d OI printed -3.1%, a marginal improvement on PM's -3.4% but still net negative for the fourth checkpoint running; 24h OI -0.1% (down from PM's +0.4%). Mechanical p7_oi reads Neutral again (unchanged). Confluence jumped mechanically to 7/10 Bullish, 0/10 Bearish this run (p5 volz and p1 sentiment both landed Neutral, p2-p4/p6/p8-p10 all Bullish) -- a real improvement in the surrounding parameter picture (DMA structure, RSI, funding, MVRV, F&G all constructive), but this is a held position under Section 5 step 4 (thesis/conviction review), not a new-entry decision, so the 7/10 read does not itself trigger any action. Checked the standing 08-17 red-team bar to restore conviction to Intact (genuine OI re-expansion -- i.e. 7d OI turning positive -- or a clean 50DMA re-break): NEITHER met -- 7d OI is still negative, and price was already above the 50DMA (no re-break, just continued extension). Keeping conviction at Weakening and thesis at Stalled for one more checkpoint pending an actual OI turn. No exit trigger (0/10 Bearish, invalidation not breached), no new trim (no fresh threshold crossed since the 2026-08-16 AM trim-half). Sentiment (p1) read Neutral -- flat interest, factual treasury-buy/ETF-filing narrative, no euphoria or capitulation. Interim review remains 2026-08-26; if 7d OI has not turned positive by then, bias shifts toward a full exit of the remaining half rather than continued holding on an unresolved thesis-test."
         }
       ]
     }
