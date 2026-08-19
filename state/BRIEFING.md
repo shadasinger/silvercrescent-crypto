@@ -1,16 +1,15 @@
-BRIEFING — 2026-08-19 AM
+BRIEFING — 2026-08-19 MID
 Top 5 considerations:
-1. ICP — confluence 6/10 (0 Bearish) — no crowd extreme, capitulation chatter vs an intact build/shipping narrative read contrarian-Bullish; mechanical count alone (5/9) still 2 short of arming.
-2. SOL — confluence 6/10 (0 Bearish) — arm from last PM lapsed; clean mechanical picture but sentiment cooled to Neutral, one short of re-arming.
-3. TRX — confluence 6/10 (1 Bearish) — just exited; 7d open interest printed -13.6%, the worst OI reading of the whole hold, so remaining half was closed rather than waiting on the Aug 26 interim review.
-4. ETH — confluence 5/10 (0 Bearish) — just cut; entry's self-flagged weakest leg (no golden cross) never resolved, price essentially flat since entry.
-5. ZEC — confluence 5/10 (0 Bearish) — just cut; still structurally healthy (no invalidation risk) but RSI/vol cooled below the 7/10 staged-entry confirmation bar.
-No coin reached the 7/10 arming bar this checkpoint — a quiet market open after yesterday's four new entries.
+1. ZEC — mechanical 7/9 params Bullish, 0 Bearish — Privacy structure clean across DMA/RSI/OI/funding/MVRV/F&G/stables; not armed (exited this AM on staged-entry non-confirmation); needs a fresh PM sentiment (p1) read to test the 7/10 gate again.
+2. ETH — mechanical 6/9, 0 Bearish — DMA structure still Neutral (price sits between 50/200DMA, no golden cross), the same weak leg flagged at yesterday's entry; needs a clean 200DMA reclaim, not just a label flip, to matter.
+3. TRX — mechanical 6/9, 0 Bearish — the OI thesis-test that drove this morning's full exit (-13.6% 7d) hasn't reversed; a high label count here is not a reason to reconsider without real OI re-expansion.
+4. MORPHO — mechanical 6/9, 0 Bearish — the 24h OI collapse that triggered this morning's cut is the swing factor the count doesn't capture; overextension risk flagged at exit still stands.
+5. BTC — mechanical 5/9, 0 Bearish — regime anchor, flat/noisy overnight (-0.74% then +0.3%); DMA/RSI/rvol/volz all rolled Neutral on the quiet tape.
+(Mechanical counts only — MID does not run p1 sentiment or full confluence scoring; no coin is armed, confirmed, or entry_blocked. This is a sourcing routine, not a trading checkpoint.)
 
 Holdings:
 None — 100% USDT ($9,968.79)
 
 Portfolio: $9,968.79 (-0.31% / -$31.21 since inception)
-Regime: Fear & Greed 46 (easing further toward Neutral, +19 over 7d), stablecoin supply still growing (+0.12% 7d, decelerating), MVRV healthy (BTC 1.23 / ETH 0.94, both sub-2).
-
-Note: this was a heavy-turnover checkpoint. TRX's remaining half was exited on a comprehensively failed OI thesis-test (pre-committed at the prior checkpoint). CAKE, ETH, ZEC, and MORPHO — all opened as half-positions yesterday PM — each failed their mandatory next-checkpoint confluence re-confirmation (all fell to 5/10, needed ≥7/10) and were cut per the staged-entry rule, not on any single deterioration in the broader market (BTC was roughly flat overnight, -0.7%). CAKE's cut closed +$11.96 despite price rising, since only mean-reverting sub-indicators (RSI, volume-z) rolled over — flagged as a testable rule refinement in LESSONS.md. Book is now 100% cash; no position is currently armed or confirmed.
+Regime: Fear & Greed 46 (Fear/Neutral border, +19 over 7d), stablecoin supply +0.32% 7d (growing, accelerating slightly), MVRV healthy (BTC 1.23 / ETH 0.94, both sub-2).
+Watchlist: no changes. Screened POL (L2, Ithaca upgrade + payments pivot, but only a lateral score vs the current lowest rotating members), PYTH and ZRO (no fresh catalyst), and re-screened WLFI (Trump-family entity vs. Justin Sun defamation suit escalated this window — reaffirmed reject). All non-watchlist L1/DEX/AI candidates remain sector-capped out regardless of score. No red flags on any of the 30 watchlist tickers this window.
