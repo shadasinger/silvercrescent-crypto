@@ -185,3 +185,137 @@ Mechanical parameters unchanged in shape from AM (DMA golden-state, RSI 65.9 hea
 **Runner-up candidates this checkpoint:** none competing for this slot — see CAKE entry above for the shared context (4 confirmed candidates filled exactly 4 open slots).
 
 **Sector:** DeFi Lending. 1 of 5 positions, 1 of 2 max in sector.
+
+## EXIT POST-MORTEM — TRX — 2026-08-19 AM (full exit, remaining half)
+
+**P&L:** Two tranches. 08-16 AM trim-half: -$7.22 (proceeds $492.78 vs cost $500.00). 08-19 AM full exit of remainder: -$4.09 (proceeds $495.91 vs cost basis $499.99 at avg entry $0.33595). **Total realized P&L on the hold: -$11.31** on ~$999.55 deployed at peak (10% of portfolio) — roughly -1.13% on the position, -0.11% of total portfolio.
+
+**Realized R vs planned:** Tranche 1: -0.27 vs planned 2.15. Tranche 2: -0.15 vs planned 2.15. Neither tranche came close to the planned R — the position never reached target or hit a hard stop; it was closed on thesis-test failure instead.
+
+**Thesis verdict:** Broken. The entry thesis's stated confirmation leg — "OI keeps expanding alongside price, not diverging" — ran in reverse almost the entire hold. 7d OI went from +19.0% (day of entry) to -13.6% (day of exit), decelerating or negative in 7 of the last 8 checkpoints. Price itself held up reasonably well throughout (never breached invalidation, stayed in golden-cross structure to the end) — this was an OI-divergence failure, not a price-structure failure.
+
+**Per-parameter verdict (frozen AM 2026-08-12 entry table):**
+| # | Parameter | Entry label | Verdict | Note |
+|---|---|---|---|---|
+| 1 | Sentiment | Neutral | Irrelevant | Never a standalone signal; stayed Neutral-to-mixed most of the hold, no strong read either direction. |
+| 2 | DMA | Bullish | Right (but insufficient alone) | Price stayed above both DMAs the entire hold — structure never failed. |
+| 3 | RSI | Bullish (66.3) | Right short-term, faded | Cooled from 66→58 over the hold, tracking the broader momentum fade rather than leading it. |
+| 4 | Rvol | Bullish | Neutral/uninformative | Compression thesis didn't translate into a breakout; vol stayed muted throughout. |
+| 5 | Volume z | Neutral | Uninformative | Never cleared a threshold either direction during the hold. |
+| 6 | Funding | Bullish | Right | Stayed near-zero the whole hold — no crowding risk materialized in either direction, as expected. |
+| 7 | OI Δ | Bullish | **Wrong — the critical miss** | This was the thesis's named confirmation leg and it inverted almost immediately after entry and kept deteriorating for 7 of 8 checkpoints. The single parameter that should have carried this trade instead killed it. |
+| 8 | Stablecoins | Bullish | Irrelevant to this name | Global parameter, applies identically to all coins — no coin-specific information. |
+| 9 | MVRV | Bullish | Irrelevant to this name | Same — global regime parameter, not TRX-specific. |
+| 10 | F&G | Neutral | Irrelevant to this name | Same — global regime parameter. |
+
+**p calibration:** Stated p=0.42 at entry. Outcome: loss, consistent with p<0.5, but the trade didn't fail on a probabilistic miss (price never hit invalidation) — it failed on thesis-test invalidation via OI, a mechanism the expectancy sheet didn't explicitly price in. Not a clean calibration data point either way.
+
+**Sizing/timing verdict:** Sizing discipline worked as designed — the 08-16 AM trim-half on the first Weakening signal cut expected loss roughly in half versus holding the full position to today's exit. Timing verdict: the exit itself was arguably late, not early — the OI thesis-test had been failing for 6+ checkpoints before this exit; a stricter rule (e.g., act on the first negative 7d OI print rather than waiting for repeated confirmation) would have saved most of the -$11.31.
+
+**Counterfactual vs runner-ups (AM 08-12 entry):** BNB and LINK both armed the checkpoint before TRX's entry and failed to confirm (mechanical counts collapsed). Neither would have been a better outcome to chase — this wasn't a selection-skill miss, TRX was the correct pick of that cohort at entry.
+
+**One testable lesson:** *Hypothesis: when a position's entry thesis names a single specific confirmation metric (here, OI Δ), a sustained reversal in that metric alone — even without 4/10 Bearish or an invalidation breach — should trigger faster de-risking than the general conviction ladder allows. Proposed rule change: add a "named thesis-test breach" exit trigger — 3 consecutive checkpoints of the entry thesis's stated confirmation metric moving the wrong direction should mandate at least a trim, independent of the general Bearish-count gate. Evidence that would confirm: future positions where this rule fires save realized loss vs. the general gate on a backtest of this and future holds. Evidence that would kill it: cases where the named metric round-trips and a fast trim would have cut a position that went on to recover.*
+
+## EXIT POST-MORTEM — CAKE — 2026-08-19 AM (staged-entry cut, no confirmation)
+
+**P&L:** +$11.96 on $499.46 deployed (+2.39% on the half-position, +0.12% of total portfolio). Realized R +0.32 vs planned 2.16 — small win, nowhere near target, but the only one of the four cuts to close green.
+
+**Thesis verdict:** Playing Out, not Broken — this cut was a rule mechanic (no second-half confirmation), not a thesis failure. Price rose +2.4% and OI kept expanding (7d +23.3%, even stronger than entry's +11.6%) in the 12-18 hours between entry and cut.
+
+**Per-parameter verdict (frozen PM 08-18 entry table):**
+| # | Parameter | Entry label | Verdict | Note |
+|---|---|---|---|---|
+| 1 | Sentiment | Bearish | Wrong direction, right call to flag | Contrarian-Bearish read didn't precede a reversal in the ~12h window — too short a window to fairly judge a sentiment call. |
+| 2 | DMA | Bullish | Right | Price extended further above both DMAs by exit. |
+| 3 | RSI | Bullish (67.0) | Faded to Neutral (71.6) | Correctly flagged as approaching the top of the healthy band at entry; it crossed into the Neutral zone one checkpoint later, exactly the kind of overextension risk the rubric exists to catch. |
+| 4 | Rvol | Bullish | Faded to Neutral | Compression thesis partially exhausted within one checkpoint. |
+| 5 | Volume z | Neutral | Flipped Bearish | The move worth watching — the price gain came on thin/negative volume-z, a genuine no-conviction signal that the mechanical rule correctly caught even though price itself was up. |
+| 6 | Funding | Bullish | Right | Stayed near-zero. |
+| 7 | OI Δ | Bullish | Right, even stronger | 7d OI accelerated from +11.6% to +23.3% — the strongest fundamental confirmation of any parameter in this cut. |
+| 8-10 | Global (stables/MVRV/F&G) | Bullish | Right | Regime stayed constructive. |
+
+**p calibration:** Stated p=0.48. Outcome: small win. Single data point, not calibration-informative at n=1.
+
+**Sizing/timing verdict:** The staged-entry rule did its job of limiting downside-if-wrong, but this is the clearest case among the four cuts that the *rule* (not the thesis) drove the exit — RSI/volume-z cooling one checkpoint after entry is a thin bar for cutting a position where price and OI both strengthened. Worth flagging for the monthly review as a possible false-negative case for the staged-confirmation rule.
+
+**Counterfactual vs runner-ups:** N/A — no competing candidate this slot at entry.
+
+**One testable lesson:** *Hypothesis: the staged-entry "cut on no confirmation" rule may be too strict when the cut is driven by RSI/volume-z noise rather than a reversal in price or OI (the two parameters most connected to the entry thesis). Proposed rule change: at the staged-entry confirmation checkpoint, weight price-direction and OI-direction more heavily than the full mechanical count — require confluence ≥7 OR (price up + OI up + confluence ≥5) to hold the second half. Evidence that would confirm: cases like this one where price/OI stayed strong but a low-signal parameter (RSI/volz) forced an unnecessary cut that left money on the table. Evidence that would kill it: cases where price/OI strength was a lagging, not leading, indicator and the mechanical cut correctly avoided a reversal shortly after.*
+
+## EXIT POST-MORTEM — ETH — 2026-08-19 AM (staged-entry cut, no confirmation)
+
+**P&L:** -$0.04 on $499.46 deployed — essentially breakeven. Realized R -0.00 vs planned 2.13.
+
+**Thesis verdict:** Stalled, not Broken — price was flat (-0.01%) over the ~12h hold, the shortest and most inconclusive of the four cuts. The entry thesis explicitly named this the weakest structural setup of the wave (DMA mechanically Neutral, not golden-cross) and flagged it as "the first candidate to cut if the second-half confirmation doesn't come through" — that flag played out exactly as anticipated.
+
+**Per-parameter verdict (frozen PM 08-18 entry table):**
+| # | Parameter | Entry label | Verdict | Note |
+|---|---|---|---|---|
+| 1 | Sentiment | Bullish (thin margin, logged as lower-conviction) | Correctly flagged as low-conviction | The capitulation tilt that justified it did not reappear the next checkpoint — the "thinner margin than usual" caveat at entry proved prescient. |
+| 2 | DMA | Neutral | Right to flag as weakest leg | Never resolved into a golden cross; still the structural gap the entry thesis explicitly said needed to close. |
+| 3 | RSI | Bullish | Right, unchanged | Stayed mid-band. |
+| 4 | Rvol | Bullish | Right, unchanged | Stayed compressed. |
+| 5 | Volume z | Neutral | Unchanged | No new information. |
+| 6 | Funding | Bullish | Right | Stayed near-zero. |
+| 7 | OI Δ | Bullish | Faded to Neutral | 7d OI decelerated sharply (+13.4%→+2.0%) alongside the flat price — the one parameter that visibly weakened. |
+| 8-10 | Global | Bullish | Right | Regime stayed constructive. |
+
+**p calibration:** Stated p=0.42 (already the lowest of the wave, correctly reflecting the weakest setup). Outcome: flat. Consistent with a low-conviction call that didn't resolve either way.
+
+**Sizing/timing verdict:** This is the cleanest validation of the staged-entry rule among the four — the position was flagged at entry as the first cut candidate, and it was the first (tied) to fail confirmation on genuinely fading fundamentals (OI deceleration), not just noisy sub-indicators. Sizing (half-size, 5%) correctly limited exposure to the weakest thesis of the wave.
+
+**Counterfactual vs runner-ups:** N/A.
+
+**One testable lesson:** *Hypothesis: an entry-day self-flagged "weakest structural leg" (here, non-golden-cross DMA) is a reliable predictor of staged-entry non-confirmation. Proposed rule change: when an entry's DMA reads mechanically Neutral rather than Bullish (i.e., not a clean golden cross) at confluence-gate time, cap initial sizing below the standard half-target rather than the full half, since these entries appear more likely to fail next-checkpoint confirmation. Evidence that would confirm: a pattern across future holds where Neutral-DMA entries fail confirmation at a higher rate than golden-cross entries. Evidence that would kill it: a Neutral-DMA entry that confirms and performs as well as golden-cross entries, showing DMA state isn't predictive of confirmation odds.*
+
+## EXIT POST-MORTEM — ZEC — 2026-08-19 AM (staged-entry cut, no confirmation)
+
+**P&L:** -$12.86 on $998.93 deployed (-1.29% on the half-position, -0.13% of total portfolio). Realized R -0.24 vs planned 2.95 — the largest planned-R gap of the four cuts (this was the Tier B, cleanest-structure entry of the wave).
+
+**Thesis verdict:** Stalled, not Broken — price pulled back -1.3% over the ~12h hold, a normal pullback within a still-intact golden-cross structure (still +1.3% above the 50DMA, well clear of invalidation). OI kept expanding (7d +10.0% vs +9.5% at entry) — the core thesis-test held.
+
+**Per-parameter verdict (frozen PM 08-18 entry table):**
+| # | Parameter | Entry label | Verdict | Note |
+|---|---|---|---|---|
+| 1 | Sentiment | Neutral | Right, unchanged | Stayed factual/flat, no crowd extreme either checkpoint. |
+| 2 | DMA | Bullish | Right | Structure held, still golden-cross. |
+| 3 | RSI | Neutral (54.8, just under the 55 floor) | Stayed Neutral | The entry table already flagged this as "just under" the Bullish band — it cooled further to a genuine Neutral read, not a reversal, just continued softness. |
+| 4 | Rvol | Bullish | Faded to Neutral | Compression thesis partially exhausted, similar pattern to CAKE. |
+| 5 | Volume z | Neutral | Unchanged | No new information. |
+| 6 | Funding | Bullish | Right | Stayed near-zero. |
+| 7 | OI Δ | Bullish | Right, even stronger | 7d OI held up and edged higher — the strongest-performing parameter of this cut, same pattern as CAKE. |
+| 8-10 | Global | Bullish | Right | Regime stayed constructive. |
+
+**p calibration:** Stated p=0.45. Outcome: small loss on a short window. Not calibration-informative at n=1, but notable that this was the highest-conviction (Tier B, R=2.95) entry of the wave and still failed same-day confirmation — a reminder that a strong expectancy sheet at entry doesn't buy immunity from the next-checkpoint confirmation bar.
+
+**Sizing/timing verdict:** Like CAKE, the two parameters most tied to the actual thesis (DMA, OI) stayed constructive while softer indicators (RSI, rvol) drove the mechanical count below 7 — a recurring pattern across three of the four cuts this checkpoint (CAKE, ETH, ZEC) worth flagging together for the monthly review.
+
+**Counterfactual vs runner-ups:** N/A.
+
+**One testable lesson:** *Hypothesis: three of today's four staged-entry cuts (CAKE, ETH, ZEC) failed confirmation primarily because RSI and realized-vol-ratio cooled from the top of their Bullish bands to Neutral one checkpoint after entry, while price and OI — the parameters most connected to each thesis — stayed constructive or improved. This suggests entries clustered near the top of the RSI/rvol Bullish bands (RSI 65-70, rvol near 0.75-0.80) are structurally likely to roll to Neutral within one checkpoint on pure mean-reversion, independent of thesis quality. Proposed rule change: at the staged-entry confirmation checkpoint, if the ONLY parameters that rolled over are RSI and/or rvol (both mean-reverting, range-bound indicators) while price, OI, and DMA all held or improved, treat that as a softer non-confirmation — hold the half rather than cutting, revisit at the following checkpoint. Evidence that would confirm: held-instead-of-cut positions matching this pattern subsequently re-qualify and outperform a full cut. Evidence that would kill it: this same pattern preceding a subsequent invalidation breach, showing RSI/rvol rollover was an early warning that should not be ignored.*
+
+## EXIT POST-MORTEM — MORPHO — 2026-08-19 AM (staged-entry cut, no confirmation)
+
+**P&L:** -$18.98 on $499.46 deployed (-3.80% on the half-position, -0.19% of total portfolio) — the largest loss of today's four cuts. Realized R -0.45 vs planned 2.32.
+
+**Thesis verdict:** Broken on the specific named metric, within one checkpoint. The entry thesis called this "the strongest OI conviction of the four adds (24h+17.6%, 7d+29.8%)" and flagged overextension (dev-from-50DMA +7.0%, the most extended of the wave) as "the main structural risk to watch, not a lack of momentum." Both risks materialized simultaneously: 24h OI reversed to -16.3% and price fell -3.8%, the sharpest same-day reversal of any of today's four cuts.
+
+**Per-parameter verdict (frozen PM 08-18 entry table):**
+| # | Parameter | Entry label | Verdict | Note |
+|---|---|---|---|---|
+| 1 | Sentiment | Neutral | Right, unchanged | Stayed factual/flat both checkpoints. |
+| 2 | DMA | Bullish | Faded but held | Still above 50DMA, extension eased from +7.0% to +2.8% on the pullback — consistent with the overextension risk flagged at entry. |
+| 3 | RSI | Bullish (64.6) | Right, roughly unchanged | Held mid-band (56.4). |
+| 4 | Rvol | Neutral | Unchanged | No new information. |
+| 5 | Volume z | Neutral | Unchanged | No new information. |
+| 6 | Funding | Bullish | Right | Stayed near-zero. |
+| 7 | OI Δ | Bullish | **Wrong — the critical miss, same day** | The single parameter the entry thesis leaned on hardest inverted within one checkpoint (24h OI +17.6%→-16.3%). Overridden Bullish→Bearish this checkpoint on rubric-misread grounds. |
+| 8-10 | Global | Bullish | Right | Regime stayed constructive. |
+
+**p calibration:** Stated p=0.45. Outcome: the largest loss of the four cuts, on the position the entry thesis itself flagged as carrying the most structural risk (overextension). The self-identified risk factor was the one that fired.
+
+**Sizing/timing verdict:** The half-size staging and same-checkpoint cut worked exactly as designed here — this is the strongest validation this checkpoint of why the staged-entry rule exists: an aggressive, extended entry reversed hard and fast, and the rule caught it after one checkpoint rather than after a full-size position rode it down further.
+
+**Counterfactual vs runner-ups:** N/A.
+
+**One testable lesson:** *Hypothesis: entries where dev-from-50DMA is the most extended of a confirmed-candidate cohort (here, MORPHO's +7.0% vs +1.3-6.4% for CAKE/ZEC/ETH) carry disproportionate same-day reversal risk even when OI backing looks strongest, because extended OI/price moves are also the ones most prone to sharp mean-reversion. Proposed rule change: when a confirmed candidate's dev-from-50DMA exceeds ~2x the cohort median at entry, cap its initial stage-1 size below the standard half-target regardless of tier/R, and treat any single-checkpoint OI reversal (not just a sustained one) as sufficient for a hard cut. Evidence that would confirm: future extended entries showing this same fast-reversal pattern. Evidence that would kill it: extended entries that continue trending without reversal, showing overextension alone isn't predictive.*
