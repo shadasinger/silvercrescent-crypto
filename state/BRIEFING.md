@@ -1,15 +1,16 @@
-BRIEFING — 2026-08-20 AM
+BRIEFING — 2026-08-20 MID
 Top 5 considerations:
-1. XRP — confluence 6/10 — mechanically strong (OI +27%/24h, funding/MVRV/stables clean) but contrarian sentiment flipped Bearish on a viral unverified "FedNow replaced by XRP" claim; one short of arming, and its prior PM 08-19 arm lapsed today.
-2. SOL — confluence 6/10 — RSI now overbought-Bearish (75.7) offset by contrarian-Bullish sentiment (crowd fear despite +12.7% 7d price gain); one short of arming.
-3. TRX — confluence 6/10 (ex-held) — clean DMA/RSI/funding structure, but 7d OI collapsed -15.9% (worse than the print that closed this position yesterday) — overrode to Bearish; one short of arming.
-4. MORPHO — confluence 6/10 — strong OI/DMA/RSI but sentiment flipped Bearish on price-target chasing, the same pattern that preceded this coin's own staged-entry cut two days ago.
-5. ARB — confluence 6/10 — clean OI/RSI/funding, flat/no-crowd-extreme sentiment; one short of arming.
+1. XRP — confluence 6/10 — mechanically strong (RSI/OI/funding/stables/MVRV clean) but contrarian sentiment flipped Bearish on a viral unverified "FedNow replaced by XRP" claim; one Bullish flip from arming, still hasn't fired.
+2. SOL — confluence 6/10 — RSI overbought-Bearish offset by contrarian-Bullish sentiment (crowd fear despite the 7d rally); one short of arming.
+3. TRX — confluence 6/10 (ex-held) — clean DMA/RSI/funding, but 7d OI collapsed -15.9% (worse than the print that closed this position) — overridden to Bearish; one short of arming.
+4. MORPHO — confluence 6/10 — strong OI/DMA/RSI but sentiment stays Bearish on price-target chasing, the same pattern that preceded its own staged-entry cut this week.
+5. ARB — confluence 6/10 — clean OI/RSI/funding, flat/no-crowd-extreme sentiment; one short of arming, no Bearish parameters at all.
 
-DOGE, XRP, ZEC — the three coins armed 7/10 last night off the broad melt-up — all LAPSED this checkpoint (5/10, 6/10, 5/10) as RSI and other technicals cooled from overbought levels; no confirmations, no new arms, no trades.
+No trading decisions this routine (MID sourcing only). No coin armed or confirmed.
 
 Holdings:
 None — 100% USDT ($9,968.79)
 
 Portfolio: $9,968.79 (-0.31% / -$31.21 since inception)
-Regime: Fear & Greed jumped to 62 (from 46, Δ7d +33 — sharpest weekly swing yet, nearing but not at the 75 overheated line); stablecoin supply +0.33% 7d (still growing); MVRV healthy (BTC 1.32 / ETH 1.08, both sub-2) — market kept grinding higher overnight (BTC +2.1%) even as RSI rolled over on several names, the classic melt-up-into-overextension pattern.
+Regime: Fear & Greed 62 (Δ7d +33, sharpest weekly swing yet, nearing but not at the 75 overheated line); stablecoin supply +0.28% 7d (still growing); MVRV healthy (BTC 1.32 / ETH 1.08, both sub-2) — BTC continuing to melt up ($72,009, RSI 78.8 overbought).
+Watchlist: no changes — sector caps (Major L1/DEX/AI all 4/4) and slot-change budget (4/5 used this week, only 1 remaining, insufficient for a swap) both block rotation this run. No new red flags found on any of the 30 watchlist tickers.
