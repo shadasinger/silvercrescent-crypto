@@ -1,16 +1,16 @@
-BRIEFING — 2026-08-20 MID
+BRIEFING — 2026-08-20 PM
 Top 5 considerations:
-1. XRP — confluence 6/10 — mechanically strong (RSI/OI/funding/stables/MVRV clean) but contrarian sentiment flipped Bearish on a viral unverified "FedNow replaced by XRP" claim; one Bullish flip from arming, still hasn't fired.
-2. SOL — confluence 6/10 — RSI overbought-Bearish offset by contrarian-Bullish sentiment (crowd fear despite the 7d rally); one short of arming.
-3. TRX — confluence 6/10 (ex-held) — clean DMA/RSI/funding, but 7d OI collapsed -15.9% (worse than the print that closed this position) — overridden to Bearish; one short of arming.
-4. MORPHO — confluence 6/10 — strong OI/DMA/RSI but sentiment stays Bearish on price-target chasing, the same pattern that preceded its own staged-entry cut this week.
-5. ARB — confluence 6/10 — clean OI/RSI/funding, flat/no-crowd-extreme sentiment; one short of arming, no Bearish parameters at all.
+1. XLM — confluence 8/10 — ARMED (1st checkpoint). Best setup on the board: the only coin in a true golden cross, price just +0.8% above its 50DMA, RSI 61.6 mid-band, huge volume spike (z +6.32) on a +4.9% day. Nothing missing — it just has to hold ≥7/10 at tomorrow's AM to become a real candidate.
+2. PEPE — confluence 7/10 (1 Bearish) — ARMED (1st checkpoint). Clean mechanics (RSI 67, OI +81.5% 7d, flat funding) but X sentiment is openly euphoric ("100x", rocket alerts), which I read contrarian-Bearish. The arm I trust least; I'd likely decline it even if it confirms.
+3. FIL — confluence 7/10 — ARMED (1st checkpoint). Jumped from 3/10 to 7/10 in twelve hours on a single +11.1% day that recovered the 50DMA. Still far below its 200DMA, so this is a bounce inside a downtrend — needs the second checkpoint to prove it isn't just the tape.
+4. ETH — confluence 6/10 (2 Bearish) — no state. RSI 84.2 is the most overbought print on the board after +23% in a week, and sentiment flipped euphoric. Losing the gate, not approaching it.
+5. LINK — confluence 5/10 (3 Bearish) — no state. Clearest avoid: +25.7% above its 50DMA, RSI 81.2, and rising-interest euphoria on the White House summit catalyst.
 
-No trading decisions this routine (MID sourcing only). No coin armed or confirmed.
+No trades. No coin reached 7/10 at this morning's checkpoint, so nothing could confirm tonight — earliest possible entry is 2026-08-21 AM.
 
 Holdings:
 None — 100% USDT ($9,968.79)
 
 Portfolio: $9,968.79 (-0.31% / -$31.21 since inception)
-Regime: Fear & Greed 62 (Δ7d +33, sharpest weekly swing yet, nearing but not at the 75 overheated line); stablecoin supply +0.28% 7d (still growing); MVRV healthy (BTC 1.32 / ETH 1.08, both sub-2) — BTC continuing to melt up ($72,009, RSI 78.8 overbought).
-Watchlist: no changes — sector caps (Major L1/DEX/AI all 4/4) and slot-change budget (4/5 used this week, only 1 remaining, insufficient for a swap) both block rotation this run. No new red flags found on any of the 30 watchlist tickers.
+Regime: Fear & Greed 62 (Δ7d +33, the sharpest weekly swing this book has seen, still under the 75 line); stablecoin supply +0.44% 7d and growing; MVRV healthy (BTC 1.32 / ETH 1.08) — a broad, fast risk-on impulse lifted 27 of 30 coins, but 50DMAs sit below 200DMAs on 22 of them, so the downtrend structure hasn't repaired.
+Pre-mortem: BTC −15% overnight costs an empty book $0.00 — the real risk is the mirror image, all three arms confirming tomorrow into a greed spike, so I've pre-committed to max 2 new positions per checkpoint, XLM first, PEPE declinable.
