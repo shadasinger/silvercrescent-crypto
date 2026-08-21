@@ -1,9 +1,42 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 9968.79,
+  "cash_usdt": 9470.35,
   "portfolio_value_usdt": 9968.79,
-  "positions": [],
+  "positions": [
+    {
+      "ticker": "XLM",
+      "sector": "Payments",
+      "entry_utc": "2026-08-21T07:10:07Z",
+      "entry_price": 0.1874,
+      "qty": 2659.7652,
+      "notional_usdt": 498.44,
+      "avg_entry_price": 0.1874,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 0.223,
+      "invalidation": 0.17,
+      "planned_R": 2.05,
+      "stated_p": 0.42,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-09-18",
+      "interim_review_date": "2026-09-04",
+      "thesis": "Payments/RWA rail in a genuine golden-cross state: price $0.1874 above both the 50DMA ($0.177084) and 200DMA ($0.172997), only moderately extended (+5.8% from the 50DMA) -- the cleanest structure on the board this checkpoint. RSI 67.4 mid-band with room, OI confirming the uptrend (7d +8.3%, 24h +1.5%), funding flat (0.01%/8h, no crowded-long risk). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (PM 08-20 8/10 armed -> AM 08-21 7/10 confirmed) -- the count eased by one, but the drop is p1 sentiment turning contrarian-Bearish, not mechanical decay (p2-p10 mechanical picture is unchanged at 7/9 Bullish, 0 Bearish both checkpoints). Contrarian sentiment read Bearish this checkpoint (rising interest, euphoria: \"40% pump\" chatter, price targets, Trump/CLARITY-Act tailwind narrative, zero capitulation offset) -- the one caution flag on an otherwise clean mechanical picture, logged per Section 6 as feeding p1 only, never a standalone block on an otherwise-qualified entry.",
+      "thesis_test": "OI keeps expanding alongside price (not diverging); price holds above the 50DMA ($0.177084); RSI stays out of overbought (<75) as price extends toward target. The contrarian-Bearish sentiment read is the explicit watch item -- if euphoria intensifies further alongside price stalling or reversing, that combination is the early-warning signal for this thesis.",
+      "invalidation_conditions": "Price closes below $0.170 (below the 200DMA, breaking the golden-cross structure) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-21 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-20 8/10 armed -> AM 08-21 7/10 confirmed). Staged entry: opened at half target size (5% of $9,968.79 = $498.44, 2659.7652 XLM @ $0.1874). Tier C (R=2.05, p=0.42, EV=+2.59%). Second half adds only if confluence holds >=7/10 at the 2026-08-21 PM checkpoint; no confirmation cuts the half."
+        }
+      ]
+    }
+  ],
   "closed_positions": [
     {
       "ticker": "TRX",

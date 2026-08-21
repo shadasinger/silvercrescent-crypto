@@ -319,3 +319,40 @@ Mechanical parameters unchanged in shape from AM (DMA golden-state, RSI 65.9 hea
 **Counterfactual vs runner-ups:** N/A.
 
 **One testable lesson:** *Hypothesis: entries where dev-from-50DMA is the most extended of a confirmed-candidate cohort (here, MORPHO's +7.0% vs +1.3-6.4% for CAKE/ZEC/ETH) carry disproportionate same-day reversal risk even when OI backing looks strongest, because extended OI/price moves are also the ones most prone to sharp mean-reversion. Proposed rule change: when a confirmed candidate's dev-from-50DMA exceeds ~2x the cohort median at entry, cap its initial stage-1 size below the standard half-target regardless of tier/R, and treat any single-checkpoint OI reversal (not just a sustained one) as sufficient for a hard cut. Evidence that would confirm: future extended entries showing this same fast-reversal pattern. Evidence that would kill it: extended entries that continue trending without reversal, showing overextension alone isn't predictive.*
+
+## ENTRY — XLM — 2026-08-21 AM
+
+**Confluence history:** armed PM 2026-08-20 (8/10), confirmed AM 2026-08-21 (7/10) — 2 consecutive trading checkpoints >=7/10, per Section 5 step 5-6.
+
+**Frozen 10-parameter table (AM 2026-08-21, confirming checkpoint):**
+
+| # | Parameter | Value | Label | Reasoning |
+|---|---|---|---|---|
+| 1 | Sentiment (contrarian) | interest rising; euphoria markers ("40% pump" chatter, price targets 0.3+, Trump/CLARITY-Act tailwind narrative) | Bearish | Crowd arriving, no capitulation offset — contrarian Bearish, the one caution flag on an otherwise clean mechanical picture. |
+| 2 | Price vs 50/200DMA | $0.1874 vs 50DMA $0.177084, 200DMA $0.172997; +5.8% above 50DMA | Bullish | Golden state: price > 50DMA > 200DMA, moderate extension. |
+| 3 | RSI-14 | 67.4 | Bullish | Mid-band 55-70. |
+| 4 | Realized vol ratio 7d/30d | 1.39 | Bullish | Expansion on an upside breakout. |
+| 5 | Volume z-score | -0.20 | Neutral | Doesn't clear either threshold. |
+| 6 | Funding rate | 0.01%/8h | Bullish | Near-zero, no crowded-long risk. |
+| 7 | Open interest Δ | +1.5%/24h, +8.3%/7d | Bullish | OI rising with price rising. |
+| 8 | Stablecoin supply 7d Δ | +0.51% | Bullish | Sideline liquidity growing. |
+| 9 | MVRV (BTC proxy) | BTC 1.39 / ETH 1.10 | Bullish | Healthy sub-2 band. |
+| 10 | Fear & Greed | 72, Δ7d +43 | Neutral | Approaching but not past the 75 overheated threshold; largest weekly swing logged this phase. |
+
+**Confluence: 7/10 Bullish, 1/10 Bearish.** (Mechanical p2-p10 unchanged/clean at 7/9 Bullish, 0 Bearish across both the arming and confirming checkpoints — the total eased from 8 to 7 solely because p1 flipped Neutral→Bearish on today's data, not because any structural leg weakened.)
+
+**Expectancy sheet:**
+- Entry: $0.1874 (Binance spot, fetched 2026-08-21T07:10:07Z via `parameters.py`)
+- Target: $0.223 (+19.00%) — continuation within the 2-8wk horizon, consistent with the +18.5% 7d move already behind it
+- Invalidation: $0.170 (-9.28%) — below the 200DMA, breaking the golden-cross structure
+- R = 19.00 / 9.28 = **2.05** (clears the 2.0 floor)
+- Stated p = **0.42** (confluence 7/10, tempered by the contrarian-Bearish sentiment flag and a market-wide F&G reading close to the overheated line)
+- EV = 0.42×19.00% − 0.58×9.28% = **+2.59%** (clears EV>0 floor)
+- Tier: **C** (R=2.05 falls short of Tier B's 2.5 floor) → size band 5-15%
+- Sizing: target 10% (low-Tier-C, conservative given the broad market extension), staged half-open this checkpoint = **5% ($498.44 notional, 2659.7652 XLM)**. Second half opens only if confluence holds >=7/10 at the next checkpoint (PM 2026-08-21); no confirmation there cuts the half per Section 5 step 9.
+
+**Runner-up candidates this checkpoint:** FIL (armed PM 2026-08-20 at 7/10) lapsed to 6/10 (p5_volz rolled Bullish→Bearish, p1 read Neutral not Bullish) — no confirmation. PEPE (armed PM 2026-08-20 at 7/10) lapsed sharply to 4/10 (RSI cooled to Neutral, funding flipped Bearish) — no confirmation. No other coin reached a first-occurrence arm this checkpoint; next-highest non-arming reads were TRX/UNI/MORPHO/ONDO/ARB/SHIB/JUP at 6/10.
+
+**Sector:** Payments. 1 of 5 positions, 1 of 2 max in sector.
+
+**Context note:** this entry opens into a market-wide melt-up with F&G at 72 (Δ7d +43, the sharpest weekly swing logged this phase) and broad RSI overextension across the watchlist (BTC 83.8, ETH 85.7, SOL 80.6, BNB 80.3, XRP 79.8, LINK 83.7). XLM is the only coin on the board that cleared 7/10 cleanly on structure (moderate 5.8% extension, RSI still mid-band, OI genuinely confirming) rather than riding the broad beta wave that pushed most majors into overbought/euphoric territory and correctly excluded them via p3/p1. Sized at the conservative end of Tier C for this reason — see the AM 2026-08-21 checkpoint report red-team pass for the full reasoning.
