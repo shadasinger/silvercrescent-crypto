@@ -1,14 +1,12 @@
-BRIEFING — 2026-08-21 MID
+BRIEFING — 2026-08-21 PM
 Top 5 considerations:
-1. UNI — mechanical 7/10 (p1 sentiment not run at MID) — up from 6/10 this morning; DMA/RSI/rvol/funding/OI/stables/MVRV all clean. Needs a Bullish-or-Neutral sentiment read at PM to even arm — no armed/confirmed status yet.
-2. XLM — confluence 7/10, held (5.09%) — Payments golden cross intact, RSI 69 mid-band, OI still expanding (+37.6% 7d). Second-half add depends on confluence holding ≥7/10 at PM.
-3. ETH — mechanical 6/10 — RSI 85.9, the most overbought print on the board; even a favorable sentiment read is unlikely to clear the gate while this extended.
-4. XRP — mechanical 6/10 — RSI 82.6, overbought; AM sentiment already read contrarian-Bearish (euphoric "everyone's in" chatter), so p1 would need to flip to reach 7/10.
-5. SOL — mechanical 6/10 — RSI 80.7, overbought; AM sentiment also contrarian-Bearish (supercycle hype). Same pattern as ETH/XRP — mechanically close, but RSI and sentiment both need to cool.
-
+1. XLM — confluence 8/10 — holding; stage-2 add executed this checkpoint (now full 10% size). OI accelerating (24h +27.7%, 7d +37.1%), funding turned Bullish, sentiment cooled off this morning's euphoria into Neutral. Needs price to hold above $0.170 invalidation.
+2. UNI — confluence 8/10 — armed (first time, was 6/10 at AM), highest mechanical read on the board today. Needs a second consecutive ≥7/10 at AM 08-22 to confirm entry.
+3. TRX — confluence 7/10 — armed (first time, was 6/10 at AM). Needs AM 08-22 confirmation.
+4. ONDO — confluence 7/10 — armed (first time, was 6/10 at AM). Needs AM 08-22 confirmation.
+5. JUP — confluence 7/10 — armed (first time, was 6/10 at AM); interest is falling even as euphoria lingers among a thinner crowd. Needs AM 08-22 confirmation.
 Holdings:
-XLM | 5.1% | entry $0.1874 -> now $0.1910 | +1.9% | +$0.0036 per coin | position P&L +$9.58
-
-Portfolio: $9,978.37 (-0.22% / -$21.63 since inception)
-Regime: Fear & Greed holds at 72 (Δ7d +43, still 3 points from the 75 overheated line); stablecoin supply +0.5% 7d ($308.3B, still growing); MVRV healthy (BTC 1.39 / ETH 1.10) but most majors (BTC/ETH/BNB/XRP/SOL/LINK/CAKE) are RSI-overbought — UNI and XLM are the only two names clearing 7/10 mechanically on genuine structure rather than the broad melt-up.
-Watchlist: no changes (slot-change budget exhausted — 4/5 used since 2026-08-16, only 1 remains through 2026-08-23; no red flags found on any of the 30 tickers).
+XLM | 10.06% | entry $0.188543 -> now $0.1897 | +0.6% | +$0.001157 per coin | position P&L +$6.12
+Portfolio: $9,974.91 (-0.3% / -$25.09 since inception)
+Regime: Fear & Greed 72 (Δ7d +43, unchanged for a third straight checkpoint, 3 points from overheated); stablecoins +0.3% 7d ($307.7B, still growing); MVRV BTC 1.39 / ETH 1.10 (healthy).
+Pre-mortem: BTC -15% overnight would plausibly hit XLM for ~-20% to -27% (~-1.0% to -1.4% of the book) but not breach invalidation or touch ≥3 positions (only 1 held) — no de-risk action taken.

@@ -1,20 +1,20 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 9470.35,
-  "portfolio_value_usdt": 9968.79,
+  "cash_usdt": 8971.91,
+  "portfolio_value_usdt": 9974.91,
   "positions": [
     {
       "ticker": "XLM",
       "sector": "Payments",
       "entry_utc": "2026-08-21T07:10:07Z",
       "entry_price": 0.1874,
-      "qty": 2659.7652,
-      "notional_usdt": 498.44,
-      "avg_entry_price": 0.1874,
-      "size_pct_current": 5.0,
+      "qty": 5287.2823,
+      "notional_usdt": 1003.0,
+      "avg_entry_price": 0.188543,
+      "size_pct_current": 10.06,
       "target_size_pct": 10.0,
-      "stage": "stage1_half",
+      "stage": "full",
       "target": 0.223,
       "invalidation": 0.17,
       "planned_R": 2.05,
@@ -33,6 +33,13 @@
           "conviction": "Intact",
           "confluence": "7/10",
           "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-20 8/10 armed -> AM 08-21 7/10 confirmed). Staged entry: opened at half target size (5% of $9,968.79 = $498.44, 2659.7652 XLM @ $0.1874). Tier C (R=2.05, p=0.42, EV=+2.59%). Second half adds only if confluence holds >=7/10 at the 2026-08-21 PM checkpoint; no confirmation cuts the half."
+        },
+        {
+          "checkpoint": "2026-08-21 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "8/10 (0/10 Bearish)",
+          "action": "STAGE-2 ADD -- confluence held >=7/10 at the immediate next checkpoint since the AM 08-21 half-open (7/10 -> 8/10, strengthened, not just held). Mechanical p2-p10 picture improved to 8/9 Bullish/0 Bearish (p6 funding flipped Neutral->Bullish vs AM); p1 sentiment cooled from contrarian-Bearish (AM's euphoric \"40% pump\" read) to Neutral (flat interest, zero euphoria/capitulation markers this run, fundamentals-led narrative) -- a genuine improvement in the entry thesis's own confirmation signal, not just a rules-technicality hold. Price $0.1897 (+1.23% vs entry $0.1874), still comfortably above the 50DMA ($0.17713) and 200DMA ($0.173009) in golden-cross structure (dev +7.1%, moderate), RSI 68.7 mid-band with room, OI still confirming (24h +27.7%, 7d +37.1%, both accelerating vs AM's +1.5%/+8.3%), funding flat (0.0175%/8h, no crowding). Invalidation $0.170 not breached (11.3% headroom). BUY 2627.5171 XLM @ $0.1897 = $498.44 notional (matching the stage-1 half's original ~$500 sizing), 2026-08-21T19:14:11Z (Binance spot, same `parameters.py` refresh). Position now 5287.2823 XLM, avg entry $0.188543, full target size ~10.06% of $9,974.91 portfolio value."
         }
       ]
     }

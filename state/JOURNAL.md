@@ -356,3 +356,11 @@ Mechanical parameters unchanged in shape from AM (DMA golden-state, RSI 65.9 hea
 **Sector:** Payments. 1 of 5 positions, 1 of 2 max in sector.
 
 **Context note:** this entry opens into a market-wide melt-up with F&G at 72 (Δ7d +43, the sharpest weekly swing logged this phase) and broad RSI overextension across the watchlist (BTC 83.8, ETH 85.7, SOL 80.6, BNB 80.3, XRP 79.8, LINK 83.7). XLM is the only coin on the board that cleared 7/10 cleanly on structure (moderate 5.8% extension, RSI still mid-band, OI genuinely confirming) rather than riding the broad beta wave that pushed most majors into overbought/euphoric territory and correctly excluded them via p3/p1. Sized at the conservative end of Tier C for this reason — see the AM 2026-08-21 checkpoint report red-team pass for the full reasoning.
+
+## STAGE-2 ADD — XLM — 2026-08-21 PM
+
+Confluence held **8/10 Bullish, 0/10 Bearish** at this checkpoint (immediate next trading checkpoint since the AM 08-21 half-open, count 7/10 -> 8/10) — per Section 5 step 9, the second half opens at full target size; the rule requires the count to hold >=7, and here it strengthened rather than merely held.
+
+Mechanical parameters improved from AM (p6 funding rolled Neutral->Bullish; DMA golden-state, RSI mid-band, rvol/volz/OI/stables/MVRV all unchanged Bullish); p1 sentiment cooled from AM's contrarian-Bearish euphoria read ("40% pump" chatter, price targets) to Neutral this checkpoint — flat interest, zero euphoria and zero capitulation markers, narrative fundamentals-led (Stellar developer growth, institutional interest) with a mild lag-frustration undertone rather than a crowd extreme. Price $0.1897 (+1.23% vs entry $0.1874), OI accelerating (24h +27.7%, 7d +37.1%, both well above AM's +1.5%/+8.3%), invalidation $0.170 not breached (11.3% headroom).
+
+**Fill:** BUY 2627.5171 XLM @ $0.1897 = $498.44 notional, 2026-08-21T19:14:11Z (Binance spot via `parameters.py` refresh). Position now 5287.2823 XLM, avg entry $0.188543, ~10.06% of portfolio ($1,003.00 / $9,974.91) — full target size reached. No further staging; ongoing test is the same OI/price/DMA structure through the 2026-09-04 interim review.
