@@ -1,12 +1,16 @@
-BRIEFING — 2026-08-22 AM
+BRIEFING — 2026-08-22 MID
+
 Top 5 considerations:
-1. UNI — confluence 7/10 — CONFIRMED & ENTERED (5% stage-1 half). Clean golden-cross uptrend, 0/10 Bearish two checkpoints running; entered at exactly the R=2.0 floor since it's already +30% in 7 days.
-2. XLM — confluence 6/10 — HELD (11.1%, full size). RSI hit 77.8 (overbought, breaches its own thesis test) and funding turned crowded, but OI is exploding (+118%/24h) so no trim — watching closely for PM.
-3. TRX — confluence 6/10 (was 7/10 armed) — arm LAPSED, mechanical count eased; no entry.
-4. JUP — confluence 6/10 (was 7/10 armed) — arm LAPSED, mechanical count eased; no entry.
-5. ONDO — confluence 5/10 (was 7/10 armed) — arm LAPSED sharply; sentiment also flagged an unverified team-wallet-to-Coinbase claim worth re-checking at MID.
+1. ASTER — confluence 6/10 — DEX mechanical picture leads the board (6/9 Bullish) but sentiment reads Neutral on unverified rug-accusation noise; not armed, one param (or a sentiment flip) short of 7/10.
+2. JUP — confluence 6/10 — armed 7/10 at PM 08-21 but the arm lapsed this AM as funding flipped Bearish, easing mechanical strength to 6/9; needs to reclaim 7/10 to re-arm.
+3. MORPHO — confluence 6/10 — clean DeFi-lending setup (6/9 Bullish, 1 Bearish), factual non-euphoric sentiment reads Neutral; one param short of arming.
+4. SOL — confluence 6/10 — mechanical picture strong (6/9) but contrarian sentiment reads Bearish on heavy memecoin-profit euphoria, capping it below the gate; not armed.
+5. TRX — confluence 6/10 — armed 7/10 at PM 08-21 but lapsed this AM as mechanical count eased to 6/9; needs to reclaim 7/10 to re-arm.
+
 Holdings:
-XLM | 11.13% | entry $0.1885 -> now $0.2126 | +12.8% | +$0.0241/coin | position P&L +$127.19
-UNI | 5.00% | entry $4.214 -> now $4.214 | +0.0% | +$0.00/coin | position P&L +$0.00
-Portfolio: $10,095.99 (+0.96% / +$95.99 since inception)
-Regime: Fear & Greed 71 (Δ7d +37, still hot but off the 72 plateau), stablecoin supply +0.68% 7d (growing), BTC MVRV 1.48 (healthy) — market-wide melt-up continues with broad RSI/funding overheating outside XLM and UNI.
+XLM | 10.55% | entry $0.188543 -> now $0.2003 | +6.2% | +$0.0118 per coin | position P&L +$62.16
+UNI | 5.10% | entry $4.214 -> now $4.271 | +1.4% | +$0.057 per coin | position P&L +$6.83
+
+Portfolio: $10,037.78 (+0.4% / +$37.78 since inception)
+Regime: Fear & Greed 71 (Δ7d +37, greed rising fast) | stablecoin supply +0.7% 7d | MVRV BTC 1.48 (healthy zone, below cycle-top).
+Watchlist: no changes — slot-change budget still 4/5 used (dated 2026-08-16), only 1 change free through 2026-08-23, not enough for a full swap. POL (Polygon/L2) remains the standing leading runner-up once budget resets. No new red-flag exclusions.
