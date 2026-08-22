@@ -401,3 +401,29 @@ Mechanical parameters improved from AM (p6 funding rolled Neutral->Bullish; DMA 
 **Sector:** DEX. 2 of 5 positions, 1 of 2 max in sector (CAKE/JUP/ASTER also DEX-tagged on the watchlist but none currently held).
 
 **Context note:** this entry opens into the same broad market-wide melt-up flagged at the XLM 2026-08-21 entry, now further advanced — BTC RSI 82.5 (up from 83.8→ still extreme), F&G 71 (Δ7d +37), most majors mechanically Bearish on p3 RSI and p6 funding this checkpoint (AAVE, ADA, ARB, BCH, BNB, BTC, CAKE, DOGE, ENA, ETH, HBAR, LINK, PEPE, SOL, TRX, XRP, ZEC all print at least one Bearish mechanical read from overheating). UNI is one of only two coins (with XLM held) that cleared 7/10 cleanly this checkpoint, on genuinely moderate extension (+14.0% vs 50DMA, RSI 64.6 mid-band) rather than riding the broad beta wave into overbought territory. R sitting exactly at the 2.0 floor and p held at the Tier C floor (0.40) reflect deliberate conservatism given the market-wide overheating — see the AM 2026-08-22 checkpoint report red-team pass for the full reasoning.
+
+## EXIT POST-MORTEM — UNI — 2026-08-22 PM (staged-entry cut, no confirmation)
+
+**P&L:** +$5.15 on $504.80 deployed (+1.02% on the half-position, +0.05% of total portfolio). Realized R +0.08 vs planned 2.00 — a small win, the second of five staged-entry cuts (after CAKE 08-19) to close green rather than flat/red.
+
+**Thesis verdict:** Playing Out, not Broken — this cut was a rule mechanic (no second-half confirmation), not a thesis failure. Price actually rose +1.02% (from $4.214 to $4.257) and OI held constructive (24h +12.5%, 7d +19.3%, both still positive) in the ~12 hours between entry and cut; the confluence drop was driven by funding crossing the crowded-long threshold, not by price or OI weakening.
+
+**Per-parameter verdict (frozen AM 08-22 entry table):**
+| # | Parameter | Entry label | Verdict | Note |
+|---|---|---|---|---|
+| 1 | Sentiment | Neutral | Right | Interest kept falling (mech read at exit also Neutral, no crowd extreme) — no reversal signal from this parameter either way. |
+| 2 | DMA | Bullish | Right | Price extended further above the 50DMA by exit (dev 15.2% vs 14.0% at entry). |
+| 3 | RSI | Bullish (64.6) | Right, strengthened | Rose to 65.4, still comfortably mid-band, no overheating signal. |
+| 4 | Rvol | Neutral (0.83) | Faded slightly (0.81) | Stayed right at the borderline Neutral read both checkpoints — never actually resolved either direction. |
+| 5 | Volume z | Bullish | Right, strengthened | Rose to 3.6 from entry's level, still confirming. |
+| 6 | Funding | Bullish (0.01%/8h) | Flipped Bearish (0.0761%/8h) | **The parameter that actually drove the cut** — funding rate moved from flat to crossing the ~0.05%/8h crowded-long threshold in a single checkpoint, a genuinely fast-moving signal on this name specifically (most of the board saw funding heat up this checkpoint, so this may be partly a beta effect rather than UNI-specific crowding). |
+| 7 | OI Δ | Bullish | Right | 24h/7d OI both stayed positive and roughly stable (+12.5%/+19.3% vs entry's -11.5%/+3.7% — actually an improvement on the 24h print). |
+| 8-10 | Global (stables/MVRV/F&G) | Bullish/Bullish/Neutral | F&G faded to Neutral | F&G eased 71→71 flat but the mechanical read still resolved Neutral both checkpoints (unchanged); p8/p9 stayed Bullish. |
+
+**p calibration:** Stated p=0.40. Outcome: small win at n=1, not calibration-informative on its own, but directionally consistent (conservative p, positive small outcome).
+
+**Sizing/timing verdict:** Same pattern as the CAKE 08-19 cut — the staged-confirmation rule fired on a single fast-moving parameter (funding) while price and OI, the two legs most directly tied to the entry thesis, both held or strengthened. This is now the second of five staged-entry cuts where price moved in the intended direction after the cut rather than against it, worth weighing at the monthly review alongside the CAKE precedent and the existing LESSONS.md hypothesis on this exact failure mode.
+
+**Counterfactual vs runner-ups:** TRX/ONDO/JUP (the three PM 08-21 arms that lapsed at AM 08-22) stayed lapsed this PM checkpoint too (all at or below 6/10) — none would have been a better use of the freed capital had UNI's second half opened instead of cutting.
+
+**One testable lesson:** *Hypothesis: same as the CAKE 08-19 finding — the staged-entry "cut on no confirmation" rule doesn't distinguish between a confluence drop driven by price/OI reversing (a real thesis-test failure) and one driven by a single fast-moving overlay parameter like funding, especially during a market-wide melt-up where funding is heating up across most of the board simultaneously (a regime effect, not a UNI-specific one). Proposed rule change: at the staged-entry confirmation checkpoint, treat a confluence drop driven solely by p6 funding or p10 F&G (the two parameters most likely to move on broad-market beta rather than idiosyncratic weakening) as insufficient on its own to cut — require price direction or OI direction to also have reversed. Evidence that would confirm: further cases (this one, CAKE 08-19) where the cut was funding/global-driven and price/OI kept confirming post-cut. Evidence that would kill it: a case where funding alone deteriorating was the leading indicator of an actual reversal one or two checkpoints later.*

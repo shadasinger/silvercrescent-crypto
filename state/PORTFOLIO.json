@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 8467.11,
-  "portfolio_value_usdt": 10095.99,
+  "cash_usdt": 8977.06,
+  "portfolio_value_usdt": 10021.3,
   "positions": [
     {
       "ticker": "XLM",
@@ -47,9 +47,18 @@
           "conviction": "Intact",
           "confluence": "6/10 (2/10 Bearish)",
           "action": "hold, no changes -- price $0.2126 (+12.75% vs PM 08-21 close $0.1897, +12.76% vs avg entry $0.188543), still above 50DMA and 200DMA in golden-cross structure, well clear of invalidation $0.170 (~20% headroom). RSI jumped to 77.8 -- BREACHES the explicit entry thesis-test threshold ('RSI stays out of overbought (<75) as price extends toward target'); p3 flipped Bullish->Bearish. Funding also rose to 0.1199%/8h, crossing the ~0.05%/8h crowded-long threshold -- p6 flipped Bullish->Bearish. Confluence eased 8/10 PM 08-21 -> 6/10 AM 08-22, Bearish count 0->2/10 -- well short of the 4/10-for-2-consecutive-checkpoints exit gate, and OI is not diverging: +117.8%/24h, +141.0%/7d, the strongest OI print of the hold, confirming continued momentum rather than a stalling/reversing tape. On the OI evidence this is a strong (if overheated) uptrend, not a breakdown -- judged thesis status stays Playing Out, conviction stays Intact, no trim. Market-wide context: this is happening inside a broad melt-up (BTC RSI 82.5, F&G 71 +37/7d) so overheating is not XLM-specific. Explicit watch flagged for the PM 08-22 checkpoint per the original thesis test: if RSI stays >75 AND price stalls or reverses, that combination is the early Weakening signal -- would trigger a trim-half review at that point, not before."
+        },
+        {
+          "checkpoint": "2026-08-22 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "hold, no changes -- price $0.1975 (-7.10% vs AM close $0.2126, +4.75% vs avg entry $0.188543), still above 50DMA ($0.17724) and 200DMA ($0.173177) in golden-cross structure, invalidation $0.170 not breached (~13.9% headroom, narrower than AM's ~20% after today's pullback but still ample). The AM watch condition (RSI stays >75 AND price stalls/reverses) did NOT fire as flagged: RSI actually cooled 77.8->69.5, back inside the explicit thesis-test band (<75), p3 flipped Bearish->Bullish; funding also cooled 0.1199%->0.0495%/8h, back under the crowded-long threshold, p6 flipped Bearish->Neutral. The one new Bearish this checkpoint is p5 volz (a down day, 24h -2.13%, with a high z-score -- 'z>+1 on down days' branch). OI still expanding (+48.8%/24h, +103.7%/7d) confirming continued momentum despite today's pullback. Confluence held at 6/10 (2/10 Bearish AM -> 1/10 Bearish PM), a genuine improvement, not deterioration -- nowhere near the 4/10-for-2-consecutive exit gate. Sentiment (p1) read Neutral -- flat interest, no euphoria, mild capitulation-flavored doubt (80-day-sell-off chatter) grouped mostly with XRP discussion, no crowd extreme. Thesis status stays Playing Out, conviction stays Intact, no trim, no exit."
         }
       ]
-    },
+    }
+  ],
+  "closed_positions": [
     {
       "ticker": "UNI",
       "sector": "DEX",
@@ -80,10 +89,13 @@
           "confluence": "7/10",
           "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-21 8/10 armed -> AM 08-22 7/10 confirmed). Staged entry: opened at half target size (5% of $10095.99 = $504.80, 119.791 UNI @ $4.214). Tier C (R=2.00, p=0.40, EV=+2.68%). Second half adds only if confluence holds >=7/10 at the 2026-08-22 PM checkpoint; no confirmation cuts the half."
         }
-      ]
-    }
-  ],
-  "closed_positions": [
+      ],
+      "exit_utc": "2026-08-22T19:05:28Z",
+      "exit_price": 4.257,
+      "realized_pnl_usdt": 5.15,
+      "realized_R": 0.08,
+      "exit_reason": "Staged-entry non-confirmation (Section 5 step 9): confluence eased to 6/10 (1/10 Bearish, p6 funding 0.0761%/8h crossing the crowded-long threshold) at the immediate next checkpoint since the AM 08-22 stage-1 entry (was 7/10, 0/10 Bearish). p4 rvol and p10 F&G both rolled Bullish->Neutral alongside the p6 flip. OI/DMA/RSI legs of the entry thesis all still held (24h OI +12.5%, 7d +19.3%; price still above the 50DMA; RSI 65.4 mid-band) -- this was not a thesis breakdown, just a non-confirmation on the explicit staged-entry rule, which cuts the half regardless of the reason for the miss. Sold 119.791 UNI @ $4.257 (proceeds $509.95), a small realized gain (+$5.15 / +0.08R) despite the cut -- price drifted up, not down, between entry and this checkpoint; the position was closed on the confirmation rule, not a stop-loss or thesis failure."
+    },
     {
       "ticker": "TRX",
       "sector": "Major L1",
