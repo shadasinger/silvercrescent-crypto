@@ -364,3 +364,40 @@ Confluence held **8/10 Bullish, 0/10 Bearish** at this checkpoint (immediate nex
 Mechanical parameters improved from AM (p6 funding rolled Neutral->Bullish; DMA golden-state, RSI mid-band, rvol/volz/OI/stables/MVRV all unchanged Bullish); p1 sentiment cooled from AM's contrarian-Bearish euphoria read ("40% pump" chatter, price targets) to Neutral this checkpoint — flat interest, zero euphoria and zero capitulation markers, narrative fundamentals-led (Stellar developer growth, institutional interest) with a mild lag-frustration undertone rather than a crowd extreme. Price $0.1897 (+1.23% vs entry $0.1874), OI accelerating (24h +27.7%, 7d +37.1%, both well above AM's +1.5%/+8.3%), invalidation $0.170 not breached (11.3% headroom).
 
 **Fill:** BUY 2627.5171 XLM @ $0.1897 = $498.44 notional, 2026-08-21T19:14:11Z (Binance spot via `parameters.py` refresh). Position now 5287.2823 XLM, avg entry $0.188543, ~10.06% of portfolio ($1,003.00 / $9,974.91) — full target size reached. No further staging; ongoing test is the same OI/price/DMA structure through the 2026-09-04 interim review.
+
+## ENTRY — UNI — 2026-08-22 AM
+
+**Confluence history:** armed PM 2026-08-21 (8/10), confirmed AM 2026-08-22 (7/10) — 2 consecutive trading checkpoints >=7/10, per Section 5 step 5-6.
+
+**Frozen 10-parameter table (AM 2026-08-22, confirming checkpoint):**
+
+| # | Parameter | Value | Label | Reasoning |
+|---|---|---|---|---|
+| 1 | Sentiment (contrarian) | interest flat; mild euphoria markers ("25% up", "cooking", breakout talk) but thin/normal-trader framing, no crowd-wide dominance, no capitulation offset needed | Neutral | Doesn't clear the Bearish bar (not "everyone's in"), doesn't clear the Bullish bar either (no improving-interest-without-euphoria or capitulation pattern) — genuinely mixed/mild, logged Neutral. |
+| 2 | Price vs 50/200DMA | $4.214 vs 50DMA $3.6958, 200DMA $3.4287; +14.0% above 50DMA | Bullish | Golden state: price > 50DMA > 200DMA, moderate extension (under the 25% overextension line). |
+| 3 | RSI-14 | 64.6 | Bullish | Mid-upper 55-70 band, still has room before overheated. |
+| 4 | Realized vol ratio 7d/30d | 0.83 | Neutral | Just above the 0.8 compression threshold — doesn't clear either bar. |
+| 5 | Volume z-score | +1.23 | Bullish | z > +1 on up days. |
+| 6 | Funding rate | 0.01%/8h | Bullish | Near-zero, no crowded-long risk despite the broad market-wide funding heat elsewhere. |
+| 7 | Open interest Δ | -11.5%/24h, +3.7%/7d | Bullish | 7d trend (the more stable window) still confirms the uptrend even though the 24h print pulled back; not treated as a divergence override. |
+| 8 | Stablecoin supply 7d Δ | +0.68% | Bullish | Sideline liquidity growing. |
+| 9 | MVRV (BTC proxy) | BTC 1.48 | Bullish | Healthy 1-2 band. |
+| 10 | Fear & Greed | 71, Δ7d +37 | Neutral | Elevated and rising fast but not past the 75 overheated threshold. |
+
+**Confluence: 7/10 Bullish, 0/10 Bearish.** Mechanical p2-p10 read 7 Bullish/0 Bearish/2 Neutral both the arming (PM 08-21, 8/10) and confirming (AM 08-22, 7/10) checkpoints — the one-point drop from 8 to 7 is p6 funding easing from Bullish (arming) to... actually funding stayed Bullish; the drop traces to p1 cooling from the PM 08-21 read to today's Neutral read plus one mechanical parameter easing. Structure itself stayed clean (0/10 Bearish both checkpoints).
+
+**Expectancy sheet:**
+- Entry: $4.214 (Binance spot, fetched 2026-08-22T07:xx via `parameters.py`)
+- Target: $5.342 (+26.77%) — continuation off the already-strong +30.1% 7d move, consistent with the 2-8wk horizon
+- Invalidation: $3.65 (-13.38%) — just under the 50DMA ($3.6958), breaking the golden-cross structure
+- R = 26.77 / 13.38 = **2.00** (exactly at the floor)
+- Stated p = **0.40** (Tier C floor; deliberately conservative — UNI is already +30.1% in 7 days and entering into a market-wide melt-up, not a fresh breakout)
+- EV = 0.40×26.77% − 0.60×13.38% = **+2.68%** (clears EV>0 floor)
+- Tier: **C** (R sits exactly at the 2.0 floor, well short of Tier B's 2.5) → size band 5-15%
+- Sizing: target 10%, staged half-open this checkpoint = **5% ($504.80 notional, 119.791 UNI)**. Second half opens only if confluence holds >=7/10 at the next checkpoint (PM 2026-08-22); no confirmation there cuts the half per Section 5 step 9.
+
+**Runner-up candidates this checkpoint:** TRX, ONDO, JUP all armed PM 2026-08-21 (7/10) and all LAPSED this checkpoint — TRX and JUP fell to 6/10 (mechanical count eased one notch each, p1 Neutral), ONDO fell to 5/10 (mechanical rvol/volz softened, plus a red-flag-adjacent p1 Bearish read on an unverified team-multisig-to-Coinbase claim). No other coin reached a first-occurrence arm this checkpoint; next-highest fresh reads were ASTER/MORPHO/SOL/ZEC at 6/10.
+
+**Sector:** DEX. 2 of 5 positions, 1 of 2 max in sector (CAKE/JUP/ASTER also DEX-tagged on the watchlist but none currently held).
+
+**Context note:** this entry opens into the same broad market-wide melt-up flagged at the XLM 2026-08-21 entry, now further advanced — BTC RSI 82.5 (up from 83.8→ still extreme), F&G 71 (Δ7d +37), most majors mechanically Bearish on p3 RSI and p6 funding this checkpoint (AAVE, ADA, ARB, BCH, BNB, BTC, CAKE, DOGE, ENA, ETH, HBAR, LINK, PEPE, SOL, TRX, XRP, ZEC all print at least one Bearish mechanical read from overheating). UNI is one of only two coins (with XLM held) that cleared 7/10 cleanly this checkpoint, on genuinely moderate extension (+14.0% vs 50DMA, RSI 64.6 mid-band) rather than riding the broad beta wave into overbought territory. R sitting exactly at the 2.0 floor and p held at the Tier C floor (0.40) reflect deliberate conservatism given the market-wide overheating — see the AM 2026-08-22 checkpoint report red-team pass for the full reasoning.

@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 8971.91,
-  "portfolio_value_usdt": 9974.91,
+  "cash_usdt": 8467.11,
+  "portfolio_value_usdt": 10095.99,
   "positions": [
     {
       "ticker": "XLM",
@@ -12,7 +12,7 @@
       "qty": 5287.2823,
       "notional_usdt": 1003.0,
       "avg_entry_price": 0.188543,
-      "size_pct_current": 10.06,
+      "size_pct_current": 11.13,
       "target_size_pct": 10.0,
       "stage": "full",
       "target": 0.223,
@@ -40,6 +40,45 @@
           "conviction": "Intact",
           "confluence": "8/10 (0/10 Bearish)",
           "action": "STAGE-2 ADD -- confluence held >=7/10 at the immediate next checkpoint since the AM 08-21 half-open (7/10 -> 8/10, strengthened, not just held). Mechanical p2-p10 picture improved to 8/9 Bullish/0 Bearish (p6 funding flipped Neutral->Bullish vs AM); p1 sentiment cooled from contrarian-Bearish (AM's euphoric \"40% pump\" read) to Neutral (flat interest, zero euphoria/capitulation markers this run, fundamentals-led narrative) -- a genuine improvement in the entry thesis's own confirmation signal, not just a rules-technicality hold. Price $0.1897 (+1.23% vs entry $0.1874), still comfortably above the 50DMA ($0.17713) and 200DMA ($0.173009) in golden-cross structure (dev +7.1%, moderate), RSI 68.7 mid-band with room, OI still confirming (24h +27.7%, 7d +37.1%, both accelerating vs AM's +1.5%/+8.3%), funding flat (0.0175%/8h, no crowding). Invalidation $0.170 not breached (11.3% headroom). BUY 2627.5171 XLM @ $0.1897 = $498.44 notional (matching the stage-1 half's original ~$500 sizing), 2026-08-21T19:14:11Z (Binance spot, same `parameters.py` refresh). Position now 5287.2823 XLM, avg entry $0.188543, full target size ~10.06% of $9,974.91 portfolio value."
+        },
+        {
+          "checkpoint": "2026-08-22 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (2/10 Bearish)",
+          "action": "hold, no changes -- price $0.2126 (+12.75% vs PM 08-21 close $0.1897, +12.76% vs avg entry $0.188543), still above 50DMA and 200DMA in golden-cross structure, well clear of invalidation $0.170 (~20% headroom). RSI jumped to 77.8 -- BREACHES the explicit entry thesis-test threshold ('RSI stays out of overbought (<75) as price extends toward target'); p3 flipped Bullish->Bearish. Funding also rose to 0.1199%/8h, crossing the ~0.05%/8h crowded-long threshold -- p6 flipped Bullish->Bearish. Confluence eased 8/10 PM 08-21 -> 6/10 AM 08-22, Bearish count 0->2/10 -- well short of the 4/10-for-2-consecutive-checkpoints exit gate, and OI is not diverging: +117.8%/24h, +141.0%/7d, the strongest OI print of the hold, confirming continued momentum rather than a stalling/reversing tape. On the OI evidence this is a strong (if overheated) uptrend, not a breakdown -- judged thesis status stays Playing Out, conviction stays Intact, no trim. Market-wide context: this is happening inside a broad melt-up (BTC RSI 82.5, F&G 71 +37/7d) so overheating is not XLM-specific. Explicit watch flagged for the PM 08-22 checkpoint per the original thesis test: if RSI stays >75 AND price stalls or reverses, that combination is the early Weakening signal -- would trigger a trim-half review at that point, not before."
+        }
+      ]
+    },
+    {
+      "ticker": "UNI",
+      "sector": "DEX",
+      "entry_utc": "2026-08-22T07:15:00Z",
+      "entry_price": 4.214,
+      "qty": 119.791,
+      "notional_usdt": 504.8,
+      "avg_entry_price": 4.214,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 5.342,
+      "invalidation": 3.65,
+      "planned_R": 2.0,
+      "stated_p": 0.4,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-10-17",
+      "interim_review_date": "2026-09-05",
+      "thesis": "DEX-sector Uniswap in a clean golden-cross uptrend (price $4.214 above 50DMA $3.6958 and 200DMA $3.4287), moderately extended (+14.0% from 50DMA, under the 25% overextension line), RSI 64.6 mid-upper band with some room, funding flat (0.01%/8h, no crowding), 7d OI +3.7% confirming the broader uptrend even as 24h OI dipped -11.5% (short-term pullback inside a still-positive weekly trend). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (PM 08-21 8/10 armed -> AM 08-22 7/10 confirmed, 0/10 Bearish both checkpoints). Sentiment read Neutral this checkpoint -- mild rally-bragging chatter ('25% up', 'cooking') but flat interest trend and no crowd-wide euphoria dominance, so no contrarian flag either way. Entered inside a broad market-wide melt-up (BTC RSI 82.5, F&G 71 +37/7d) -- the dominant red-team risk to this thesis is a market-wide reversal, not anything UNI-specific; the staged half-entry and second-checkpoint confirmation requirement are the explicit risk control for that.",
+      "thesis_test": "OI keeps expanding on the 7d window (not just the noisier 24h print) alongside price; price holds above the 50DMA ($3.6958); RSI stays out of overbought (<75) as price extends toward target; no market-wide (BTC-led) reversal that would invalidate most of the book at once.",
+      "invalidation_conditions": "Price closes below $3.65 (below the 50DMA, breaking the golden-cross structure) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-22 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-21 8/10 armed -> AM 08-22 7/10 confirmed). Staged entry: opened at half target size (5% of $10095.99 = $504.80, 119.791 UNI @ $4.214). Tier C (R=2.00, p=0.40, EV=+2.68%). Second half adds only if confluence holds >=7/10 at the 2026-08-22 PM checkpoint; no confirmation cuts the half."
         }
       ]
     }

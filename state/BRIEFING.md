@@ -1,12 +1,12 @@
-BRIEFING — 2026-08-21 PM
+BRIEFING — 2026-08-22 AM
 Top 5 considerations:
-1. XLM — confluence 8/10 — holding; stage-2 add executed this checkpoint (now full 10% size). OI accelerating (24h +27.7%, 7d +37.1%), funding turned Bullish, sentiment cooled off this morning's euphoria into Neutral. Needs price to hold above $0.170 invalidation.
-2. UNI — confluence 8/10 — armed (first time, was 6/10 at AM), highest mechanical read on the board today. Needs a second consecutive ≥7/10 at AM 08-22 to confirm entry.
-3. TRX — confluence 7/10 — armed (first time, was 6/10 at AM). Needs AM 08-22 confirmation.
-4. ONDO — confluence 7/10 — armed (first time, was 6/10 at AM). Needs AM 08-22 confirmation.
-5. JUP — confluence 7/10 — armed (first time, was 6/10 at AM); interest is falling even as euphoria lingers among a thinner crowd. Needs AM 08-22 confirmation.
+1. UNI — confluence 7/10 — CONFIRMED & ENTERED (5% stage-1 half). Clean golden-cross uptrend, 0/10 Bearish two checkpoints running; entered at exactly the R=2.0 floor since it's already +30% in 7 days.
+2. XLM — confluence 6/10 — HELD (11.1%, full size). RSI hit 77.8 (overbought, breaches its own thesis test) and funding turned crowded, but OI is exploding (+118%/24h) so no trim — watching closely for PM.
+3. TRX — confluence 6/10 (was 7/10 armed) — arm LAPSED, mechanical count eased; no entry.
+4. JUP — confluence 6/10 (was 7/10 armed) — arm LAPSED, mechanical count eased; no entry.
+5. ONDO — confluence 5/10 (was 7/10 armed) — arm LAPSED sharply; sentiment also flagged an unverified team-wallet-to-Coinbase claim worth re-checking at MID.
 Holdings:
-XLM | 10.06% | entry $0.188543 -> now $0.1897 | +0.6% | +$0.001157 per coin | position P&L +$6.12
-Portfolio: $9,974.91 (-0.3% / -$25.09 since inception)
-Regime: Fear & Greed 72 (Δ7d +43, unchanged for a third straight checkpoint, 3 points from overheated); stablecoins +0.3% 7d ($307.7B, still growing); MVRV BTC 1.39 / ETH 1.10 (healthy).
-Pre-mortem: BTC -15% overnight would plausibly hit XLM for ~-20% to -27% (~-1.0% to -1.4% of the book) but not breach invalidation or touch ≥3 positions (only 1 held) — no de-risk action taken.
+XLM | 11.13% | entry $0.1885 -> now $0.2126 | +12.8% | +$0.0241/coin | position P&L +$127.19
+UNI | 5.00% | entry $4.214 -> now $4.214 | +0.0% | +$0.00/coin | position P&L +$0.00
+Portfolio: $10,095.99 (+0.96% / +$95.99 since inception)
+Regime: Fear & Greed 71 (Δ7d +37, still hot but off the 72 plateau), stablecoin supply +0.68% 7d (growing), BTC MVRV 1.48 (healthy) — market-wide melt-up continues with broad RSI/funding overheating outside XLM and UNI.
