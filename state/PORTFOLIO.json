@@ -2,7 +2,7 @@
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
   "cash_usdt": 8977.06,
-  "portfolio_value_usdt": 10021.3,
+  "portfolio_value_usdt": 9980.59,
   "positions": [
     {
       "ticker": "XLM",
@@ -10,9 +10,9 @@
       "entry_utc": "2026-08-21T07:10:07Z",
       "entry_price": 0.1874,
       "qty": 5287.2823,
-      "notional_usdt": 1003.0,
+      "notional_usdt": 1003.53,
       "avg_entry_price": 0.188543,
-      "size_pct_current": 11.13,
+      "size_pct_current": 10.05,
       "target_size_pct": 10.0,
       "stage": "full",
       "target": 0.223,
@@ -54,6 +54,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (1/10 Bearish)",
           "action": "hold, no changes -- price $0.1975 (-7.10% vs AM close $0.2126, +4.75% vs avg entry $0.188543), still above 50DMA ($0.17724) and 200DMA ($0.173177) in golden-cross structure, invalidation $0.170 not breached (~13.9% headroom, narrower than AM's ~20% after today's pullback but still ample). The AM watch condition (RSI stays >75 AND price stalls/reverses) did NOT fire as flagged: RSI actually cooled 77.8->69.5, back inside the explicit thesis-test band (<75), p3 flipped Bearish->Bullish; funding also cooled 0.1199%->0.0495%/8h, back under the crowded-long threshold, p6 flipped Bearish->Neutral. The one new Bearish this checkpoint is p5 volz (a down day, 24h -2.13%, with a high z-score -- 'z>+1 on down days' branch). OI still expanding (+48.8%/24h, +103.7%/7d) confirming continued momentum despite today's pullback. Confluence held at 6/10 (2/10 Bearish AM -> 1/10 Bearish PM), a genuine improvement, not deterioration -- nowhere near the 4/10-for-2-consecutive exit gate. Sentiment (p1) read Neutral -- flat interest, no euphoria, mild capitulation-flavored doubt (80-day-sell-off chatter) grouped mostly with XRP discussion, no crowd extreme. Thesis status stays Playing Out, conviction stays Intact, no trim, no exit."
+        },
+        {
+          "checkpoint": "2026-08-23 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "hold, no changes -- price $0.1898 (-3.90% vs PM close $0.1975, +0.67% vs avg entry $0.188543), still above 50DMA and 200DMA in golden-cross structure (dev-from-50DMA +7.3%, moderate), invalidation $0.170 not breached (~10.4% headroom). RSI 62.2 back in the healthy mid-band, funding 0.0245%/8h (Neutral band, no crowding), p5 volz Neutral (yesterday's lone Bearish flag cleared). OI still confirming strongly on the 7d window (+114.4%); 24h OI -13.3% (a single-day pullback, not a divergence against the still-strongly-positive weekly trend). Mechanical p2-10 read 6/9 Bullish, 0/9 Bearish. Sentiment (p1) flipped to contrarian Bearish this checkpoint -- interest genuinely turned (rising vs several recent Neutral reads), with clear euphoria markers (rocket emojis, 'massive pump', explicit XLM-flipping-XRP hype, 'XLM Army' accumulation calls) and only a weak, price-technical capitulation offset (profit-taking/cool-off cautions, not despair). This is the sole Bearish parameter this checkpoint (1/10) -- nowhere near the 4/10-for-2-consecutive exit gate, and the mechanical structure (DMA/RSI/OI/funding) is unambiguously intact. Thesis status stays Playing Out, conviction stays Intact, no trim, no exit. Flagging as the explicit watch item for the next checkpoint: if this euphoria intensifies further alongside price stalling or reversing, that is the early-warning combination named in the original thesis test."
         }
       ]
     }
