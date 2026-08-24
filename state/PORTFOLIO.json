@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 8476.15,
-  "portfolio_value_usdt": 10018.13,
+  "cash_usdt": 7975.24,
+  "portfolio_value_usdt": 10000.87,
   "positions": [
     {
       "ticker": "XLM",
@@ -12,7 +12,7 @@
       "qty": 5287.2823,
       "notional_usdt": 1003.53,
       "avg_entry_price": 0.188543,
-      "size_pct_current": 10.39,
+      "size_pct_current": 10.16,
       "target_size_pct": 10.0,
       "stage": "full",
       "target": 0.223,
@@ -75,6 +75,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (1/10 Bearish)",
           "action": "hold, no changes -- price $0.1969 (-1.79% vs PM 08-23 close $0.2005, +4.43% vs avg entry $0.188543), still above 50DMA ($0.176932) and 200DMA ($0.173558) in golden-cross structure, dev-from-50DMA +11.3% (moderate, cooled from PM's +13.2%). RSI 66.7 -- back well clear of the 75 overbought line (from PM's 69.9). Funding cooled to 0.0235%/8h (Neutral, from PM's 0.0622% crowded-long cross) -- p6 flipped Bearish->Neutral. OI still confirming very strongly (7d +127.3%, 24h +7.6%). Invalidation $0.170 not breached (~13.7% headroom). Sentiment (p1) stayed contrarian Bearish -- same XRP-flip/rocket-emoji euphoria stack persists, zero capitulation offset; price pulled back modestly rather than stalling/reversing outright, so the named early-warning combination (euphoria + stall/reversal) has not cleanly fired, though the pullback edges closer to it. Confluence eased 7/10 PM 08-23 -> 6/10 AM 08-24 (Bearish count 2->1/10, p6 cleared) -- nowhere near the 4/10-for-2-consecutive exit gate. Thesis status stays Playing Out, conviction stays Intact, no trim, no exit. Watch item carried forward, sharpened: a further pullback alongside continued euphoria would be the clearest version yet of the named early-warning signal."
+        },
+        {
+          "checkpoint": "2026-08-24 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (2/10 Bearish)",
+          "action": "hold, no changes -- price $0.1922 (-2.39% vs AM close $0.1969, +1.94% vs avg entry $0.188543), still above 50DMA ($0.176838) and 200DMA ($0.173535) in golden-cross structure, dev-from-50DMA +8.7% (moderate, cooled further from AM's +11.3%). RSI 62.4, comfortably mid-band and well clear of overbought. Funding flat at 0.01%/8h (Neutral). OI still confirming very strongly (7d +121.3%, 24h -7.3% -- a single-day pullback on the noisier window, not a divergence against the still-dominant weekly trend). Invalidation $0.170 not breached (~11.5% headroom, narrower than AM's ~13.7% after today's pullback but still ample). Sentiment (p1) stayed contrarian Bearish -- rising interest, dominant euphoria ($0.27-0.28/$0.45 targets, rocket emojis, 'textbook falling wedge breakout', 22% weekly surge mentions), zero capitulation offset; price pulled back rather than extending, edging closer to but not cleanly firing the named early-warning combination (euphoria + genuine stall/reversal) -- one modest down-day is not yet a clean reversal. Confluence held/improved 6/10 AM -> 7/10 PM (p5 volz flipped Neutral->Bearish while overall Bullish count rose; Bearish count 1->2/10) -- nowhere near the 4/10-for-2-consecutive exit gate. Thesis status stays Playing Out, conviction stays Intact, no trim, no exit. Watch item carried forward unchanged: a further pullback alongside continued/intensifying euphoria remains the clearest version of the named early-warning signal."
         }
       ]
     },
@@ -83,12 +90,12 @@
       "sector": "RWA",
       "entry_utc": "2026-08-24T07:20:00Z",
       "entry_price": 0.3757,
-      "qty": 1333.2614,
-      "notional_usdt": 500.91,
-      "avg_entry_price": 0.3757,
-      "size_pct_current": 5.0,
+      "qty": 2646.607,
+      "notional_usdt": 1001.82,
+      "avg_entry_price": 0.378529,
+      "size_pct_current": 10.09,
       "target_size_pct": 10.0,
-      "stage": "stage1_half",
+      "stage": "full",
       "target": 0.45,
       "invalidation": 0.34,
       "planned_R": 2.08,
@@ -107,6 +114,13 @@
           "conviction": "Intact",
           "confluence": "7/10",
           "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-23 8/10 armed -> AM 08-24 7/10 confirmed). Staged entry: opened at half target size (5% of $10018.13 = $500.91, 1333.2614 ONDO @ $0.3757). Tier C (R=2.08, p=0.42, EV=+2.79%). Second half adds only if confluence holds >=7/10 at the 2026-08-24 PM checkpoint; no confirmation cuts the half."
+        },
+        {
+          "checkpoint": "2026-08-24 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "8/10 (0/10 Bearish)",
+          "action": "STAGE-2 ADD -- confluence held >=7/10 at the immediate next checkpoint since the AM 08-24 half-open (7/10 -> 8/10, strengthened, not just held). Mechanical p2-p10 picture unchanged/clean (7/9 Bullish, 0 Bearish both checkpoints -- p5 volz, p10 F&G Neutral). p1 sentiment cooled from AM's contrarian-Bearish euphoria read ($1.40/+1500% targets, rocket emojis, new-ATH calls) to contrarian-Bullish this checkpoint -- rising interest with no euphoria markers and no capitulation markers, base-building/double-bottom/support-defense framing read as measured technical chatter rather than the prior hype stack; fits the p1 Bullish branch ('improving interest without euphoria') on its own terms, not forced to justify the add. Price $0.3814 (+1.52% vs entry $0.3757), still above the 50DMA ($0.358816) and 200DMA ($0.317524) in golden-cross structure, dev-from-50DMA +6.3% (moderate, still the least-extended structure on the board), RSI 57.2 mid-band with room, OI still confirming very strongly (7d +83.5%, 24h +5.0%, both accelerating vs AM's +62.2%/+0.9%), funding flat (0.0141%/8h, no crowding). Invalidation $0.34 not breached (~10.9% headroom). BUY 1313.3456 ONDO @ $0.3814 = $500.91 notional (matching the stage-1 half's original ~$500 sizing), 2026-08-24T19:05:45Z (Binance spot, same `parameters.py` refresh). Position now 2646.607 ONDO, avg entry $0.378529, full target size ~10.09% of $10,000.87 portfolio value."
         }
       ]
     }

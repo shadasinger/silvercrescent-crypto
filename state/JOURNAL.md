@@ -464,3 +464,11 @@ Mechanical parameters improved from AM (p6 funding rolled Neutral->Bullish; DMA 
 **Sector:** RWA (new sector for the book — no existing RWA exposure). 2 of 5 positions (with XLM), 1 of 2 max in sector.
 
 **Context note:** entered inside the same broad melt-up flagged at every recent entry — BTC RSI 80.8, ETH RSI elevated, F&G 73 (Δ7d +42, the highest reading of the hold to date). ONDO's own structure (only +4.7% dev-from-50DMA, RSI 55.4 mid-band) is notably less extended than the board average, which is the main reason conviction in the mechanical picture stayed high despite the melt-up backdrop; the p1 euphoria flag is logged as the explicit watch item, mirroring the same pattern already being tracked on the XLM hold.
+
+## STAGE-2 ADD — ONDO — 2026-08-24 PM
+
+Confluence held **8/10 Bullish, 0/10 Bearish** at this checkpoint (immediate next trading checkpoint since the AM 08-24 half-open, count 7/10 -> 8/10) — per Section 5 step 9, the second half opens at full target size; the rule requires the count to hold >=7, and here it strengthened rather than merely held.
+
+Mechanical parameters unchanged from AM (7/9 Bullish, 0 Bearish — p5 volz, p10 F&G still Neutral); p1 sentiment cooled from AM's contrarian-Bearish euphoria read ($1.40/+1500% targets, rocket emojis, new-ATH calls) to contrarian-Bullish this checkpoint — rising interest with no euphoria markers and no capitulation markers, base-building/double-bottom/support-defense framing read as measured technical chatter rather than a hype stack, fitting the p1 Bullish branch ("improving interest without euphoria") on its own terms rather than being read generously to justify the add. Price $0.3814 (+1.52% vs entry $0.3757), still the least-extended structure on the board (dev-from-50DMA +6.3%), OI accelerating (24h +5.0%, 7d +83.5%, both above AM's +0.9%/+62.2%), invalidation $0.34 not breached (~10.9% headroom).
+
+**Fill:** BUY 1313.3456 ONDO @ $0.3814 = $500.91 notional, 2026-08-24T19:05:45Z (Binance spot via `parameters.py` refresh). Position now 2646.607 ONDO, avg entry $0.378529, ~10.09% of portfolio ($1,009.42 / $10,000.87) — full target size reached. No further staging; ongoing test is the same OI/price/DMA structure through the 2026-09-07 interim review.
