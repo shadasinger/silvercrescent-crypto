@@ -1692,3 +1692,48 @@ Watchlist changes (MID only): n/a — PM checkpoint, no watchlist decisions. Exc
 Simulated fills: n/a — no trades this checkpoint.
 
 Learning artifacts written: `state/PARAMETERS.json` (refreshed, all 30 coins + global, sentiment blocks for 26 coins), `state/SIGNALS.csv` (30 rows appended), `state/PORTFOLIO.json` (XLM status_history entry added, portfolio_value_usdt and size_pct_current refreshed), this report, `state/BRIEFING.md`.
+
+## CHECKPOINT — 2026-08-24, AM
+
+Global params: stablecoins Δ7d +0.77% ($309.2B, still growing) | MVRV BTC 1.47 / ETH 1.13 (healthy, sub-2 band) | F&G 73, Δ7d +42 (highest reading of the hold to date) | funding regime: broadly hot, most of the board in the 0.01-0.08%/8h range | futures: `fapi.binance.com` still geo-blocked (HTTP 451) — params 6-7 sourced from the Hyperliquid fallback for all 30 coins.
+Deployed: 15.39% across 2 positions | Cash: 84.61% ($8,476.15).
+
+**Step 1 (load state):** on `main` at the latest commit (verified against origin/main before starting). Read PORTFOLIO.json (1 open position, XLM), WATCHLIST.json (30 coins, unchanged since MID 08-23's RENDER→POL swap), PARAMETERS.json, SIGNALS.csv, CHECKPOINT_LOG.md, TRADE_LEDGER.csv, LESSONS.md, JOURNAL.md, SHADOW_BOOK.md.
+
+**Step 2 (refresh data):** `scripts/parameters.py` rerun for all 30 coins + global block (generated_at 2026-08-24T07:14:11Z; Hyperliquid fallback again — Binance futures geo-block unresolved). Market context: BTC $77,752.85 (RSI 80.8, still hot), ETH $2,470.46, F&G 73 (Δ7d +42) — the melt-up continues to extend.
+
+**Sentiment pass (Section 0 amendment):** ran holdings (XLM) plus all coins at mechanical ≥5/9 → 24 tickers (ONDO, ADA, UNI, CAKE, JUP, XLM, SHIB, ICP, ETH, XRP, SOL, TRX, DOGE, LINK, AAVE, BCH, HBAR, PEPE, TAO, POL, VIRTUAL, ARB, FIL, ASTER), single batch, succeeded with real citations. Contrarian reads judged and logged per-coin in SIGNALS.csv:
+- **Bearish (euphoria dominant, no capitulation offset):** ONDO ($1.40/+1500% targets, rocket emojis, new-ATH calls — a fresh flip from PM 08-23's Neutral), ADA, JUP (euphoria present despite falling interest — rubric's euphoria branch fires regardless of trend), **XLM** (held; euphoria persists, same XRP-flip/rocket-emoji stack as PM 08-23), ETH, XRP, DOGE, AAVE, TAO (euphoria dominant despite flat interest), POL (capitulation-flavored content read as narrative deterioration — insider-dump/ponzi allegations — not passive despair-with-intact-thesis, so Bearish not Bullish), ASTER (genuine shift from prior two-sided reads — euphoria present, no offsetting red-flag chatter this run).
+- **Bullish (capitulation while thesis intact):** **ICP** (scam accusations, "-99.9%" framing, frustration — no euphoria, mechanical structure otherwise clean; scam claims are unverified retail complaints, not confirmed news, no auto-exclude).
+- **Neutral:** UNI, CAKE, SHIB, SOL, TRX, LINK, BCH, HBAR, PEPE, VIRTUAL, ARB, FIL (flat/no one-sided dominance, or genuinely mixed).
+- Remaining 6 watchlist coins (BTC, ZEC, ENA, MORPHO, ETHFI, BNB — mechanical <5, not held): p1 Neutral per Section 0 amendment (sentiment.py not triggered).
+
+**Mechanical label review:** checked all 30 against the Section 7 rubric. No misreads found — RSI/overextension/OI branch logic all correctly applied given the melt-up backdrop. **No overrides applied this checkpoint.**
+
+**Final confluence counts (Bullish/Bearish), sorted:** **ONDO 7/1 (confirmed)**, **ICP 7/0 (armed)**, ADA 6/1, CAKE 6/1, JUP 6/1, **XLM 6/1 (held)**, SHIB 6/0, UNI 6/0, then a wide 5-count cluster (AAVE, ARB, ASTER, BCH, DOGE, ETH, FIL, HBAR, LINK, PEPE, POL, SOL, TAO, TRX, VIRTUAL, XRP — 5 Bullish each with varying Bearish counts), BTC 4/1, ENA 4/2, ETHFI 4/2, MORPHO 4/1, ZEC 4/2, BNB 3/1.
+
+**Step 4 (review holdings — XLM):** price $0.1969 (-1.79% vs PM 08-23 close $0.2005, +4.43% vs avg entry $0.188543). Still above both 50DMA and 200DMA in golden-cross structure (dev +11.3%, cooled from PM's +13.2%), RSI 66.7 well clear of overbought, funding cooled to 0.0235%/8h (Neutral, cleared the crowded-long cross from PM), OI still confirming very strongly (7d +127.3%). Confluence eased 7/10 → 6/10 (Bearish count 2→1/10, p6 funding cleared). Sentiment (p1) stayed contrarian Bearish — same euphoria stack, zero capitulation offset; price pulled back modestly rather than stalling/reversing, so the named early-warning combination hasn't cleanly fired, though it edges closer. **Thesis status stays Playing Out, conviction stays Intact — hold, no changes.**
+
+**Step 5 (entry signals):** **ONDO** reached 7/10 (Bullish 7, Bearish 1) for a **second consecutive checkpoint** (PM 08-23 8/10 armed → AM 08-24 7/10 confirmed) — **CANDIDATE CONFIRMED**, proceed to expectancy sheet. **ICP** reached 7/10 (7 Bullish, 0 Bearish) for the **first time** this checkpoint (PM 08-23 was 6/10) — logged **ARMED**, not confirmed; no trade, wait for the next checkpoint.
+
+**Step 6 (expectancy sheet — ONDO):** Entry $0.3757 (Binance spot, `parameters.py` generated_at 2026-08-24T07:14:11Z) | Target $0.45 (+19.78%) | Invalidation $0.34, just under the 50DMA $0.358702 (-9.50%) | R = 19.78/9.50 = **2.08** | stated p = **0.42** | EV = 0.42×19.78% − 0.58×9.50% = **+2.79%**. Floor met (R≥2.0, EV>0). Tier **C** (R just above 2.0 floor, p below 0.50) → size band 5-15%, target 10%. Full reasoning and frozen 10-parameter table in JOURNAL.md.
+
+**Step 7 (anti-churn):** N/A — no competing candidate, only 2 of 5 slots deployed after this entry, no displacement needed.
+
+**Step 8 (red-team pass):** **Against entering ONDO now** — this is the fourth checkpoint running where F&G has printed above 65 and rising (66→73 over the last three checkpoints), and ONDO's own sentiment just flipped to euphoric ($1.40/+1500% targets); entering a fresh position at the top of an extending melt-up, right as its own social chatter turns hype-driven, is exactly the setup that has burned several August 18-19 staged entries on reversal risk once the melt-up eventually cools. **Rebuttal:** ONDO's mechanical structure is the least-extended of any confirmed candidate to date (dev-from-50DMA only +4.7%, RSI 55.4 mid-band with real room) — it is not chasing an overheated move the way some prior entries did; the entry rules require confluence, not sentiment agreement, and Section 6 explicitly bars sentiment from being a standalone reason to trade *or block* a qualified entry. The staged half-entry and second-checkpoint requirement are the built-in risk control for exactly this scenario. **Against holding XLM unchanged** — see the XLM-specific red-team logic carried in status_history; no new information this checkpoint changes that calculus (funding cooled, RSI cooled, OI still strong). **Second angle — is the book already too exposed to a market-wide reversal with two positions now open?** No: even after ONDO, deployed capital is 15.39% of the book — well within Section 3's 35%-per-position ceiling and Section 8's sector caps (Payments 10.39%, RWA 5.00%, both single-position, both under the 50%-of-deployed-capital-per-sector cap by a wide margin). Cash remains the dominant position at 84.61%.
+
+**Step 9 (execute):** BUY 1333.2614 ONDO @ $0.3757 = $500.91 notional, 2026-08-24T07:20:00Z (Binance spot, same `parameters.py` refresh). Stage 1 (half target size, 5% of $10,018.13 portfolio value). Second half adds only if confluence holds ≥7/10 at the 2026-08-24 PM checkpoint. XLM held unchanged.
+
+**Monday shadow-book refresh (Section 5/11, first-of-week task):** refreshed `state/SHADOW_BOOK.md` — graded the six tranches closed since the 2026-08-17 refresh (TRX trim+exit, CAKE/ETH/ZEC/MORPHO staged-cuts, UNI staged-cut) against today's marks. Total realized -$31.23 vs. total virtual-if-held +$1,094.37 — opportunity cost **-$1,125.60**, widening from the -$437.86 read at the 2026-08-21 audit as the melt-up kept extending. ZEC (+$681.00 virtual) and ETH (+$144.63 virtual) are now the two largest single-ticker divergences in the book's history. New evidence appended to `state/LESSONS.md` (#10) — flagged as the largest quantified line item for the 2026-09-01 monthly review. No confirmed candidates were rejected for a slot this week (ONDO confirmed into an open slot, no competition).
+
+Red-team summary: see Step 8 above (folded into this checkpoint's decision flow given the single-entry-plus-hold nature of this run).
+
+Pre-mortem: n/a — AM checkpoint, pre-mortem is PM-only per Section 5 step 11.
+
+Sector exposure: Payments 10.39% (XLM), RWA 5.00% (ONDO) — 2 of 5 positions, 1 of 2 max in each sector, both well under the 50%-of-deployed-capital cap.
+
+Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excluded (red flags): n/a.
+
+Simulated fills: BUY 1333.2614 ONDO @ $0.3757 ($500.91 notional), 2026-08-24T07:20:00Z.
+
+Learning artifacts written: `state/SIGNALS.csv` (30 rows, checkpoint 2026-08-24 AM, incl. logged p1 sentiment reasoning for all 24 sentiment-triggered coins), `state/PORTFOLIO.json` (XLM hold-review status history appended, new ONDO position opened, cash/portfolio_value refreshed), `state/JOURNAL.md` (ONDO entry snapshot: frozen 10-parameter table, expectancy sheet, runner-ups), `state/TRADE_LEDGER.csv` (ONDO BUY row), `state/SHADOW_BOOK.md` (Monday refresh, six-tranche virtual-continuation grading), `state/LESSONS.md` (evidence #10), this report, `state/BRIEFING.md`. Not first AM of month (next due 2026-09-01) — no monthly review.

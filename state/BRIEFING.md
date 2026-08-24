@@ -1,15 +1,15 @@
-BRIEFING — 2026-08-23 PM
+BRIEFING — 2026-08-24 AM
 
 Top 5 considerations:
-1. ONDO — confluence 8/10 — clean mechanical sweep (above both DMAs, RSI 57.7, OI +83.8% 7d, flat funding) plus neutral factual sentiment; ARMED this checkpoint (jumped from 5/10 AM), needs one more consecutive ≥7/10 to confirm.
-2. XLM — confluence 7/10 — held position, golden-cross intact with OI accelerating (+142.5% 7d), but funding just re-crossed the crowded-long line and euphoric sentiment persists; watching for a stall/reversal to trigger a trim.
-3. SHIB — confluence 6/10 — clean mechanicals (RSI 64.4, OI/funding intact), one parameter short; sentiment read Neutral after a mid-window pump-then-16%-plunge whipsaw.
-4. ICP — confluence 6/10 — steady strength (RSI/rvol/volz/OI all Bullish) capped by crowded funding (0.0546%/8h); sentiment Neutral, no crowd extreme.
-5. SOL — confluence 6/10 — DMA still Neutral (RSI 84.1 overheated) is the missing leg; sentiment reads contrarian Bearish on rising $500-target euphoria.
+1. ONDO — confluence 7/10 (confirmed) — RWA rail entered this checkpoint on clean golden-cross structure (only +4.7% above 50DMA, RSI 55) and strong OI (+62%/7d); lone caution flag is fresh euphoric chatter ($1.40 targets).
+2. ICP — confluence 7/10 (armed) — AI/infra name armed on capitulation-driven contrarian sentiment (scam accusations, "-99.9%" framing) plus clean OI/RSI structure; needs one more ≥7/10 checkpoint to confirm.
+3. XLM — confluence 6/10 (held) — funding and RSI cooled back to healthy, OI still strong (+127%/7d), but persistent euphoric sentiment is one Bearish flag short of an exit warning — watch for a stall/reversal.
+4. UNI — confluence 6/10, 0 Bearish — clean DEX-burn structure, one point short of the entry bar; flat sentiment, needs a mechanical parameter to flip.
+5. SHIB — confluence 6/10, 0 Bearish — falling social interest, no euphoria, mechanically clean but one point short of qualifying.
 
 Holdings:
-XLM | 10.56% | entry $0.1885 -> now $0.2005 | +6.3% | +$0.0120 per coin | position P&L +$63.22
+XLM | 10.39% | entry $0.1885 -> now $0.1969 | +4.4% | +$0.008357/coin | position P&L +$44.19
+ONDO | 5.00% | entry $0.3757 -> now $0.3757 | +0.0% | +$0.00/coin | position P&L +$0.00
 
-Portfolio: $10,037.16 (+0.4% / +$37.16 since inception)
-Regime: F&G 66 (+32 7d, elevated, not yet euphoric-extreme) | stablecoins +0.75% 7d (mild sideline liquidity growth) | MVRV BTC 1.46 (healthy, not cycle-top).
-Pre-mortem: BTC -15% overnight hits only the single XLM position (~1-1.5% portfolio drawdown) — below the ≥3-position de-risk bar; 89% cash is already the diversifier in place, no action taken.
+Portfolio: $10,018.13 (+0.2% / +$18.13 since inception)
+Regime: F&G 73 (Δ7d +42, highest of the hold), stablecoins +0.77%/7d still growing, MVRV BTC 1.47 / ETH 1.13 (healthy).

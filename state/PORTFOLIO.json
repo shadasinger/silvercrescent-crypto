@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 8977.06,
-  "portfolio_value_usdt": 10037.16,
+  "cash_usdt": 8476.15,
+  "portfolio_value_usdt": 10018.13,
   "positions": [
     {
       "ticker": "XLM",
@@ -12,7 +12,7 @@
       "qty": 5287.2823,
       "notional_usdt": 1003.53,
       "avg_entry_price": 0.188543,
-      "size_pct_current": 10.56,
+      "size_pct_current": 10.39,
       "target_size_pct": 10.0,
       "stage": "full",
       "target": 0.223,
@@ -68,6 +68,45 @@
           "conviction": "Intact",
           "confluence": "7/10 (2/10 Bearish)",
           "action": "hold, no changes -- price $0.2005 (+5.64% vs AM close $0.1898, +6.34% vs avg entry $0.188543), still above 50DMA ($0.177078) and 200DMA ($0.173313) in golden-cross structure, dev-from-50DMA +13.2% (moderate, no overextension flag), invalidation $0.170 not breached (~15.2% headroom, the widest cushion of the hold). RSI 69.9 -- stayed under the explicit thesis-test overbought line (<75) even as price extended further. Funding rose to 0.0622%/8h, crossing the ~0.05%/8h crowded-long threshold again -- p6 flipped Neutral->Bearish (the second Bearish flag this checkpoint alongside p1). OI still confirming very strongly (24h +16.8%, 7d +142.5%, an acceleration from AM's +114.4% 7d). AM's explicit watch condition (euphoria intensifies further AND price stalls/reverses) did NOT fire -- sentiment (p1) stayed contrarian Bearish with the same $2280-target/rocket-emoji/XLM-flipping-XRP euphoria stack and zero capitulation offset, but price kept extending (+5.64%) rather than stalling, and RSI stayed in-band. Confluence held at 7/10, Bearish count moved 1->2/10 (p1 + p6, both funding-adjacent to the melt-up, not a thesis-structure break) -- nowhere near the 4/10-for-2-consecutive exit gate. Thesis status stays Playing Out, conviction stays Intact, no trim, no exit. Flagging the same watch item forward: if euphoria persists alongside a genuine price stall/reversal, or funding stays elevated while RSI pushes past 75, that combination is the next early-warning signal to act on."
+        },
+        {
+          "checkpoint": "2026-08-24 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "hold, no changes -- price $0.1969 (-1.79% vs PM 08-23 close $0.2005, +4.43% vs avg entry $0.188543), still above 50DMA ($0.176932) and 200DMA ($0.173558) in golden-cross structure, dev-from-50DMA +11.3% (moderate, cooled from PM's +13.2%). RSI 66.7 -- back well clear of the 75 overbought line (from PM's 69.9). Funding cooled to 0.0235%/8h (Neutral, from PM's 0.0622% crowded-long cross) -- p6 flipped Bearish->Neutral. OI still confirming very strongly (7d +127.3%, 24h +7.6%). Invalidation $0.170 not breached (~13.7% headroom). Sentiment (p1) stayed contrarian Bearish -- same XRP-flip/rocket-emoji euphoria stack persists, zero capitulation offset; price pulled back modestly rather than stalling/reversing outright, so the named early-warning combination (euphoria + stall/reversal) has not cleanly fired, though the pullback edges closer to it. Confluence eased 7/10 PM 08-23 -> 6/10 AM 08-24 (Bearish count 2->1/10, p6 cleared) -- nowhere near the 4/10-for-2-consecutive exit gate. Thesis status stays Playing Out, conviction stays Intact, no trim, no exit. Watch item carried forward, sharpened: a further pullback alongside continued euphoria would be the clearest version yet of the named early-warning signal."
+        }
+      ]
+    },
+    {
+      "ticker": "ONDO",
+      "sector": "RWA",
+      "entry_utc": "2026-08-24T07:20:00Z",
+      "entry_price": 0.3757,
+      "qty": 1333.2614,
+      "notional_usdt": 500.91,
+      "avg_entry_price": 0.3757,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 0.45,
+      "invalidation": 0.34,
+      "planned_R": 2.08,
+      "stated_p": 0.42,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-09-21",
+      "interim_review_date": "2026-09-07",
+      "thesis": "RWA/tokenized-treasuries leader (JPMorgan/BlackRock institutional narrative) in a clean golden-cross state: price $0.3757 above both the 50DMA ($0.358702) and 200DMA ($0.317495), only moderately extended (+4.7% from the 50DMA) -- the least-extended structure of any coin confirmed this month. RSI 55.4 mid-band with plenty of room, OI strongly confirming the uptrend (7d +62.2%, 24h +0.9%), funding flat (0.01%/8h, no crowded-long risk). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (PM 08-23 8/10 armed -> AM 08-24 7/10 confirmed) -- the count eased by one, entirely on p1 sentiment flipping contrarian-Bearish (euphoria: $1.40/+1500% price targets, rocket emojis, new-ATH calls, zero capitulation offset) as PM's Neutral read gave way; the mechanical p2-p9 picture stayed unchanged at 7/8 Bullish, 0 Bearish both checkpoints (only p5 volz and p10 F&G Neutral).",
+      "thesis_test": "OI keeps expanding alongside price (not diverging); price holds above the 50DMA ($0.358702); RSI stays out of overbought (<75) as price extends toward target. The contrarian-Bearish sentiment euphoria is the explicit watch item -- if it intensifies further alongside price stalling or reversing, that combination is the early-warning signal for this thesis.",
+      "invalidation_conditions": "Price closes below $0.34 (below the 50DMA, breaking the golden-cross structure) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-24 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-23 8/10 armed -> AM 08-24 7/10 confirmed). Staged entry: opened at half target size (5% of $10018.13 = $500.91, 1333.2614 ONDO @ $0.3757). Tier C (R=2.08, p=0.42, EV=+2.79%). Second half adds only if confluence holds >=7/10 at the 2026-08-24 PM checkpoint; no confirmation cuts the half."
         }
       ]
     }

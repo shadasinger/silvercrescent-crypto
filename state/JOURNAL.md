@@ -427,3 +427,40 @@ Mechanical parameters improved from AM (p6 funding rolled Neutral->Bullish; DMA 
 **Counterfactual vs runner-ups:** TRX/ONDO/JUP (the three PM 08-21 arms that lapsed at AM 08-22) stayed lapsed this PM checkpoint too (all at or below 6/10) — none would have been a better use of the freed capital had UNI's second half opened instead of cutting.
 
 **One testable lesson:** *Hypothesis: same as the CAKE 08-19 finding — the staged-entry "cut on no confirmation" rule doesn't distinguish between a confluence drop driven by price/OI reversing (a real thesis-test failure) and one driven by a single fast-moving overlay parameter like funding, especially during a market-wide melt-up where funding is heating up across most of the board simultaneously (a regime effect, not a UNI-specific one). Proposed rule change: at the staged-entry confirmation checkpoint, treat a confluence drop driven solely by p6 funding or p10 F&G (the two parameters most likely to move on broad-market beta rather than idiosyncratic weakening) as insufficient on its own to cut — require price direction or OI direction to also have reversed. Evidence that would confirm: further cases (this one, CAKE 08-19) where the cut was funding/global-driven and price/OI kept confirming post-cut. Evidence that would kill it: a case where funding alone deteriorating was the leading indicator of an actual reversal one or two checkpoints later.*
+
+## ENTRY SNAPSHOT — ONDO — 2026-08-24 AM
+
+**Confluence history:** armed PM 2026-08-23 (8/10), confirmed AM 2026-08-24 (7/10) — 2 consecutive trading checkpoints >=7/10, per Section 5 step 5-6.
+
+**Frozen 10-parameter table (AM 2026-08-24, confirming checkpoint):**
+
+| # | Parameter | Value | Label | Reasoning |
+|---|---|---|---|---|
+| 1 | Sentiment (contrarian) | interest rising, dominant euphoria ($1.40/+1500% price targets, rocket emojis, new-ATH scenarios), zero capitulation offset | Bearish | Rubric's "euphoria/everyone's in" branch fires cleanly — a flip from PM 08-23's Neutral read as hype intensified alongside the price extension. |
+| 2 | Price vs 50/200DMA | $0.3757 vs 50DMA $0.358702, 200DMA $0.317495; +4.7% above 50DMA | Bullish | Golden state: price > 50DMA > 200DMA, the least-extended structure of any coin confirmed this month. |
+| 3 | RSI-14 | 55.4 | Bullish | Mid-band, well clear of overbought, plenty of room to extend. |
+| 4 | Realized vol ratio 7d/30d | 1.56 | Bullish | Expansion on an upside breakout. |
+| 5 | Volume z-score | -0.7 | Neutral | Below the +1 threshold, doesn't clear the Bullish bar. |
+| 6 | Funding rate | 0.01%/8h | Bullish | Near-zero, no crowded-long risk. |
+| 7 | Open interest Δ | +0.9%/24h, +62.2%/7d | Bullish | Strong, accelerating 7d OI confirming the uptrend alongside price. |
+| 8 | Stablecoin supply 7d Δ | +0.77% | Bullish | Sideline liquidity growing. |
+| 9 | MVRV (BTC proxy) | BTC 1.47 | Bullish | Healthy 1-2 band. |
+| 10 | Fear & Greed | 73, Δ7d +42 | Neutral | Elevated but the mechanical read stays Neutral (not past the overheated cut). |
+
+**Confluence: 7/10 Bullish, 1/10 Bearish.** Mechanical p2-p10 read 7 Bullish/0 Bearish/2 Neutral both the arming (PM 08-23, 8/10) and confirming (AM 08-24, 7/10) checkpoints — unchanged, clean structure both times. The one-point drop from 8 to 7 total is entirely p1 sentiment flipping from PM's Neutral to today's contrarian-Bearish as euphoria markers appeared.
+
+**Expectancy sheet:**
+- Entry: $0.3757 (Binance spot, fetched 2026-08-24T07:14:11Z via `parameters.py`)
+- Target: $0.45 (+19.78%) — consistent with the 2-8wk horizon, below the euphoric $1.40 social-media targets
+- Invalidation: $0.34 (-9.50%) — just under the 50DMA ($0.358702), breaking the golden-cross structure
+- R = 19.78 / 9.50 = **2.08**
+- Stated p = **0.42** (Tier C; the clean, low-extension mechanical structure argues for slightly above the 0.40 floor, but the fresh sentiment euphoria flag caps confidence below 0.45)
+- EV = 0.42×19.78% − 0.58×9.50% = **+2.79%** (clears EV>0 floor)
+- Tier: **C** (R=2.08, just above the 2.0 floor) → size band 5-15%
+- Sizing: target 10%, staged half-open this checkpoint = **5% ($500.91 notional, 1333.2614 ONDO)**. Second half opens only if confluence holds >=7/10 at the next checkpoint (PM 2026-08-24); no confirmation there cuts the half per Section 5 step 9.
+
+**Runner-up candidates this checkpoint:** ICP armed fresh this checkpoint (6/10 PM 08-23 → 7/10 AM 08-24, p1 flipped contrarian-Bullish on a capitulation-while-thesis-intact read) — first occurrence, not a second-consecutive confirmation, so it did not compete for this slot. No other coin reached 7/10; next-highest reads were a wide 6/10 cluster (ADA, UNI, CAKE, JUP, SHIB — several carrying their own p1 Bearish flags).
+
+**Sector:** RWA (new sector for the book — no existing RWA exposure). 2 of 5 positions (with XLM), 1 of 2 max in sector.
+
+**Context note:** entered inside the same broad melt-up flagged at every recent entry — BTC RSI 80.8, ETH RSI elevated, F&G 73 (Δ7d +42, the highest reading of the hold to date). ONDO's own structure (only +4.7% dev-from-50DMA, RSI 55.4 mid-band) is notably less extended than the board average, which is the main reason conviction in the mechanical picture stayed high despite the melt-up backdrop; the p1 euphoria flag is logged as the explicit watch item, mirroring the same pattern already being tracked on the XLM hold.
