@@ -1,13 +1,13 @@
-BRIEFING — 2026-08-25 MID
+BRIEFING — 2026-08-25 PM
 Top 5 considerations:
-1. ONDO — confluence 7/10 — held position; RWA/tokenized-treasuries thesis intact, golden-cross structure clean, but sentiment sits Neutral (mixed price-target chatter vs. genuine "was $0.20 the bottom" doubt), one parameter short of a fresh arm.
-2. XLM — confluence 7/10 — held position; euphoria that had capped sentiment finally cleared to Neutral (zero hype, zero capitulation), mechanical picture is clean 7/9 Bullish — needs one more parameter (or a stronger sentiment read) to re-arm.
-3. ARB — confluence 6/10, 0 Bearish — quiet, no euphoria/capitulation in the chatter, clean mechanical tape; needs a genuinely Bullish sentiment read or one more mechanical flip to reach the 7/10 gate.
-4. ASTER — confluence 6/10, 0 Bearish — genuinely two-sided sentiment (mild euphoria vs. real "still a shitcoin" skepticism) keeps p1 Neutral; still inside its 2-week minimum hold (locked, unlocks 2026-08-30) regardless.
-5. JUP — confluence 6/10, 0 Bearish — sentiment split evenly between rocket-emoji targets and "forgotten token" grievances, netting Neutral; would need a decisive sentiment tilt or mechanical improvement to arm.
+1. MORPHO — confluence 7/10 — Just armed: clean mechanical picture (DMA/RSI/OI all Bullish), sentiment neutral; needs a 2nd consecutive ≥7/10 read next checkpoint to confirm entry.
+2. JUP — confluence 7/10 — Just armed: strong mechanical (volume z-score +2.59, OI +20% 7d); sentiment euphoria discounted as scam-airdrop noise, not real hype; needs confirmation.
+3. AAVE — confluence 7/10 (1 Bearish) — Just armed but +33.2% above its 50DMA, the most overextended read on the board — watch closely if it confirms; sentiment reads clean (rising interest, no euphoria).
+4. CAKE — confluence 7/10 — Just armed: RSI 73.7 (near but under the 75 overbought line), rising interest without euphoria; needs confirmation.
+5. ASTER — confluence 7/10 — Just armed: genuine capitulation chatter (no euphoria) read contrarian-Bullish; had armed and lapsed twice already this week, so confirmation is not a given.
 Holdings:
-XLM | 10.1% | entry $0.1885 -> now $0.1914 | +1.5% | +$15.11 | position P&L +$15.11
-ONDO | 9.9% | entry $0.3785 -> now $0.3744 | -1.1% | -$10.93 | position P&L -$10.93
-Portfolio: $9,978.12 (-0.2% / -$21.88 since inception)
-Regime: Fear & Greed 74 (+33/7d, greed regime), stablecoin supply +0.98%/7d (mild sideline inflow), MVRV BTC 1.49 / ETH 1.13 (healthy, not cycle-top territory).
-Watchlist: no changes — slot-change budget 4/5 used this week (RENDER/POL + FIL/PYTH swaps), only 1 remains, insufficient for a full swap; INJ and NEAR flagged as strong candidates for when budget resets 2026-08-30.
+XLM | 10.08% | entry $0.1874 -> now $0.1899 | +0.72% | +$7.17 | position P&L +$7.17
+ONDO | 9.87% | entry $0.3757 -> now $0.3716 | -1.83% | -$18.34 | position P&L -$18.34
+Portfolio: $9,962.77 (-0.37% / -$37.23 since inception)
+Regime: F&G 74 (+33/7d, greed), stablecoins +1.02%/7d (growing), MVRV BTC 1.49 / ETH 1.13 (healthy) — but BTC RSI 82.3 and dev-from-50DMA +20.2% mark the hottest melt-up reading yet.
+Pre-mortem: BTC -15% overnight would hit both held altcoins hard (~3-5% of portfolio) but only 2 of 5 slots are filled, so no de-risking action taken; cash (80%) remains the buffer.
