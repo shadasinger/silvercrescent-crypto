@@ -1,15 +1,13 @@
-BRIEFING — 2026-08-25 AM
-
+BRIEFING — 2026-08-25 MID
 Top 5 considerations:
-1. ONDO — confluence 7/10 — Held, full size; clean mechanical picture (0 Bearish) but sentiment cooled Bullish→Neutral (mild hype vs genuine "is this the bottom" doubt); no action needed.
-2. XLM — confluence 7/10 — Held; euphoria that dogged this position for a week cleared to Neutral, Bearish count dropped to zero, OI print is the hold's best yet; no action needed.
-3. UNI — confluence 6/10 — Clean mechanical (6/9) but sentiment turned Bearish (dominant $5-target/whale-accumulation hype); needs sentiment to cool and one more Bullish flip to arm.
-4. ASTER — confluence 6/10 — Was armed 7/10 at PM; LAPSED — mechanical count eased and sentiment read mixed (hype vs "shitcoin still $0.6" skepticism); needs a fresh 7/10 to re-arm.
-5. JUP — confluence 6/10 — Was armed 7/10 at PM; LAPSED — mechanical count eased and sentiment genuinely two-sided (targets vs "team not pushing it" grievances); needs a fresh 7/10 to re-arm.
-
+1. ONDO — confluence 7/10 — held position; RWA/tokenized-treasuries thesis intact, golden-cross structure clean, but sentiment sits Neutral (mixed price-target chatter vs. genuine "was $0.20 the bottom" doubt), one parameter short of a fresh arm.
+2. XLM — confluence 7/10 — held position; euphoria that had capped sentiment finally cleared to Neutral (zero hype, zero capitulation), mechanical picture is clean 7/9 Bullish — needs one more parameter (or a stronger sentiment read) to re-arm.
+3. ARB — confluence 6/10, 0 Bearish — quiet, no euphoria/capitulation in the chatter, clean mechanical tape; needs a genuinely Bullish sentiment read or one more mechanical flip to reach the 7/10 gate.
+4. ASTER — confluence 6/10, 0 Bearish — genuinely two-sided sentiment (mild euphoria vs. real "still a shitcoin" skepticism) keeps p1 Neutral; still inside its 2-week minimum hold (locked, unlocks 2026-08-30) regardless.
+5. JUP — confluence 6/10, 0 Bearish — sentiment split evenly between rocket-emoji targets and "forgotten token" grievances, netting Neutral; would need a decisive sentiment tilt or mechanical improvement to arm.
 Holdings:
-XLM | 10.36% | entry $0.1885 -> now $0.1969 | +4.4% | +$44.19 | position P&L +$44.19
-ONDO | 10.28% | entry $0.3785 -> now $0.3904 | +3.1% | +$31.42 | position P&L +$31.42
-
-Portfolio: $10,049.54 (+0.5% / +$49.54 since inception)
-Regime: F&G 74 (extreme greed, flat vs yesterday), stablecoin supply still growing (+0.97% 7d), BTC/ETH MVRV healthy (1.49/1.13) — no cycle-top signal yet, but the melt-up (BTC RSI 84) keeps overextension the parameter to watch.
+XLM | 10.1% | entry $0.1885 -> now $0.1914 | +1.5% | +$15.11 | position P&L +$15.11
+ONDO | 9.9% | entry $0.3785 -> now $0.3744 | -1.1% | -$10.93 | position P&L -$10.93
+Portfolio: $9,978.12 (-0.2% / -$21.88 since inception)
+Regime: Fear & Greed 74 (+33/7d, greed regime), stablecoin supply +0.98%/7d (mild sideline inflow), MVRV BTC 1.49 / ETH 1.13 (healthy, not cycle-top territory).
+Watchlist: no changes — slot-change budget 4/5 used this week (RENDER/POL + FIL/PYTH swaps), only 1 remains, insufficient for a full swap; INJ and NEAR flagged as strong candidates for when budget resets 2026-08-30.
