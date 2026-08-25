@@ -1,13 +1,15 @@
-BRIEFING — 2026-08-24 PM
+BRIEFING — 2026-08-25 AM
+
 Top 5 considerations:
-1. ONDO — confluence 8/10 — RWA/tokenized-treasuries leader; sentiment cooled to genuinely calm (no euphoria this run) while structure stayed clean — held position, stage-2 add executed, now full 10% size.
-2. ASTER — confluence 7/10 — Perp-DEX with clean mechanical board (no Bearish); armed for the first time, needs a second consecutive ≥7/10 checkpoint tomorrow AM to confirm.
-3. JUP — confluence 7/10 — Solana DEX-aggregator; jumped from 6/10 on improved mechanicals; armed for the first time, same confirmation test as ASTER.
-4. XLM — confluence 7/10 — held Payments/RWA position; euphoric social chatter persists (watch item) but price pulled back modestly rather than reversing; no exit trigger, holding unchanged.
-5. ICP — confluence 6/10 — AI/infra L1; this morning's 7/10 arm lapsed as sentiment turned genuinely two-sided (both hype and despair present); would need a fresh 7/10 read to re-arm.
+1. ONDO — confluence 7/10 — Held, full size; clean mechanical picture (0 Bearish) but sentiment cooled Bullish→Neutral (mild hype vs genuine "is this the bottom" doubt); no action needed.
+2. XLM — confluence 7/10 — Held; euphoria that dogged this position for a week cleared to Neutral, Bearish count dropped to zero, OI print is the hold's best yet; no action needed.
+3. UNI — confluence 6/10 — Clean mechanical (6/9) but sentiment turned Bearish (dominant $5-target/whale-accumulation hype); needs sentiment to cool and one more Bullish flip to arm.
+4. ASTER — confluence 6/10 — Was armed 7/10 at PM; LAPSED — mechanical count eased and sentiment read mixed (hype vs "shitcoin still $0.6" skepticism); needs a fresh 7/10 to re-arm.
+5. JUP — confluence 6/10 — Was armed 7/10 at PM; LAPSED — mechanical count eased and sentiment genuinely two-sided (targets vs "team not pushing it" grievances); needs a fresh 7/10 to re-arm.
+
 Holdings:
-XLM | 10.16% | entry $0.1885 -> now $0.1922 | +1.9% | +$0.0037/coin | position P&L +$19.34
-ONDO | 10.09% | entry $0.3785 -> now $0.3814 | +0.8% | +$0.0029/coin | position P&L +$7.60
-Portfolio: $10,000.87 (+0.01% / +$0.87 since inception)
-Regime: Fear & Greed 73 (Δ7d +42, still the hold's highest reading), stablecoin supply +0.74% 7d (still growing), MVRV BTC 1.47 / ETH 1.13 — melt-up regime persists, no sign of cooling.
-Pre-mortem: BTC -15% overnight would hit both open positions (~20% of book) but stops short of the 3-position de-risk trigger; cash (79.75%) remains the primary buffer, no action taken.
+XLM | 10.36% | entry $0.1885 -> now $0.1969 | +4.4% | +$44.19 | position P&L +$44.19
+ONDO | 10.28% | entry $0.3785 -> now $0.3904 | +3.1% | +$31.42 | position P&L +$31.42
+
+Portfolio: $10,049.54 (+0.5% / +$49.54 since inception)
+Regime: F&G 74 (extreme greed, flat vs yesterday), stablecoin supply still growing (+0.97% 7d), BTC/ETH MVRV healthy (1.49/1.13) — no cycle-top signal yet, but the melt-up (BTC RSI 84) keeps overextension the parameter to watch.
