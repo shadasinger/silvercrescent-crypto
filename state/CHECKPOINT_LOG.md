@@ -1948,3 +1948,39 @@ Watchlist changes (MID only): n/a — AM checkpoint, no rotation decisions. Excl
 Simulated fills: MORPHO BUY 197.1634 @ $2.516 (07:35:00Z); JUP BUY 2312.648 @ $0.2145 (07:35:00Z); ASTER BUY 704.6349 @ $0.704 (07:35:00Z).
 
 Learning artifacts written: `state/PARAMETERS.json` (refreshed, all 30 coins + global, sentiment blocks for 26 coins), `state/SIGNALS.csv` (30 rows appended), `state/PORTFOLIO.json` (XLM/ONDO hold-review status history appended, 3 new staged positions added, cash/portfolio_value refreshed to $9,921.26), `state/TRADE_LEDGER.csv` (3 BUY fills appended), `state/JOURNAL.md` (3 entry snapshots — MORPHO, JUP, ASTER — with frozen confluence tables, expectancy sheets, and the 4-way EV tie-break writeup), `state/SHADOW_BOOK.md` (AAVE rejected-runner-up virtual entry added), this report, `state/BRIEFING.md`. Not Monday (Wednesday) — no shadow-book weekly refresh. Not first AM of month (next due 2026-09-01) — no monthly review.
+
+## CHECKPOINT — 2026-08-26, MID
+
+Global params: stablecoins Δ7d +1.03% ($310.0B, still growing) | MVRV BTC 1.48 / ETH 1.10 (healthy, sub-2 band) | F&G 65 (Δ7d +19, greed regime, cooled further from AM's 65 -- unchanged since AM) | funding regime: broadly hot but not crowded per the AM refresh | futures: `fapi.binance.com` still geo-blocked (HTTP 451) — params 6-7 sourced from the Hyperliquid fallback for all 30 coins.
+
+Deployed: ~34.62% across 5 positions (~$3,431.09 mark-to-market: XLM $961.76 + ONDO $962.57 + MORPHO $488.77 + JUP $508.09 + ASTER $489.72) | Cash: ~65.38% ($6,487.06) | Portfolio value: ~$9,897.97 (-1.02% / -$102.03 since inception).
+
+**No trading decisions this routine (MID sourcing only, per Section 6).**
+
+**Step 1 (build universe):** checked out fresh from `origin/main` (branch reset to match origin/main HEAD, `beab40a`, before starting — verified clean). Ran `scripts/universe.py`: 116 candidates written to `data/universe.json` (12 stablecoin/wrapped excluded), top 60 by mcap enriched with CoinGecko categories + community sentiment votes.
+
+**Step 2 (data cards):** built per Step 1 output — market cap, 24h volume, vol/mcap ratio, 7d/30d/200d price change for all 116; categories + sentiment for the enriched top 60.
+
+**Step 3 (score candidates):** No-chase screen excluded PUMP (+57.4% 7d), PENGU (+50.8%), TRUMP (+61.6%), STX (+124.1%) from consideration. Red-flag web screen (window 2026-08-25 to 2026-08-26: hack/exploit, SEC/CFTC enforcement, team-exit/founder-scandal sweeps): **no new hack/regulatory/team-exit events found tied to any of the 30 watchlist tickers.** Adjacent noise checked and ruled non-actionable: Sandbox/SAND LayerZero-delegate exploit on Base (08-22, not a watchlist ticker), Term Finance governance exploit ~$8.5M (08-23, not a watchlist ticker), Coldcard hardware-wallet hack total unchanged (infra/wallet-provider layer, not coin-specific, already logged), SEC "Regulation Crypto Assets" rulemaking proposal (08-18, policy item, not an enforcement action against any watchlist ticker), Story Protocol co-founder "soft rug pull" departure (08-16, IP token, not on watchlist), Trump/Melania-token co-founder resignation over insider-trading allegations (not a watchlist ticker — TRUMP itself already no-chase excluded above). Positive-news spot-checks on held/armed tickers (ASTER: Robinhood Chain/USDG on-ramp 08-21 + WLFI RWA rewards campaign; ONDO: Ondo Stocks TVL past $1B 08-24, Coinbase tokenized-stocks launch 08-24) — context only, not red flags. No coin newly `entry_blocked`.
+
+**Step 4 (assemble watchlist):** **No changes.** Slot-change budget still 4/5 used this calendar week (Sun 08-23 – Sat 08-29: RENDER/POL swap 08-23 + FIL/PYTH swap 08-24 = 4 changes); only 1 change remains, insufficient for a full swap (drop+add = 2 changes) — same budget-blocked conclusion as 2026-08-25 MID, independent of any scoring this run. Runner-up screen unchanged: **INJ** (rank 101, mcap $541M, vol/mcap 0.168, sentiment 85.71, 7d +29.0%, clean red-flag screen, sector fit ambiguous vs full DeFi Lending 3/4 / DEX 4/4) and **NEAR** (rank 40, mcap $2.40B, vol/mcap 0.074, sentiment 91.67, 7d +14.3%, clean red-flag screen, AI sector has 1 open slot) remain the standout candidates flagged for when budget resets 2026-08-30 — not actioned this run. Held/armed/locked: XLM and ONDO held; MORPHO, JUP, ASTER now also held (entered AM 08-26) — all 5 positions locked from rotation-out. ASTER and ICP (added 2026-08-16) remain inside the 2-week minimum, unlocking 2026-08-30. No coin currently `entry_blocked`. Sector caps unchanged: DEX 4/4, Major L1 4/4 (permanent), Payments 3/4, Meme 3/4, DeFi Lending 3/4, AI 3/4, L2 2/4, Oracle 2/4, Enterprise 1/4, Liquid Staking 1/4, RWA 1/4, DePIN/Storage 0/4.
+
+Ran `scripts/parameters.py` to refresh `state/PARAMETERS.json` for all 30 watchlist coins + global block so the PM checkpoint starts warm.
+
+Holdings (mark-to-market, no status/action review — that's an AM/PM step): XLM 9.72%/-3.52% | ONDO 9.73%/-3.92% | MORPHO 4.94%/-1.47% | JUP 5.13%/+2.42% | ASTER 4.95%/-1.28%.
+
+Signals: no confluence scoring this routine (SIGNALS.csv rows are AM/PM only). Last scored at AM 08-26: armed {TRX 7/10}, confirmed {AAVE 7/10 (bumped, no slot), MORPHO/JUP/ASTER 7/10 (entered)}, held {XLM 7/10, ONDO 6/10}.
+
+Decisions & reasoning: No watchlist rotation (budget-blocked, clean red-flag screen). No trading decisions (MID routine). state/PARAMETERS.json refreshed for a warm PM start.
+
+Red-team summary: n/a — no rotation or trade decisions made this routine to red-team.
+
+Pre-mortem (PM only): n/a — MID checkpoint.
+
+Sector exposure: Payments 9.72% (XLM), RWA 9.73% (ONDO), DeFi Lending 4.94% (MORPHO), DEX 5.13%+4.95% (JUP+ASTER) — 5 of 5 positions, all within the ≤2-per-sector / ≤50%-of-deployed-capital caps.
+
+Watchlist changes (MID only): none (budget-blocked — 1/5 slot-change budget remains this week, insufficient for a full swap; resets 2026-08-30). Excluded (red flags): none.
+
+Simulated fills: n/a — no trading decisions this routine.
+
+Learning artifacts written: `data/universe.json` (refreshed, 116 candidates), `state/WATCHLIST.json` (notes/updated_utc refreshed, no coin/sector changes), `state/PARAMETERS.json` (refreshed, all 30 coins + global), this report, `state/BRIEFING.md`.

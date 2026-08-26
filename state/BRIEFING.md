@@ -1,15 +1,19 @@
-BRIEFING — 2026-08-26 AM
+BRIEFING — 2026-08-26 MID
+
 Top 5 considerations:
-1. MORPHO — confluence 7/10 — clean DeFi Lending breakout (OI +41.6%/7d, RSI 61.9, funding flat); confirmed 2nd checkpoint running, ENTERED at half size (5%, $496.06).
-2. ASTER — confluence 7/10 — DEX name driven by genuine capitulation sentiment + the group's strongest OI print (+118.4%/7d); confirmed, ENTERED at half size (5%, $496.06).
-3. JUP — confluence 7/10 — least-extended structure of the group, scam-bait euphoria discounted, real capitulation underneath; confirmed, ENTERED at half size (5%, $496.06).
-4. AAVE — confluence 7/10 (1 Bearish) — confirmed too, but lost the EV tie-break to the other three (most overextended, +32.2% above 50DMA) with only 3 slots open; NOT entered, tracked as a shadow-book virtual position instead.
-5. XLM (held) — confluence 7/10, 0 Bearish — sentiment cooled from Bearish to Neutral as the recurring euphoria stack finally balanced; holding clean, no action needed.
+1. TRX — confluence 7/10 (armed) — clean mechanical picture (DMA/RSI/rvol/OI all Bullish) plus a neutral-to-positive sentiment read; needs a 2nd consecutive ≥7/10 at PM to confirm, but all 5 position slots are already filled, so confirming only opens an anti-churn case (would need ≥9/10 to displace a held position).
+2. AAVE — confluence 7/10 (confirmed) — 2nd consecutive qualifying checkpoint reached this AM, but lost the last open slot on the EV tie-break against MORPHO/JUP/ASTER; watch whether it still confirms at PM once a slot frees up.
+3. MORPHO — confluence 7/10 (confirmed, entered half-size AM) — needs confluence to hold ≥7/10 at PM to add the second half; currently -1.47% since entry.
+4. JUP — confluence 7/10 (confirmed, entered half-size AM) — same stage-2 test as MORPHO at PM; currently the only green position, +2.42% since entry.
+5. ASTER — confluence 7/10 (confirmed, entered half-size AM) — same stage-2 test at PM; still inside its 2-week watchlist minimum (unlocks 2026-08-30); currently -1.28% since entry.
+
 Holdings:
-XLM | 9.78% | entry $0.1874 -> now $0.1836 | -2.6% | -$26.14 | position P&L -$26.14
-ONDO | 9.83% | entry $0.3757 -> now $0.3685 | -2.7% | -$26.54 | position P&L -$26.54
-MORPHO | 5.00% | entry $2.516 -> now $2.516 | 0.0% | $0.00 | position P&L $0.00
-JUP | 5.00% | entry $0.2145 -> now $0.2145 | 0.0% | $0.00 | position P&L $0.00
-ASTER | 5.00% | entry $0.704 -> now $0.704 | 0.0% | $0.00 | position P&L $0.00
-Portfolio: $9,921.26 (-0.8% / -$78.74 since inception)
-Regime: F&G 65 (greed, cooling from 74), stablecoins $310.3B still growing (+1.09%/7d), MVRV BTC 1.48 (healthy sub-2 band).
+XLM | 9.7% | entry $0.1885 -> now $0.1819 | -3.5% | -$0.0066/coin | position P&L -$35.12
+ONDO | 9.7% | entry $0.3785 -> now $0.3637 | -3.9% | -$0.0148/coin | position P&L -$39.25
+MORPHO | 4.9% | entry $2.5160 -> now $2.4790 | -1.5% | -$0.0370/coin | position P&L -$7.30
+JUP | 5.1% | entry $0.2145 -> now $0.2197 | +2.4% | +$0.0052/coin | position P&L +$12.03
+ASTER | 4.9% | entry $0.7040 -> now $0.6950 | -1.3% | -$0.0090/coin | position P&L -$6.34
+
+Portfolio: $9,897.97 (-1.0% / -$102.03 since inception)
+Regime: F&G 65 (greed, Δ7d +19, cooling from the recent peak); stablecoin supply +1.0% 7d (still growing); MVRV BTC 1.48 / ETH 1.10 (healthy, sub-2 band).
+Watchlist: no changes — slot-change budget blocked (1/5 remains this week, resets 2026-08-30); red-flag screen clean.
