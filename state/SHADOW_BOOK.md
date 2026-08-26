@@ -19,3 +19,15 @@ Refresh Mondays AM; grade at 6 weeks.
 
   **Total realized across the six: -$31.23. Total virtual (if none had been cut/exited): +$1,094.37. Opportunity cost: -$1,125.60 on the $10,000 book**, continuing to widen from the -$437.86 read at the 2026-08-21 audit (LESSONS.md #7) as the market-wide melt-up (F&G 46→73 over the period) kept extending. ZEC (+$681.00) and ETH (+$144.63) are now the two largest single-ticker divergences of the book's history — both staged-entry cuts driven by RSI/rvol (ZEC, hypothesis #2) and non-golden-cross DMA (ETH, hypothesis #3) rather than by price or OI reversing. TRX and MORPHO's cuts were *correctly identified* thesis-test breaches at the time (named-metric OI divergence, overextension) that still cost money to have acted on, given how far the broad rally has since run — the regime-timing failure mode named in LESSONS.md #7(b), not a signal-quality problem. New evidence logged in LESSONS.md this checkpoint. No confirmed candidates were rejected for a slot this week (ONDO confirmed 2026-08-24 AM into an open slot, no competition) — nothing to add on that front.
 
+
+## Rejected confirmed-candidate — AAVE — 2026-08-26 AM
+
+**First real slot competition among confirmed candidates.** AAVE confirmed 7/10 Bullish (1/10 Bearish) at 2 consecutive checkpoints (PM 08-25 7/10 armed -> AM 08-26 7/10 confirmed), tied with MORPHO, JUP, and ASTER (all also 7/10) for 3 open slots (max 5 concurrent positions, XLM/ONDO already held). Per Section 5 step 6, tied confluence counts break on EV: ASTER +2.45% > MORPHO +2.16% > JUP +1.96% > **AAVE +1.58%** — AAVE lost the tie-break, driven by a lower stated p (0.38 vs 0.40-0.41 for the other three) reflecting its standing overextension flag (dev-from-50DMA +32.2%, the most extended read on the board, and the only one of the four carrying its own p2_dma Bearish mechanical flag) — a risk explicitly named in the PM 08-25 red-team pass ("the one arm to treat with extra skepticism").
+
+**Virtual entry (for tracking only, no capital deployed):**
+- Entry: $128.31 (2026-08-26 AM, `parameters.py` generated_at 2026-08-26T07:18:08Z)
+- Target: $153.33 (+19.5%) | Invalidation: $116.25 (-9.4%) | R = 2.075 | stated p = 0.38 | EV = +1.58%
+- Virtual size: 5% staged-half equivalent, i.e. tracked as if 496.06/128.31 = 3.8659 AAVE were bought at $128.31.
+- Confluence at rejection: 7/10 Bullish, 1/10 Bearish (mechanical p2-10: 6 Bullish/1 Bearish/2 Neutral; p1 contrarian Bullish on capitulation-flavored chatter — whales heavily short, "building through the ugly part").
+
+To be marked-to-market at the next Monday AM shadow-book refresh (2026-09-01, also first-of-month — will combine with the monthly review) against its virtual target/invalidation, same as the real positions' thesis tests.

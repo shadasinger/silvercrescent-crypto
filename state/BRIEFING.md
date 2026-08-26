@@ -1,13 +1,15 @@
-BRIEFING — 2026-08-25 PM
+BRIEFING — 2026-08-26 AM
 Top 5 considerations:
-1. MORPHO — confluence 7/10 — Just armed: clean mechanical picture (DMA/RSI/OI all Bullish), sentiment neutral; needs a 2nd consecutive ≥7/10 read next checkpoint to confirm entry.
-2. JUP — confluence 7/10 — Just armed: strong mechanical (volume z-score +2.59, OI +20% 7d); sentiment euphoria discounted as scam-airdrop noise, not real hype; needs confirmation.
-3. AAVE — confluence 7/10 (1 Bearish) — Just armed but +33.2% above its 50DMA, the most overextended read on the board — watch closely if it confirms; sentiment reads clean (rising interest, no euphoria).
-4. CAKE — confluence 7/10 — Just armed: RSI 73.7 (near but under the 75 overbought line), rising interest without euphoria; needs confirmation.
-5. ASTER — confluence 7/10 — Just armed: genuine capitulation chatter (no euphoria) read contrarian-Bullish; had armed and lapsed twice already this week, so confirmation is not a given.
+1. MORPHO — confluence 7/10 — clean DeFi Lending breakout (OI +41.6%/7d, RSI 61.9, funding flat); confirmed 2nd checkpoint running, ENTERED at half size (5%, $496.06).
+2. ASTER — confluence 7/10 — DEX name driven by genuine capitulation sentiment + the group's strongest OI print (+118.4%/7d); confirmed, ENTERED at half size (5%, $496.06).
+3. JUP — confluence 7/10 — least-extended structure of the group, scam-bait euphoria discounted, real capitulation underneath; confirmed, ENTERED at half size (5%, $496.06).
+4. AAVE — confluence 7/10 (1 Bearish) — confirmed too, but lost the EV tie-break to the other three (most overextended, +32.2% above 50DMA) with only 3 slots open; NOT entered, tracked as a shadow-book virtual position instead.
+5. XLM (held) — confluence 7/10, 0 Bearish — sentiment cooled from Bearish to Neutral as the recurring euphoria stack finally balanced; holding clean, no action needed.
 Holdings:
-XLM | 10.08% | entry $0.1874 -> now $0.1899 | +0.72% | +$7.17 | position P&L +$7.17
-ONDO | 9.87% | entry $0.3757 -> now $0.3716 | -1.83% | -$18.34 | position P&L -$18.34
-Portfolio: $9,962.77 (-0.37% / -$37.23 since inception)
-Regime: F&G 74 (+33/7d, greed), stablecoins +1.02%/7d (growing), MVRV BTC 1.49 / ETH 1.13 (healthy) — but BTC RSI 82.3 and dev-from-50DMA +20.2% mark the hottest melt-up reading yet.
-Pre-mortem: BTC -15% overnight would hit both held altcoins hard (~3-5% of portfolio) but only 2 of 5 slots are filled, so no de-risking action taken; cash (80%) remains the buffer.
+XLM | 9.78% | entry $0.1874 -> now $0.1836 | -2.6% | -$26.14 | position P&L -$26.14
+ONDO | 9.83% | entry $0.3757 -> now $0.3685 | -2.7% | -$26.54 | position P&L -$26.54
+MORPHO | 5.00% | entry $2.516 -> now $2.516 | 0.0% | $0.00 | position P&L $0.00
+JUP | 5.00% | entry $0.2145 -> now $0.2145 | 0.0% | $0.00 | position P&L $0.00
+ASTER | 5.00% | entry $0.704 -> now $0.704 | 0.0% | $0.00 | position P&L $0.00
+Portfolio: $9,921.26 (-0.8% / -$78.74 since inception)
+Regime: F&G 65 (greed, cooling from 74), stablecoins $310.3B still growing (+1.09%/7d), MVRV BTC 1.48 (healthy sub-2 band).

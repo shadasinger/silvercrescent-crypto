@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 7975.24,
-  "portfolio_value_usdt": 9962.77,
+  "cash_usdt": 6487.06,
+  "portfolio_value_usdt": 9921.26,
   "positions": [
     {
       "ticker": "XLM",
@@ -12,7 +12,7 @@
       "qty": 5287.2823,
       "notional_usdt": 1003.53,
       "avg_entry_price": 0.188543,
-      "size_pct_current": 10.36,
+      "size_pct_current": 9.78,
       "target_size_pct": 10.0,
       "stage": "full",
       "target": 0.223,
@@ -96,6 +96,13 @@
           "conviction": "Intact",
           "confluence": "7/10 (1/10 Bearish)",
           "action": "hold, no changes -- price $0.1899 (-3.56% vs AM close $0.1969, +0.72% vs avg entry $0.188543), still above 50DMA ($0.176666) and 200DMA ($0.173671) in golden-cross structure, dev-from-50DMA +7.5% (moderate, cooled from AM's +11.4%). RSI 60.2, comfortably mid-band. Funding flat (0.01%/8h, no crowding). OI still confirming very strongly (7d +133.7%, essentially matching AM's best-of-hold print; 24h +7.1%). Invalidation $0.170 not breached (~11.7% headroom). Sentiment (p1) flipped back Neutral -> Bearish this checkpoint: the euphoria stack (XLM-catch-up-XRP, CLARITY-Act tailwind hype) that cleared this morning reappeared, zero capitulation offset -- a return of the recurring watch item rather than a fresh escalation. Mechanical p2-10 unchanged/clean (7/9 Bullish, 0/9 Bearish both checkpoints). Confluence held at 7/10, Bearish count 0->1/10 (p1 only) -- nowhere near the 4/10-for-2-consecutive exit gate. Thesis status stays Playing Out, conviction stays Intact, no trim, no exit. Watch item reinstated: euphoria persisting alongside a genuine price stall/reversal remains the early-warning combination to act on."
+        },
+        {
+          "checkpoint": "2026-08-26 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (0/10 Bearish)",
+          "action": "hold, no changes -- price $0.1836 (-3.32% vs PM 08-25 close $0.1899, -2.62% vs avg entry $0.188543), still above 50DMA ($0.176412) and 200DMA ($0.173742) in golden-cross structure, dev-from-50DMA +4.1% (moderate, the least-extended structure of the hold). RSI 55.2 -- right at the lower edge of the 55-70 Bullish band but still inside. Funding flat (0.01%/8h, no crowding). OI still confirming very strongly (7d +124.0%, essentially matching the hold's best weekly print; 24h -1.0%, flat). Invalidation $0.170 not breached (~7.4% headroom). Sentiment (p1) cooled Bearish (PM 08-25) -> Neutral this checkpoint: the recurring euphoria stack is now genuinely balanced by capitulation-flavored posts (burn had no price impact, whales bearish leading to a drop) and falling interest -- a real cooldown, not the clean clearing seen AM 08-25 but a step in that direction. Confluence improved 7/10 (1 Bearish) PM 08-25 -> 7/10 (0 Bearish) AM 08-26 -- Bearish count back to zero. Thesis status stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -107,7 +114,7 @@
       "qty": 2646.607,
       "notional_usdt": 1001.82,
       "avg_entry_price": 0.378529,
-      "size_pct_current": 10.28,
+      "size_pct_current": 9.83,
       "target_size_pct": 10.0,
       "stage": "full",
       "target": 0.45,
@@ -149,6 +156,109 @@
           "conviction": "Intact",
           "confluence": "6/10 (0/10 Bearish)",
           "action": "hold, no changes -- price $0.3716 (-4.81% vs AM close $0.3904, -1.83% vs avg entry $0.378529), still above 50DMA ($0.359596) and 200DMA ($0.318093) in golden-cross structure, dev-from-50DMA +3.3% (moderate, still the least-extended structure on the board, cooled further from AM's +8.5%). RSI 53.9 -- cooled below the 55 lower edge of the 55-70 Bullish band for the first time since entry, p3 flipped Bullish->Neutral (the mechanical driver of this checkpoint's confluence ease). Funding flat (0.01%/8h, no crowding). OI still confirming very strongly (7d +92.4%, still robust though decelerating from AM's +107.5%; 24h -0.4%, essentially flat). Invalidation $0.34 not breached (~8.5% headroom, narrowest of the hold after today's pullback). Sentiment (p1) held Neutral -- same mixed price-target/uncertainty read as AM, no clean dominance either way. Confluence eased 7/10 AM -> 6/10 PM (Bearish count held at 0/10 -- the ease is a single mechanical parameter, p3 RSI, cooling into its Neutral zone, not a Bearish flip). No exit trigger (0/10 Bearish, invalidation not breached). Thesis status stays Playing Out, conviction stays Intact -- hold, no changes. Flagging for the next checkpoint: this is the first RSI cool-below-55 print and the narrowest invalidation cushion of the hold -- a further pullback that breaches $0.34 or pushes Bearish count up would be the next actionable signal, not this checkpoint's mild RSI cooling on its own."
+        },
+        {
+          "checkpoint": "2026-08-26 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (2/10 Bearish)",
+          "action": "hold, no changes -- price $0.3685 (-0.81% vs PM 08-25 close $0.3716, -2.65% vs avg entry $0.378529), still above 50DMA ($0.360256) and 200DMA ($0.318585) in golden-cross structure, dev-from-50DMA +2.3% (moderate, still the least-extended structure on the board). RSI 52.9 -- cooled further below the 55 lower edge (from PM's 53.9), p3 stays Neutral, continuing the RSI-cooling watch item flagged PM 08-25. Funding flat (0.01%/8h, no crowding). OI still confirming very strongly (7d +87.0%, though decelerating from AM's peak reads; 24h -13.2%, a single-day pullback on the noisier window). Invalidation $0.34 not breached (~7.7% headroom, narrower than PM's ~8.5% after today's drift but still ample). p5 volz flipped Neutral->Bearish (volume_z -1.19 during a still-positive-7d tape -- 'z<-1 in a rally, no conviction' branch). Sentiment (p1) read Bearish this checkpoint: the mixed price-target/uncertainty language of AM/PM 08-25 has cleared into one-sided euphoria ($3 target, +1720% long-call brag, 'the real winner'), zero capitulation offset -- despite genuine business-metric context (perps volume, IVVon AUM growth) which is treated as narrative context, not a crowd-sentiment offset. Confluence eased 6/10 (0 Bearish) PM 08-25 -> 6/10 (2 Bearish) AM 08-26 (p1 and p5 both flipped to Bearish) -- still well short of the 4/10-for-2-consecutive exit gate and the trim-half threshold (>=4/10 Bearish for 1 checkpoint). Thesis status stays Playing Out, conviction stays Intact -- hold, no changes. Flagging for the next checkpoint: two Bearish flags is the most of the hold to date (still low in absolute terms) -- a further Bearish-count increase or a break of the RSI-cooling pattern into an actual DMA/OI deterioration would be the next actionable signal."
+        }
+      ]
+    },
+    {
+      "ticker": "MORPHO",
+      "sector": "DeFi Lending",
+      "entry_utc": "2026-08-26T07:35:00Z",
+      "entry_price": 2.516,
+      "qty": 197.1634,
+      "notional_usdt": 496.06,
+      "avg_entry_price": 2.516,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 3.0066,
+      "invalidation": 2.2795,
+      "planned_R": 2.07,
+      "stated_p": 0.4,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-10-21",
+      "interim_review_date": "2026-09-09",
+      "thesis": "DeFi Lending protocol in a clean golden-cross state: price $2.516 above both the 50DMA ($2.06728) and 200DMA ($1.877215), moderately extended (+21.7% from the 50DMA), RSI 61.9 mid-band with room, OI strongly confirming the uptrend (7d +41.6%, 24h -7.0% single-day dip on an otherwise strong weekly print), funding flat (0.01%/8h, no crowded-long risk). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (PM 08-25 7/10 armed -> AM 08-26 7/10 confirmed), 0/10 Bearish both checkpoints -- the cleanest mechanical read of the four candidates that reached confirmation this checkpoint (MORPHO, JUP, AAVE, ASTER). Sentiment (p1) read Neutral -- flat interest, no clean crowd-extreme dominance (isolated buy-dip/ATH-target chatter diluted by trending-list spam).",
+      "thesis_test": "OI keeps expanding alongside price (not diverging); price holds above the 50DMA ($2.06728); RSI stays out of overbought (<75) as price extends toward target.",
+      "invalidation_conditions": "Price closes below $2.28 (below the recent breakout support, ample headroom above the 50DMA) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-26 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-25 7/10 armed -> AM 08-26 7/10 confirmed). Won the EV tie-break among 4 confirmed candidates (MORPHO, JUP, AAVE, ASTER all tied at 7/10) for one of 3 open slots (max 5 concurrent positions, 2 already held) -- ASTER EV +2.45% > MORPHO EV +2.16% > JUP EV +1.96% > AAVE EV +1.58% (AAVE's lower p=0.38 reflects its standing overextension flag, dev-from-50DMA +32.2%, the most extended read on the board and its own p2_dma Bearish flag). Staged entry: opened at half target size (5% of $9,921.26 = $496.06, 197.1634 MORPHO @ $2.516). Tier C (R=2.07, p=0.40, EV=+2.16%). Second half adds only if confluence holds >=7/10 at the 2026-08-26 PM checkpoint; no confirmation cuts the half."
+        }
+      ]
+    },
+    {
+      "ticker": "JUP",
+      "sector": "DEX",
+      "entry_utc": "2026-08-26T07:35:00Z",
+      "entry_price": 0.2145,
+      "qty": 2312.648,
+      "notional_usdt": 496.06,
+      "avg_entry_price": 0.2145,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 0.2563,
+      "invalidation": 0.1943,
+      "planned_R": 2.07,
+      "stated_p": 0.4,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-10-21",
+      "interim_review_date": "2026-09-09",
+      "thesis": "Solana-ecosystem DEX aggregator in a clean golden-cross state: price $0.2145 above both the 50DMA ($0.191998) and 200DMA ($0.183816), the least-extended structure of the four confirmed candidates this checkpoint (+11.7% from the 50DMA), RSI 66.7 mid-upper band with room, OI confirming the uptrend (7d +17.0%), funding flat (0.01%/8h, no crowded-long risk). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (PM 08-25 7/10 armed -> AM 08-26 7/10 confirmed), 0/10 Bearish both checkpoints. Sentiment (p1) read contrarian Bullish -- euphoria markers present but discounted as inauthentic scam/fake-airdrop bait rather than organic price hype (per the same override logged PM 08-25), while genuine capitulation markers (-6.4% 24h drop, 'rebound hopes?') alongside undervalued/long-term-conviction chatter fit the capitulation-while-thesis-intact branch.",
+      "thesis_test": "OI keeps expanding alongside price (not diverging); price holds above the 50DMA ($0.191998); RSI stays out of overbought (<75) as price extends toward target.",
+      "invalidation_conditions": "Price closes below $0.194 (below the recent breakout support, just under the 50DMA) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-26 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-25 7/10 armed -> AM 08-26 7/10 confirmed). Won the EV tie-break among 4 confirmed candidates for one of 3 open slots (see MORPHO entry note for full ranking: ASTER +2.45% > MORPHO +2.16% > JUP +1.96% > AAVE +1.58%). Staged entry: opened at half target size (5% of $9,921.26 = $496.06, 2312.648 JUP @ $0.2145). Tier C (R=2.07, p=0.40, EV=+1.96%). Second half adds only if confluence holds >=7/10 at the 2026-08-26 PM checkpoint; no confirmation cuts the half."
+        }
+      ]
+    },
+    {
+      "ticker": "ASTER",
+      "sector": "DEX",
+      "entry_utc": "2026-08-26T07:35:00Z",
+      "entry_price": 0.704,
+      "qty": 704.6349,
+      "notional_usdt": 496.06,
+      "avg_entry_price": 0.704,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 0.8413,
+      "invalidation": 0.6378,
+      "planned_R": 2.07,
+      "stated_p": 0.41,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-10-21",
+      "interim_review_date": "2026-09-09",
+      "thesis": "Perps-DEX with a buyback/burn + staking-APY tokenomics narrative in a golden-cross state: price $0.704 above the 50DMA ($0.62414), dev-from-50DMA +12.8% (moderate), RSI 67.7 mid-upper band with room, OI the strongest confirmation of any candidate this checkpoint (7d +118.4%, 24h +6.6%, both accelerating), funding flat (0.01%/8h, no crowded-long risk). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (PM 08-25 7/10 armed -> AM 08-26 7/10 confirmed), 0/10 Bearish both checkpoints. Sentiment (p1) read contrarian Bullish -- capitulation-heavy despair dominant (35-week price-stagnation complaints, '-73% underperformance vs other perps DEXes', 'only project down' framing) with no euphoria offset and no new confirmed hack/regulatory/team-exit news (an unverified team-scam accusation is crowd noise, not a documented event); narrative_change explicitly notes a shift from accumulation optimism to trust skepticism -- read as genuine crowd despair on an intact underlying thesis, not a thesis break.",
+      "thesis_test": "OI keeps expanding alongside price (not diverging); price holds above the 50DMA ($0.62414); RSI stays out of overbought (<75) as price extends toward target.",
+      "invalidation_conditions": "Price closes below $0.638 (below the recent breakout support, well under the 50DMA) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-08-26 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-25 7/10 armed -> AM 08-26 7/10 confirmed). Won the EV tie-break among 4 confirmed candidates for one of 3 open slots -- highest EV of the group (+2.45%, vs MORPHO +2.16%, JUP +1.96%, AAVE +1.58%), driven by the strongest OI confirmation (7d +118.4%) and a slightly higher stated p (0.41) reflecting the clean capitulation-driven sentiment setup. Staged entry: opened at half target size (5% of $9,921.26 = $496.06, 704.6349 ASTER @ $0.704). Tier C (R=2.07, p=0.41, EV=+2.45%). Second half adds only if confluence holds >=7/10 at the 2026-08-26 PM checkpoint; no confirmation cuts the half."
         }
       ]
     }

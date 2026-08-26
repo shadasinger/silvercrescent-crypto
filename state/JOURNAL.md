@@ -472,3 +472,108 @@ Confluence held **8/10 Bullish, 0/10 Bearish** at this checkpoint (immediate nex
 Mechanical parameters unchanged from AM (7/9 Bullish, 0 Bearish — p5 volz, p10 F&G still Neutral); p1 sentiment cooled from AM's contrarian-Bearish euphoria read ($1.40/+1500% targets, rocket emojis, new-ATH calls) to contrarian-Bullish this checkpoint — rising interest with no euphoria markers and no capitulation markers, base-building/double-bottom/support-defense framing read as measured technical chatter rather than a hype stack, fitting the p1 Bullish branch ("improving interest without euphoria") on its own terms rather than being read generously to justify the add. Price $0.3814 (+1.52% vs entry $0.3757), still the least-extended structure on the board (dev-from-50DMA +6.3%), OI accelerating (24h +5.0%, 7d +83.5%, both above AM's +0.9%/+62.2%), invalidation $0.34 not breached (~10.9% headroom).
 
 **Fill:** BUY 1313.3456 ONDO @ $0.3814 = $500.91 notional, 2026-08-24T19:05:45Z (Binance spot via `parameters.py` refresh). Position now 2646.607 ONDO, avg entry $0.378529, ~10.09% of portfolio ($1,009.42 / $10,000.87) — full target size reached. No further staging; ongoing test is the same OI/price/DMA structure through the 2026-09-07 interim review.
+
+## ENTRY — MORPHO — 2026-08-26 AM
+
+**Frozen 10-parameter table (AM 2026-08-26, confirming checkpoint):**
+
+| # | Parameter | Value | Label | Reasoning |
+|---|---|---|---|---|
+| 1 | Sentiment (contrarian) | flat interest, no clean euphoria/capitulation dominance (isolated buy-dip/$4.20-ATH-target chatter diluted by trending-list spam) | Neutral | Neither branch fires cleanly. |
+| 2 | Price vs 50/200DMA | $2.516 vs 50DMA $2.06728, 200DMA $1.877215; +21.7% above 50DMA | Bullish | Golden state: price > 50DMA > 200DMA, moderately extended, under the 25% overextension line. |
+| 3 | RSI-14 | 61.9 | Bullish | Mid-band, room to extend. |
+| 4 | Realized vol ratio 7d/30d | 1.85 | Bullish | Expansion on an upside breakout. |
+| 5 | Volume z-score | -0.57 | Neutral | Below the +1 threshold. |
+| 6 | Funding rate | 0.01%/8h | Bullish | Near-zero, no crowded-long risk. |
+| 7 | Open interest Δ | -7.0%/24h, +41.6%/7d | Bullish | Strong weekly OI confirming the uptrend; single-day 24h dip not a divergence against the dominant weekly trend. |
+| 8 | Stablecoin supply 7d Δ | +1.09% | Bullish | Sideline liquidity growing. |
+| 9 | MVRV (BTC proxy) | BTC 1.48 | Bullish | Healthy 1-2 band. |
+| 10 | Fear & Greed | 65, Δ7d +19 | Neutral | Elevated but not past the mechanical overheated cut. |
+
+**Confluence: 7/10 Bullish, 0/10 Bearish.** Second consecutive checkpoint >=7/10 (PM 08-25 7/10 armed, 0/10 Bearish -> AM 08-26 7/10 confirmed, 0/10 Bearish) — the cleanest mechanical read of the four candidates (MORPHO, JUP, AAVE, ASTER) that reached confirmation this checkpoint.
+
+**Expectancy sheet:**
+- Entry: $2.516 (Binance spot, fetched 2026-08-26T07:18:08Z via `parameters.py`)
+- Target: $3.0066 (+19.50%)
+- Invalidation: $2.2795 (-9.40%) — below the recent breakout support, well above the 50DMA
+- R = 19.50 / 9.40 = **2.07**
+- Stated p = **0.40** (Tier C floor; clean 0/10-Bearish mechanical structure, but +21.7% extension caps confidence at the floor)
+- EV = 0.40×19.50% − 0.60×9.40% = **+2.16%**
+- Tier: **C** → size band 5-15%
+- Sizing: target 10%, staged half-open this checkpoint = **5% ($496.06 notional, 197.1634 MORPHO)**. Second half opens only if confluence holds >=7/10 at the next checkpoint (PM 2026-08-26); no confirmation there cuts the half.
+
+**Runner-up candidates this checkpoint — the 4-way EV tie-break:** MORPHO, JUP, AAVE, and ASTER all confirmed at exactly 7/10 Bullish this checkpoint, competing for 3 open slots (max 5 concurrent positions, XLM and ONDO already held). Per Section 5 step 6, confluence-count ties break on EV: **ASTER +2.45% > MORPHO +2.16% > JUP +1.96% > AAVE +1.58%.** AAVE — the only one of the four carrying a Bearish flag (p2_dma, dev-from-50DMA +32.2%, the most extended read on the board) — lost the tie-break and was assigned a lower stated p (0.38) reflecting that standing overextension risk (flagged explicitly in the PM 08-25 red-team pass). AAVE is logged as a rejected confirmed-candidate in `state/SHADOW_BOOK.md` with a virtual entry at today's price for ongoing comparison. CAKE, the fifth coin armed at PM 08-25, lapsed (mechanical count eased to 5/9, total 5/10) and did not reach confirmation. TRX newly armed this checkpoint (7/10, first occurrence) — not yet eligible for confirmation.
+
+**Sector:** DeFi Lending (new sector for the book). 3 of 5 positions after this checkpoint's three entries (with XLM, ONDO), 1 of 2 max in sector.
+
+**Context note:** entered inside the ongoing broad melt-up (BTC RSI 80.5, F&G 65 Δ7d+19) that has been the standing pre-mortem base case for every recent entry — three simultaneous half-sized staged entries this checkpoint raise the book's altcoin beta materially (from 2 to 5 positions, ~20% to ~35% deployed), a point raised explicitly in this checkpoint's red-team pass.
+
+## ENTRY — JUP — 2026-08-26 AM
+
+**Frozen 10-parameter table (AM 2026-08-26, confirming checkpoint):**
+
+| # | Parameter | Value | Label | Reasoning |
+|---|---|---|---|---|
+| 1 | Sentiment (contrarian) | scam/fake-airdrop-bait euphoria discounted as inauthentic; genuine capitulation markers (-6.4% 24h drop, "rebound hopes?") + undervalued/long-term-conviction chatter | Bullish | Capitulation-while-thesis-intact branch, consistent with the PM 08-25 discount-euphoria precedent. |
+| 2 | Price vs 50/200DMA | $0.2145 vs 50DMA $0.191998, 200DMA $0.183816; +11.7% above 50DMA | Bullish | Golden state, the least-extended structure of the four confirmed candidates. |
+| 3 | RSI-14 | 66.7 | Bullish | Mid-upper band, room to extend. |
+| 4 | Realized vol ratio 7d/30d | 1.21 | Neutral | Below the 0.8 compression bar and below the expansion-on-breakout read. |
+| 5 | Volume z-score | -0.81 | Neutral | Below the +1 threshold. |
+| 6 | Funding rate | 0.01%/8h | Bullish | Near-zero, no crowded-long risk. |
+| 7 | Open interest Δ | -7.2%/24h, +17.0%/7d | Bullish | Weekly OI confirming the uptrend; single-day dip not a divergence. |
+| 8 | Stablecoin supply 7d Δ | +1.09% | Bullish | Sideline liquidity growing. |
+| 9 | MVRV (BTC proxy) | BTC 1.48 | Bullish | Healthy 1-2 band. |
+| 10 | Fear & Greed | 65, Δ7d +19 | Neutral | Elevated but not past the mechanical overheated cut. |
+
+**Confluence: 7/10 Bullish, 0/10 Bearish.** Second consecutive checkpoint >=7/10 (PM 08-25 7/10 armed, 0/10 Bearish -> AM 08-26 7/10 confirmed, 0/10 Bearish).
+
+**Expectancy sheet:**
+- Entry: $0.2145 (Binance spot, fetched 2026-08-26T07:18:08Z via `parameters.py`)
+- Target: $0.2563 (+19.49%)
+- Invalidation: $0.1943 (-9.42%) — below the recent breakout support, just under the 50DMA
+- R = 19.49 / 9.42 = **2.07**
+- Stated p = **0.40** (Tier C floor)
+- EV = 0.40×19.49% − 0.60×9.42% = **+1.96%**
+- Tier: **C** → size band 5-15%
+- Sizing: target 10%, staged half-open this checkpoint = **5% ($496.06 notional, 2312.648 JUP)**. Second half opens only if confluence holds >=7/10 at the next checkpoint (PM 2026-08-26); no confirmation there cuts the half.
+
+**Runner-up candidates:** see the MORPHO entry above for the full 4-way EV tie-break (ASTER +2.45% > MORPHO +2.16% > JUP +1.96% > AAVE +1.58%) and the CAKE-lapsed / TRX-newly-armed context.
+
+**Sector:** DEX. 3 of 5 positions after this checkpoint (with XLM, ONDO); DEX will be at 2/2 max once ASTER also enters below.
+
+**Context note:** same melt-up backdrop as MORPHO above.
+
+## ENTRY — ASTER — 2026-08-26 AM
+
+**Frozen 10-parameter table (AM 2026-08-26, confirming checkpoint):**
+
+| # | Parameter | Value | Label | Reasoning |
+|---|---|---|---|---|
+| 1 | Sentiment (contrarian) | capitulation-heavy despair dominant (35-week stagnation complaints, "-73% underperformance vs other perps DEXes", "only project down" vs BTC/ETH/SOL/BNB), no euphoria offset, no new confirmed red-flag event | Bullish | Genuine crowd despair on an intact underlying (buyback/burn, staking APY) thesis, consistent with the PM 08-25 read. |
+| 2 | Price vs 50/200DMA | $0.704 vs 50DMA $0.62414, 200DMA $0.660705; +12.8% above 50DMA | Neutral | Above both DMAs but the mechanical rubric reads this dev band as Neutral rather than clean golden-state Bullish. |
+| 3 | RSI-14 | 67.7 | Bullish | Mid-upper band, room to extend. |
+| 4 | Realized vol ratio 7d/30d | 1.79 | Bullish | Expansion on an upside breakout. |
+| 5 | Volume z-score | -0.53 | Neutral | Below the +1 threshold. |
+| 6 | Funding rate | 0.01%/8h | Bullish | Near-zero, no crowded-long risk. |
+| 7 | Open interest Δ | +6.6%/24h, +118.4%/7d | Bullish | The strongest OI confirmation of any candidate this checkpoint, both windows accelerating. |
+| 8 | Stablecoin supply 7d Δ | +1.09% | Bullish | Sideline liquidity growing. |
+| 9 | MVRV (BTC proxy) | BTC 1.48 | Bullish | Healthy 1-2 band. |
+| 10 | Fear & Greed | 65, Δ7d +19 | Neutral | Elevated but not past the mechanical overheated cut. |
+
+**Confluence: 7/10 Bullish, 0/10 Bearish.** Second consecutive checkpoint >=7/10 (PM 08-25 7/10 armed, 0/10 Bearish -> AM 08-26 7/10 confirmed, 0/10 Bearish).
+
+**Expectancy sheet:**
+- Entry: $0.704 (Binance spot, fetched 2026-08-26T07:18:08Z via `parameters.py`)
+- Target: $0.8413 (+19.50%)
+- Invalidation: $0.6378 (-9.40%) — below the recent breakout support, well under the 50DMA
+- R = 19.50 / 9.40 = **2.07**
+- Stated p = **0.41** (Tier C; slightly above the floor given the strongest OI confirmation of the group and a clean capitulation-driven sentiment setup)
+- EV = 0.41×19.50% − 0.59×9.40% = **+2.45%** — the highest of the four confirmed candidates
+- Tier: **C** → size band 5-15%
+- Sizing: target 10%, staged half-open this checkpoint = **5% ($496.06 notional, 704.6349 ASTER)**. Second half opens only if confluence holds >=7/10 at the next checkpoint (PM 2026-08-26); no confirmation there cuts the half.
+
+**Runner-up candidates:** see the MORPHO entry above for the full 4-way EV tie-break and the CAKE-lapsed / TRX-newly-armed context. ASTER won the tie-break outright on the highest EV of the group.
+
+**Sector:** DEX, 2/2 max reached (with JUP). 5 of 5 positions after this checkpoint's three entries — book is now at maximum concurrent positions.
+
+**Context note:** ASTER has been inside its 2-week minimum-hold window since being added to the watchlist 2026-08-16 (unlocks 2026-08-30) — irrelevant to entry eligibility (the minimum-hold rule governs rotation-off, not trading), noted for completeness.
