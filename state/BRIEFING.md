@@ -1,19 +1,15 @@
-BRIEFING — 2026-08-26 MID
-
+BRIEFING — 2026-08-26 PM
 Top 5 considerations:
-1. TRX — confluence 7/10 (armed) — clean mechanical picture (DMA/RSI/rvol/OI all Bullish) plus a neutral-to-positive sentiment read; needs a 2nd consecutive ≥7/10 at PM to confirm, but all 5 position slots are already filled, so confirming only opens an anti-churn case (would need ≥9/10 to displace a held position).
-2. AAVE — confluence 7/10 (confirmed) — 2nd consecutive qualifying checkpoint reached this AM, but lost the last open slot on the EV tie-break against MORPHO/JUP/ASTER; watch whether it still confirms at PM once a slot frees up.
-3. MORPHO — confluence 7/10 (confirmed, entered half-size AM) — needs confluence to hold ≥7/10 at PM to add the second half; currently -1.47% since entry.
-4. JUP — confluence 7/10 (confirmed, entered half-size AM) — same stage-2 test as MORPHO at PM; currently the only green position, +2.42% since entry.
-5. ASTER — confluence 7/10 (confirmed, entered half-size AM) — same stage-2 test at PM; still inside its 2-week watchlist minimum (unlocks 2026-08-30); currently -1.28% since entry.
-
+1. MORPHO — confluence 7/10 — DeFi-lending name held ≥7/10 for a 2nd straight check since entry; stage-2 add executed, now full-sized. Only p1 sentiment (euphoria) keeps it off a clean 8/10.
+2. AAVE — confluence 7/10 — reconfirmed for a 3rd straight checkpoint; entered this run once JUP/ASTER cuts freed a slot. Overextension (+27.7% vs 50DMA) is the one lingering caution flag.
+3. XLM — confluence 6/10 — held, no changes. Recurring euphoria in X chatter (rocket emojis, FOMO calls) is the one drag; OI and DMA structure stay clean.
+4. ONDO — confluence 6/10 — held, no changes. Sentiment cooled to Neutral this run; needs one more Bullish parameter to re-arm toward 7/10.
+5. JUP / ASTER — confluence 6/10 — both stage-1 half-entries cut (no 2nd-checkpoint confirmation). Cause was sentiment cooling, not price/OI weakening; both closed near flat (+$4.63 / -$2.82).
 Holdings:
-XLM | 9.7% | entry $0.1885 -> now $0.1819 | -3.5% | -$0.0066/coin | position P&L -$35.12
-ONDO | 9.7% | entry $0.3785 -> now $0.3637 | -3.9% | -$0.0148/coin | position P&L -$39.25
-MORPHO | 4.9% | entry $2.5160 -> now $2.4790 | -1.5% | -$0.0370/coin | position P&L -$7.30
-JUP | 5.1% | entry $0.2145 -> now $0.2197 | +2.4% | +$0.0052/coin | position P&L +$12.03
-ASTER | 4.9% | entry $0.7040 -> now $0.6950 | -1.3% | -$0.0090/coin | position P&L -$6.34
-
-Portfolio: $9,897.97 (-1.0% / -$102.03 since inception)
-Regime: F&G 65 (greed, Δ7d +19, cooling from the recent peak); stablecoin supply +1.0% 7d (still growing); MVRV BTC 1.48 / ETH 1.10 (healthy, sub-2 band).
-Watchlist: no changes — slot-change budget blocked (1/5 remains this week, resets 2026-08-30); red-flag screen clean.
+XLM | 9.6% | entry $0.1885 -> now $0.1800 | -4.5% | -$45.17 | position P&L -$45.17
+ONDO | 9.7% | entry $0.3785 -> now $0.3618 | -4.4% | -$44.28 | position P&L -$44.28
+MORPHO | 9.9% | entry $2.4856 -> now $2.4560 | -1.2% | -$11.83 | position P&L -$11.83
+AAVE | 5.0% | entry $123.78 -> now $123.78 | +0.0% | +$0.00 | position P&L +$0.00
+Portfolio: $9,874.47 (-1.26% / -$125.53 since inception)
+Regime: F&G 65 (Δ7d +19, greed), stablecoin supply +1.05%/7d, BTC MVRV 1.48 — still a live but cooling melt-up (BTC RSI 79.4, dev-from-50DMA +18.6%).
+Pre-mortem: BTC -15% overnight would hit all 4 correlated altcoin positions (~34% deployed, ~-$680 to -$1,015 estimated); no forced de-risk this checkpoint, cash (65.75%) is the buffer, but this is the first check where the ≥3-positions trigger is genuinely live.

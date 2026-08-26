@@ -31,3 +31,14 @@ Refresh Mondays AM; grade at 6 weeks.
 - Confluence at rejection: 7/10 Bullish, 1/10 Bearish (mechanical p2-10: 6 Bullish/1 Bearish/2 Neutral; p1 contrarian Bullish on capitulation-flavored chatter — whales heavily short, "building through the ugly part").
 
 To be marked-to-market at the next Monday AM shadow-book refresh (2026-09-01, also first-of-month — will combine with the monthly review) against its virtual target/invalidation, same as the real positions' thesis tests.
+
+## AAVE rejected-candidate tracking closed — converted to a real position, 2026-08-26 PM
+
+The AM 08-26 AAVE virtual entry above (rejected on the EV tie-break, no open slot) is superseded: JUP and ASTER both stage1-cut this checkpoint on non-confirmation, freeing a slot, and AAVE reconfirmed ≥7/10 for a 3rd consecutive checkpoint — it entered as a real staged half-position (see `state/PORTFOLIO.json` / `state/JOURNAL.md` ENTRY — AAVE — 2026-08-26 PM). No further virtual tracking needed; real ledger now applies.
+
+## Exited-position virtual continuations — JUP, ASTER — 2026-08-26 PM (staged-entry cuts)
+
+Both cut on the standard staged-entry non-confirmation rule (Section 5 step 9), not thesis failure — tracked here per Section 11.2 for continuation comparison at the next weekly refresh (2026-09-01, Monday AM, combined with the monthly review):
+
+- **JUP** — exited 2312.648 @ $0.2165 (2026-08-26T19:10:00Z). Virtual continuation: hold the same qty at the same cost basis ($0.2145) forward from this timestamp, mark at each weekly refresh against the original target ($0.2563) / invalidation ($0.1943).
+- **ASTER** — exited 704.6349 @ $0.70 (2026-08-26T19:10:00Z). Virtual continuation: hold the same qty at the same cost basis ($0.704) forward from this timestamp, mark at each weekly refresh against the original target ($0.8413) / invalidation ($0.6378).

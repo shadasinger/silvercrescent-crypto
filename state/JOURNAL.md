@@ -577,3 +577,90 @@ Mechanical parameters unchanged from AM (7/9 Bullish, 0 Bearish — p5 volz, p10
 **Sector:** DEX, 2/2 max reached (with JUP). 5 of 5 positions after this checkpoint's three entries — book is now at maximum concurrent positions.
 
 **Context note:** ASTER has been inside its 2-week minimum-hold window since being added to the watchlist 2026-08-16 (unlocks 2026-08-30) — irrelevant to entry eligibility (the minimum-hold rule governs rotation-off, not trading), noted for completeness.
+
+## EXIT POST-MORTEM — JUP — 2026-08-26 PM (staged-entry cut, no confirmation)
+
+**P&L:** +$4.63 on $496.06 deployed (+0.93% on the half-position, +0.05% of total portfolio). Realized R +0.099 vs planned 2.07 — a small win, not a loss.
+
+**Thesis verdict:** Playing Out, not Broken — this cut was a rule mechanic (no second-half confirmation), not a thesis failure. Price rose +0.93% and the mechanical p2-10 picture stayed unchanged (6/9 Bullish, 0 Bearish, both checkpoints) between the AM entry and this PM cut.
+
+**Per-parameter verdict (frozen AM 08-26 entry table):**
+| # | Parameter | Entry label | Verdict | Note |
+|---|---|---|---|---|
+| 1 | Sentiment | Bullish (contrarian, capitulation read) | Flipped Neutral | AM's -6.4%-drop/capitulation chatter did not repeat this checkpoint; flat interest, no crowd extreme. The single parameter that drove the cut. |
+| 2 | DMA | Bullish | Right | Price extended further above both DMAs. |
+| 3 | RSI | Bullish | Right | Stayed in the healthy band. |
+| 4 | Rvol | Neutral | Unchanged | No signal either way. |
+| 5 | Volume z | Neutral | Unchanged | No signal either way. |
+| 6 | Funding | Bullish | Right | Stayed flat, no crowding. |
+| 7 | OI Δ | Bullish | Right | Confirmation held. |
+| 8-10 | Global (stables/MVRV/F&G) | Bullish/Neutral | Right | Regime unchanged. |
+
+**p calibration:** Stated p=0.40. Outcome: small win. Single data point, not calibration-informative at n=1.
+
+**Sizing/timing verdict:** Same pattern as the CAKE/ZEC/UNI precedents already logged in LESSONS.md hypotheses #2 and #9 — but this time the sole driver is p1 sentiment (a judgment-call parameter, not a mechanical sub-indicator), which is a distinct mechanism from those hypotheses (RSI/rvol or funding/F&G rollover). The rule fired correctly on its own terms: a genuine re-read of the sentiment window, not noise in a technical indicator.
+
+**Counterfactual vs runner-ups:** AAVE took the freed slot this same checkpoint (see AAVE entry below) — the book stayed at its post-cut position count rather than sitting idle.
+
+**One testable lesson:** No new hypothesis — this is a p1-driven staged-entry cut, already covered conceptually by LESSONS.md hypothesis #8 (p1 volatility/asymmetry in a rising tape). Logged as an additional data point rather than a new entry.
+
+## EXIT POST-MORTEM — ASTER — 2026-08-26 PM (staged-entry cut, no confirmation)
+
+**P&L:** -$2.82 on $496.06 deployed (-0.57% on the half-position, -0.03% of total portfolio). Realized R -0.060 vs planned 2.07 — a small loss.
+
+**Thesis verdict:** Playing Out, not Broken — this cut was a rule mechanic (no second-half confirmation), not a thesis failure. Price was essentially flat (-0.57%) and the mechanical p2-10 picture stayed unchanged (6/9 Bullish, 0 Bearish, both checkpoints) between the AM entry and this PM cut.
+
+**Per-parameter verdict (frozen AM 08-26 entry table):**
+| # | Parameter | Entry label | Verdict | Note |
+|---|---|---|---|---|
+| 1 | Sentiment | Bullish (contrarian, capitulation read) | Flipped Neutral | AM's one-sided despair stack (35-week-stagnation complaints, no euphoria offset) was genuinely balanced this run by fresh euphoria ($2-3 targets, "most bullish in months") alongside the persisting despair — no longer a clean crowd extreme either way. |
+| 2 | DMA | Neutral | Unchanged | Never a clean golden cross at entry — the weakest structural leg from the start. |
+| 3 | RSI | Bullish | Right | Stayed in the healthy band. |
+| 4 | Rvol | Bullish | Right | Held. |
+| 5 | Volume z | Neutral | Unchanged | No signal either way. |
+| 6 | Funding | Bullish | Right | Stayed flat, no crowding. |
+| 7 | OI Δ | Bullish | Right | The strongest OI confirmation of the four-way tie-break (7d +118.4% at entry) held through the cut. |
+| 8-10 | Global (stables/MVRV/F&G) | Bullish/Neutral | Right | Regime unchanged. |
+
+**p calibration:** Stated p=0.41. Outcome: small loss. Single data point, not calibration-informative at n=1.
+
+**Sizing/timing verdict:** Same mechanism as JUP above — p1 sentiment genuinely cooling from one-sided despair to a balanced mix is the entire driver, not a mechanical sub-indicator rollover. The Neutral p2_dma at entry (never a clean golden cross) was the one structural yellow flag named at entry; it stayed Neutral through the cut rather than deteriorating further.
+
+**Counterfactual vs runner-ups:** AAVE took one of the two slots freed this checkpoint by the JUP+ASTER cuts (see AAVE entry below).
+
+**One testable lesson:** No new hypothesis — p1-driven cut, same category as JUP above.
+
+## ENTRY — AAVE — 2026-08-26 PM
+
+**Frozen 10-parameter table (2026-08-26 PM, reconfirming checkpoint — 3rd consecutive ≥7/10 read):**
+
+| # | Parameter | Value | Label |
+|---|---|---|---|
+| 1 | Sentiment (contrarian) | Flat interest, capitulation persists ("overvalued", "DAO value extraction"), unverified $52M-extraction claim treated as unverified crowd noise | Bullish |
+| 2 | DMA | Price $123.78 vs 50DMA $96.95, 200DMA $96.36 — dev-from-50DMA +27.7%, still past the 25% override line | Bearish |
+| 3 | RSI-14 | 65.4 | Bullish |
+| 4 | Rvol (7d/30d) | Expansion on upside | Bullish |
+| 5 | Volume z-score | -0.18 | Neutral |
+| 6 | Funding | 0.01%/8h | Bullish |
+| 7 | OI Δ | 7d +32.0%, 24h -4.7% | Bullish |
+| 8 | Stablecoin supply | +1.05%/7d | Bullish |
+| 9 | MVRV (BTC proxy) | 1.48 | Bullish |
+| 10 | Fear & Greed | 65, Δ7d +19 | Neutral |
+
+**Confluence: 7/10 Bullish, 1/10 Bearish.** 3rd consecutive checkpoint ≥7/10 (PM 08-25 armed → AM 08-26 confirmed but bumped by EV tie-break, no open slot → PM 08-26 reconfirmed). JUP and ASTER both stage1-cut this checkpoint on non-confirmation, freeing 2 of the book's 5 slots; AAVE — the only other coin at ≥7/10 this checkpoint besides held MORPHO — takes one.
+
+**Expectancy sheet:**
+- Entry: $123.78 (Binance spot, fetched 2026-08-26T19:07:58Z via `parameters.py`)
+- Target: $147.9171 (+19.50%)
+- Invalidation: $112.1447 (-9.40%) — below both the 50DMA/200DMA cluster
+- R = 19.50 / 9.40 = **2.074**
+- Stated p = **0.40** (Tier C floor) — nudged up from AM's tie-break-discounted 0.38: dev-from-50DMA eased +32.2% (AM) → +27.7% (PM) as price pulled back -3.5% intraday, a genuine (if modest) reduction in the standing overextension risk that originally justified the discount below the Tier C floor. The overextension flag itself (p2_dma Bearish) has not cleared — still past the 25% line — so p is capped at the floor, not raised further. **Flagged explicitly as a marginal, judgment-driven call in the red-team pass below.**
+- EV = 0.40×19.50% − 0.60×9.40% = **+2.16%**
+- Tier C (R≥2, p≥0.40)
+- Sizing: target 10%, staged half-open this checkpoint = **5% ($493.72 notional, 3.9887 AAVE)**. Second half opens only if confluence holds ≥7/10 at the 2026-08-27 AM checkpoint; no confirmation there cuts the half.
+
+**Runner-up candidates this checkpoint:** none newly reached 7/10 for the first time this PM. TRX (armed at AM 08-26, first occurrence) lapsed to 6/10, did not reconfirm.
+
+**Sector:** DeFi Lending, now 2 of 4 positions (with MORPHO) — at the max 2/5-positions-per-sector cap. Deployed-capital check: DeFi Lending = $1,474.01 of $3,383.26 deployed (43.6%), under the 50%-of-deployed-capital cap.
+
+**Context note:** entered with the book still inside the standing melt-up regime (BTC RSI 79.4, dev-from-50DMA +18.6%, F&G 65 Δ7d+19) — the fourth altcoin in a four-position book with no BTC/cash hedge beyond the ~66% cash buffer. See this checkpoint's pre-mortem for the explicit BTC-dump scenario read against this now-4-position book.

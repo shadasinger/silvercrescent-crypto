@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-26T13:38:35.166876+00:00",
+  "generated_at": "2026-08-26T19:07:58.244600+00:00",
   "global": {
-    "stablecoin_supply_7d_pct": 1.03,
+    "stablecoin_supply_7d_pct": 1.05,
     "mvrv_btc": 1.48,
     "mvrv_eth": 1.1,
     "fear_greed": 65,
     "fear_greed_7d_delta": 19,
-    "stablecoin_supply_usd": 310.0,
+    "stablecoin_supply_usd": 310.1,
     "futures_primary_ok": false,
     "futures_note": "fapi.binance.com unreachable (geo-block?) \u2014 params 6-7 from Hyperliquid fallback"
   },
   "coins": {
     "BTC": {
-      "price": 78444.9,
-      "chg_24h_pct": -0.12,
-      "chg_7d_pct": 13.14,
-      "dma50": 66102.1068,
-      "dma200": 69208.5707,
-      "dev_from_50dma_pct": 18.7,
-      "rsi14": 79.5,
-      "rv_ratio_7d_30d": 1.36,
-      "volume_z": -0.63,
+      "price": 78419.22,
+      "chg_24h_pct": -0.15,
+      "chg_7d_pct": 13.1,
+      "dma50": 66101.5932,
+      "dma200": 69208.4423,
+      "dev_from_50dma_pct": 18.6,
+      "rsi14": 79.4,
+      "rv_ratio_7d_30d": 1.37,
+      "volume_z": -0.22,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -0.1,
-      "oi_delta_7d_pct": 7.8,
+      "oi_delta_24h_pct": 5.0,
+      "oi_delta_7d_pct": 20.6,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -35,21 +35,81 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:11:14.478172+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "$BTC to $200k faster than you think",
+            "BULL RUN IS ABOUT TO START \ud83d\ude80",
+            "rocket emojis in posts"
+          ],
+          "capitulation_markers": [],
+          "dominant_narrative": "Bitcoin trading near $78k-$80k with ETF inflows, technical support tests, and mild leverage flush without major breakdown.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "BULL RUN IS ABOUT TO START \ud83d\ude80 $BTC to $200k faster than you think.",
+            "BTC $78k-$80k range, structure intact above $76k.",
+            "Strongest BTC ETF inflows week of 2026 at +$1.92B.",
+            "Market rewards patience, BTC strength above key levels."
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092566754681872845",
+          "https://x.com/i/status/2092691315959972343",
+          "https://x.com/i/status/2092691085361324086",
+          "https://x.com/i/status/2092691317369524505",
+          "https://x.com/i/status/2091709828548952072",
+          "https://x.com/i/status/2092084570833424546",
+          "https://x.com/i/status/2092378738126192683",
+          "https://x.com/i/status/2092691158556188859",
+          "https://x.com/i/status/2092691312654856370",
+          "https://x.com/i/status/2092410949957525781",
+          "https://x.com/i/status/2092691292925128793",
+          "https://x.com/i/status/2092590399575687563",
+          "https://x.com/i/status/2092477170333499787",
+          "https://x.com/i/status/2092690950661587020",
+          "https://x.com/i/status/2092691295047123050",
+          "https://x.com/i/status/2092691300898218406",
+          "https://x.com/i/status/2092330896103702930",
+          "https://x.com/i/status/2092691040700338369",
+          "https://x.com/i/status/2092690836664598551",
+          "https://x.com/i/status/2092690948379570421",
+          "https://x.com/i/status/2092691303578632472",
+          "https://x.com/i/status/2092092114427642293",
+          "https://x.com/i/status/2092491931423256947",
+          "https://x.com/i/status/2092691127539212490",
+          "https://x.com/i/status/2092691288269160528",
+          "https://x.com/i/status/2092691019590512917",
+          "https://x.com/i/status/2092690943426068568",
+          "https://x.com/i/status/2092691310146883823",
+          "https://x.com/i/status/2092691014800802130"
+        ],
+        "search_queries": [
+          "{\"query\":\"(BTC OR $BTC) since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"(BTC OR $BTC) min_faves:1 since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"discussions about Bitcoin BTC price or market\",\"limit\":\"10\",\"from_date\":\"2026-08-24\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "ETH": {
-      "price": 2455.8,
-      "chg_24h_pct": 0.54,
-      "chg_7d_pct": 9.01,
-      "dma50": 1962.4954,
-      "dma200": 2015.06395,
-      "dev_from_50dma_pct": 25.1,
-      "rsi14": 75.7,
+      "price": 2469.98,
+      "chg_24h_pct": 1.12,
+      "chg_7d_pct": 9.64,
+      "dma50": 1962.779,
+      "dma200": 2015.13485,
+      "dev_from_50dma_pct": 25.8,
+      "rsi14": 76.2,
       "rv_ratio_7d_30d": 0.98,
-      "volume_z": -0.58,
+      "volume_z": -0.24,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -0.7,
-      "oi_delta_7d_pct": -8.2,
+      "oi_delta_24h_pct": 0.7,
+      "oi_delta_7d_pct": -5.0,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bearish",
@@ -64,18 +124,18 @@
       }
     },
     "BNB": {
-      "price": 701.58,
-      "chg_24h_pct": 1.03,
-      "chg_7d_pct": 11.8,
-      "dma50": 600.311,
-      "dma200": 616.48925,
-      "dev_from_50dma_pct": 16.9,
-      "rsi14": 79.6,
-      "rv_ratio_7d_30d": 1.23,
-      "volume_z": -0.42,
+      "price": 698.63,
+      "chg_24h_pct": 0.61,
+      "chg_7d_pct": 11.33,
+      "dma50": 600.252,
+      "dma200": 616.4745,
+      "dev_from_50dma_pct": 16.4,
+      "rsi14": 79.1,
+      "rv_ratio_7d_30d": 1.24,
+      "volume_z": 0.0,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": 2.9,
-      "oi_delta_7d_pct": 50.2,
+      "oi_delta_24h_pct": 4.5,
+      "oi_delta_7d_pct": 72.9,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -90,18 +150,18 @@
       }
     },
     "XRP": {
-      "price": 1.3992,
-      "chg_24h_pct": -2.45,
-      "chg_7d_pct": 26.51,
-      "dma50": 1.11909,
-      "dma200": 1.276436,
-      "dev_from_50dma_pct": 25.0,
-      "rsi14": 69.2,
-      "rv_ratio_7d_30d": 1.66,
-      "volume_z": -0.1,
+      "price": 1.3813,
+      "chg_24h_pct": -3.7,
+      "chg_7d_pct": 24.89,
+      "dma50": 1.118732,
+      "dma200": 1.276347,
+      "dev_from_50dma_pct": 23.5,
+      "rsi14": 67.0,
+      "rv_ratio_7d_30d": 1.68,
+      "volume_z": 0.24,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -14.2,
-      "oi_delta_7d_pct": 102.1,
+      "oi_delta_24h_pct": -12.7,
+      "oi_delta_7d_pct": 89.9,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -113,21 +173,62 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:09:12.605621+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "SWIFT replacement speculation with $1.5 quadrillion market size",
+            "Ripple $16T transaction volume claims with global scale"
+          ],
+          "capitulation_markers": [],
+          "dominant_narrative": "Talk focuses on Ripple's institutional payments growth, XRP as potential SWIFT alternative, and macro tailwinds from Treasury/rates chatter.",
+          "narrative_change": "More emphasis on real-world adoption and infrastructure scale than pure rate proxies or price channels seen in earlier posts.",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "Ripple processed nearly $16T in transactions last year, matching Visa scale.",
+            "XRP possibly replacing SWIFT for $1.5 quadrillion market opportunity.",
+            "XRP riding Treasury buyback and curve control macro narrative.",
+            "Hedge funds repeatedly shorting XRP after retail pumps to $1.52."
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2091677126747439446",
+          "https://x.com/i/status/2092690674424373288",
+          "https://x.com/i/status/2092690727935570358",
+          "https://x.com/i/status/2092690719886704789",
+          "https://x.com/i/status/2091973148010782777",
+          "https://x.com/i/status/2092595481780076656",
+          "https://x.com/i/status/2092690758109155812",
+          "https://x.com/i/status/2092690758146908161",
+          "https://x.com/i/status/2092690731395637302",
+          "https://x.com/i/status/2092034359121613270",
+          "https://x.com/i/status/2091725303773012408",
+          "https://x.com/i/status/2092690669785497972"
+        ],
+        "search_queries": [
+          "{\"query\":\"$XRP OR XRP since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"XRP cryptocurrency discussions\",\"limit\":\"5\",\"from_date\":\"2026-08-24\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "SOL": {
-      "price": 96.66,
-      "chg_24h_pct": 0.06,
-      "chg_7d_pct": 13.21,
-      "dma50": 78.4146,
-      "dma200": 81.38375,
+      "price": 96.65,
+      "chg_24h_pct": 0.05,
+      "chg_7d_pct": 13.2,
+      "dma50": 78.4144,
+      "dma200": 81.3837,
       "dev_from_50dma_pct": 23.3,
       "rsi14": 78.6,
       "rv_ratio_7d_30d": 1.07,
-      "volume_z": -0.37,
+      "volume_z": -0.02,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -0.0,
-      "oi_delta_7d_pct": 28.7,
+      "oi_delta_24h_pct": 3.0,
+      "oi_delta_7d_pct": 29.9,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -142,18 +243,18 @@
       }
     },
     "TRX": {
-      "price": 0.3353,
-      "chg_24h_pct": -0.3,
-      "chg_7d_pct": 0.27,
-      "dma50": 0.33068,
-      "dma200": 0.321872,
-      "dev_from_50dma_pct": 1.4,
-      "rsi14": 51.4,
+      "price": 0.3358,
+      "chg_24h_pct": -0.15,
+      "chg_7d_pct": 0.42,
+      "dma50": 0.33069,
+      "dma200": 0.321874,
+      "dev_from_50dma_pct": 1.5,
+      "rsi14": 52.3,
       "rv_ratio_7d_30d": 1.67,
-      "volume_z": -0.14,
-      "funding_pct_8h": -0.0309,
-      "oi_delta_24h_pct": -21.5,
-      "oi_delta_7d_pct": 19.6,
+      "volume_z": 0.68,
+      "funding_pct_8h": -0.0393,
+      "oi_delta_24h_pct": -19.8,
+      "oi_delta_7d_pct": 18.6,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bullish",
@@ -165,21 +266,70 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:09:23.502314+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "rising",
+          "euphoria_markers": [
+            "400M accounts milestone celebrations with giveaways",
+            "rocket emojis and \ud83d\udd25 in posts",
+            "long-term treasury accumulation emphasis"
+          ],
+          "capitulation_markers": [],
+          "dominant_narrative": "TRON reaching 400M accounts milestone alongside institutional moves like Nasdaq-listed company node plans and treasury builds.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "Official TRON accounts celebrating 400M total accounts with community events and prizes",
+            "Posts highlighting company treasury over 711M TRX as long-term conviction",
+            "Discussion of TRON's massive USDT volume and gasless transfer growth",
+            "News on Nasdaq firm Tron Inc. pursuing SR node role"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2091987615759171901",
+          "https://x.com/i/status/2092401347777732791",
+          "https://x.com/i/status/2092400322551427105",
+          "https://x.com/i/status/2091873167803634039",
+          "https://x.com/i/status/2092271654265082049",
+          "https://x.com/i/status/2092400349801820205",
+          "https://x.com/i/status/2092126532462313826",
+          "https://x.com/i/status/2092399706915917909",
+          "https://x.com/i/status/2092078143855313310",
+          "https://x.com/i/status/2092401065131913709",
+          "https://x.com/i/status/2091802923726762380",
+          "https://x.com/i/status/2092400582804078731",
+          "https://x.com/i/status/2092056154373521617",
+          "https://x.com/i/status/2092401407076839701",
+          "https://x.com/i/status/2092399398621782369",
+          "https://x.com/i/status/2092400339768996309",
+          "https://x.com/i/status/2091895806102261829",
+          "https://x.com/i/status/2092297326664585220",
+          "https://x.com/i/status/2091836172985413951"
+        ],
+        "search_queries": [
+          "{\"query\":\"(TRX OR $TRX) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"(TRX OR $TRX) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Top\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "DOGE": {
-      "price": 0.08604,
-      "chg_24h_pct": 0.4,
-      "chg_7d_pct": 14.66,
-      "dma50": 0.073685,
-      "dma200": 0.089166,
-      "dev_from_50dma_pct": 16.8,
-      "rsi14": 64.7,
-      "rv_ratio_7d_30d": 1.74,
-      "volume_z": -0.39,
-      "funding_pct_8h": -0.0004,
-      "oi_delta_24h_pct": -14.0,
-      "oi_delta_7d_pct": 74.6,
+      "price": 0.08499,
+      "chg_24h_pct": -0.83,
+      "chg_7d_pct": 13.26,
+      "dma50": 0.073664,
+      "dma200": 0.089161,
+      "dev_from_50dma_pct": 15.4,
+      "rsi14": 62.7,
+      "rv_ratio_7d_30d": 1.75,
+      "volume_z": -0.1,
+      "funding_pct_8h": 0.01,
+      "oi_delta_24h_pct": -15.4,
+      "oi_delta_7d_pct": 69.2,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -191,21 +341,72 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:09:34.941257+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "price targets $0.15-$0.40",
+            "bullish breakout setups",
+            "rocket emoji mentions"
+          ],
+          "capitulation_markers": [
+            "pump losing steam",
+            "bearish distribution",
+            "third straight red session"
+          ],
+          "dominant_narrative": "Technical charts show DOGE around $0.09 with falling wedges, support tests, and mixed breakout/breakdown views.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "DOGE falling wedge setup targets $0.15 then $0.40 on breakout",
+            "Price at $0.0887 after red days, RSI neutral at support",
+            "Leverage high but spot demand weak, risks cascade below $0.094",
+            "Trump DOGE checks never coming per article shares"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2091842968168841509",
+          "https://x.com/i/status/2091794994487292236",
+          "https://x.com/i/status/2092160114551906406",
+          "https://x.com/i/status/2092326176706494947",
+          "https://x.com/i/status/2092401491235783123",
+          "https://x.com/i/status/2092372705446416681",
+          "https://x.com/i/status/2092401625360924889",
+          "https://x.com/i/status/2092401561742069884",
+          "https://x.com/i/status/2092401480770936959",
+          "https://x.com/i/status/2092351488349843465",
+          "https://x.com/i/status/2092285477088813170",
+          "https://x.com/i/status/2091817034887909589",
+          "https://x.com/i/status/2092401477729882462",
+          "https://x.com/i/status/2092158159897157891",
+          "https://x.com/i/status/2092401579391635649",
+          "https://x.com/i/status/2092401523070271653",
+          "https://x.com/i/status/2092167622544519465"
+        ],
+        "search_queries": [
+          "{\"query\":\"$DOGE OR DOGE since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"posts about Dogecoin $DOGE price or sentiment\",\"limit\":\"10\",\"from_date\":\"2026-08-24\",\"to_date\":\"2026-08-26\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "ZEC": {
-      "price": 778.05,
-      "chg_24h_pct": 1.33,
-      "chg_7d_pct": 37.67,
-      "dma50": 541.0244,
-      "dma200": 414.36105,
-      "dev_from_50dma_pct": 43.8,
-      "rsi14": 71.9,
+      "price": 781.73,
+      "chg_24h_pct": 1.81,
+      "chg_7d_pct": 38.32,
+      "dma50": 541.098,
+      "dma200": 414.37945,
+      "dev_from_50dma_pct": 44.5,
+      "rsi14": 72.1,
       "rv_ratio_7d_30d": 1.72,
-      "volume_z": -0.15,
-      "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -20.3,
-      "oi_delta_7d_pct": 71.8,
+      "volume_z": 0.24,
+      "funding_pct_8h": 0.0187,
+      "oi_delta_24h_pct": -8.5,
+      "oi_delta_7d_pct": 55.7,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bearish",
@@ -217,21 +418,57 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:11:21.126309+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [],
+          "capitulation_markers": [],
+          "dominant_narrative": "Sparse mentions of ZEC mostly in trading signal spam lists or isolated short trades.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "Trader posted short entry on ZEC at 870 stop, later asking if it paid off with chart.",
+            "Signal accounts listing $ZEC among many other tokens after claiming profits on unrelated pairs.",
+            "User stating 'full money on zec'.",
+            "Posts noting ZEC alongside BTC in privacy/UTXO contexts with minimal engagement."
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092401445685412141",
+          "https://x.com/i/status/2092401274826444888",
+          "https://x.com/i/status/2092401613159780430",
+          "https://x.com/i/status/2092401482825941025",
+          "https://x.com/i/status/2092401417705111763",
+          "https://x.com/i/status/2092401070777774189",
+          "https://x.com/i/status/2092401061654925451",
+          "https://x.com/i/status/2092400917912141824",
+          "https://x.com/i/status/2092401586584932679",
+          "https://x.com/i/status/2092401511099715597"
+        ],
+        "search_queries": [
+          "{\"query\":\"$ZEC OR ZEC since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"$ZEC OR ZEC since:2026-08-24 until:2026-08-26 filter:has_engagement\",\"limit\":\"5\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "ADA": {
-      "price": 0.2095,
-      "chg_24h_pct": 0.19,
-      "chg_7d_pct": 11.97,
-      "dma50": 0.180916,
-      "dma200": 0.222558,
-      "dev_from_50dma_pct": 15.8,
-      "rsi14": 59.6,
-      "rv_ratio_7d_30d": 1.53,
-      "volume_z": -0.79,
-      "funding_pct_8h": -0.0199,
-      "oi_delta_24h_pct": -6.1,
-      "oi_delta_7d_pct": 12.0,
+      "price": 0.2059,
+      "chg_24h_pct": -1.53,
+      "chg_7d_pct": 10.05,
+      "dma50": 0.180844,
+      "dma200": 0.22254,
+      "dev_from_50dma_pct": 13.9,
+      "rsi14": 57.1,
+      "rv_ratio_7d_30d": 1.54,
+      "volume_z": -0.47,
+      "funding_pct_8h": -0.0058,
+      "oi_delta_24h_pct": -4.6,
+      "oi_delta_7d_pct": 15.6,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -243,21 +480,69 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:09:42.491154+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "bullish wave charts targeting $0.314-$0.404",
+            "we are so back / bull market baby",
+            "bounce into resistance zone"
+          ],
+          "capitulation_markers": [
+            "emotional tax of holding ADA",
+            "needs more patience"
+          ],
+          "dominant_narrative": "Technical chart analysis of ADA price waves alongside Cardano governance and DeFi updates.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "Daily Cardano news on Bitcoin DeFi TVL growth",
+            "ADA holding above $0.157 for upside to $0.314",
+            "Cardano community review on quantum-resistant CIP",
+            "ADA coiling in triangle pattern near $0.22-$0.23"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092399961585434703",
+          "https://x.com/i/status/2091862829510898067",
+          "https://x.com/i/status/2092253477061992698",
+          "https://x.com/i/status/2092398408027750429",
+          "https://x.com/i/status/2092397935615250618",
+          "https://x.com/i/status/2092399588011548864",
+          "https://x.com/i/status/2092394461544526273",
+          "https://x.com/i/status/2092394111487909890",
+          "https://x.com/i/status/2092395109291638908",
+          "https://x.com/i/status/2092394444066582919",
+          "https://x.com/i/status/2091953255135707351",
+          "https://x.com/i/status/2092150443896197251",
+          "https://x.com/i/status/2092037356035641588",
+          "https://x.com/i/status/2092401417705111763",
+          "https://x.com/i/status/2092396492124246101"
+        ],
+        "search_queries": [
+          "{\"query\":\"(ADA OR $ADA) (crypto OR cardano) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"ADA Cardano crypto discussions\",\"limit\":\"5\",\"from_date\":\"2026-08-24\",\"to_date\":\"2026-08-26\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "LINK": {
-      "price": 11.364,
-      "chg_24h_pct": 0.65,
-      "chg_7d_pct": 7.64,
-      "dma50": 8.90286,
-      "dma200": 8.85597,
-      "dev_from_50dma_pct": 27.6,
-      "rsi14": 72.1,
+      "price": 11.277,
+      "chg_24h_pct": -0.12,
+      "chg_7d_pct": 6.82,
+      "dma50": 8.90112,
+      "dma200": 8.855535,
+      "dev_from_50dma_pct": 26.7,
+      "rsi14": 71.3,
       "rv_ratio_7d_30d": 1.35,
-      "volume_z": -0.54,
+      "volume_z": -0.23,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -4.6,
-      "oi_delta_7d_pct": 50.7,
+      "oi_delta_24h_pct": -3.1,
+      "oi_delta_7d_pct": 50.8,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bearish",
@@ -269,47 +554,125 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:11:27.554184+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [],
+          "capitulation_markers": [],
+          "dominant_narrative": "Community focuses on Chainlink's infrastructure role, tech evolution, project integrations, and efforts to attract TradFi investors.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "LINK community pushing for TradFi interviews and conversions to grow awareness.",
+            "Chainlink RNG used in random card pack systems with real-time pricing.",
+            "LINK positioned as RWA coin expected to 3x alongside BTC/ETH moves.",
+            "Ongoing debates on Bitcoin vs Chainlink theses and infrastructure value."
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092399546475164117",
+          "https://x.com/i/status/2092399041736855561",
+          "https://x.com/i/status/2092392772032462920",
+          "https://x.com/i/status/2092392455479939099",
+          "https://x.com/i/status/2092399023692915029",
+          "https://x.com/i/status/2092398332635210043",
+          "https://x.com/i/status/2092401595166109989",
+          "https://x.com/i/status/2092399892413263928",
+          "https://x.com/i/status/2092395970583511490",
+          "https://x.com/i/status/2092395366784315814",
+          "https://x.com/i/status/2092394066319114443",
+          "https://x.com/i/status/2092400253399908741",
+          "https://x.com/i/status/2092394785411928162",
+          "https://x.com/i/status/2092401136678642174"
+        ],
+        "search_queries": [
+          "{\"query\":\"$LINK OR LINK Chainlink since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"$LINK OR \\\"Chainlink\\\" since:2026-08-24 until:2026-08-26 min_faves:5\",\"limit\":\"5\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "UNI": {
-      "price": 4.287,
-      "chg_24h_pct": 0.42,
-      "chg_7d_pct": 17.94,
-      "dma50": 3.7904,
-      "dma200": 3.4459,
-      "dev_from_50dma_pct": 13.1,
-      "rsi14": 61.8,
-      "rv_ratio_7d_30d": 0.91,
-      "volume_z": -1.01,
+      "price": 4.252,
+      "chg_24h_pct": -0.4,
+      "chg_7d_pct": 16.97,
+      "dma50": 3.7897,
+      "dma200": 3.445725,
+      "dev_from_50dma_pct": 12.2,
+      "rsi14": 60.9,
+      "rv_ratio_7d_30d": 0.93,
+      "volume_z": -0.67,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -10.4,
-      "oi_delta_7d_pct": 26.3,
+      "oi_delta_24h_pct": -7.6,
+      "oi_delta_7d_pct": 32.2,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bullish",
         "p3_rsi": "Bullish",
         "p4_rvol": "Neutral",
-        "p5_volz": "Bearish",
+        "p5_volz": "Neutral",
         "p6_funding": "Bullish",
         "p7_oi": "Bullish",
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:09:49.022395+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "falling",
+          "euphoria_markers": [],
+          "capitulation_markers": [],
+          "dominant_narrative": "Sparse spam posts from signal sellers listing $UNI among other tokens with no dedicated discussion.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "Broker promo claiming targets hit and listing $UNI in ticker dump",
+            "Signal seller post tagging $UNI with BTC and others",
+            "Unrelated post quoting another with $UNI emoji tag"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092401590896382122",
+          "https://x.com/i/status/2092401529441620028",
+          "https://x.com/i/status/2092401482825941025",
+          "https://x.com/i/status/2092400191034843203",
+          "https://x.com/i/status/2092393412225831323",
+          "https://x.com/i/status/2092401572244324628",
+          "https://x.com/i/status/2092401613159780430",
+          "https://x.com/i/status/2092401480758178199",
+          "https://x.com/i/status/2092401470217809991",
+          "https://x.com/i/status/2092400766443000153",
+          "https://x.com/i/status/2092401511099715597",
+          "https://x.com/i/status/2092401612287594555",
+          "https://x.com/i/status/2092400303186333956"
+        ],
+        "search_queries": [
+          "{\"query\":\"($UNI OR UNI) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"$UNI since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "AAVE": {
-      "price": 124.62,
-      "chg_24h_pct": -1.56,
-      "chg_7d_pct": 30.71,
-      "dma50": 96.9632,
-      "dma200": 96.3594,
-      "dev_from_50dma_pct": 28.5,
-      "rsi14": 66.3,
-      "rv_ratio_7d_30d": 1.69,
-      "volume_z": -0.54,
+      "price": 123.78,
+      "chg_24h_pct": -2.23,
+      "chg_7d_pct": 29.83,
+      "dma50": 96.9464,
+      "dma200": 96.3552,
+      "dev_from_50dma_pct": 27.7,
+      "rsi14": 65.4,
+      "rv_ratio_7d_30d": 1.7,
+      "volume_z": -0.18,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -7.9,
-      "oi_delta_7d_pct": 32.1,
+      "oi_delta_24h_pct": -4.7,
+      "oi_delta_7d_pct": 32.0,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bearish",
@@ -321,21 +684,62 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:09:58.821894+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [],
+          "capitulation_markers": [
+            "criticism calling Aave overvalued with value extraction from DAO"
+          ],
+          "dominant_narrative": "Mentions of Aave app giveaways and comparisons to other DeFi projects alongside some negative takes on token value.",
+          "narrative_change": "Increased focus on criticisms of Aave as value-extracting compared to newer tokens.",
+          "red_flag_claims": [
+            "AAVE DAO extraction of $52M (unverified)"
+          ],
+          "representative_posts": [
+            "Giving away Aave ghost passes for new app access.",
+            "Tulip King says Aave should go to 0 due to extraction like Compound.",
+            "AAVE listed as example of platform that makes money.",
+            "Need to add AAVE to holdings list."
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092690779001246173",
+          "https://x.com/i/status/2092690902334546379",
+          "https://x.com/i/status/2092686607312621627",
+          "https://x.com/i/status/2092679521950486577",
+          "https://x.com/i/status/2092690910198861844",
+          "https://x.com/i/status/2092690835582386200",
+          "https://x.com/i/status/2092690850253836665",
+          "https://x.com/i/status/2092687987318673552",
+          "https://x.com/i/status/2092686872317227222",
+          "https://x.com/i/status/2092690773498052856",
+          "https://x.com/i/status/2092690852107682024"
+        ],
+        "search_queries": [
+          "{\"query\":\"($AAVE OR AAVE) since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"($AAVE OR AAVE) since:2026-08-24 min_faves:5\",\"limit\":\"5\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "ENA": {
-      "price": 0.1401,
-      "chg_24h_pct": -1.96,
-      "chg_7d_pct": 50.16,
-      "dma50": 0.093278,
-      "dma200": 0.098338,
-      "dev_from_50dma_pct": 50.2,
-      "rsi14": 68.3,
-      "rv_ratio_7d_30d": 1.61,
-      "volume_z": -0.2,
+      "price": 0.1375,
+      "chg_24h_pct": -3.78,
+      "chg_7d_pct": 47.37,
+      "dma50": 0.093226,
+      "dma200": 0.098325,
+      "dev_from_50dma_pct": 47.5,
+      "rsi14": 66.3,
+      "rv_ratio_7d_30d": 1.63,
+      "volume_z": 0.01,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -4.7,
-      "oi_delta_7d_pct": 103.1,
+      "oi_delta_24h_pct": -1.8,
+      "oi_delta_7d_pct": 91.8,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bearish",
@@ -347,21 +751,61 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:10:06.758451+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [],
+          "capitulation_markers": [],
+          "dominant_narrative": "Traders posting short-term TA setups, RSI readings, and entry/exit levels for $ENA near $0.15 amid mixed bullish/bearish signals.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "$ENA buy setup with entry now, SL at 0.5341",
+            "$ENA hourly signal bearish at 0.1357 with expected 1.62% move",
+            "$ENA broke $0.16 support, targets $0.145 then $0.128",
+            "$ENA showing double-bottom, bullish breakout watch above $0.15"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092170544636658070",
+          "https://x.com/i/status/2092684031670534538",
+          "https://x.com/i/status/2092119953340076537",
+          "https://x.com/i/status/2091844238124425307",
+          "https://x.com/i/status/2091771391385460925",
+          "https://x.com/i/status/2092685042413920416",
+          "https://x.com/i/status/2092226812168249516",
+          "https://x.com/i/status/2091713915629486301",
+          "https://x.com/i/status/2092690544598343908",
+          "https://x.com/i/status/2091986125250580548",
+          "https://x.com/i/status/2091801539731980688",
+          "https://x.com/i/status/2092678801809711528",
+          "https://x.com/i/status/2091967357199528410",
+          "https://x.com/i/status/2092688152498430331"
+        ],
+        "search_queries": [
+          "{\"query\":\"($ENA OR ENA) (crypto OR token OR price OR ethena) since:2026-08-24 until:2026-08-27\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"ENA crypto token discussions price sentiment\",\"limit\":\"10\",\"from_date\":\"2026-08-24\",\"to_date\":\"2026-08-26\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "MORPHO": {
-      "price": 2.479,
-      "chg_24h_pct": -0.68,
-      "chg_7d_pct": 12.12,
-      "dma50": 2.06654,
-      "dma200": 1.87703,
-      "dev_from_50dma_pct": 20.0,
-      "rsi14": 60.6,
+      "price": 2.456,
+      "chg_24h_pct": -1.6,
+      "chg_7d_pct": 11.08,
+      "dma50": 2.06608,
+      "dma200": 1.876915,
+      "dev_from_50dma_pct": 18.9,
+      "rsi14": 59.7,
       "rv_ratio_7d_30d": 1.86,
-      "volume_z": -0.13,
+      "volume_z": 0.28,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -1.3,
-      "oi_delta_7d_pct": 43.5,
+      "oi_delta_24h_pct": 7.1,
+      "oi_delta_7d_pct": 51.0,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bullish",
@@ -373,21 +817,79 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:08:43.856404+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "rising",
+          "euphoria_markers": [
+            "price targets like $3.55 and $4.20",
+            "rocket emojis",
+            "pumped hard",
+            "on fire",
+            "bullish pennant"
+          ],
+          "capitulation_markers": [],
+          "dominant_narrative": "Morpho seeing new vaults/integrations (e.g. Sentora PST on PYUSD, Coinbase/Robinhood ties) amid recent price pumps in DeFi lending.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "$MORPHO forming bullish pennant after move, targeting $3.55 on breakout above $3",
+            "$MORPHO pumped +27% to $2.91 with strong volume and exchange outflows",
+            "New Sentora PST vault live on Morpho offering 9.1% APY on PYUSD",
+            "Watching $MORPHO longs near $2.45 support with $4.20+ targets"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092684434709320007",
+          "https://x.com/i/status/2092689456801448165",
+          "https://x.com/i/status/2092262579858980961",
+          "https://x.com/i/status/2092690128128864415",
+          "https://x.com/i/status/2091961165630857487",
+          "https://x.com/i/status/2092688980667949220",
+          "https://x.com/i/status/2092026337360056680",
+          "https://x.com/i/status/2092688659346497572",
+          "https://x.com/i/status/2092689401415446936",
+          "https://x.com/i/status/2092689905990193506",
+          "https://x.com/i/status/2092684618004636158",
+          "https://x.com/i/status/2092676241803354372",
+          "https://x.com/i/status/2092672691488903601",
+          "https://x.com/i/status/2092688858924126222",
+          "https://x.com/i/status/2092670362005688531",
+          "https://x.com/i/status/2092682785072857381",
+          "https://x.com/i/status/2092688830335762705",
+          "https://x.com/i/status/2091743261312565399",
+          "https://x.com/i/status/2092248150022955067",
+          "https://x.com/i/status/2091737009521852882",
+          "https://x.com/i/status/2091826531077095834",
+          "https://x.com/i/status/2091844099540443463",
+          "https://x.com/i/status/2092670173660553681",
+          "https://x.com/i/status/2092690576173092882",
+          "https://x.com/i/status/2092671788400689375"
+        ],
+        "search_queries": [
+          "{\"query\":\"($MORPHO OR MORPHO) (crypto OR token OR defi)\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"$MORPHO OR MORPHO since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"MORPHO crypto token discussions\",\"limit\":\"10\",\"from_date\":\"2026-08-24\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "ONDO": {
-      "price": 0.3637,
-      "chg_24h_pct": -0.05,
-      "chg_7d_pct": 4.75,
-      "dma50": 0.36016,
-      "dma200": 0.318561,
-      "dev_from_50dma_pct": 1.0,
-      "rsi14": 51.5,
+      "price": 0.3618,
+      "chg_24h_pct": -0.58,
+      "chg_7d_pct": 4.21,
+      "dma50": 0.360122,
+      "dma200": 0.318551,
+      "dev_from_50dma_pct": 0.5,
+      "rsi14": 50.9,
       "rv_ratio_7d_30d": 1.59,
-      "volume_z": -0.89,
+      "volume_z": -0.67,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -13.2,
-      "oi_delta_7d_pct": 78.9,
+      "oi_delta_24h_pct": -7.7,
+      "oi_delta_7d_pct": 77.5,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bullish",
@@ -399,21 +901,74 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:08:35.356051+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "price targets like $0.45-$0.75",
+            "bull flag/pennant breakout mentions"
+          ],
+          "capitulation_markers": [
+            "scam claim on token design"
+          ],
+          "dominant_narrative": "Traders focus on $ONDO technical consolidation in bull patterns with RWA utility and unlock concerns noted.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [
+            "Ondo token is a scam designed for insiders (unverified)"
+          ],
+          "representative_posts": [
+            "$ONDO consolidating in bull flag on 2D, breakout target 10%+",
+            "$ONDO long entry 0.35 target 0.46",
+            "$ONDO accumulating above 0.29 toward $1",
+            "Questioning when $ONDO gets utility or fee switch"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2091768375483531483",
+          "https://x.com/i/status/2092400528189796771",
+          "https://x.com/i/status/2091816775147028728",
+          "https://x.com/i/status/2092401488425271786",
+          "https://x.com/i/status/2092400441716085164",
+          "https://x.com/i/status/2092097624815845849",
+          "https://x.com/i/status/2091784935510020184",
+          "https://x.com/i/status/2092322509031194748",
+          "https://x.com/i/status/2091807691836457156",
+          "https://x.com/i/status/2092400444874338764",
+          "https://x.com/i/status/2092401126234587351",
+          "https://x.com/i/status/2092400900530696656",
+          "https://x.com/i/status/2091917833106059474",
+          "https://x.com/i/status/2092238630739665022",
+          "https://x.com/i/status/2092401635666563261",
+          "https://x.com/i/status/2092147942509646134",
+          "https://x.com/i/status/2092401488152711335",
+          "https://x.com/i/status/2092322650177564989",
+          "https://x.com/i/status/2092401320808665576",
+          "https://x.com/i/status/2092400778312892883"
+        ],
+        "search_queries": [
+          "{\"query\":\"($ONDO OR ONDO) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"ONDO crypto OR $ONDO\",\"limit\":\"10\",\"from_date\":\"2026-08-24\",\"to_date\":\"2026-08-26\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "ETHFI": {
-      "price": 0.5708,
-      "chg_24h_pct": 2.87,
-      "chg_7d_pct": 8.62,
-      "dma50": 0.443344,
-      "dma200": 0.436541,
-      "dev_from_50dma_pct": 28.7,
-      "rsi14": 63.3,
-      "rv_ratio_7d_30d": 1.14,
-      "volume_z": -0.77,
+      "price": 0.5678,
+      "chg_24h_pct": 2.32,
+      "chg_7d_pct": 8.05,
+      "dma50": 0.443284,
+      "dma200": 0.436526,
+      "dev_from_50dma_pct": 28.1,
+      "rsi14": 63.0,
+      "rv_ratio_7d_30d": 1.13,
+      "volume_z": -0.5,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -10.7,
-      "oi_delta_7d_pct": 29.1,
+      "oi_delta_24h_pct": -0.7,
+      "oi_delta_7d_pct": 34.5,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bearish",
@@ -425,25 +980,62 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:11:36.176025+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "falling",
+          "euphoria_markers": [],
+          "capitulation_markers": [
+            "noted as top daily loser at -9.5%",
+            "\"$ETHFI looks done\" with confirming chart",
+            "multiple short signals with lower targets"
+          ],
+          "dominant_narrative": "Traders are focusing on recent price weakness and posting bearish technical setups for ETHFI.",
+          "narrative_change": "Shift from earlier profitable long positions to current short bias and capitulation language.",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "ETHFI listed as #1 top loser today down 9.5%",
+            "$ETHFI looks done",
+            "Short signal with TP at 0.5 and 0.43",
+            "Bearish 1h analysis targeting 0.50 after rejection"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092382858069578216",
+          "https://x.com/i/status/2092382455781056932",
+          "https://x.com/i/status/2092384437065711779",
+          "https://x.com/i/status/2092362178888081614",
+          "https://x.com/i/status/2092361092651725129",
+          "https://x.com/i/status/2092357645420417137",
+          "https://x.com/i/status/2092392594424885403",
+          "https://x.com/i/status/2092358073088135577"
+        ],
+        "search_queries": [
+          "{\"query\":\"(ETHFI OR $ETHFI) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "CAKE": {
-      "price": 1.731,
-      "chg_24h_pct": 0.99,
-      "chg_7d_pct": 6.79,
-      "dma50": 1.46596,
-      "dma200": 1.41996,
-      "dev_from_50dma_pct": 18.1,
-      "rsi14": 70.7,
-      "rv_ratio_7d_30d": 1.34,
-      "volume_z": -0.83,
+      "price": 1.705,
+      "chg_24h_pct": -0.53,
+      "chg_7d_pct": 5.18,
+      "dma50": 1.46544,
+      "dma200": 1.41983,
+      "dev_from_50dma_pct": 16.3,
+      "rsi14": 68.1,
+      "rv_ratio_7d_30d": 1.35,
+      "volume_z": -0.39,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": 4.6,
-      "oi_delta_7d_pct": -3.8,
+      "oi_delta_24h_pct": -1.6,
+      "oi_delta_7d_pct": -11.4,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bullish",
-        "p3_rsi": "Neutral",
+        "p3_rsi": "Bullish",
         "p4_rvol": "Bullish",
         "p5_volz": "Neutral",
         "p6_funding": "Bullish",
@@ -451,21 +1043,59 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:10:15.241728+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "falling",
+          "euphoria_markers": [],
+          "capitulation_markers": [],
+          "dominant_narrative": "AI trading accounts posting neutral-to-bullish 1H technical setups and double-bottom patterns for $CAKE with modest upside targets.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "$CAKE showing double bottom off $1.20-1.30 support, pushing toward $1.80 neckline and $2.30 target.",
+            "Bullish 1H structure on $CAKE with entry at $1.73, TP $1.85, SL $1.67; greed sentiment noted.",
+            "Consolidation near highs on $CAKE after rally from $1.45 low; long bias with balanced funding.",
+            "$CAKE mentions rising on X per AI agents; similar bullish 1H setups with $1.77-$1.83 targets."
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2091687927210287546",
+          "https://x.com/i/status/2092395419154157919",
+          "https://x.com/i/status/2091688806760022052",
+          "https://x.com/i/status/2092298354579632176",
+          "https://x.com/i/status/2092355552172986680",
+          "https://x.com/i/status/2092398638743867486",
+          "https://x.com/i/status/2092378743813873906",
+          "https://x.com/i/status/2092262040131997973",
+          "https://x.com/i/status/2091723552172999058",
+          "https://x.com/i/status/2092323248704790888",
+          "https://x.com/i/status/2092355334014738904",
+          "https://x.com/i/status/2092329208705892732"
+        ],
+        "search_queries": [
+          "{\"query\":\"($CAKE OR CAKE) (crypto OR token OR pancake) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"posts about CAKE crypto or $CAKE token\",\"limit\":\"5\",\"from_date\":\"2026-08-24\",\"to_date\":\"2026-08-26\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "JUP": {
-      "price": 0.2197,
-      "chg_24h_pct": 3.88,
-      "chg_7d_pct": 21.11,
-      "dma50": 0.192102,
-      "dma200": 0.183843,
-      "dev_from_50dma_pct": 14.4,
-      "rsi14": 69.0,
+      "price": 0.2165,
+      "chg_24h_pct": 2.36,
+      "chg_7d_pct": 19.35,
+      "dma50": 0.192038,
+      "dma200": 0.183827,
+      "dev_from_50dma_pct": 12.7,
+      "rsi14": 67.7,
       "rv_ratio_7d_30d": 1.2,
-      "volume_z": 0.06,
+      "volume_z": 0.56,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": 9.9,
-      "oi_delta_7d_pct": 33.9,
+      "oi_delta_24h_pct": 9.8,
+      "oi_delta_7d_pct": 25.2,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bullish",
@@ -477,21 +1107,63 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:08:50.472939+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [],
+          "capitulation_markers": [],
+          "dominant_narrative": "Posts discuss Jupiter's fundamentals and metrics alongside scattered airdrop promotions and trading signals.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [
+            "Multiple airdrop claim links (unverified)"
+          ],
+          "representative_posts": [
+            "JUP ranked #68 despite $1.7B TVL and high volumes, seen as mispriced",
+            "Holding $JUP for years shows conviction amid meme coin churn",
+            "LONG trade signal posted for JUP/USDT with targets",
+            "Scam-style airdrop promo posts with fake claim links"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092388426335039984",
+          "https://x.com/i/status/2092393485357694989",
+          "https://x.com/i/status/2092375490652774685",
+          "https://x.com/i/status/2092674937353797805",
+          "https://x.com/i/status/2092674522126176583",
+          "https://x.com/i/status/2092680756283740669",
+          "https://x.com/i/status/2092666196889940183",
+          "https://x.com/i/status/2092400418597069122",
+          "https://x.com/i/status/2092684906841428271",
+          "https://x.com/i/status/2092687314132570575",
+          "https://x.com/i/status/2092373375167463882",
+          "https://x.com/i/status/2092388535630275050",
+          "https://x.com/i/status/2092685438754734535",
+          "https://x.com/i/status/2092668925595070964"
+        ],
+        "search_queries": [
+          "{\"query\":\"($JUP OR JUP) (crypto OR solana OR token)\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"$JUP since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "BCH": {
-      "price": 266.2,
-      "chg_24h_pct": 0.11,
-      "chg_7d_pct": 24.8,
-      "dma50": 224.446,
-      "dma200": 351.3885,
-      "dev_from_50dma_pct": 18.6,
-      "rsi14": 68.1,
-      "rv_ratio_7d_30d": 1.9,
-      "volume_z": -0.48,
+      "price": 261.8,
+      "chg_24h_pct": -1.54,
+      "chg_7d_pct": 22.74,
+      "dma50": 224.358,
+      "dma200": 351.3665,
+      "dev_from_50dma_pct": 16.7,
+      "rsi14": 65.1,
+      "rv_ratio_7d_30d": 1.92,
+      "volume_z": -0.3,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -2.1,
-      "oi_delta_7d_pct": -3.7,
+      "oi_delta_24h_pct": -5.6,
+      "oi_delta_7d_pct": -16.7,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -499,25 +1171,71 @@
         "p4_rvol": "Bullish",
         "p5_volz": "Neutral",
         "p6_funding": "Bullish",
-        "p7_oi": "Neutral",
+        "p7_oi": "Bearish",
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:11:43.545113+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "rocket emojis in one promo post"
+          ],
+          "capitulation_markers": [],
+          "dominant_narrative": "BCH ecosystem tools, usage examples, top-L1 listings, and scattered trading signals",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "BCH ranked in top 10 L1s by market cap",
+            "Long futures signal posted with entry 252-260 and multiple TPs",
+            "Community praise for new BCH explorer and vending machine features",
+            "Spam accounts posting fake 'target price tomorrow' links"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092668675992223813",
+          "https://x.com/i/status/2092645664744452574",
+          "https://x.com/i/status/2092689803124842881",
+          "https://x.com/i/status/2092666719428890858",
+          "https://x.com/i/status/2092664533206581316",
+          "https://x.com/i/status/2092688529830580248",
+          "https://x.com/i/status/2092687609105445166",
+          "https://x.com/i/status/2092670192140861820",
+          "https://x.com/i/status/2092664117769240705",
+          "https://x.com/i/status/2092691024594252153",
+          "https://x.com/i/status/2092683417179803870",
+          "https://x.com/i/status/2092660455684681863",
+          "https://x.com/i/status/2092645320840904842",
+          "https://x.com/i/status/2092655939887448237",
+          "https://x.com/i/status/2092642949670838678",
+          "https://x.com/i/status/2092652773418344529",
+          "https://x.com/i/status/2092690982827446548",
+          "https://x.com/i/status/2092690365274829005"
+        ],
+        "search_queries": [
+          "{\"query\":\"($BCH OR BCH) (crypto OR bitcoin OR cash)\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"$BCH since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "XLM": {
-      "price": 0.1819,
-      "chg_24h_pct": -0.27,
-      "chg_7d_pct": 6.81,
-      "dma50": 0.176378,
-      "dma200": 0.173734,
-      "dev_from_50dma_pct": 3.1,
-      "rsi14": 54.0,
-      "rv_ratio_7d_30d": 1.61,
-      "volume_z": -0.42,
+      "price": 0.18,
+      "chg_24h_pct": -1.32,
+      "chg_7d_pct": 5.7,
+      "dma50": 0.17634,
+      "dma200": 0.173724,
+      "dev_from_50dma_pct": 2.1,
+      "rsi14": 52.7,
+      "rv_ratio_7d_30d": 1.62,
+      "volume_z": -0.13,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -1.5,
-      "oi_delta_7d_pct": 117.3,
+      "oi_delta_24h_pct": -7.1,
+      "oi_delta_7d_pct": 99.5,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bullish",
@@ -529,21 +1247,67 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:08:26.222217+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "rising",
+          "euphoria_markers": [
+            "rocket emojis and 'hyper-growth' hype",
+            "price breakout mentions ($0.193 peak, $0.2065 target)",
+            "'buy now or miss cheap tickets' calls",
+            "influencer-style catalyst lists"
+          ],
+          "capitulation_markers": [],
+          "dominant_narrative": "Stellar's RWA growth past $3B, new privacy payments on testnet, Protocol 28 upgrade, and DTCC integration driving recent price action and staking events.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "Stellar breaking resistance with 26% weekly rally and institutional primitives",
+            "Buy XLM now before cheap tickets disappear",
+            "Cassator staking event extended with weekly compounding rewards",
+            "XLM leading utility narrative over memes amid regulatory clarity"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092689318825312441",
+          "https://x.com/i/status/2092689751174262978",
+          "https://x.com/i/status/2092687329580445875",
+          "https://x.com/i/status/2091821773884944612",
+          "https://x.com/i/status/2092188731390255496",
+          "https://x.com/i/status/2092690064862261476",
+          "https://x.com/i/status/2092688861910462848",
+          "https://x.com/i/status/2092690527619838060",
+          "https://x.com/i/status/2092687665149739050",
+          "https://x.com/i/status/2092459593184010300",
+          "https://x.com/i/status/2092690014656229674",
+          "https://x.com/i/status/2091827235724370141",
+          "https://x.com/i/status/2092623015603322998",
+          "https://x.com/i/status/2092688457306956032",
+          "https://x.com/i/status/2092689550636208263"
+        ],
+        "search_queries": [
+          "{\"query\":\"($XLM OR XLM) since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"posts about XLM or Stellar cryptocurrency\",\"limit\":\"5\",\"from_date\":\"2026-08-24\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "HBAR": {
-      "price": 0.07739,
-      "chg_24h_pct": -0.46,
-      "chg_7d_pct": 9.54,
-      "dma50": 0.069612,
-      "dma200": 0.084165,
-      "dev_from_50dma_pct": 11.2,
-      "rsi14": 63.8,
-      "rv_ratio_7d_30d": 1.64,
-      "volume_z": -0.18,
+      "price": 0.07755,
+      "chg_24h_pct": -0.26,
+      "chg_7d_pct": 9.77,
+      "dma50": 0.069615,
+      "dma200": 0.084166,
+      "dev_from_50dma_pct": 11.4,
+      "rsi14": 64.3,
+      "rv_ratio_7d_30d": 1.63,
+      "volume_z": 0.13,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -11.0,
-      "oi_delta_7d_pct": 67.6,
+      "oi_delta_24h_pct": -10.9,
+      "oi_delta_7d_pct": 65.3,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -555,21 +1319,72 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:10:24.232433+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "price targets $0.15/$0.40 and +36%",
+            "bullish falling wedge breakout",
+            "AI agents buying scenario"
+          ],
+          "capitulation_markers": [
+            "zero revenue after 8 years and zero adoption",
+            "sold down holdings to 50k HBAR"
+          ],
+          "dominant_narrative": "Technical chart setups and basic network activity notes are the main topics.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "HBAR inside massive falling wedge eyeing $0.15 then $0.40",
+            "Upcoming bullrun to $3 then $10 for Hedera",
+            "Institutions buy survival through audits not podcasts",
+            "After 8 years zero revenue zero DeFi zero enterprise adoption"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092399233211027787",
+          "https://x.com/i/status/2091974599449948261",
+          "https://x.com/i/status/2092399612439286003",
+          "https://x.com/i/status/2092397430645899388",
+          "https://x.com/i/status/2092396595182452817",
+          "https://x.com/i/status/2091750611448447013",
+          "https://x.com/i/status/2092259317021917397",
+          "https://x.com/i/status/2091880110563426578",
+          "https://x.com/i/status/2092399696182493553",
+          "https://x.com/i/status/2092163715265396771",
+          "https://x.com/i/status/2091993194972229981",
+          "https://x.com/i/status/2092396573032374683",
+          "https://x.com/i/status/2092401269222625602",
+          "https://x.com/i/status/2092042627818369411",
+          "https://x.com/i/status/2092400879513305153",
+          "https://x.com/i/status/2092105940057337936",
+          "https://x.com/i/status/2092393486368534534",
+          "https://x.com/i/status/2091847625024901374"
+        ],
+        "search_queries": [
+          "{\"query\":\"($HBAR OR HBAR) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"HBAR or $HBAR cryptocurrency discussions\",\"limit\":\"10\",\"from_date\":\"2026-08-24\",\"to_date\":\"2026-08-26\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "SHIB": {
-      "price": 5.26e-06,
-      "chg_24h_pct": 0.0,
-      "chg_7d_pct": 10.74,
+      "price": 5.24e-06,
+      "chg_24h_pct": -0.38,
+      "chg_7d_pct": 10.32,
       "dma50": 5e-06,
       "dma200": 5e-06,
-      "dev_from_50dma_pct": 13.5,
-      "rsi14": 58.0,
+      "dev_from_50dma_pct": 13.1,
+      "rsi14": 57.5,
       "rv_ratio_7d_30d": 1.75,
-      "volume_z": -0.86,
+      "volume_z": -0.62,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -24.8,
-      "oi_delta_7d_pct": 49.6,
+      "oi_delta_24h_pct": -22.1,
+      "oi_delta_7d_pct": 46.7,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -581,21 +1396,56 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:10:30.853305+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "falling",
+          "euphoria_markers": [],
+          "capitulation_markers": [],
+          "dominant_narrative": "Sparse mentions of SHIB, including its addition to Nomura group's Laser Digital Japan crypto asset list.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "Day 94 checking my X tip wallet every hour in case a whale accidentally sent me 1 $BTC",
+            "$SHIB \ud83e\udde1\ud83c\udf1e",
+            "sup, never left awooOoOOooOOO",
+            "$SHIB"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092401009809125418",
+          "https://x.com/i/status/2092399944778846513",
+          "https://x.com/i/status/2092399712355623135",
+          "https://x.com/i/status/2092397968120832506",
+          "https://x.com/i/status/2092399263443735039",
+          "https://x.com/i/status/2092397866325246462",
+          "https://x.com/i/status/2092399641392242991",
+          "https://x.com/i/status/2092398972518170875",
+          "https://x.com/i/status/2092401203019702656"
+        ],
+        "search_queries": [
+          "{\"query\":\"(SHIB OR $SHIB) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"(SHIB OR $SHIB) since:2026-08-24 until:2026-08-26 min_faves:5\",\"limit\":\"5\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "PEPE": {
-      "price": 3.76e-06,
-      "chg_24h_pct": -1.57,
-      "chg_7d_pct": 31.01,
+      "price": 3.72e-06,
+      "chg_24h_pct": -2.62,
+      "chg_7d_pct": 29.62,
       "dma50": 3e-06,
       "dma200": 3e-06,
-      "dev_from_50dma_pct": 28.4,
-      "rsi14": 66.9,
-      "rv_ratio_7d_30d": 1.74,
-      "volume_z": -0.31,
+      "dev_from_50dma_pct": 27.0,
+      "rsi14": 65.4,
+      "rv_ratio_7d_30d": 1.75,
+      "volume_z": -0.01,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -11.0,
-      "oi_delta_7d_pct": 91.3,
+      "oi_delta_24h_pct": -7.8,
+      "oi_delta_7d_pct": 64.6,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bearish",
@@ -607,21 +1457,71 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:10:39.903952+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "falling",
+          "euphoria_markers": [],
+          "capitulation_markers": [],
+          "dominant_narrative": "Scattered mentions of $PEPE tied to other memecoins, personal conviction, or portfolio watching.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "Conviction looks like this for $PEPE",
+            "$YEE flipping $PEPE was promised",
+            "$PEPE holders have something live in wallets",
+            "$PEPE always worth watching alongside BTC positions"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092686545232842859",
+          "https://x.com/i/status/2092687887191908534",
+          "https://x.com/i/status/2092691177271415259",
+          "https://x.com/i/status/2092691176780427674",
+          "https://x.com/i/status/2092691176751051119",
+          "https://x.com/i/status/2092691155112567174",
+          "https://x.com/i/status/2092691126322885054",
+          "https://x.com/i/status/2092691123214995935",
+          "https://x.com/i/status/2092690278519914856",
+          "https://x.com/i/status/2092691080374341936",
+          "https://x.com/i/status/2092691071134491030",
+          "https://x.com/i/status/2092689883231916505",
+          "https://x.com/i/status/2092691179335033206",
+          "https://x.com/i/status/2092689207324221612",
+          "https://x.com/i/status/2092688558469362037",
+          "https://x.com/i/status/2092687562062323914",
+          "https://x.com/i/status/2092686351107776995",
+          "https://x.com/i/status/2092691011017277463",
+          "https://x.com/i/status/2092686850167369831",
+          "https://x.com/i/status/2092686012828831806",
+          "https://x.com/i/status/2092691129074323950",
+          "https://x.com/i/status/2092691166089060593",
+          "https://x.com/i/status/2092689539613741381"
+        ],
+        "search_queries": [
+          "{\"query\":\"($PEPE OR PEPE) since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"($PEPE OR PEPE) since:2026-08-24 min_faves:5\",\"limit\":\"5\",\"mode\":\"Latest\"}",
+          "{\"query\":\"\\\"$PEPE\\\" since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "TAO": {
-      "price": 232.5,
-      "chg_24h_pct": 1.35,
-      "chg_7d_pct": 13.08,
-      "dma50": 202.348,
-      "dma200": 233.374,
-      "dev_from_50dma_pct": 14.9,
-      "rsi14": 63.5,
-      "rv_ratio_7d_30d": 1.42,
-      "volume_z": -0.47,
+      "price": 228.4,
+      "chg_24h_pct": -0.44,
+      "chg_7d_pct": 11.09,
+      "dma50": 202.266,
+      "dma200": 233.3535,
+      "dev_from_50dma_pct": 12.9,
+      "rsi14": 61.4,
+      "rv_ratio_7d_30d": 1.44,
+      "volume_z": 0.04,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -2.9,
-      "oi_delta_7d_pct": 16.9,
+      "oi_delta_24h_pct": -3.2,
+      "oi_delta_7d_pct": 25.9,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -633,25 +1533,71 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:10:48.436578+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "$300 price target mentions",
+            "OG conviction and gains hype"
+          ],
+          "capitulation_markers": [],
+          "dominant_narrative": "Bittensor ecosystem updates, subnet activity, and price action around $230-250 amid protocol upgrades.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [
+            "EVM liquidity pool exploit on SN35 (unverified)",
+            "TAO stolen by hackers due to poor subnet security (unverified)"
+          ],
+          "representative_posts": [
+            "$TAO looks good, could cross $300 soon",
+            "Opportunity at intersection of crypto and AI with TAO at $230",
+            "Always good time for more $TAO",
+            "Security issues with hackers stealing TAO need addressing"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092690771778433337",
+          "https://x.com/i/status/2092290979046764951",
+          "https://x.com/i/status/2092690949969527113",
+          "https://x.com/i/status/2092687255936868605",
+          "https://x.com/i/status/2092687939645919492",
+          "https://x.com/i/status/2092687410257616955",
+          "https://x.com/i/status/2092689419404980592",
+          "https://x.com/i/status/2092688403561316411",
+          "https://x.com/i/status/2092262178984223074",
+          "https://x.com/i/status/2092687845102440818",
+          "https://x.com/i/status/2091895402203164897",
+          "https://x.com/i/status/2091916266147606849",
+          "https://x.com/i/status/2092687160298348738",
+          "https://x.com/i/status/2092687065582608817"
+        ],
+        "search_queries": [
+          "{\"query\":\"$TAO since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"posts about TAO cryptocurrency or Bittensor $TAO\",\"limit\":\"5\",\"from_date\":\"2026-08-24\",\"to_date\":\"2026-08-26\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "POL": {
-      "price": 0.11558,
-      "chg_24h_pct": -5.69,
-      "chg_7d_pct": 41.4,
-      "dma50": 0.081333,
-      "dma200": 0.088729,
-      "dev_from_50dma_pct": 42.1,
-      "rsi14": 78.5,
-      "rv_ratio_7d_30d": 1.66,
-      "volume_z": 0.31,
+      "price": 0.10925,
+      "chg_24h_pct": -10.85,
+      "chg_7d_pct": 33.66,
+      "dma50": 0.081206,
+      "dma200": 0.088697,
+      "dev_from_50dma_pct": 34.5,
+      "rsi14": 69.6,
+      "rv_ratio_7d_30d": 1.81,
+      "volume_z": 0.89,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -7.8,
-      "oi_delta_7d_pct": 56.2,
+      "oi_delta_24h_pct": -8.3,
+      "oi_delta_7d_pct": 55.6,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Bearish",
-        "p3_rsi": "Bearish",
+        "p3_rsi": "Bullish",
         "p4_rvol": "Bullish",
         "p5_volz": "Neutral",
         "p6_funding": "Bullish",
@@ -659,21 +1605,66 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:10:55.278438+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "rising",
+          "euphoria_markers": [
+            "price targets listed",
+            "rocket emojis",
+            "40% pump claims",
+            "top gainer mentions"
+          ],
+          "capitulation_markers": [],
+          "dominant_narrative": "Polygon $POL showing strong gains and high stablecoin volume with bullish trading setups.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "$POL broke out of triangle expecting pump",
+            "$POL +8.2% today top gainer",
+            "long setup with targets to 0.21",
+            "$3.25B daily stablecoin volume bullish for $POL"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092352672628170780",
+          "https://x.com/i/status/2092346655119196310",
+          "https://x.com/i/status/2092384632692146537",
+          "https://x.com/i/status/2092401589592228187",
+          "https://x.com/i/status/2092384425304887691",
+          "https://x.com/i/status/2092399113639727468",
+          "https://x.com/i/status/2092384543504523302",
+          "https://x.com/i/status/2092383474254516580",
+          "https://x.com/i/status/2092400838018826303",
+          "https://x.com/i/status/2092378286856786383",
+          "https://x.com/i/status/2092377043287646217",
+          "https://x.com/i/status/2092372404765155765",
+          "https://x.com/i/status/2092359410790146485",
+          "https://x.com/i/status/2092359339465990575"
+        ],
+        "search_queries": [
+          "{\"query\":\"$POL OR POL ($POL) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"$POL OR \\\"POL token\\\" since:2026-08-24 until:2026-08-26 min_faves:5\",\"limit\":\"5\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "VIRTUAL": {
-      "price": 0.7456,
-      "chg_24h_pct": 0.85,
-      "chg_7d_pct": 22.69,
-      "dma50": 0.600702,
-      "dma200": 0.655781,
-      "dev_from_50dma_pct": 24.1,
-      "rsi14": 65.2,
-      "rv_ratio_7d_30d": 1.48,
-      "volume_z": -0.18,
+      "price": 0.7163,
+      "chg_24h_pct": -3.11,
+      "chg_7d_pct": 17.87,
+      "dma50": 0.600116,
+      "dma200": 0.655634,
+      "dev_from_50dma_pct": 19.4,
+      "rsi14": 60.9,
+      "rv_ratio_7d_30d": 1.53,
+      "volume_z": 0.11,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": 0.6,
-      "oi_delta_7d_pct": 28.2,
+      "oi_delta_24h_pct": -2.5,
+      "oi_delta_7d_pct": 36.0,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -685,25 +1676,70 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:11:03.173596+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [],
+          "capitulation_markers": [],
+          "dominant_narrative": "Traders posting short-term long/short setups around $0.73-$0.82 levels alongside scattered spam about claim/vote portals.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [
+            "multiple fake claim portals and voting sites (unverified)"
+          ],
+          "representative_posts": [
+            "Watching long $VIRTUAL, entry 0.7369 TP 0.7676",
+            "$VIRTUAL +27% enjoy it",
+            "Easy $30 from $VIRTUAL claim portal live",
+            "$VIRTUAL isn\u2019t loud yet help make it loud"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092151619072782688",
+          "https://x.com/i/status/2092325882165899293",
+          "https://x.com/i/status/2092401041664844187",
+          "https://x.com/i/status/2092378560732287392",
+          "https://x.com/i/status/2091753769147240766",
+          "https://x.com/i/status/2092322945292968434",
+          "https://x.com/i/status/2092386589527732249",
+          "https://x.com/i/status/2091921338219049440",
+          "https://x.com/i/status/2092383421905473803",
+          "https://x.com/i/status/2092398376822415552",
+          "https://x.com/i/status/2092378297447670040",
+          "https://x.com/i/status/2092131604907102276",
+          "https://x.com/i/status/2092386865823322369",
+          "https://x.com/i/status/2091986778630594739",
+          "https://x.com/i/status/2091833488424960286",
+          "https://x.com/i/status/2092091921510650305",
+          "https://x.com/i/status/2092384815383535868"
+        ],
+        "search_queries": [
+          "{\"query\":\"$VIRTUAL OR \\\"$VIRTUAL\\\" since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"posts about VIRTUAL ($VIRTUAL) crypto or token\",\"limit\":\"10\",\"from_date\":\"2026-08-24\",\"to_date\":\"2026-08-26\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "ARB": {
-      "price": 0.0912,
-      "chg_24h_pct": -0.98,
-      "chg_7d_pct": 1.9,
-      "dma50": 0.084576,
-      "dma200": 0.098524,
-      "dev_from_50dma_pct": 7.8,
-      "rsi14": 57.4,
-      "rv_ratio_7d_30d": 0.96,
-      "volume_z": -0.66,
-      "funding_pct_8h": -0.0253,
-      "oi_delta_24h_pct": -5.9,
-      "oi_delta_7d_pct": -10.5,
+      "price": 0.0894,
+      "chg_24h_pct": -2.93,
+      "chg_7d_pct": -0.11,
+      "dma50": 0.08454,
+      "dma200": 0.098515,
+      "dev_from_50dma_pct": 5.7,
+      "rsi14": 54.9,
+      "rv_ratio_7d_30d": 0.99,
+      "volume_z": -0.24,
+      "funding_pct_8h": 0.0044,
+      "oi_delta_24h_pct": -10.2,
+      "oi_delta_7d_pct": -4.1,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
-        "p3_rsi": "Bullish",
+        "p3_rsi": "Neutral",
         "p4_rvol": "Neutral",
         "p5_volz": "Neutral",
         "p6_funding": "Bullish",
@@ -714,18 +1750,18 @@
       }
     },
     "PYTH": {
-      "price": 0.05122,
-      "chg_24h_pct": 2.93,
-      "chg_7d_pct": 21.72,
-      "dma50": 0.044005,
-      "dma200": 0.044113,
-      "dev_from_50dma_pct": 16.4,
-      "rsi14": 69.0,
-      "rv_ratio_7d_30d": 1.14,
-      "volume_z": 0.08,
+      "price": 0.04837,
+      "chg_24h_pct": -2.79,
+      "chg_7d_pct": 14.95,
+      "dma50": 0.043948,
+      "dma200": 0.044099,
+      "dev_from_50dma_pct": 10.1,
+      "rsi14": 61.6,
+      "rv_ratio_7d_30d": 1.25,
+      "volume_z": 0.18,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -12.9,
-      "oi_delta_7d_pct": -23.5,
+      "oi_delta_24h_pct": -21.5,
+      "oi_delta_7d_pct": -34.9,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -740,18 +1776,18 @@
       }
     },
     "ASTER": {
-      "price": 0.695,
-      "chg_24h_pct": -0.57,
-      "chg_7d_pct": 11.2,
-      "dma50": 0.62396,
-      "dma200": 0.66066,
-      "dev_from_50dma_pct": 11.4,
-      "rsi14": 65.4,
-      "rv_ratio_7d_30d": 1.81,
-      "volume_z": -0.3,
+      "price": 0.7,
+      "chg_24h_pct": 0.14,
+      "chg_7d_pct": 12.0,
+      "dma50": 0.62406,
+      "dma200": 0.660685,
+      "dev_from_50dma_pct": 12.2,
+      "rsi14": 67.0,
+      "rv_ratio_7d_30d": 1.8,
+      "volume_z": -0.16,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": 4.6,
-      "oi_delta_7d_pct": 111.6,
+      "oi_delta_24h_pct": -6.0,
+      "oi_delta_7d_pct": 107.5,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
@@ -763,25 +1799,70 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:08:58.747375+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [
+            "price targets to $2-3",
+            "months of accumulation narrative",
+            "most bullish in months"
+          ],
+          "capitulation_markers": [
+            "price stuck in $0.60-0.80 range for weeks",
+            "repeated dumps near $0.80"
+          ],
+          "dominant_narrative": "technical setups and accumulation for the ASTER DEX token on multiple chains.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "accumulation since Dec 2025 holding $0.58-0.80 range, next leg to $2-3 if $0.81 breaks",
+            "staking rewards not working, price should be above $2 by now but stuck",
+            "time for market maker to paint green candles with 500M staked",
+            "double bottom forming with RSI 65.7 and testing $0.70 resistance"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092690655889760706",
+          "https://x.com/i/status/2092016212649861468",
+          "https://x.com/i/status/2092690663942881504",
+          "https://x.com/i/status/2092283925473513927",
+          "https://x.com/i/status/2092690607084904723",
+          "https://x.com/i/status/2091793865908859319",
+          "https://x.com/i/status/2092690731077103695",
+          "https://x.com/i/status/2092171085743861764",
+          "https://x.com/i/status/2092690716392894616",
+          "https://x.com/i/status/2092690617172144563",
+          "https://x.com/i/status/2091832920143216804",
+          "https://x.com/i/status/2092690564873322600"
+        ],
+        "search_queries": [
+          "{\"query\":\"($ASTER OR ASTER) since:2026-08-24\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"discussions about ASTER crypto or token\",\"limit\":\"5\",\"from_date\":\"2026-08-24\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     },
     "ICP": {
-      "price": 2.393,
-      "chg_24h_pct": 0.42,
-      "chg_7d_pct": 3.55,
-      "dma50": 2.2087,
-      "dma200": 2.40542,
-      "dev_from_50dma_pct": 8.3,
-      "rsi14": 57.6,
-      "rv_ratio_7d_30d": 1.41,
-      "volume_z": -0.88,
+      "price": 2.35,
+      "chg_24h_pct": -1.38,
+      "chg_7d_pct": 1.69,
+      "dma50": 2.20784,
+      "dma200": 2.405205,
+      "dev_from_50dma_pct": 6.4,
+      "rsi14": 54.7,
+      "rv_ratio_7d_30d": 1.42,
+      "volume_z": -0.51,
       "funding_pct_8h": 0.01,
-      "oi_delta_24h_pct": -3.1,
-      "oi_delta_7d_pct": 37.9,
+      "oi_delta_24h_pct": -3.9,
+      "oi_delta_7d_pct": 23.0,
       "futures_source": "hyperliquid",
       "suggested_labels": {
         "p2_dma": "Neutral",
-        "p3_rsi": "Bullish",
+        "p3_rsi": "Neutral",
         "p4_rvol": "Bullish",
         "p5_volz": "Neutral",
         "p6_funding": "Bullish",
@@ -789,6 +1870,50 @@
         "p8_stables": "Bullish",
         "p9_mvrv": "Bullish",
         "p10_fg": "Neutral"
+      },
+      "sentiment": {
+        "fetched_at": "2026-08-26T19:11:50.731521+00:00",
+        "model": "grok-4.3",
+        "window_h": 48,
+        "data": {
+          "interest_trend": "flat",
+          "euphoria_markers": [],
+          "capitulation_markers": [
+            "Why $ICP still dumping wtf",
+            "how many of you are doing your part?"
+          ],
+          "dominant_narrative": "ICP's UNDP/DFINITY partnership for sovereign AI/cloud infrastructure and government adoption.",
+          "narrative_change": "none apparent",
+          "red_flag_claims": [],
+          "representative_posts": [
+            "UNDP launching sovereign AI pilots with DFINITY tech across countries",
+            "$ICP = GOVERNMENT ADOPTION",
+            "If the CIP for the burns gets passed... greatest leader",
+            "One is utility coin, and the other is a VC pumped shit... $ICP"
+          ]
+        },
+        "citations": [
+          "https://x.com/i/status/2092400940884148582",
+          "https://x.com/i/status/2092379267833229721",
+          "https://x.com/i/status/2092376056795660329",
+          "https://x.com/i/status/2092367307192328247",
+          "https://x.com/i/status/2092371246981972071",
+          "https://x.com/i/status/2092394273303834749",
+          "https://x.com/i/status/2092395813552968086",
+          "https://x.com/i/status/2092396523111747871",
+          "https://x.com/i/status/2092393892150653094",
+          "https://x.com/i/status/2092396423685767563",
+          "https://x.com/i/status/2092393899587170764",
+          "https://x.com/i/status/2092367386426904730",
+          "https://x.com/i/status/2092393693265187194",
+          "https://x.com/i/status/2092393903144005908",
+          "https://x.com/i/status/2092373805758812213"
+        ],
+        "search_queries": [
+          "{\"query\":\"($ICP OR ICP) (crypto OR coin OR token) since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}",
+          "{\"query\":\"$ICP since:2026-08-24 until:2026-08-26\",\"limit\":\"10\",\"mode\":\"Latest\"}"
+        ],
+        "note": "descriptive only \u2014 contrarian Bullish/Neutral/Bearish read is made by the decision engine and logged in SIGNALS.csv"
       }
     }
   },
