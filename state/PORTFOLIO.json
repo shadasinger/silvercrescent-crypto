@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 6491.21,
-  "portfolio_value_usdt": 9874.47,
+  "cash_usdt": 6094.21,
+  "portfolio_value_usdt": 9996.86,
   "positions": [
     {
       "ticker": "XLM",
@@ -12,7 +12,7 @@
       "qty": 5287.2823,
       "notional_usdt": 1003.53,
       "avg_entry_price": 0.188543,
-      "size_pct_current": 9.64,
+      "size_pct_current": 9.68,
       "target_size_pct": 10.0,
       "stage": "full",
       "target": 0.223,
@@ -110,6 +110,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (1/10 Bearish)",
           "action": "hold, no changes -- price $0.18 (-1.96% vs AM close $0.1836, -4.53% vs avg entry $0.188543), still above 50DMA ($0.17634) and 200DMA ($0.173724) in golden-cross structure, dev-from-50DMA +2.1% (moderate, least-extended structure of the hold alongside AM). RSI 52.7, lower-mid band, comfortably clear of overbought. Funding flat (0.01%/8h, no crowding). OI still confirming very strongly (7d +99.5%, essentially matching the hold's best weekly prints; 24h -7.1%, a single-day pullback on the noisier window). Invalidation $0.170 not breached (~5.6% headroom, narrowest of the hold after today's drift but still intact). Sentiment (p1) flipped back Neutral (AM) -> Bearish (PM) this checkpoint: the recurring euphoria stack (rocket emojis, 'hyper-growth' hype, breakout targets, 'buy now or miss cheap tickets' FOMO calls) intensified back to one-sided, zero capitulation offset -- the recurring watch item reasserting itself, not a fresh escalation. Confluence eased 7/10 (0 Bearish) AM -> 6/10 (1 Bearish) PM (p1 flip is the entire move; mechanical p2-10 unchanged 6/9 Bullish 0 Bearish). Thesis status stays Playing Out, conviction stays Intact -- hold, no changes, nowhere near the 4/10-for-2-consecutive exit gate."
+        },
+        {
+          "checkpoint": "2026-08-27 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "hold, no changes -- price $0.1831 (-0.27% vs PM 08-26 close $0.18, -2.88% vs avg entry $0.188543), still above 50DMA and 200DMA in golden-cross structure, dev-from-50DMA +3.7% (moderate, still one of the least-extended structures on the board). RSI 54.5, lower edge of the 55-70 band but essentially in range. Funding flat (Bullish band, no crowding). Invalidation $0.170 not breached (~7.7% headroom). Sentiment (p1) held Bearish -- the recurring euphoria stack (price targets $0.22-0.30, rocket emojis, inverse-H&S hype) persisted from PM 08-26, zero capitulation offset. Confluence held 6/10 (1/10 Bearish, p1 only) -- nowhere near the 4/10-for-2-consecutive exit gate. Thesis status stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -121,7 +128,7 @@
       "qty": 2646.607,
       "notional_usdt": 1001.82,
       "avg_entry_price": 0.378529,
-      "size_pct_current": 9.7,
+      "size_pct_current": 9.84,
       "target_size_pct": 10.0,
       "stage": "full",
       "target": 0.45,
@@ -177,6 +184,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (0/10 Bearish)",
           "action": "hold, no changes -- price $0.3618 (-1.82% vs AM close $0.3685, -4.41% vs avg entry $0.378529), still above 50DMA ($0.360122) and 200DMA ($0.318551) in golden-cross structure, dev-from-50DMA +0.5% (moderate, the least-extended structure of the hold to date). RSI 50.9, lower-mid band. Funding flat (0.01%/8h, no crowding). OI still confirming (7d not printed as strongly this run but remains net positive; price action modest). Invalidation $0.34 not breached (~6.4% headroom, narrower than AM's ~7.7% after today's drift but still ample). Sentiment (p1) cooled Bearish (AM) -> Neutral (PM): the one-sided euphoria stack ($3 target, +1720% brag) cleared, leaving a genuinely mixed picture (bull-flag breakout chatter offset by a capitulation-flavored unverified scam claim and unlock-utility questioning) -- no clean dominance either way. Confluence improved 6/10 (2 Bearish) AM -> 6/10 (0 Bearish) PM (p1 and p5 volz both cleared their Bearish flags). Thesis status stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-08-27 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "hold, no changes -- price $0.3716 (+2.71% vs PM 08-26 close $0.3618, -1.83% vs avg entry $0.378529), still above 50DMA and 200DMA in golden-cross structure, dev-from-50DMA +2.8% (moderate, least-extended structure on the board). RSI 53.5, lower-mid band. Funding flat (Bullish band, no crowding). Invalidation $0.34 not breached (~8.5% headroom). Sentiment (p1) flipped Neutral(PM 08-26)->Bearish this checkpoint: rising interest with dominant euphoria (price targets, rocket emojis, 'rally will be written in history', S-tier calls), zero capitulation offset -- the recurring watch item reasserting. Confluence held 6/10 (0->1/10 Bearish, p1 only) -- nowhere near the 4/10-for-2-consecutive exit gate. Thesis status stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -188,7 +202,7 @@
       "qty": 399.1422,
       "notional_usdt": 980.29,
       "avg_entry_price": 2.485638,
-      "size_pct_current": 9.93,
+      "size_pct_current": 10.48,
       "target_size_pct": 10.0,
       "stage": "full",
       "target": 3.0066,
@@ -216,6 +230,13 @@
           "conviction": "Intact",
           "confluence": "7/10 (1/10 Bearish)",
           "action": "STAGE-2 ADD -- confluence held >=7/10 at the immediate next checkpoint since the AM 08-26 half-open (7/10 -> 7/10, held; bull count unchanged at 7, p1 flipped Neutral->Bearish on genuine euphoria [$3.55/$4.20 targets, rocket emojis, 'pumped hard', 'on fire'] but mechanical p2-10 stayed clean 7/9 Bullish 0 Bearish both checkpoints). Price $2.456 (-2.38% vs AM entry $2.516), still above 50DMA ($2.06608) and 200DMA ($1.876915) in golden-cross structure, dev-from-50DMA +18.9% (moderate, cooled from AM's +21.7%). RSI 59.7 mid-band with room. Funding flat (0.01%/8h, no crowding). Invalidation $2.2795 not breached (~7.2% headroom). BUY 201.9788 MORPHO @ $2.456 = $496.06 notional (matching the stage-1 half's original ~$496 sizing), 2026-08-26T19:07:58Z (Binance spot, same parameters.py refresh). Position now 399.1422 MORPHO, avg entry $2.485638, full target size ~9.9% of portfolio."
+        },
+        {
+          "checkpoint": "2026-08-27 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "hold, no changes -- price $2.624 (+6.84% vs PM 08-26 close $2.456, +5.56% vs avg entry $2.485638), still above 50DMA and 200DMA in golden-cross structure, dev-from-50DMA +26.2% (moderately extended, crossing the 25% override line for the first time this hold -- p2_dma flipped Bullish->Bearish). RSI 64.8 mid-upper band with some room. Funding flat (Bullish band, no crowding). Invalidation $2.2795 not breached (~13.1% headroom). Sentiment (p1) cooled Bearish(PM 08-26)->Neutral this checkpoint: the one-sided $3.55/$4.20-target euphoria stack cleared, leaving flat/technical chatter (breakout structure, Pendle integration, isolated liquidations with no bad debt) -- no clean crowd-extreme read either way. Confluence eased 7/10(1 Bearish) PM 08-26 -> 6/10(1 Bearish) AM 08-27 (p1 cooling from Bearish to Neutral cost the point since mechanical p2-10 flipped p2_dma Bullish->Bearish but that was offset elsewhere -- net mechanical stayed 6/9 Bullish/1 Bearish). Still well short of the 4/10-for-2-consecutive exit gate. Flagging the fresh overextension crossover (dev +26.2%>25%) as the new watch item -- a further extension without a pullback would be the next signal to track. Thesis status stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -224,12 +245,12 @@
       "sector": "DeFi Lending",
       "entry_utc": "2026-08-26T19:10:00Z",
       "entry_price": 123.78,
-      "qty": 3.9887,
-      "notional_usdt": 493.72,
-      "avg_entry_price": 123.78,
-      "size_pct_current": 5.0,
+      "qty": 7.1137,
+      "notional_usdt": 890.72,
+      "avg_entry_price": 125.211915,
+      "size_pct_current": 9.04,
       "target_size_pct": 10.0,
-      "stage": "stage1_half",
+      "stage": "stage2_add_capped",
       "target": 147.9171,
       "invalidation": 112.1447,
       "planned_R": 2.074,
@@ -248,6 +269,13 @@
           "conviction": "Intact",
           "confluence": "7/10",
           "action": "CONFIRMED ENTRY -- reconfirmed >=7/10 for a 3rd consecutive checkpoint (PM 08-25 armed -> AM 08-26 confirmed/bumped by EV tie-break, no slot -> PM 08-26 reconfirmed), and a slot freed this checkpoint (JUP + ASTER both stage1-cut on non-confirmation, Section 5 step 9). Stated p nudged to the Tier C floor (0.40, up from AM's tie-break-discounted 0.38) reflecting the reduced (though still present) overextension -- dev-from-50DMA eased +32.2% (AM) -> +27.7% (PM), still above the 25% override line so p2_dma stays Bearish, judgment logged in SIGNALS.csv. Staged entry: opened at half target size (5% of portfolio = $493.72, 3.9887 AAVE @ $123.78). Tier C (R=2.074, p=0.40, EV=+2.16%). Second half adds only if confluence holds >=7/10 at the 2026-08-27 AM checkpoint; no confirmation cuts the half."
+        },
+        {
+          "checkpoint": "2026-08-27 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (1/10 Bearish)",
+          "action": "STAGE-2 ADD, CAPPED BY SECTOR RULE -- confluence held >=7/10 at the immediate next checkpoint since the PM 08-26 stage-1 half-entry (7/10 -> 7/10, held; mechanical p2-10 unchanged at 6/9 Bullish/1 Bearish [p2_dma overextension, dev-from-50DMA 29.9%>25%]; p1 sentiment flipped Bearish[PM 08-26 euphoria-adjacent capitulation read]->Bullish[AM 08-27: flat interest, zero euphoria, genuine capitulation marker 'quietly exiting aave positions before the next cycle', no offsetting hype]). Price $127.04 (+2.63% vs stage-1 entry $123.78), still above the 200DMA ($99.35) with the 50DMA cluster below, dev-from-50DMA +29.9% (slightly MORE extended than PM's +27.7%, not less -- p2_dma stays Bearish, the standing overextension risk has not eased). RSI 68.5 mid-upper band with some room. Funding flat (Bullish band, no crowding). Invalidation $112.1447 not breached (~11.7% headroom). HARD-RULE CAP APPLIED (Section 3 rule 8, 'never break, no exceptions'): the full second half at the stage-1 notional ($493.72, matching prior staged adds) would have pushed the DeFi Lending sector (MORPHO+AAVE) to ~51.2% of deployed capital, breaching the <=50%-of-deployed-capital-per-sector hard rule. Capped the add at $397.00 notional (3.125 AAVE @ $127.04) instead of the full $493.72 -- the largest add that keeps DeFi Lending at <=50% of deployed capital (lands at 49.99%). This is the first checkpoint this book has had to invoke this specific hard-rule cap; logged explicitly per Section 0. Position now 7.1137 AAVE, avg entry $125.212096, ~9.04% of portfolio (short of the 10% target size solely because of the sector cap, not a discretionary sizing choice). 2026-08-27T07:15:28Z (Binance spot, same parameters.py refresh)."
         }
       ]
     }
