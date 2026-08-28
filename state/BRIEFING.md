@@ -1,17 +1,15 @@
-BRIEFING — 2026-08-28 AM
-
+BRIEFING — 2026-08-28 MID
 Top 5 considerations:
-1. UNI — confluence 7/10 — clean mechanical uptrend (DMA/RSI/OI/funding all constructive) but sentiment shows one-sided euphoria ($4.84 target, whale buys); newly ARMED, needs a 2nd ≥7/10 checkpoint (PM) to confirm.
-2. MORPHO — confluence 7/10 — held position, structure intact (dev-from-50DMA cooled to +20%, back under overextension line); sentiment flipped to Bearish (green-candle euphoria reappeared) but no exit risk.
-3. ETHFI — confluence 6/10 — capitulation-flavored price weakness (rejection at resistance) with thesis mechanically intact; not held, not armed, just below the entry bar.
-4. POL — confluence 6/10 — arming LAPSED (was 7/10 PM); this run's sentiment is genuinely mixed (dump warnings + price-target hype), missing 2nd-checkpoint confirmation by one point.
-5. TAO — confluence 6/10 — clean mechanical picture but sentiment now shows dominant price-target euphoria (a shift from prior reads), keeping it short of the gate.
-
+1. MORPHO — confluence 7/10 — held position; mechanical picture is clean (0 Bearish) and sentiment is the only swing factor, so nothing missing here — this is a hold-and-watch, not an entry consideration.
+2. UNI — confluence 7/10 — newly armed (1st occurrence); needs a 2nd consecutive ≥7/10 read at PM to confirm entry; sole Bearish flag is euphoric sentiment ("will melt faces", $4.84 target chatter).
+3. ETHFI — confluence 6/10 — one parameter short of arming; capitulation-flavored resistance-rejection chatter is the sentiment read, thesis-intact framing, not yet euphoric or despairing enough to flip.
+4. POL — confluence 6/10 — lapsed its PM 08-27 arming; sentiment has turned genuinely mixed (falling interest, euphoria and dump-warnings both present) — needs a cleaner read to re-arm.
+5. TAO — confluence 6/10 — one parameter short of arming; sentiment shows dominant euphoria (price targets, profit-brag posts) with zero capitulation offset, the gating factor.
 Holdings:
-XLM | 9.79% | entry $0.1874 -> now $0.1841 | -2.4% | -$23.49 | position P&L -$23.49
-ONDO | 9.82% | entry $0.3757 -> now $0.3689 | -2.5% | -$25.49 | position P&L -$25.49
-MORPHO | 10.04% | entry $2.516 -> now $2.50 | +0.6% | +$5.73 | position P&L +$5.73
-AAVE | 9.03% | entry $123.78 -> now $126.10 | +0.7% | +$6.32 | position P&L +$6.32
-
-Portfolio: $9,938.83 (-0.6% / -$61.17 since inception)
-Regime: Fear & Greed 73 (greed, +1/7d), stablecoin supply +0.63%/7d (still growing), MVRV BTC 1.51 / ETH 1.12 (healthy sub-2 band) — no regime-level de-risk trigger.
+XLM | 9.79% | entry $0.1874 -> now $0.1840 | -2.41% | -$0.0045 per coin | position P&L -$24.02
+ONDO | 9.80% | entry $0.3757 -> now $0.3678 | -2.83% | -$0.0107 per coin | position P&L -$28.40
+MORPHO | 10.13% | entry $2.516 -> now $2.521 | +1.42% | +$0.0354 per coin | position P&L +$14.11
+AAVE | 8.95% | entry $123.78 -> now $125.06 | -0.12% | -$0.1519 per coin | position P&L -$1.08
+Portfolio: $9,936.37 (-0.64% / -$63.63 since inception)
+Regime: Fear & Greed 73 (greed, Δ7d +1, off the 74 peak from PM/MID 08-25); stablecoin supply still growing (+0.77% 7d, $310.8B); MVRV BTC 1.51 / ETH 1.12, both in the healthy sub-2 band.
+Watchlist: no changes — budget-blocked (1/5 slot-change budget remains this week, resets 2026-08-30).
