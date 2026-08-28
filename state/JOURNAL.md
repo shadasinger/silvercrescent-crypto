@@ -678,3 +678,32 @@ Mechanical parameters unchanged from AM (7/9 Bullish, 0 Bearish — p5 volz, p10
 ## SIGNAL — XRP armed — 2026-08-27 AM (first occurrence)
 
 Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this checkpoint (was 6/10 at PM 08-26, no prior qualifying read to confirm against). Mechanical p2-10: 6/9 Bullish, 0 Bearish (dev-from-50DMA +24.8%, just under the 25% override line; RSI 69.7 mid-upper band). p1 sentiment read Bullish (contrarian): falling interest, zero euphoria, genuine capitulation markers (long-term-holder frustration, sarcasm about unmet targets, "13 years and still can't hit $4") — fits capitulation-while-thesis-intact cleanly. Needs a 2nd consecutive ≥7/10 checkpoint (PM 08-27) to confirm. One open slot remains in the book (4/5 positions held) if XRP confirms.
+
+## TRIM HALF — ONDO — 2026-08-28 PM (Weakening conviction, discretionary)
+
+Broad market-wide risk-off day: BTC -3.33% 24h, most of the 30-coin watchlist down 3-9%. ONDO price $0.3529 (-4.34% vs AM close $0.3689, -6.76% vs avg entry $0.378529).
+
+**This trim was not triggered by the confluence-count or invalidation rules** (confluence 3/10, 0/10 Bearish — short of both the ≥4/10-Bearish single-checkpoint trim threshold and the exit gate; invalidation $0.34 not breached, ~3.8% headroom remaining). It is a discretionary Weakening-conviction call on two converging signals the raw confluence count masks:
+
+1. **Thesis_test breach:** price is now *below* the current 50DMA ($0.362324, dev -2.6%) for the first time this hold — a direct failure of the entry thesis's own explicitly named test ("price holds above the 50DMA"). Price remains above the 200DMA ($0.319723), so the mechanical p2_dma label reads Neutral (not Bearish) — this masks the structural break rather than flagging it.
+2. **OI-pillar reversal:** 7d OI flipped to -9.9% (24h -4.6%), a genuine reversal from the strongly-positive OI-expansion regime (peaked +134% 7d) that was this thesis's core confirmation pillar since entry.
+
+Sentiment (p1) read Neutral — falling interest, no clean crowd-extreme dominance, not a factor in this call.
+
+**Action:** SOLD 1323.3035 ONDO @ $0.3529 = $466.99 proceeds, 2026-08-28T19:12:21Z (Binance spot, same `parameters.py` refresh). Avg entry unchanged $0.378529. Realized P&L on the trimmed half: -$33.91 (-0.665R vs planned R=2.08). Position remains open at half size (1323.3035 ONDO, ~4.77% of portfolio) — flagged for confirmation at the next checkpoint per the capital-velocity/weakening-trim rule (Section 5 step 4).
+
+**Red-team note (see also PM 08-28 checkpoint report):** the 50DMA breach and OI reversal are both consistent with a market-wide BTC-led pullback rather than an ONDO-specific narrative failure (no red-flag news, sentiment shows no despair). If price reclaims the 50DMA and OI re-expands next checkpoint, this trim will read as the conservative call on a broad-market wobble rather than a genuine thesis break. If the breach deepens or persists, the remaining half is the next exit candidate.
+
+**Counterfactual tracked in SHADOW_BOOK.md** at the next refresh: the trimmed half continues as a virtual position for comparison against the hold-full-size counterfactual.
+
+## TRIM HALF — AAVE — 2026-08-28 PM (sector-cap correction, not a thesis call)
+
+Immediately after the ONDO trim above, DeFi Lending sector exposure (MORPHO+AAVE) mechanically breached the ≤50%-of-deployed-capital hard rule (Section 3 rule 8) — not because MORPHO or AAVE changed, but because trimming ONDO shrank total deployed capital while leaving the sector numerator untouched, pushing the ratio to ~56.6%. This is a "never break, no exceptions" rule; correction could not wait for the next checkpoint.
+
+**Why AAVE, not MORPHO:** AAVE carries the lower confluence this checkpoint (5/10 vs MORPHO's 6/10) and was already the position constrained by this same sector rule at entry (`stage2_add_capped`, PM 08-26/AM 08-27) — trimming it further extends the same logic rather than introducing a new judgment. This is explicitly **not** a read that AAVE's thesis is weaker: thesis stays Playing Out, conviction Intact, and AAVE in fact has the healthiest invalidation headroom (~8.7%) and least overextension (dev-from-50DMA +23.8%, back under the 25% line) of any holding this checkpoint.
+
+**Action:** SOLD 3.5568 AAVE @ $121.87 = $433.47 proceeds, 2026-08-28T19:12:21Z (Binance spot, same `parameters.py` refresh). Avg entry unchanged $125.211915. Realized P&L on the trimmed half: -$11.89 (-0.256R vs planned R=2.074). Position now 3.5568 AAVE (~4.42% of portfolio).
+
+**Post-trim sector exposure:** DeFi Lending (MORPHO $963.53 + AAVE $433.47 market value) = 49.84% of deployed capital — back under the cap with a small buffer.
+
+**Lesson candidate for LESSONS.md:** a Weakening-conviction trim on one position can silently push a *different* sector over its hard cap by shrinking the denominator. Worth checking sector-exposure ratios as an explicit step after any trim or exit, not only after adds — flagging for the next monthly review.
