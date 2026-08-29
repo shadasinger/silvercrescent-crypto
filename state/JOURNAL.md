@@ -707,3 +707,51 @@ Immediately after the ONDO trim above, DeFi Lending sector exposure (MORPHO+AAVE
 **Post-trim sector exposure:** DeFi Lending (MORPHO $963.53 + AAVE $433.47 market value) = 49.84% of deployed capital — back under the cap with a small buffer.
 
 **Lesson candidate for LESSONS.md:** a Weakening-conviction trim on one position can silently push a *different* sector over its hard cap by shrinking the denominator. Worth checking sector-exposure ratios as an explicit step after any trim or exit, not only after adds — flagging for the next monthly review.
+
+## TRIM HALF — XLM — 2026-08-29 AM (Weakening conviction, named thesis-test breach)
+
+Price $0.1776, flat vs PM 08-28 close. **This trim was not triggered by the confluence-count or invalidation rules** (confluence 4/10, 0/10 Bearish; invalidation $0.170 not breached, ~4.3% headroom). It is a discretionary Weakening call on the exact watch item flagged explicitly at the end of the PM 08-28 checkpoint ("XLM now has the least invalidation headroom of any holding — a further leg down without a bounce is the next actionable signal").
+
+1. **Structural compression:** dev-from-50DMA fell to +0.8% — the thinnest cushion of the entire hold (prior low +2.1%) — price is barely holding above the 50DMA ($0.176166), directly threatening the entry thesis's own named test ("price holds above the 50DMA").
+2. **RSI exiting its band:** 50.0, the second straight checkpoint out of the 55-70 Bullish band and the lowest print of the hold.
+3. **Corroborating OI reversal:** 7d OI -14.3% (24h -4.3%), a sharp swing from the strongly-positive regime that anchored this thesis — flagged with an explicit data-quality caveat, since `state/OI_HISTORY.json` is a self-built, ~10-day rolling window (Section 0 amendment) and a single-checkpoint swing of this size is plausible as a rolling-window edge effect rather than a clean signal. Weighted as corroborating, not the primary trigger — the DMA/RSI structural read carries this decision on its own.
+
+**Action:** SOLD 2643.6411 XLM @ $0.1776 = $469.51 proceeds, 2026-08-29T07:12:00Z (Binance spot, same `parameters.py` refresh). Avg entry unchanged $0.188543. Realized P&L on the trimmed half: -$28.93 (-0.590R vs planned R=2.05). Position remains open at half size (2643.6412 XLM, ~4.79% of portfolio) — flagged for confirmation next checkpoint: a 50DMA breach or continued OI deterioration is the next exit signal.
+
+## FULL EXIT — ONDO — 2026-08-29 AM
+
+**P&L:** -$71.79 combined realized across both tranches (PM 08-28 trim -$33.91/-0.665R + AM 08-29 exit -$37.88/-0.743R) vs. planned Tier C setup (R=2.08, stated p=0.42, EV=+2.79% at entry).
+
+**Thesis verdict:** Broken/Failing, not by news or a Section-2 red flag, but by a clean failure of the entry thesis's own named confirmation metrics. The PM 08-28 trim-half set an explicit standing condition: "if the 50DMA breach and OI reversal persist or deepen, the remaining half is the next exit candidate." Both deepened — the 50DMA breach widened from -2.6% to -3.6%, 7d OI stayed clearly negative (-9.9% → -7.7%, not a re-expansion), RSI fell further (52.4 → 46.8). The condition fired as designed.
+
+**Per-parameter verdict at entry (2026-08-24 AM, confluence 7/10):** p2_dma, p3_rsi, p6_funding, p7_oi, p8_stables, p9_mvrv all read Bullish at entry — RIGHT initially (thesis played out well through 08-25/08-26, price up to $0.3904 at one point, +3.1% above entry). p7_oi (the explicitly named thesis-test pillar) was the parameter that ultimately turned and stayed turned — WRONG in hindsight as the durable signal, though it was correctly read at entry. p1 sentiment oscillated Bullish/Neutral/Bearish across the hold with no lasting directional signal — largely IRRELEVANT to the outcome. p5 volz flagged early (08-25 PM) and was an early, correctly-read warning that preceded the eventual breakdown by three checkpoints.
+
+**p calibration:** stated p=0.42 at entry; outcome was a loss, consistent with p<0.5 pricing in a meaningful chance of failure — no overconfidence flag here.
+
+**Sizing/timing verdict:** staged entry (half-then-half) worked as designed — it capped downside to a $500-notional-equivalent full position rather than a full 10% target size taking the whole loss. The PM 08-28 trim-half correctly de-risked ahead of the full breakdown rather than holding to a full exit in one step.
+
+**Counterfactual vs. runner-ups:** at entry (08-24 AM), ONDO won confirmation outright (only qualifying candidate that checkpoint, no competing runner-up). No forgone alternative to compare against.
+
+**One testable lesson:** when an entry thesis names OI as its explicit confirmation pillar, a 7d OI print flipping negative for 2+ consecutive checkpoints (not just one) after a prior strongly-positive regime is a higher-value trim/exit trigger than the 50DMA break alone — both here and in the TRX precedent (LESSONS.md #1), the OI reversal was the more durable signal, arguably deserving the first trim rather than a secondary confirmation.
+
+## TRIM — MORPHO — 2026-08-29 AM (sector-cap correction, not a thesis call)
+
+Same sector-cap cascade as ONDO/AAVE on 2026-08-28 PM, larger this time: the XLM trim and ONDO full exit (both this same checkpoint, unrelated sectors) shrank total deployed capital, pushing DeFi Lending (MORPHO+AAVE) to ~74.9% of deployed capital. AAVE absorbed the correction first (see below) on lowest-confluence-first logic, but zeroing AAVE alone still left MORPHO's full-target position at ~67.3% of the now-smaller deployed capital — still a breach. MORPHO absorbed the remainder needed to land the sector at ~49%.
+
+**Explicitly not a thesis call:** MORPHO carries the strongest read of any coin scored this checkpoint (confluence 7/10, 0/10 Bearish, p1 flipped contrarian Bullish on genuinely rising interest with zero euphoria — Base USDC dominance, Coinbase routing, Robinhood listing). Thesis stays Playing Out, conviction stays Intact.
+
+**Action:** SOLD 212.4305 MORPHO @ $2.416 = $513.23 proceeds, 2026-08-29T07:12:00Z (Binance spot, same `parameters.py` refresh). Avg entry unchanged $2.485638. Realized P&L on the trimmed tranche: -$14.79 (-0.338R vs planned R=2.07). Position now 186.7117 MORPHO (~4.60% of portfolio).
+
+## FULL EXIT — AAVE — 2026-08-29 AM (sector-cap correction, not a thesis call)
+
+**P&L:** -$21.82 combined realized across both tranches (08-28 PM trim -$11.89/-0.256R + 08-29 AM exit -$9.93/-0.214R) vs. planned Tier C setup (R=2.074, stated p=0.40, EV=+2.16% at entry).
+
+**Why AAVE absorbed first (again):** lower confluence this checkpoint (6/10 vs MORPHO's 7/10) and already twice-constrained by this exact hard rule (`stage2_add_capped` at entry, `trimmed_half_sector_cap` on 08-28 PM) — extends the same precedent rather than introducing new judgment. AAVE's own structure was healthy this checkpoint (dev-from-50DMA back under the 25% line at +23.7%, RSI 62.7) with one flagged exception: 7d OI at -24.9%, the sharpest single-checkpoint OI reversal of any holding this book has recorded — a genuine breach of this thesis's own named "OI keeps expanding" test, so the compliance-driven pick also happens to align with the position carrying the weakest thesis-test signal this checkpoint.
+
+**Per-parameter verdict at entry (2026-08-26 PM, confluence 7/10):** p2_dma read Bearish at entry (overextension, dev +27.7%) and stayed the standing risk flag through most of the hold — a correctly-flagged risk that never resolved into an outright breakdown before the position was closed on compliance grounds, so its ultimate verdict is INCONCLUSIVE (never got to play out either way). p3_rsi, p6_funding, p8_stables, p9_mvrv all Bullish at entry and stayed constructive through the hold — RIGHT. p1 sentiment oscillated across nearly every checkpoint with no durable signal — IRRELEVANT. p7_oi read Neutral at entry and stayed Neutral by the mechanical rubric even as the raw 7d OI number swung to -24.9% by exit — this is the second position this checkpoint (after XLM/ONDO) where the mechanical p7_oi label lagged the raw OI trend; worth flagging for the monthly parameter scorecard.
+
+**Sizing/timing verdict:** the sector-cap-capped stage-2 add (entered below the 10% target at ~9.04%) meant this position was already smaller than a standard full-size hold when the compliance exits hit — the cap constraint reduced this position's realized loss twice, once at entry sizing and once by forcing an earlier partial exit than a pure thesis read alone would have triggered.
+
+**Counterfactual vs. runner-ups:** AAVE won its slot at entry via an EV tie-break among MORPHO/JUP/AAVE/ASTER (all tied at 7/10) — AAVE had the lowest EV of the four (+1.58%) but still qualified for the last open slot after JUP/ASTER cut on non-confirmation. No clean forgone-alternative counterfactual since it was the only remaining qualified candidate at the time.
+
+**One testable lesson:** this is the second consecutive checkpoint where a trim in one sector forced a correction in DeFi Lending specifically (ONDO→AAVE on 08-28 PM, then XLM/ONDO→AAVE+MORPHO on 08-29 AM) — with only 2-3 positions typically held, a 2-position sector is structurally fragile to the 50%-of-deployed-capital cap whenever a position in a *different* sector shrinks. See LESSONS.md evidence note below.
