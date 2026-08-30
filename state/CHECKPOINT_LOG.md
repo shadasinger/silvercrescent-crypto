@@ -2393,3 +2393,38 @@ Learning artifacts written: `data/universe.json` (refreshed, 116 candidates), `s
 **Decisions & reasoning:** No trades. Both holdings continued their post-de-risking reclaim (XLM's DMA/OI cushion widening for a third straight checkpoint; MORPHO's OI deceleration fully reversed, RSI back in-band) — conviction stays Intact on both, no exit-gate proximity. JUP's PM 08-29 arming lapsed on a sharp mechanical pullback (7/9→5/9), compounded by a contrarian-Bearish p1 read. No coin reached the 7/10 gate; LINK/MORPHO/CAKE cluster at 6/10 is the closest the board came. Portfolio value $9,810.64 (-1.89% / -$189.36 since inception), up modestly vs the PM 08-29 mark ($9,797.48) on both holdings' price recovery.
 
 **Learning artifacts written:** `state/PARAMETERS.json` (refreshed, 30 coins + global, sentiment blocks for 17 coins), `state/SIGNALS.csv` (30 rows appended), `state/PORTFOLIO.json` (XLM/MORPHO status_history appended, portfolio_value refreshed to $9,810.64, size_pct_current refreshed), this report, `state/BRIEFING.md`. No TRADE_LEDGER.csv rows (no fills). No JOURNAL.md entry (no entries/exits). Not Monday (Sunday) — no shadow-book weekly refresh. Not first AM of month — no monthly review.
+
+## CHECKPOINT — 2026-08-30, MID
+
+**Step 0 (repo sync):** started on branch `claude/funny-dijkstra-5d0usx`; checked out `main` and fast-forwarded to `origin/main` (`5442f27`, the AM 08-30 checkpoint) before starting — clean, no uncommitted changes.
+
+**No trading decisions this routine** (MID sourcing only, per Section 6).
+
+**Step 1 (universe build):** ran `scripts/universe.py` — 116 candidates written to `data/universe.json` (12 stable/wrapped excluded), top 60 enriched with CoinGecko categories + community sentiment (`COINGECKO_API_KEY` present).
+
+**Step 2 (data cards):** per-candidate market cap, volume, vol/mcap, 7d/30d/200d change pulled for all 116; categories + sentiment votes for the top 60 by mcap. All 30 current watchlist tickers present in the candidate set.
+
+**Step 3 (scoring / red-flag screen):** web-search sweep (window 2026-08-29 to 2026-08-30: hack/exploit, SEC/CFTC enforcement, team-exit/founder-scandal). **No new hack/regulatory/team-exit events found tied to any of the 30 watchlist tickers or the NEAR candidate.** Checked and ruled non-actionable/already logged: Coldcard hardware-wallet hack aftermath (~$130M revised total, infra/wallet-provider layer, already logged), SEC FRAU enforcement unit (08-05) and "Regulation Crypto Assets" proposal (08-18, general offering-regime rulemaking, not ticker-specific, both already logged), Story Protocol co-founder "soft rug pull" exit (08-16, not a watchlist ticker, already logged), Ostium $18M oracle-manipulation exploit (07-15, Arbitrum perp-DEX, not a watchlist ticker) — an initial NEAR-adjacent search snippet conflated this with NEAR Protocol; a targeted follow-up search confirmed it is unrelated to NEAR and found no genuine NEAR security incident. BCH itself: clean red-flag screen, its removal (below) is a pure quality/catalyst call, not a red flag. No-chase check: NEAR at -4.0% 7d, well clear of the >50% 7d exclude bar.
+
+**Budget check:** slot-change budget reset today (new calendar week Sun 2026-08-30 – Sat 2026-09-05); last week closed at 4/5 used. 5/5 available at the start of this run.
+
+**Step 4 (watchlist assembly / rotation):** **One swap — BCH dropped, NEAR added (2/5 slot-change budget used this new week).** NEAR (rank 39, mcap $2.45B, vol/mcap 0.067, CoinGecko community sentiment 100.0, +96.1% 200d, -4.0% 7d) was flagged as a standout runner-up candidate on the 2026-08-25/08-28/08-29 MID runs but blocked each time by an exhausted budget; actioned now that the budget reset. Catalyst flow: Quantum-Safe Mainnet upgrade (08-07), MPP cross-chain integration (08-04), 30M-NEAR sovereign fund governance proposal (early Aug). Filled by dropping **BCH** (score 5, the lowest-catalyst rotating holding — its own original thesis reads "low-beta placeholder"; -51.1% 200d, thin vol/mcap 0.017; this run's news sweep found only a payments-card pilot demo at the Cash 3.0 Conference 08-01/02, not a fresh catalyst). Not held, not armed, no 2-week-minimum lock (added 2026-08-02) — freely rotatable.
+- Sector impact: AI moves 3/4 → 4/4 (at cap, not exceeded); Payments moves 3/4 → 2/4.
+- **INJ** (rank 101, mcap $529M, vol/mcap 0.102, sentiment 80.0, 7d +4.5%, clean red-flag screen) remains flagged but **not actioned** this run — sector fit is still genuinely ambiguous (DEX 4/4 capped; DeFi Lending 3/4 technically open, but INJ is a general-purpose L1 for on-chain finance, not a lending protocol like AAVE/ENA/MORPHO — forcing that classification to open a slot is exactly the rubric-stretching Section 9 warns against). Left as a standing runner-up pending a clearer sector read.
+- **ASTER and ICP** (added 2026-08-16) cleared the 2-week minimum today and were reviewed as drop candidates alongside BCH, then kept: ASTER has genuine trading history this paper phase (confirmed & entered 2026-08-26, cut on non-confirmation) despite a middling 40% CoinGecko community-sentiment score — a noisy poll metric, distinct from the Grok/X parameter-1 read used at trading checkpoints; ICP screens cleanly (96.15% sentiment, +19.1% 30d, flat 7d). Neither was the weakest slot on the board.
+- **POL** (added 08-23) and **PYTH** (added 08-24) remain inside their own 2-week minimums (unlock 09-06 and 09-07 respectively) — locked from drop regardless of score.
+- **Held/armed/locked:** XLM, MORPHO held (2/5 positions, locked from rotation-out). No coin currently armed (JUP's PM 08-29 arming lapsed on non-confirmation at the AM 08-30 checkpoint).
+
+**Sector exposure after swap:** DEX 4/4, Major L1 4/4 (permanent), DeFi Lending 3/4, Meme 3/4, AI 4/4, Payments 2/4, L2 2/4, Oracle 2/4, Enterprise 1/4, Liquid Staking 1/4, RWA 1/4, DePIN/Storage 0/4.
+
+**Step (parameters refresh):** ran `scripts/parameters.py` on the updated 30-coin watchlist — 30 coins + global block written (`generated_at` 2026-08-30T13:08:00Z). `fapi.binance.com` still unreachable (geo-block, HTTP 451) — params 6-7 sourced from the Hyperliquid fallback per the Section 0 amendment for all 30 coins, including the newly added NEAR. Global: F&G 69 (+3/7d), MVRV BTC 1.47 / ETH 1.09, stablecoin supply +0.45%/7d ($310.6B).
+
+**Portfolio mark (informational only, no trading action this routine):** XLM $0.1809 (avg entry $0.188543, -4.05%, -$20.21), MORPHO $2.492 (avg entry $2.485638, +0.26%, +$1.19). Portfolio value $9,819.37 (-1.81% / -$180.63 since inception), cash $8,875.85 (90.4%).
+
+**Watchlist changes:** BCH dropped, NEAR added (AI sector). Excluded (red flags): none.
+
+**Simulated fills:** n/a — MID routine, no trading decisions.
+
+**Decisions & reasoning:** One watchlist rotation (BCH → NEAR) actioned on a clean red-flag screen and freshly reset budget, closing out a candidate flagged as a standout for three consecutive prior MID runs. INJ's sector-fit ambiguity kept it on the sidelines rather than forced. No other changes — ASTER/ICP/POL/PYTH all reviewed and retained.
+
+**Learning artifacts written:** `data/universe.json` (rebuilt, 116 candidates), `state/WATCHLIST.json` (BCH → NEAR swap, notes/sector-exposure/budget updated), `state/PARAMETERS.json` (refreshed for the updated 30 coins + global), this report, `state/BRIEFING.md`. No SIGNALS.csv rows (MID does not score confluence). No TRADE_LEDGER.csv rows (no fills, no trading decisions in MID). No JOURNAL.md entry. Not Monday — no shadow-book weekly refresh. Not first MID of month — no monthly review.

@@ -1,7 +1,7 @@
 {
-  "updated_utc": "2026-08-29T13:04:51Z",
-  "slot_changes_this_week": 4,
-  "notes": "2026-08-29 MID: **No watchlist changes -- budget-blocked (unchanged from 2026-08-28 MID).** universe.py rerun (115 candidates, 12 stable/wrapped excluded, top 60 enriched). Slot-change budget: still 4/5 used this calendar week (Sun 08-23 - Sat 08-29): RENDER/POL swap (08-23) + FIL/PYTH swap (08-24) = 4 changes. Only 1 change remains -- insufficient for a full swap (drop+add = 2 changes), so no rotation possible on budget grounds alone regardless of scoring. Resets tomorrow, 2026-08-30 (Sunday). Red-flag screen (window 2026-08-28 to 2026-08-29, web search: hack/exploit, SEC/CFTC enforcement, team-exit/founder-scandal sweeps): **no new hack/regulatory/team-exit events found tied to any of the 30 watchlist tickers.** Adjacent noise checked and ruled non-actionable: Moonwell $8.7M exploit on Base, The Sandbox ~$14.7M SAND bridge-config drain, Term Labs $8.5M governance exploit, BounceBit/Evmos $BB authorization-flaw drain (none are watchlist tickers), Coldcard hardware-wallet hack aftermath (~$116M, infra/wallet-provider layer, already logged), SEC's Regulation Crypto Assets proposal (08-18, general offering-regime rulemaking, not ticker-specific) and FRAU enforcement unit (08-05, general accounting-fraud remit, already logged), Story Protocol co-founder $281M 'soft rug pull' exit (08-16, not a watchlist ticker, already logged). No new items surfaced this sweep. No-chase check (non-watchlist candidates, >50% 7d excluded): STX +24.6% 7d and TRUMP -0.6% 7d both now below the 50% 7d bar (30d prints remain elevated at +77.2%/+83.3% -- the 7d-only chase rule doesn't exclude them, but neither shows fresh catalyst quality over stale momentum). PUMP +142% 30d / 0.0% 7d also checked -- flat this week, not a chaser by the 7d rule, but no fresh catalyst identified either. Runner-up screen refreshed -- **INJ** (rank 103, mcap $501M, vol/mcap 0.127, sentiment 100.0, 7d +4.4%; clean red-flag screen; sector fit still ambiguous vs full DEX 4/4 and DeFi Lending 3/4 -- open) and **NEAR** (rank 39, mcap $2.35B, vol/mcap 0.066, sentiment 100.0, 7d -5.0%, clean red-flag screen, AI sector has 1 open slot) remain the standout candidates flagged for when budget resets 2026-08-30 -- not actioned this run, budget-blocked regardless of score. Held/armed/locked: XLM, MORPHO held (2/5 positions, locked from rotation-out; ONDO and AAVE exited AM 08-29 checkpoint, no longer held); no coin currently armed (UNI's 08-28 arming lapsed on non-confirmation, no arming this AM 08-29 checkpoint per CHECKPOINT_LOG). ASTER and ICP (added 2026-08-16) remain inside the 2-week minimum, unlocking tomorrow 2026-08-30 -- neither red-flagged, no entry_blocked marking needed. Sector caps unchanged: DEX 4/4, Major L1 4/4 (permanent), Payments 3/4, Meme 3/4, DeFi Lending 3/4, AI 3/4, L2 2/4, Oracle 2/4, Enterprise 1/4, Liquid Staking 1/4, RWA 1/4, DePIN/Storage 0/4. state/PARAMETERS.json refreshed for all 30 coins immediately after this note so the PM checkpoint starts warm.\n\nPrevious (2026-08-28 MID): No watchlist changes -- budget-blocked (unchanged from 2026-08-27 MID). See prior commit history for full detail.",
+  "updated_utc": "2026-08-30T13:04:59Z",
+  "slot_changes_this_week": 2,
+  "notes": "2026-08-30 MID: **One swap -- BCH dropped, NEAR added (2/5 slot-change budget used this new week Sun 08-30 - Sat 09-05, reset from last week's 4/5).** universe.py rerun (116 candidates, 12 stable/wrapped excluded, top 60 enriched). Red-flag screen (window 2026-08-29 to 2026-08-30, web search: hack/exploit, SEC/CFTC enforcement, team-exit/founder-scandal sweeps): **no new hack/regulatory/team-exit events found tied to any of the 30 watchlist tickers or the NEAR candidate.** Checked and ruled non-actionable/already logged: Coldcard hardware-wallet hack aftermath (~$130M revised total, infra/wallet-provider layer), SEC FRAU enforcement unit (08-05) and Regulation Crypto Assets proposal (08-18, general rulemaking, not ticker-specific), Story Protocol co-founder 'soft rug pull' exit (08-16, not a watchlist ticker), Ostium $18M oracle-manipulation exploit (07-15, Arbitrum perp-DEX, not a watchlist ticker -- an initial NEAR-adjacent search snippet conflated this with NEAR Protocol; verified via follow-up search it is unrelated to NEAR, no genuine NEAR security incident found). BCH itself: no red flag, drop is a pure quality/catalyst call (see below). No-chase check: NEAR at -4.0% 7d, well clear of the >50% 7d exclude. **Swap reasoning:** NEAR (rank 39, mcap $2.45B, vol/mcap 0.067, sentiment 100.0, +96.1% 200d, -4.0% 7d) was flagged as a standout runner-up on 2026-08-25/08-28/08-29 MID but budget-blocked each time; with the budget now reset, actioned this run. Filled by dropping **BCH** (score 5, the lowest-catalyst rotating holding -- original thesis literally reads \"low-beta placeholder\", -51.1% 200d, thin vol/mcap 0.017, no genuine catalyst found in this run's news sweep beyond a payments-card pilot at Cash 3.0 Conference 08-01/02 -- not a fresh catalyst). AI sector moves 3/4 -> 4/4 (at cap, not exceeding); Payments moves 3/4 -> 2/4. **INJ** (rank 101, mcap $529M, vol/mcap 0.102, sentiment 80.0, 7d +4.5%, clean red-flag screen) remains flagged but **not actioned** -- sector fit still genuinely ambiguous (DEX 4/4 capped; DeFi Lending 3/4 technically open but INJ is a general-purpose L1 for on-chain finance, not a lending protocol like AAVE/ENA/MORPHO -- forcing the classification to open a slot would be the kind of rubric-stretching Section 9 warns against). Held/armed/locked: XLM, MORPHO held (2/5 positions, locked from rotation-out); no coin currently armed (JUP's PM 08-29 arming lapsed on non-confirmation at AM 08-30, no arming this checkpoint per CHECKPOINT_LOG). ASTER and ICP (added 2026-08-16) cleared the 2-week minimum today (2026-08-30) -- both reviewed as drop candidates and kept: ASTER has genuine trading history this paper phase (confirmed & entered 08-26, cut on non-confirmation) despite a middling 40% CoinGecko community-sentiment score (a noisy poll metric, distinct from the Grok/X parameter-1 read used at checkpoints), and ICP screens cleanly (96.15% sentiment, +19.1% 30d, flat 7d) -- neither is the weakest slot on the board. POL (added 08-23) and PYTH (added 08-24) remain inside their own 2-week minimums (unlock 09-06 and 09-07 respectively) -- locked from drop regardless. Sector caps after swap: DEX 4/4, Major L1 4/4 (permanent), DeFi Lending 3/4, Meme 3/4, AI 4/4, Payments 2/4, L2 2/4, Oracle 2/4, Enterprise 1/4, Liquid Staking 1/4, RWA 1/4, DePIN/Storage 0/4. state/PARAMETERS.json to be refreshed for the updated 30 immediately after this note so the PM checkpoint starts warm.\n\nPrevious (2026-08-29 MID): No watchlist changes -- budget-blocked. See prior commit history for full detail.",
   "coins": [
     {
       "ticker": "BTC",
@@ -184,16 +184,6 @@
       "thesis": "Solana aggregator monopoly; cheap after -20% 30d if SOL flow returns."
     },
     {
-      "ticker": "BCH",
-      "binance_symbol": "BCHUSDT",
-      "slot": "rotating",
-      "sector": "Payments",
-      "score": 5,
-      "date_added": "2026-08-02",
-      "locked": false,
-      "thesis": "Liquid large-cap payments fork; low-beta placeholder."
-    },
-    {
       "ticker": "XLM",
       "binance_symbol": "XLMUSDT",
       "slot": "rotating",
@@ -302,6 +292,16 @@
       "date_added": "2026-08-16",
       "locked": false,
       "thesis": "AI/infra L1 (Internet Computer); best CoinGecko community sentiment among screened candidates (76.9% up), mild positive 7d/30d momentum. Legacy 2021 SEC unregistered-securities probe and a related investor suit were already dismissed (2025) -- no fresh regulatory action found. Sector-tagged AI (not Major L1, which is sector-capped) to respect the 4-per-sector rule."
+    },
+    {
+      "ticker": "NEAR",
+      "binance_symbol": "NEARUSDT",
+      "slot": "rotating",
+      "sector": "AI",
+      "score": 8,
+      "date_added": "2026-08-30",
+      "locked": false,
+      "thesis": "AI/infra L1 relaunch narrative -- Quantum-Safe Mainnet upgrade (08-07), MPP cross-chain integration (08-04), 30M-NEAR sovereign fund proposal; mcap $2.45B (rank 39), top CoinGecko sentiment (100%), healthy vol/mcap 0.067, +96.1% 200d secular uptrend, -4.0% 7d (no chase)."
     }
   ]
 }
