@@ -2511,3 +2511,40 @@ Learning artifacts written: `data/universe.json` (refreshed, 116 candidates), `s
 **Decisions & reasoning:** One trim (XLM, half of the remaining position, Weakening conviction on a genuine convergence of DMA/RSI/OI deterioration beyond the original 08-29 trigger). MORPHO held unchanged on its cleanest read of the hold. No coin reached the 7/10 entry gate; ICP's single-checkpoint arm lapsed. Portfolio value $9,815.84 (-1.84% / -$184.16 since inception), down modestly vs the PM 08-30 mark ($9,821.73) on the XLM trim's realized loss and price pullback, partly offset by MORPHO's gain.
 
 **Learning artifacts written:** `state/PARAMETERS.json` (refreshed, 30 coins + global, sentiment blocks for 13 coins), `state/SIGNALS.csv` (30 rows appended), `state/PORTFOLIO.json` (XLM trim + status_history, MORPHO status_history, cash_usdt/portfolio_value_usdt/size_pct_current refreshed to $9,815.84), `state/TRADE_LEDGER.csv` (1 row, XLM trim), `state/SHADOW_BOOK.md` (Monday weekly refresh — JUP/ASTER/ONDO/AAVE divergence table), `state/LESSONS.md` (hypothesis #13: first reversal evidence vs. #7/#10), this report, `state/BRIEFING.md`. No JOURNAL.md entry (a partial trim of an open position, not a full entry/exit). Not first AM of month (that falls 2026-09-01, a Tuesday) — no monthly review.
+
+
+## CHECKPOINT — 2026-08-31, MID
+
+**Step 0 (repo sync):** started on branch `claude/funny-dijkstra-kw30rl`; checked out `main` and fast-forwarded to `origin/main` (`0a66f7c`, the AM 08-31 checkpoint) before starting — clean, no uncommitted changes.
+
+**No trading decisions this routine** (MID sourcing only, per Section 6).
+
+**Step 1 (universe build):** ran `scripts/universe.py` — 117 candidates written to `data/universe.json` (12 stable/wrapped excluded), top 60 enriched with CoinGecko categories + community sentiment (`COINGECKO_API_KEY` present).
+
+**Step 2 (data cards):** per-candidate market cap, volume, vol/mcap, 7d/30d/200d change pulled for all 117; categories + sentiment votes for the top 60 by mcap. All 30 current watchlist tickers present in the candidate set.
+
+**Step 3 (scoring / red-flag screen):** web-search sweep (window 2026-08-30 to 2026-08-31: hack/exploit, SEC/CFTC enforcement, team-exit/founder-scandal). **No hack/regulatory/team-exit events found tied to any of the 30 watchlist tickers or the PENGU candidate.** Surfaced and ruled non-actionable: Cronos/Tectonic $75M TONIC pump-and-borrow exploit (08-30, Cronos Network halted) — TONIC/Cronos not a watchlist ticker or candidate; Fogo Foundation ~400M FOGO token compromise — FOGO not a watchlist ticker or candidate; general "August 2026 exploit wave" aggregate commentary (multiple protocols, none watchlist-tied). PENGU itself screened clean: no hack/exploit/regulatory/team-exit news found, only positive catalyst items (comic-book/collectibles campaign 08-02, LBank listing partnership 08-06, sustained community/brand momentum through 08-16). No-chase check: PENGU at -9.6% 7d, well clear of the >50% 7d exclude bar.
+
+**Budget check:** slot-change budget carried over from the AM 08-31 checkpoint's own week (Sun 2026-08-30 – Sat 2026-09-05); 2/5 used entering this run (from the 08-30 MID's BCH→NEAR swap), 3/5 available.
+
+**Step 4 (watchlist assembly / rotation):** **One swap — VIRTUAL dropped, PENGU added (3/5 slot-change budget used this week).** PENGU (rank 100, mcap $546M, vol/mcap 0.347 — the most liquid candidate reviewed this run, CoinGecko community sentiment 95.68, +45.8% 30d, +33.7% 200d) screens as a clear liquidity/catalyst/sentiment upgrade over the weakest AI-sector incumbent. Filled by dropping **VIRTUAL** (score 5, tied-lowest-scored rotating holding — sentiment 41.67, vol/mcap 0.109 roughly a third of PENGU's, -11.7% 7d with no fresh catalyst found this run beyond the standing "high beta to AI narrative revivals" thesis). Not held, not armed, no 2-week-minimum lock (added 2026-08-02) — freely rotatable.
+- Sector impact: Meme moves 3/4 → 4/4 (at cap, not exceeded); AI moves 4/4 → 3/4 (opens one slot, not backfilled this run).
+- **JUP** (score 5, the other tied-lowest incumbent) was reviewed alongside VIRTUAL but **not swapped** — a JUP drop would only free a DEX-sector slot (already 4/4 capped, so no net sector benefit), no DEX-sector candidate this run screened cleaner than JUP's own standing thesis, and JUP retains recent trading relevance (PM 08-29 arm, non-confirmed at AM 08-30) arguing for one more quiet cycle before churning on score alone.
+- **INJ** (rank 103, mcap $498M, vol/mcap 0.146, sentiment 83.33, 7d -9.0%, clean red-flag screen) remains flagged but **not actioned** — sector fit still genuinely ambiguous (DEX 4/4 capped; DeFi Lending 3/4 technically open but INJ is a general-purpose L1 for on-chain finance, not a lending protocol like AAVE/ENA/MORPHO — forcing that classification to open a slot is exactly the rubric-stretching Section 9 warns against), consistent with every prior MID's reasoning on this name.
+- **Held/armed/locked:** XLM, MORPHO held (2/5 positions, locked from rotation-out). No coin currently armed (ICP's PM 08-30 arm lapsed on non-confirmation at the AM 08-31 checkpoint).
+- **POL** (added 08-23) and **PYTH** (added 08-24) remain inside their own 2-week minimums (unlock 09-06 and 09-07 respectively) — locked from drop regardless of score. **NEAR** (added 08-30) is inside its own 2-week minimum (unlocks 09-13) — locked from drop.
+- No coin required `entry_blocked` marking — no red flags found on any watchlist ticker this run.
+
+**Sector exposure after swap:** DEX 4/4, Major L1 4/4 (permanent), DeFi Lending 3/4, Meme 4/4, AI 3/4, Payments 2/4, L2 2/4, Oracle 2/4, Enterprise 1/4, Liquid Staking 1/4, RWA 1/4, DePIN/Storage 0/4.
+
+**Step (parameters refresh):** ran `scripts/parameters.py` on the updated 30-coin watchlist — 30 coins + global block written (`generated_at` 2026-08-31T13:36:41Z). `fapi.binance.com` still unreachable (geo-block, HTTP 451) — params 6-7 sourced from the Hyperliquid fallback per the Section 0 amendment for all 30 coins, including the newly added PENGU. Global: F&G 62 (-11/7d), MVRV BTC 1.46 / ETH 1.08, stablecoin supply -1.43%/7d ($304.8B) — a reversal from the AM checkpoint's +0.69%/7d read.
+
+**Portfolio mark (informational only, no trading action this routine):** XLM $0.1751 (avg entry $0.188543, -7.13%, -$17.77), MORPHO $2.584 (avg entry $2.485638, +3.96%, +$18.37). Portfolio value $9,823.19 (-1.77% / -$176.81 since inception), cash $9,109.28 (92.7%).
+
+**Watchlist changes:** VIRTUAL dropped, PENGU added (Meme sector). Excluded (red flags): none.
+
+**Simulated fills:** n/a — MID routine, no trading decisions.
+
+**Decisions & reasoning:** One watchlist rotation (VIRTUAL → PENGU) actioned on a clean red-flag screen — PENGU's liquidity, sentiment and momentum profile clearly outclassed the weakest AI-sector slot. JUP reviewed and retained (sector cap makes a drop pointless this run; recent trading relevance argues for patience). INJ's sector-fit ambiguity kept it on the sidelines again. POL/PYTH/NEAR all inside their 2-week minimums, locked from drop.
+
+**Learning artifacts written:** `data/universe.json` (rebuilt, 117 candidates), `state/WATCHLIST.json` (VIRTUAL → PENGU swap, notes/sector-exposure/budget updated), `state/PARAMETERS.json` (refreshed for the updated 30 coins + global), this report, `state/BRIEFING.md`. No SIGNALS.csv rows (MID does not score confluence). No TRADE_LEDGER.csv rows (no fills, no trading decisions in MID). No JOURNAL.md entry. Not Monday — no shadow-book weekly refresh. Not first MID of month — no monthly review.
