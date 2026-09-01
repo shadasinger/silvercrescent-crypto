@@ -1,13 +1,16 @@
-BRIEFING — 2026-08-31 PM
+BRIEFING — 2026-09-01 AM
+
 Top 5 considerations:
-1. JUP — confluence 7/10 (0 Bearish) — ARMED, first occurrence: clean mechanical sweep (DMA/RSI/RVOL/funding/OI/stables/MVRV all Bullish) plus sentiment cooling out of its recurring euphoria pattern; needs a second consecutive ≥7/10 read at AM 09-01 to confirm entry.
-2. MORPHO (held) — confluence 6/10 (0 Bearish) — cleanest read of the book: RSI 63, OI reversed back toward flat, headroom to invalidation now widest of the hold (~13%); no action needed.
-3. XRP — confluence 6/10 (0 Bearish) — not held; capitulation-flavored sentiment after a support test cleared its Bearish flag, but mechanical DMA reads Neutral, one parameter short of arming.
-4. AAVE — confluence 6/10 (1 Bearish) — clean mechanical picture held back by euphoric "DeFi is back" sentiment around its new app launch; needs that to cool to reach 7.
-5. CAKE — confluence 6/10 (1 Bearish) — RSI 75.2 overbought is the lone drag on an otherwise all-Bullish mechanical picture; needs a price/RSI cooldown to add the 7th.
+1. JUP — confluence 7/10 — CONFIRMED this checkpoint (2nd consecutive ≥7/10 read, 0/10 Bearish both); clean golden-cross, OI/RSI/funding all supportive, sentiment cooled to neutral. Half-size position opened @ $0.2208.
+2. ETH — confluence 7/10 — ARMED (first occurrence); golden-cross + OI expanding, sentiment cooled Bearish→Neutral. Needs one more ≥7/10 read (PM today) to confirm.
+3. PYTH — confluence 7/10 — ARMED (first occurrence); oracle-integration narrative, OI/DMA/RSI all aligned. Needs PM confirmation.
+4. LINK — confluence 6/10 (1 Bearish) — Agents-launch momentum but sentiment genuinely mixed (euphoria vs. YTD-frustration selling); one short of the gate.
+5. MORPHO — confluence 6/10 (1 Bearish, held) — still the book's cleanest structural read; only miss is sentiment turning euphoric on the recent 50% rally.
+
 Holdings:
-XLM | 2.4% | entry $0.1885 -> now $0.1789 | -5.1% | -$0.0096/coin | position P&L -$12.75
-MORPHO | 5.0% | entry $2.4856 -> now $2.626 | +5.6% | +$0.1404/coin | position P&L +$26.20
-Portfolio: $9,836.05 (-1.6% / -$163.95 since inception)
-Regime: Fear & Greed 62 (-11/7d, cooling off its recent peak), stablecoin supply +0.63%/7d ($311.2B, sideline liquidity growing again), BTC MVRV 1.46 / ETH MVRV 1.08 (healthy, not cycle-top).
-Pre-mortem: BTC -15% overnight would pressure both open positions via default BTC-correlation, but can't hit "≥3 positions hard" with only 2/5 slots deployed — 92.6% cash is already the de-risk response, no incremental action taken.
+XLM | 2.39% | entry $0.1885 -> now $0.1779 | -5.6% | -$0.0106/coin | position P&L -$14.07
+MORPHO | 4.86% | entry $2.4856 -> now $2.5580 | +2.9% | +$0.0724/coin | position P&L +$13.51
+JUP | 5.00% | entry $0.2208 -> now $0.2208 | +0.0% | +$0.0000/coin | position P&L +$0.00
+
+Portfolio: $9,822.04 (-1.8% / -$177.96 since inception)
+Regime: Fear & Greed 69 (-5/7d, elevated but cooling), stablecoin supply +0.43%/7d (mild sideline inflow), MVRV BTC 1.48 / ETH 1.10 (healthy, below cycle-top zone).

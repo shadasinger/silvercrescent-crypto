@@ -755,3 +755,38 @@ Same sector-cap cascade as ONDO/AAVE on 2026-08-28 PM, larger this time: the XLM
 **Counterfactual vs. runner-ups:** AAVE won its slot at entry via an EV tie-break among MORPHO/JUP/AAVE/ASTER (all tied at 7/10) — AAVE had the lowest EV of the four (+1.58%) but still qualified for the last open slot after JUP/ASTER cut on non-confirmation. No clean forgone-alternative counterfactual since it was the only remaining qualified candidate at the time.
 
 **One testable lesson:** this is the second consecutive checkpoint where a trim in one sector forced a correction in DeFi Lending specifically (ONDO→AAVE on 08-28 PM, then XLM/ONDO→AAVE+MORPHO on 08-29 AM) — with only 2-3 positions typically held, a 2-position sector is structurally fragile to the 50%-of-deployed-capital cap whenever a position in a *different* sector shrinks. See LESSONS.md evidence note below.
+
+## CONFIRMED ENTRY — JUP — 2026-09-01 AM (Tier C, staged half)
+
+**Frozen 10-parameter table at entry (AM 09-01, confluence 7/10, 0/10 Bearish):**
+
+| # | Parameter | Label | Raw |
+|---|---|---|---|
+| p1 sentiment | Neutral | falling interest, zero euphoria/capitulation — staking-yield/voting/support-ticket chatter, no crowd-extreme read |
+| p2 DMA | Bullish | price $0.2208 above 50DMA $0.193854 and 200DMA $0.186077 |
+| p3 RSI | Bullish | 58.8, mid-band with room |
+| p4 rvol | Bullish | 1.47 (expansion, not compression) |
+| p5 volz | Neutral | -0.87 |
+| p6 funding | Bullish | 0.01%/8h, flat, no crowding |
+| p7 OI | Bullish | 7d +13.1%, 24h +3.4% |
+| p8 stables | Bullish | +0.43%/7d |
+| p9 MVRV | Bullish | BTC 1.48, ETH 1.10 |
+| p10 F&G | Neutral | 69, -5/7d |
+
+**Both consecutive checkpoint counts:** PM 08-31 7/10 Bullish (0/10 Bearish, first occurrence — armed) → AM 09-01 7/10 Bullish (0/10 Bearish, second consecutive — confirmed). Mechanical p2-10 held flat at 7/9 Bullish/0 Bearish both checkpoints; p1 held Neutral both checkpoints — this is the first time in the JUP watchlist history this paper phase that a JUP arm has NOT lapsed on a euphoria-driven p1 flip (PM 08-26 stage1-cut on non-confirmation, PM 08-29 arm lapsed at AM 08-30).
+
+**Expectancy sheet:** Entry $0.2208, Target $0.2582 (+16.94%), Invalidation $0.203 (-8.06%, a recent consolidation-support level with the 50DMA $0.193854 as further backstop). R = 2.10. Stated p = 0.42. EV = +2.44%. Tier C (R≥2, p≥0.40) → 5-15% size band; staged half now at 5% of $9,822.04 portfolio = $491.10 notional, 2224.1939 JUP.
+
+**Runner-up candidates this checkpoint:** ETH (7/10, 0/10 Bearish) and PYTH (7/10, 0/10 Bearish) both reached the gate for the first time this checkpoint — armed, not confirmed, awaiting PM 09-01 for their own 2nd consecutive read. Neither competed with JUP for a slot since JUP was the only *confirmed* candidate (3 open slots pre-entry, no anti-churn or EV tie-break needed).
+
+**Sizing/sector context:** DEX sector was empty pre-entry (UNI, CAKE, ASTER, JUP all watchlist DEX names but none held) — no sector-cap constraint. 2/5 positions held pre-entry (XLM, MORPHO) → 3/5 post-entry, 2 slots remain open.
+
+**Red-team note (see PM checkpoint report for full pass):** JUP's confirmation leans on p1 holding Neutral rather than mechanical strengthening (mechanical count was flat at 7/9 both checkpoints) — flagged and accepted as a genuine, not manufactured, sentiment cooldown given the described falling-interest/no-crowd-extreme reads on both fetches, with the staged half-entry capping downside if this reading proves wrong.
+
+## SIGNAL — ETH armed — 2026-09-01 AM (first occurrence)
+
+Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this checkpoint (was 6/10 with 2/10 Bearish at PM 08-31, no prior qualifying read to confirm against). Mechanical p2-10: 7/9 Bullish, 0 Bearish (DMA golden-cross, RSI 69.3 upper-mid band, OI 7d +21.3%). p1 sentiment flipped Bearish (PM 08-31, dominant one-sided euphoria) → Neutral (AM 09-01, thin/offset euphoria via a genuine two-sided $2000-dip-vs-$4000-target debate). Needs a 2nd consecutive ≥7/10 checkpoint (PM 09-01) to confirm. 2 open slots remain in the book (3/5 positions held post-JUP-entry) if ETH confirms.
+
+## SIGNAL — PYTH armed — 2026-09-01 AM (first occurrence)
+
+Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this checkpoint (was 6/10 with 1/10 Bearish at PM 08-31, no prior qualifying read to confirm against). Mechanical p2-10: 7/9 Bullish, 0 Bearish (DMA golden-cross, RSI 63.4 mid-band, OI 7d +15.9% — p7_oi flipped Neutral→Bullish vs PM). p1 sentiment held Neutral both checkpoints (flat interest, zero euphoria/capitulation, factual oracle-integration narrative). Needs a 2nd consecutive ≥7/10 checkpoint (PM 09-01) to confirm. 2 open slots remain in the book (3/5 positions held post-JUP-entry) if PYTH confirms.
