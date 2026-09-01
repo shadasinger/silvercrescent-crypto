@@ -1,20 +1,20 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 8618.18,
-  "portfolio_value_usdt": 9822.04,
+  "cash_usdt": 8243.47,
+  "portfolio_value_usdt": 9798.34,
   "positions": [
     {
       "ticker": "XLM",
       "sector": "Payments",
       "entry_utc": "2026-08-21T07:10:07Z",
       "entry_price": 0.1874,
-      "qty": 1321.8206,
-      "notional_usdt": 236.47,
+      "qty": 660.9103,
+      "notional_usdt": 116.39,
       "avg_entry_price": 0.188543,
-      "size_pct_current": 2.39,
+      "size_pct_current": 1.19,
       "target_size_pct": 10.0,
-      "stage": "trimmed_quarter",
+      "stage": "trimmed_eighth",
       "target": 0.223,
       "invalidation": 0.17,
       "planned_R": 2.05,
@@ -187,6 +187,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (1/10 Bearish)",
           "action": "hold, no changes -- price $0.1779 (-0.56% vs PM 08-31 close $0.1789, -5.65% vs avg entry $0.188543), still above 50DMA ($0.17573, dev +1.2%, essentially flat vs PM's +1.8%) and 200DMA ($0.174357) in golden-cross structure. RSI 50.3 (from PM's 51.0) -- essentially flat, still short of the named 55-70 thesis-test band but not deepening/reversing the way it did ahead of the two prior trims. 7d OI eased further to -12.5% (from PM's -8.5%, AM 08-31's -10.8%) -- the softest weekly OI print since the AM 08-31 trim, though 24h OI printed +0.5% (mildly positive, unlike the negative daily prints that accompanied both prior trim triggers). Invalidation $0.170 not breached, headroom ~4.4% (narrower than PM's ~5.0% but not a new hold-low -- AM 08-31's low was ~3.7%). Sentiment (p1) flipped Neutral -> Bearish this checkpoint: the recurring euphoria stack reasserted (rocket emojis, the $4B RWA/DTCC-trillions-in-2027 milestone framed with hype, $5 price-target chatter), only thinly offset by one isolated escrow-burn grievance -- the same pattern that has recurred repeatedly through this hold, not a fresh deterioration signal. Confluence eased 4/10 (0 Bearish) PM 08-31 -> 5/10 (1 Bearish) AM 09-01 (mechanical p2-10 unchanged/strengthened; the added Bearish is p1 only). Unlike the AM 08-29 and AM 08-31 triggers (a new dev-from-50DMA hold-low + RSI falling below the prior low + a second consecutive negative-7d-OI print, all converging together), none of those three conditions fired together this checkpoint -- dev is flat not new-low, RSI is flat not falling below 49.3, and 7d OI, while softer, is a single-checkpoint move off an already-improving base. Judged conviction stays Intact -- hold, no changes on the remaining quarter position (1321.8206 XLM). Watch item carried forward: a further RSI/dev decline alongside a second consecutive negative-7d-OI print would be the next actionable Weakening signal."
+        },
+        {
+          "checkpoint": "2026-09-01 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Weakening",
+          "confluence": "5/10 (1/10 Bearish)",
+          "action": "TRIM HALF AGAIN (third trim) -- Weakening conviction, a THIRD and deepest instance of the recurring structural-compression pattern (Section 5 step 4, Section 9), following the AM 08-29 and AM 08-31 trims of the same kind. Price $0.1761 (-1.02% vs AM close $0.1779, -6.60% vs avg entry $0.188543). Dev-from-50DMA compressed to a NEW hold-low +0.2% ($0.175694 50DMA) -- price is now sitting essentially ON the 50DMA, thinner than the +0.5% that triggered the AM 08-31 trim and the +0.8% that triggered the AM 08-29 trim; the golden-cross structure (p2_dma) is one tick from flipping mechanically Bearish. RSI fell to a NEW hold-low 48.9 (from 50.3 AM 09-01), the first sub-49 print of the hold and the fourth straight checkpoint short of the named 55-70 thesis-test band. 7d OI printed -22.4% (24h -9.2%) -- the THIRD consecutive checkpoint of negative 7d OI (PM 08-31 -8.5% -> AM 09-01 -12.5% -> PM 09-01 -22.4%), each deeper than the last; the prior two trims each involved at most two negative prints before a reclaim, so three-in-a-row-and-deepening is a materially stronger signal than what triggered either prior trim, even accounting for the standing OI_HISTORY.json rolling-window data-quality caveat. Invalidation $0.170 not breached but headroom compressed to ~3.5%, a NEW hold-low (narrower than AM 08-31's ~3.7%). Sentiment (p1) read Bearish this checkpoint (recurring euphoria stack: rocket emojis, '$0.20 is a gift' framing, APY liquidity-pool pitches) -- not the primary trigger; confluence stays 5/10 (1/10 Bearish, p1 only), well short of the Bearish-count trim/exit gates -- this is a discretionary conviction call on the convergence of a new-hold-low dev/RSI/invalidation-headroom compression plus a third-and-deepening consecutive negative-OI print, consistent with (and a stronger version of) the same named-thesis-test-breach logic applied at the AM 08-29 and AM 08-31 trims. Judged conviction Weakening (from Intact). SOLD 660.9103 XLM @ $0.1761 = $116.39, 2026-09-01T19:09:03Z (Binance spot, same parameters.py refresh). Realized P&L on this tranche: $-8.22 (-0.671R vs planned R=2.05). Position now 660.9103 XLM (an eighth of the original full-target size), avg entry unchanged $0.188543. Flagged for confirmation at the next checkpoint: given this is the third occurrence of the same pattern each time deepening rather than resolving, a further RSI/dev/OI deterioration or an outright 50DMA breach at AM 09-02 would be treated as the exit signal for the remaining eighth, not a fourth trim; a clean reclaim (RSI back above 55, OI re-expanding on both windows, dev widening) would be needed to restore confidence in holding the remainder through to the 2026-09-18 hold-until date."
         }
       ]
     },
@@ -196,9 +203,9 @@
       "entry_utc": "2026-08-26T07:35:00Z",
       "entry_price": 2.516,
       "qty": 186.7117,
-      "notional_usdt": 490.3,
+      "notional_usdt": 470.51,
       "avg_entry_price": 2.485638,
-      "size_pct_current": 4.86,
+      "size_pct_current": 4.8,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 3.0066,
@@ -303,6 +310,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (1/10 Bearish)",
           "action": "hold, no changes -- price $2.558 (-2.59% vs PM 08-31 close $2.626, +2.91% vs avg entry $2.485638), still above 50DMA ($2.11442, dev +21.0% -- eased further under the 25% overextension line, from PM's +24.7%) and 200DMA ($1.917645) in golden-cross structure. RSI 61.5 (from PM's 63.4), comfortably mid-upper band with room. Funding flat (0.01%/8h, no crowding). OI eased to 7d -6.8% (24h +5.0%) from PM's -1.5%/-0.2% -- a mild pullback on the weekly window that stays consistent with the repeated short-window-artifact pattern flagged multiple times this hold, especially with the 24h window turning positive. Invalidation $2.2795 not breached, headroom ~10.9% (narrower than PM's ~13.2% but still ample, not a new hold-low). Sentiment (p1) flipped Neutral -> Bearish this checkpoint: one-sided euphoria appeared (a $4.71 price target with rocket emoji, the 50% jump framed as an eye-catching positive) with zero capitulation offset, layered on top of the still-clean factual Privy/RWA-integration narrative. Confluence eased 6/10 (0 Bearish) PM 08-31 -> 6/10 (1 Bearish) AM 09-01 (bullish count held at 6, the new Bearish is p1 only; mechanical p2-10 unchanged/clean). Still comfortably the healthiest structural picture of either holding, nowhere near the 4/10-for-2-consecutive exit gate. Thesis status stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue this checkpoint (DeFi Lending: MORPHO only, JUP entered this checkpoint is sector DEX)."
+        },
+        {
+          "checkpoint": "2026-09-01 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (0/10 Bearish)",
+          "action": "hold, no changes -- price $2.52 (-0.47% vs MID mark $2.532, +1.38% vs avg entry $2.485638), still above 50DMA ($2.11366) and 200DMA ($1.917455) in golden-cross structure, dev-from-50DMA +19.2% (moderate). RSI 60.2 mid-band with room. Funding flat (0.01%/8h, no crowding). OI still confirming (24h +4.0%, 7d +5.6%, modest but positive both windows). Invalidation $2.2795 not breached (~9.6% headroom). Sentiment (p1) read Neutral -- falling interest, zero euphoria/capitulation, factual DeFi-vault/TVL/farming-campaign chatter, no crowd-extreme read. Confluence held at 7/10 (0/10 Bearish) -- the cleanest read on the board this checkpoint alongside JUP. Thesis status stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -311,15 +325,15 @@
       "sector": "DEX",
       "entry_utc": "2026-09-01T07:14:38Z",
       "entry_price": 0.2208,
-      "qty": 2224.1939,
-      "notional_usdt": 491.10,
-      "avg_entry_price": 0.2208,
-      "size_pct_current": 5.0,
+      "qty": 4514.7723,
+      "notional_usdt": 967.97,
+      "avg_entry_price": 0.217553,
+      "size_pct_current": 9.88,
       "target_size_pct": 10.0,
-      "stage": "stage1_half",
+      "stage": "full",
       "target": 0.2582,
       "invalidation": 0.203,
-      "planned_R": 2.10,
+      "planned_R": 2.1,
       "stated_p": 0.42,
       "tier": "C",
       "confluence_at_entry": 7,
@@ -335,6 +349,13 @@
           "conviction": "Intact",
           "confluence": "7/10",
           "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 08-31 7/10 armed -> AM 09-01 7/10 confirmed, 0/10 Bearish both checkpoints). Mechanical p2-10 held flat at 7/9 Bullish, 0/9 Bearish both checkpoints; p1 sentiment stayed Neutral both checkpoints (falling interest, zero euphoria/capitulation -- staking-yield/voting/support-ticket chatter). Only confirmed candidate this checkpoint (ETH and PYTH both newly armed at 7/10, first occurrence, not yet confirmed). Tier C (R=2.10, p=0.42, EV=+2.44%; Entry $0.2208, Target $0.2582, Invalidation $0.203). Staged half-entry per rule: BUY 2224.1939 JUP @ $0.2208 = $491.10 notional (5.0% of $9,822.04 portfolio), 2026-09-01T07:14:38Z (Binance spot, same scripts/parameters.py refresh used for the checkpoint). Second half adds only if confluence holds >=7/10 at the 2026-09-01 PM checkpoint; no confirmation cuts the half. No sector-cap or anti-churn issue (DEX sector previously empty; 2/5 positions held pre-entry, 3/5 post-entry)."
+        },
+        {
+          "checkpoint": "2026-09-01 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (2/10 Bearish)",
+          "action": "STAGE-2 ADD -- confluence held >=7/10 at the immediate next checkpoint since the AM 09-01 stage-1 half-open (7/10 -> 7/10, held; mechanical p2-10 stayed clean at 7/9 Bullish, 1/9 Bearish on p5_volz only both checkpoints). Price $0.2144 (-2.90% vs AM entry $0.2208), still above 50DMA ($0.193726) and 200DMA ($0.186045) in golden-cross structure, dev-from-50DMA +10.7% (moderate, cooled from AM's +13.9%). RSI 55.5, low end of the 55-70 band but still in range. Funding flat (0.01%/8h, no crowding). OI 24h -6.1% but 7d +11.7% (still confirming on the weekly window). Invalidation $0.203 not breached (~5.3% headroom). Sentiment (p1) flipped Neutral (both prior checkpoints) -> Bearish this checkpoint: the recurring euphoria stack reasserted (rocket-emoji '$10' and '$4-8' price targets, 'MASSIVE PUMP INCOMING', 'HIGHERRRRRRRR'), zero capitulation offset -- the added Bearish flag alongside p5_volz is why total confluence reads 7/10 with 2/10 Bearish rather than the cleaner 7/10 (0 Bearish) of the two confirming checkpoints, but the stage-2-add rule is a >=7/10 hold-check, not a Bearish-count gate, so the add proceeds. BUY 2290.5784 JUP @ $0.2144 = $491.1 notional (matching the stage-1 half's original ~$491 sizing), 2026-09-01T19:09:03Z (Binance spot, same parameters.py refresh). Position now 4514.7723 JUP, avg entry $0.217553, full target size ~10% of portfolio."
         }
       ]
     }
