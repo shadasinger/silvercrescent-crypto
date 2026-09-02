@@ -1,16 +1,17 @@
-BRIEFING — 2026-09-02 AM
+BRIEFING — 2026-09-02 MID
 
-Top 5 considerations:
-1. MORPHO — confluence 7/10, held — cleanest read on the board for a second straight checkpoint (0 Bearish); DeFi-lending momentum (DMA/RSI/OI all clean) confirmed, hold unchanged.
-2. ETH — confluence 6/10 (1 Bearish) — one leg short of the gate; OI up 33% over 7d even as price dipped -3.4% is a bearish divergence, the one thing missing.
-3. LINK — confluence 6/10 (0 Bearish) — clean structure (DMA/RSI/OI all constructive) but sentiment reads as analytical skepticism, not a genuine crowd extreme either way — needs one more leg to arm.
-4. AAVE — confluence 6/10 (1 Bearish) — overextension (+31.2% above 50DMA) is the lone drag; OI/RSI/funding otherwise clean.
-5. CAKE — confluence 6/10 (0 Bearish) — OI up 54% over 7d confirming the move, sentiment cooling (falling interest, no crowd extreme) — one leg short of arming.
+Top 5 considerations (mechanical p2-p10 count /9; p1 sentiment not scored at MID):
+1. LINK — 6/9 mech — clean golden-cross, RSI 58.7 mid-band, funding flat; OI softening both windows (24h -4.3%, 7d -10.7%) is the missing leg for a 7th.
+2. MORPHO — 6/9 mech (held, 4.83%) — same clean DMA/RSI/funding read; OI mixed/Neutral keeps it short; sentiment has read Neutral recently.
+3. ETHFI — 6/9 mech — DMA/RSI/funding clean, but OI softening both windows (24h -0.1%, 7d -5.0%) stays Neutral, missing.
+4. CAKE — 6/9 mech — DMA/RSI/funding/OI (+34.8% 7d) all Bullish; only rvol sits Neutral (1.12, borderline) short of gate.
+5. ETH — 6/9 mech (permanent) — DMA/RSI/funding clean, but OI rising (+30.3% 7d) against a falling 7d price (-4.8%) reads Bearish — the one flag.
+None armed/confirmed/entry_blocked this run — MID makes no trading decisions.
 
 Holdings:
-MORPHO | 4.94% | entry $2.4856 -> now $2.5980 | +4.5% | +$0.1124 per coin | +$20.98 position P&L
-JUP | 9.96% | entry $0.2176 -> now $0.2167 | -0.4% | -$0.0009 per coin | -$3.85 position P&L
+MORPHO | 4.83% | entry $2.485638 -> now $2.527 | +1.66% | +$0.0414/coin | position P&L +$7.72
+JUP | 9.69% | entry $0.217553 -> now $0.2098 | -3.56% | -$0.0078/coin | position P&L -$35.00
 
-Portfolio: $9,823.02 (-1.8% / -$176.98 since inception)
-Regime: Fear & Greed 63 (-2/7d, comfortably below the >75 Bearish band), stablecoin supply +0.31%/7d (mild sideline liquidity inflow), MVRV BTC 1.46 (healthy, well below the 3.0 cycle-top zone).
-Note: XLM fully exited this checkpoint (final eighth, -$8.49 this tranche, -$61.43 total across the hold) after a fourth-and-final round of the same structural-compression pattern failed to reclaim; invalidation was never breached across the whole hold. Book now at 2/5 positions, ~14.9% deployed, ~85.1% cash.
+Portfolio: $9,778.61 (-2.21% / -$221.39 since inception)
+Regime: Fear & Greed 63 (Δ7d -2, cooling gently) | stablecoin supply +0.37% 7d (mild sideline inflow) | MVRV BTC 1.46 (healthy, below cycle-top).
+Watchlist: XLM dropped (weakest score, thesis exited Broken/Failing this AM), VET added (Enterprise; dated VeChainThor "Interstellar" hard fork catalyst 2026-09-16). 4/5 slot-change budget used this week.
