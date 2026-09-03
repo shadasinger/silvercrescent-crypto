@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 8867.12,
-  "portfolio_value_usdt": 9825.8,
+  "cash_usdt": 8903.98,
+  "portfolio_value_usdt": 9855.47,
   "positions": [
     {
       "ticker": "MORPHO",
@@ -12,7 +12,7 @@
       "qty": 186.7117,
       "notional_usdt": 470.51,
       "avg_entry_price": 2.485638,
-      "size_pct_current": 4.87,
+      "size_pct_current": 4.83,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 3.0066,
@@ -145,6 +145,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (0/10 Bearish)",
           "action": "hold, no changes -- price $2.561 (+1.95% vs PM 09-02 close $2.512, +3.03% vs avg entry $2.485638), still above 50DMA ($2.13534, dev +19.9%, comfortably under the 25% overextension line) and 200DMA ($1.92962) in golden-cross structure. RSI 59.9 mid-band with room. Funding flat (0.01%/8h, no crowding). OI mixed (24h +0.7%, 7d -4.1%) -- a continuation of the mild short-window softness flagged repeatedly this hold as a likely OI_HISTORY.json rolling-window artifact rather than genuine deterioration, price/RSI structure staying clean. Invalidation $2.2795 not breached (~11.0% headroom). Sentiment (p1) flipped Neutral -> Bullish this checkpoint (first Bullish p1 read of the hold): capitulation-flavored chatter (bearish-flag breakdown calls, shorts being added) appeared with zero euphoria offset, while thesis stays Playing Out/Intact -- fits the contrarian capitulation-with-intact-thesis Bullish branch cleanly. Confluence held at 6/10 (0/10 Bearish, unchanged from PM 09-02) -- again the cleanest read on the board this checkpoint. No sector-cap issue (DeFi Lending 49.88% of deployed, DEX/JUP 50.12%, both under the 50% cap with no new trades). Thesis status stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-09-03 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (0/10 Bearish)",
+          "action": "hold, no changes -- price $2.548 (-0.51% vs AM close $2.561, +2.51% vs avg entry $2.485638), still above 50DMA ($2.13508, dev +19.3%, comfortably under the 25% overextension line) and 200DMA ($1.929555) in golden-cross structure. RSI 59.5 mid-band with room. Funding flat (0.01%/8h, no crowding). OI mixed (24h +4.9%, 7d -1.0%) -- continuation of the mild short-window softness flagged repeatedly this hold as a likely OI_HISTORY.json rolling-window artifact, price/RSI structure staying clean. Invalidation $2.2795 not breached (~10.5% headroom). Sentiment (p1) cooled Bullish (AM) -> Neutral this checkpoint: interest fell further, chatter thinned to sparse factual mentions (Coinbase partnership, Base vaults, rate comparisons), zero euphoria or capitulation markers either way -- a genuine data point, not a repeat of the AM capitulation read. Confluence eased 6/10 AM -> 5/10 PM (Bearish count held at 0/10, mechanical p2-10 unchanged/clean 5/9 Bullish) -- still the cleanest read on the board this checkpoint. **Sector-cap check (Section 3 rule 8):** DEX (JUP) drifted to 51.87% of deployed capital on price action alone (JUP +9.3% vs MORPHO +0.4% since the PM 09-02 50/50 correction, no trades in between) -- a fresh breach of the <=50%-of-deployed-capital-per-sector hard rule, caught and corrected this checkpoint per Section 0 (see JUP status_history for the trim). Thesis status stays Playing Out, conviction stays Intact -- hold, no changes on MORPHO itself; this checkpoint's only action is the JUP-side sector-cap trim."
         }
       ]
     },
@@ -153,10 +160,10 @@
       "sector": "DEX",
       "entry_utc": "2026-09-01T07:14:38Z",
       "entry_price": 0.2208,
-      "qty": 2168.3763,
-      "notional_usdt": 471.79,
+      "qty": 2012.4425,
+      "notional_usdt": 437.81,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 4.89,
+      "size_pct_current": 4.83,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -205,6 +212,13 @@
           "conviction": "Intact",
           "confluence": "4/10 (3/10 Bearish)",
           "action": "hold, no changes -- price $0.2216 (+2.45% vs PM 09-02 close $0.2163, +1.87% vs avg entry $0.217553), still above 50DMA ($0.194232, dev +14.1%, moderate) and 200DMA ($0.186618) in golden-cross structure. RSI 57.8, low-mid band with room. Funding flat (0.01%/8h, no crowding). Confluence eased 5/10(3 Bearish) PM 09-02 -> 4/10(3 Bearish) AM 09-03 (p4_rvol flipped Bullish->Bearish, still the standing rvol/OI-divergence pattern flagged repeatedly this hold: rv_ratio 1.31 against p7_oi Bearish too on a mixed 24h+3.6%/7d+11.8% read that the rubric reads as OI-vs-price divergence). Sentiment (p1) held Bearish -- the same recurring euphoria stack (\\$4-8 targets, burn-hype, 'outperforming majors'), zero capitulation offset. Bearish count held at 3/10 -- still short of the >=4/10-for-1-checkpoint trim gate and the 4/10-for-2-consecutive exit gate. Invalidation $0.203 not breached (~8.4% headroom). Thesis status stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue this checkpoint (DEX 50.12% of deployed, DeFi Lending/MORPHO 49.88%, both under the 50% cap with no new trades). Flagging as the standing watch item: a further Bearish-count increase (to >=4) on the next checkpoint would trigger a trim-half review."
+        },
+        {
+          "checkpoint": "2026-09-03 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "4/10 (3/10 Bearish)",
+          "action": "TRIM -- SECTOR-CAP CORRECTION (Section 3 rule 8, hard rule, never break no exceptions), not a thesis or conviction call. DEX (JUP, the only DEX holding) drifted to 51.87% of deployed capital ($512.60 of $988.35 deployed) purely on price action since the PM 09-02 correction set the split to an exact 50.0/50.0 -- JUP ran +9.3% (avg entry $0.217553 -> $0.2364) against MORPHO's own +0.4% over the same window, with zero trades in either position in between. Caught and corrected this checkpoint per Section 0 (a known hard-rule breach is never deferred to the next checkpoint, regardless of how it formed -- consistent with the AAVE/MORPHO/JUP sector-cap precedents on 2026-08-27/08-28/08-29/09-02). Corrected by trimming JUP back to bring DEX to exactly 50.0% of deployed capital (the natural equilibrium with only these two single-position sectors held), matching every prior correction's landing spot. SOLD 155.9338 JUP @ $0.2364 = $36.86 proceeds, 2026-09-03T19:08:55Z (Binance spot, same parameters.py refresh used for this checkpoint). Realized P&L on the trimmed tranche: +$2.94 (+1.295R vs planned R=2.10 -- a gain on the tranche since price sits above avg entry, unlike the prior two sector-cap trims which landed at a small loss). Position now 2012.4425 JUP (avg entry unchanged $0.217553), DEX and DeFi Lending both exactly 50.0% of deployed capital. Underlying structure this checkpoint: price $0.2364 (+6.68% vs PM 09-02 close $0.2163, +8.65% vs avg entry), still above 50DMA ($0.194528, dev +21.5%, moderate) and 200DMA ($0.186692) in golden-cross structure. RSI 63.1, mid-upper band with some room. Funding flat (0.01%/8h, no crowding). OI both windows now positive (24h +27.2%, 7d +2.3%) but p7_oi still reads Bearish -- the standing rvol/OI-divergence pattern persists (rv_ratio 1.39 against a still-negative 7d price print of -1.09%, the literal 'OI rising + price falling on the window' branch). Sentiment (p1) held Bearish -- same recurring euphoria stack ($4-8 targets, 'about to go on a RUN', 'HIGHERRRRRR', pump.fun-JUP spam-vote campaign), a single opened-short mention doesn't offset it. Confluence held at 4/10 (3/10 Bearish) -- unchanged from AM 09-03, still short of both the >=4/10-for-1-checkpoint trim gate (this trim is compliance-driven, not thesis-driven) and the >=4/10-for-2-consecutive exit gate. Invalidation $0.203 not breached (~14.1% headroom, the widest of the hold). Thesis stays Playing Out, conviction stays Intact -- this trim is a compliance-driven resize only; the standing rvol/OI-divergence watch item and the Bearish-count-at-3 watch item both carry forward unresolved."
         }
       ]
     }
