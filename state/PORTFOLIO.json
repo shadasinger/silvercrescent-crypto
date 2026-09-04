@@ -1,18 +1,18 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 8903.98,
-  "portfolio_value_usdt": 9855.47,
+  "cash_usdt": 8919.36,
+  "portfolio_value_usdt": 9817.31,
   "positions": [
     {
       "ticker": "MORPHO",
       "sector": "DeFi Lending",
       "entry_utc": "2026-08-26T07:35:00Z",
       "entry_price": 2.516,
-      "qty": 186.7117,
-      "notional_usdt": 470.51,
+      "qty": 180.5291,
+      "notional_usdt": 448.73,
       "avg_entry_price": 2.485638,
-      "size_pct_current": 4.83,
+      "size_pct_current": 4.57,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 3.0066,
@@ -152,6 +152,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (0/10 Bearish)",
           "action": "hold, no changes -- price $2.548 (-0.51% vs AM close $2.561, +2.51% vs avg entry $2.485638), still above 50DMA ($2.13508, dev +19.3%, comfortably under the 25% overextension line) and 200DMA ($1.929555) in golden-cross structure. RSI 59.5 mid-band with room. Funding flat (0.01%/8h, no crowding). OI mixed (24h +4.9%, 7d -1.0%) -- continuation of the mild short-window softness flagged repeatedly this hold as a likely OI_HISTORY.json rolling-window artifact, price/RSI structure staying clean. Invalidation $2.2795 not breached (~10.5% headroom). Sentiment (p1) cooled Bullish (AM) -> Neutral this checkpoint: interest fell further, chatter thinned to sparse factual mentions (Coinbase partnership, Base vaults, rate comparisons), zero euphoria or capitulation markers either way -- a genuine data point, not a repeat of the AM capitulation read. Confluence eased 6/10 AM -> 5/10 PM (Bearish count held at 0/10, mechanical p2-10 unchanged/clean 5/9 Bullish) -- still the cleanest read on the board this checkpoint. **Sector-cap check (Section 3 rule 8):** DEX (JUP) drifted to 51.87% of deployed capital on price action alone (JUP +9.3% vs MORPHO +0.4% since the PM 09-02 50/50 correction, no trades in between) -- a fresh breach of the <=50%-of-deployed-capital-per-sector hard rule, caught and corrected this checkpoint per Section 0 (see JUP status_history for the trim). Thesis status stays Playing Out, conviction stays Intact -- hold, no changes on MORPHO itself; this checkpoint's only action is the JUP-side sector-cap trim."
+        },
+        {
+          "checkpoint": "2026-09-04 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (0/10 Bearish)",
+          "action": "TRIM -- SECTOR-CAP CORRECTION (Section 3 rule 8, hard rule, never break no exceptions), not a thesis or conviction call. Since the PM 09-03 correction set DEX/DeFi Lending to an exact 50.0/50.0 split, JUP fell -5.63% (avg entry $0.217553 -> mark $0.2231) while MORPHO fell only -2.39% (avg entry $2.485638 -> mark $2.487, essentially flat) with zero trades in either position in between -- the mirror image of the PM 09-03 drift, this time MORPHO's relative resilience pushed DeFi Lending to 50.84% of deployed capital ($464.35 of $913.33 deployed), a fresh breach of the <=50%-of-deployed-capital-per-sector hard rule. This is the fifth occurrence of this drift-only failure mode (LESSONS.md hypothesis #11) and the first caught by a standing per-checkpoint recompute rather than an ad-hoc check -- direct confirming evidence for the sharpened rule change proposed after the fourth occurrence (PM 09-03). Corrected by trimming MORPHO to bring DeFi Lending back to exactly 50.0% of deployed capital (the natural equilibrium with only these two single-position sectors held), matching every prior correction's landing spot. SOLD 6.1826 MORPHO @ $2.487 = $15.3761 proceeds, 2026-09-04T07:16:00Z (Binance spot, same parameters.py refresh used for this checkpoint). Realized P&L on the trimmed tranche: +$0.0084 (+0.0007%, essentially breakeven -- price sits almost exactly at avg entry). Position now 180.5291 MORPHO (avg entry unchanged $2.485638), DEX and DeFi Lending both exactly 50.0%/50.0% of deployed capital. Underlying structure this checkpoint: price $2.487 (+0.05% vs avg entry $2.485638, essentially flat), still above 50DMA ($2.14202, dev +16.1%, comfortably under the 25% overextension line) and 200DMA ($1.934815) in golden-cross structure. RSI 56.9 mid-band with room. Funding flat (0.01%/8h, no crowding). OI mixed (24h -6.5%, 7d -5.2%) -- continuation of the standing mild short-window softness flagged repeatedly this hold as a likely OI_HISTORY.json rolling-window artifact, price/RSI structure staying clean. Invalidation $2.2795 not breached (~9.2% headroom). Sentiment (p1) held Neutral -- flat interest, only a mild single euphoria marker ($2.90/$4.00 price-discovery targets) amid otherwise scattered factual chatter (DeFi TVL/Morpho-leading-lending, HTX listing), zero capitulation offset but too thin to force a contrarian-Bearish read. Confluence held at 6/10 (0/10 Bearish) -- still the cleanest read of either holding this checkpoint. Thesis stays Playing Out, conviction stays Intact -- this trim is a compliance-driven resize only, not a read on MORPHO's thesis."
         }
       ]
     },
@@ -163,7 +170,7 @@
       "qty": 2012.4425,
       "notional_usdt": 437.81,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 4.83,
+      "size_pct_current": 4.57,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -219,6 +226,13 @@
           "conviction": "Intact",
           "confluence": "4/10 (3/10 Bearish)",
           "action": "TRIM -- SECTOR-CAP CORRECTION (Section 3 rule 8, hard rule, never break no exceptions), not a thesis or conviction call. DEX (JUP, the only DEX holding) drifted to 51.87% of deployed capital ($512.60 of $988.35 deployed) purely on price action since the PM 09-02 correction set the split to an exact 50.0/50.0 -- JUP ran +9.3% (avg entry $0.217553 -> $0.2364) against MORPHO's own +0.4% over the same window, with zero trades in either position in between. Caught and corrected this checkpoint per Section 0 (a known hard-rule breach is never deferred to the next checkpoint, regardless of how it formed -- consistent with the AAVE/MORPHO/JUP sector-cap precedents on 2026-08-27/08-28/08-29/09-02). Corrected by trimming JUP back to bring DEX to exactly 50.0% of deployed capital (the natural equilibrium with only these two single-position sectors held), matching every prior correction's landing spot. SOLD 155.9338 JUP @ $0.2364 = $36.86 proceeds, 2026-09-03T19:08:55Z (Binance spot, same parameters.py refresh used for this checkpoint). Realized P&L on the trimmed tranche: +$2.94 (+1.295R vs planned R=2.10 -- a gain on the tranche since price sits above avg entry, unlike the prior two sector-cap trims which landed at a small loss). Position now 2012.4425 JUP (avg entry unchanged $0.217553), DEX and DeFi Lending both exactly 50.0% of deployed capital. Underlying structure this checkpoint: price $0.2364 (+6.68% vs PM 09-02 close $0.2163, +8.65% vs avg entry), still above 50DMA ($0.194528, dev +21.5%, moderate) and 200DMA ($0.186692) in golden-cross structure. RSI 63.1, mid-upper band with some room. Funding flat (0.01%/8h, no crowding). OI both windows now positive (24h +27.2%, 7d +2.3%) but p7_oi still reads Bearish -- the standing rvol/OI-divergence pattern persists (rv_ratio 1.39 against a still-negative 7d price print of -1.09%, the literal 'OI rising + price falling on the window' branch). Sentiment (p1) held Bearish -- same recurring euphoria stack ($4-8 targets, 'about to go on a RUN', 'HIGHERRRRRR', pump.fun-JUP spam-vote campaign), a single opened-short mention doesn't offset it. Confluence held at 4/10 (3/10 Bearish) -- unchanged from AM 09-03, still short of both the >=4/10-for-1-checkpoint trim gate (this trim is compliance-driven, not thesis-driven) and the >=4/10-for-2-consecutive exit gate. Invalidation $0.203 not breached (~14.1% headroom, the widest of the hold). Thesis stays Playing Out, conviction stays Intact -- this trim is a compliance-driven resize only; the standing rvol/OI-divergence watch item and the Bearish-count-at-3 watch item both carry forward unresolved."
+        },
+        {
+          "checkpoint": "2026-09-04 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (1/10 Bearish)",
+          "action": "hold, no changes -- price $0.2231 (-5.63% vs PM 09-03 close $0.2364, +2.55% vs avg entry $0.217553), still above 50DMA ($0.194914, dev +14.5%, moderate) and 200DMA ($0.186955) in golden-cross structure. RSI 57.6, low-mid band with room -- both named thesis-test conditions (price above 50DMA, RSI out of overbought) remain met. Funding flat (0.01%/8h, no crowding). The standing rvol/OI-divergence pattern eased this checkpoint: p4_rvol and p7_oi both flipped back to Neutral (rv_ratio 1.18, OI 24h +15.4%/7d -7.3% no longer reading as a clean divergence against price), the first checkpoint since AM 09-02 without an active Bearish flag on either. Sentiment (p1) held Bearish -- same recurring euphoria stack (Moonshot push/voting, $4-8 targets, 'HIGHERRRRRRR'/'about to go on a RUN', AI-agent integrations spun positively), zero capitulation offset. Confluence eased 4/10(3 Bearish) PM 09-03 -> 5/10(1 Bearish) AM 09-04 -- the Bearish count improved from 3 to 1 even as total confluence rose, since the two mechanical divergence flags cleared while p1 remains the lone standing Bearish. Invalidation $0.203 not breached (~9.0% headroom). **Sector-cap check (Section 3 rule 8):** DEX (JUP) fell -5.63% since the PM 09-03 50.0/50.0 correction while MORPHO fell only -2.39% over the same window -- the mirror image of the prior two drift episodes, this time pushing DeFi Lending (not DEX) over the cap; see MORPHO status_history for this checkpoint's correction (MORPHO trimmed, not JUP). Thesis stays Playing Out, conviction stays Intact -- hold, no changes on JUP itself."
         }
       ]
     }
