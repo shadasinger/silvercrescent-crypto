@@ -812,3 +812,46 @@ Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this checkpoint (was 
 **Counterfactual vs. runner-ups:** at entry (2026-08-21 AM), XLM was the only coin to reach confirmation that checkpoint (FIL and PEPE both lapsed from PM 08-20 arms without confirming) — no forgone alternative to compare against at entry. Over the hold, JUP and MORPHO (both entered later, both still open and both net positive or flat) represent the opportunity cost of the capital tied up in XLM's repeated trims, though the staged-sizing meant that capital was mostly freed back to cash rather than locked in.
 
 **One testable lesson:** a named thesis-test breach that resolves via partial reclaim twice (AM 08-29→PM 08-29, AM 08-31→PM 08-31) before recurring a third time and failing to reclaim at all (PM 09-01→AM 09-02) suggests the reclaim bar itself was too easy to clear on the first two passes — both "successful" reclaims left RSI still under 55 (51.3 and 51.0 respectively), never actually satisfying the thesis's own named condition, just moving further from the day's worst print. Proposed refinement for LESSONS.md: a genuine reclaim confirmation should require the named thesis-test metric to *fully* clear its stated band (e.g. RSI back above 55, not merely off its low), not just improve directionally — otherwise the trim ladder keeps resetting on partial credit and the position round-trips through avoidable extra checkpoints before the pattern is finally treated as decisive.
+
+## CONFIRMED ENTRY — ETH — 2026-09-04 PM (Tier C, staged half)
+
+**Frozen 10-parameter table at entry (PM 09-04, confluence 8/10, 0/10 Bearish):**
+
+| # | Parameter | Label | Raw |
+|---|---|---|---|
+| p1 sentiment | Bullish (contrarian) | zero euphoria markers; despair-flavored capitulation stack (sentiment scores dipping negative, "narrative exhaustion," bearish smart-money read, "struggling around $2.4K with limited upside") |
+| p2 DMA | Bullish | price $2454.07 above 50DMA $2078.25 and 200DMA $2034.63, golden cross |
+| p3 RSI | Bullish | 62.5, mid-band with room |
+| p4 rvol | Bullish | 0.66 (compression setup) |
+| p5 volz | Neutral | 0.70 |
+| p6 funding | Bullish | 0.01%/8h, flat, no crowding |
+| p7 OI | Bullish | 7d +20.4%, 24h -3.5% (single-day dip on a strong weekly print) |
+| p8 stables | Bullish | +0.37%/7d |
+| p9 MVRV | Bullish | BTC 1.53, ETH 1.11 |
+| p10 F&G | Neutral | 74, +1/7d |
+
+**Both consecutive checkpoint counts:** AM 09-04 7/10 Bullish (0/10 Bearish, first occurrence — armed) → PM 09-04 8/10 Bullish (0/10 Bearish, second consecutive — confirmed, strengthened not just held). Mechanical p2-10 improved 7/9 → 8/9 Bullish between the two checkpoints (p4_rvol flipped Neutral→Bullish on the rv_ratio compressing to 0.66); p1 flipped Neutral (AM) → Bullish/contrarian (PM) as the sentiment read shifted from a genuinely mixed stack to a clean capitulation-without-euphoria one. This is the cleanest confirmed-candidate read of the paper phase to date (no prior confirmed entry — MORPHO, JUP, ONDO, AAVE — reached 8/10 with 0 Bearish at confirmation).
+
+**Expectancy sheet:** Entry $2454.07, Target $2900.00 (+18.17%), Invalidation $2249.00 (-8.36%, a recent consolidation/breakout-support level with the 50DMA $2078.25 as further backstop). R = 2.17. Stated p = 0.43 (modestly above the book's typical 0.40-0.42 Tier C baseline, reflecting the unusually clean 8/10-with-zero-Bearish confirmation). EV = +3.05%. Tier C (R≥2, p≥0.40, R<2.5 keeps it out of Tier B) → 5-15% size band, target 10%; staged half now at 5% of $9,816.66 portfolio = $490.814 notional, 0.2000 ETH.
+
+**Runner-up candidates this checkpoint:** LINK (7/10, 1/10 Bearish) and SOL (7/10, 0/10 Bearish) both reached the gate for the first time this checkpoint — armed, not confirmed, awaiting AM 09-05 for their own 2nd consecutive read. Neither competed with ETH for a slot since ETH was the only *confirmed* candidate (2 open slots pre-entry, no anti-churn or EV tie-break needed). ETHFI and NEAR (both armed AM 09-04 at 7/10) lapsed this checkpoint, falling to 6/10 each on p1 sentiment flips to clean euphoria-dominant Bearish reads with no capitulation offset.
+
+**Sizing/sector context:** Major L1 sector was empty pre-entry (BTC, ETH, SOL, TRX, ADA all watchlist Major L1 names but none held) — no sector-cap constraint. 2/5 positions held pre-entry (MORPHO, JUP) → 3/5 post-entry, 2 slots remain open. Post-entry sector split: DeFi Lending ~32%, DEX ~32%, Major L1 ~36% of deployed capital — three single-position sectors, each comfortably under the 50% cap, a materially more balanced structure than the two-sector 50/50 split that produced six consecutive drift-only sector-cap trims (LESSONS.md #11) since 2026-08-27.
+
+**Red-team note (see PM checkpoint report for full pass):** ETH is already the market's most closely-watched large-cap, and an 8/10-with-zero-Bearish read invites the "too good to be real" question — but every individual parameter is independently clean (moderate not extreme dev-from-50DMA, RSI mid-band not overbought, OI confirming both windows, funding flat) and the p1 read is a genuine capitulation stack (zero euphoria markers), not a forced contrarian call. Staged half-entry caps downside if the read proves overextended.
+
+## SIGNAL — LINK armed — 2026-09-04 PM (first occurrence)
+
+Confluence 7/10 Bullish, 1/10 Bearish — first occurrence this checkpoint (was 6/10 at AM 09-04, no prior qualifying read to confirm against). Mechanical p2-10: 6/9 Bullish, 0 Bearish (DMA golden-cross, RSI mid-band, OI confirming). p1 sentiment read Bearish this checkpoint — dominant euphoria ($50-100 2027-29 targets, rocket-emoji $12/$15.5/$20 calls, institutional-onboarding hype), zero capitulation offset, contrarian Bearish despite the genuine underlying utility narrative. Needs a 2nd consecutive ≥7/10 checkpoint (AM 09-05) to confirm. 2 open slots remain in the book (3/5 positions held post-ETH-entry) if LINK confirms.
+
+## SIGNAL — SOL armed — 2026-09-04 PM (first occurrence)
+
+Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this checkpoint (was 6/10 at AM 09-04, no prior qualifying read to confirm against). Mechanical p2-10: 6/9 Bullish, 0 Bearish (DMA golden-cross, RSI mid-band, OI confirming on the 24h window though p7_oi itself reads Neutral on a mixed cross-window read). p1 sentiment read Bullish (contrarian) this checkpoint — zero euphoria markers, despair-flavored capitulation language ("fucked right now, nobody believes in anything longer than dumping on someone," treated "like a casino chip"), zero euphoria offset. Needs a 2nd consecutive ≥7/10 checkpoint (AM 09-05) to confirm. 2 open slots remain in the book (3/5 positions held post-ETH-entry) if SOL confirms.
+
+## SIGNAL — ETHFI lapsed — 2026-09-04 PM
+
+Armed at AM 09-04 (7/10, 2/10 Bearish, first occurrence) — did not hold at PM 09-04, easing to 6/10 (1/10 Bearish, mechanical p4_rvol flipped Bullish→Neutral) with p1 sentiment holding Bearish (strong euphoria — "10X potential," "sky is the limit" — narrowly outweighing thin capitulation counter-signals: a single closed-long mention, an unverified fraud accusation). Arm lapses per Section 5 step 5; a fresh arm would need to restart from a new first-occurrence ≥7/10 read.
+
+## SIGNAL — NEAR lapsed — 2026-09-04 PM
+
+Armed at AM 09-04 (7/10, 0/10 Bearish, first occurrence) — did not hold at PM 09-04, easing to 6/10 (1/10 Bearish) as p6_funding flipped Bullish→Neutral and p1 sentiment flipped Neutral→Bearish (clean euphoria — $10 targets, "gonna pump more during weekend" — with zero capitulation offset this checkpoint, unlike AM's mixed foundation-dumping-complaint read). Arm lapses per Section 5 step 5; a fresh arm would need to restart from a new first-occurrence ≥7/10 read.
