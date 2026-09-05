@@ -1,15 +1,14 @@
-BRIEFING — 2026-09-05 MID
+BRIEFING — 2026-09-05 PM
 
 Top 5 considerations:
-1. LINK — confluence 7/10 — CONFIRMED and entered at AM 09-05 (2nd consecutive ≥7/10, held steady on the same sole Bearish sentiment flag); needs to hold ≥7/10 at PM 09-05 for the second half to add.
-2. MORPHO — confluence 6/10 (held) — OI reversal deepened sharply (24h -24.6%, 7d -20.3%) touching its named thesis test, but price/DMA/RSI all still clean; watch item for PM 09-05, not yet a trim trigger.
-3. SOL — confluence 6/10 — armed at PM 09-04 (7/10) LAPSED at AM 09-05: OI turned mildly negative and meme-profit euphoria flipped sentiment Bearish; needs a fresh ≥7/10 to re-arm.
-4. ETH — confluence 6/10 — stage-2 add did NOT confirm at AM 09-05 (was 8/10 at PM 09-04 entry); half-position CUT per the staged-entry rule, essentially flat.
-5. XRP — confluence 6/10 — clean mechanical board, but narrative-deterioration chatter ("zombie asset," "dead thesis") keeps sentiment Bearish, one parameter short of the gate.
+1. ETH — confluence 8/10 — Freshly armed (its prior confirmed position was cut this morning, so this restarts the sequence): capitulation-flavored bearish social chatter against a fully clean bullish price/OI structure; needs a matching ≥7/10 read at AM 09-06 to confirm a new entry.
+2. BNB — confluence 7/10 — First-time arm on a strong Axiom-launch rally (OI +42%/24h, +44%/7d); RSI 79.4 is overheated, the one caution flag; needs AM 09-06 to confirm.
+3. MORPHO (held) — confluence 6/10 — Open-interest reversal stayed deeply negative on the 7d window a second checkpoint running, but the 24h reading improved sharply; judged still on track, with a firm commitment to trim if a third bad OI print shows up.
+4. XRP — confluence 6/10 — Cleanest non-held mechanical picture on the board (zero bearish flags); sentiment cooled from a prior "dead thesis" narrative back to flat, one parameter short of arming.
+5. AAVE — confluence 6/10 — Clean structure but sentiment flipped bearish on euphoric "100%+ rally" price-target chatter; needs that hype to cool for the gate.
 Holdings:
-MORPHO | 4.47% | entry $2.4856 -> now $2.518 | +1.3% | +$0.0324/coin | position P&L +$5.64
-JUP | 4.48% | entry $0.2176 -> now $0.2247 | +3.3% | +$0.0071/coin | position P&L +$14.38
-LINK | 5.00% | entry $11.728 -> now $11.839 | +0.9% | +$0.111/coin | position P&L +$4.64
-Portfolio: $9,830.93 (-1.69% / -$169.07 since inception)
-Regime: Fear & Greed 73 (+5/7d, warm but not euphoric), stablecoin supply +0.34%/7d (sideline liquidity still growing), MVRV BTC 1.50 / ETH 1.09 (healthy, sub-2 band).
-Watchlist: no changes — 5/5 slot-change budget fully used this week, resets Sunday 09-06. PENDLE (DeFi Lending) and RENDER/FET (AI) flagged as standout outside candidates for next week's open sector room.
+MORPHO | 4.44% | entry $2.4856 -> now $2.502 | +0.7% | +$0.02/coin | position P&L +$2.85
+JUP | 4.44% | entry $0.2176 -> now $0.2192 | +0.8% | +$0.0016/coin | position P&L +$3.28
+Portfolio: $9,824.35 (-1.8% / -$175.65 since inception)
+Regime: Fear & Greed 73 (+5/7d, warm but not euphoric), stablecoin supply +0.58%/7d (sideline liquidity still growing), MVRV BTC 1.50 / ETH 1.09 (healthy, sub-2 band).
+Pre-mortem: BTC -15% overnight would hit ~-2% of the book at most (only 2 positions, ~9% deployed) — cash stays the dominant risk control, no de-risking action taken.

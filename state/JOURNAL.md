@@ -906,3 +906,31 @@ Armed at AM 09-04 (7/10, 0/10 Bearish, first occurrence) — did not hold at PM 
 ## SIGNAL — SOL lapsed — 2026-09-05 AM
 
 Armed at PM 09-04 (7/10, 0/10 Bearish, first occurrence) — did not hold at AM 09-05, easing to 6/10 (1/10 Bearish) as p7_oi flipped Bullish→Neutral (OI turned mildly negative both windows, 24h -2.4%/7d -2.6%) and p1 sentiment flipped from a mixed/Bullish-leaning read to Bearish (rising interest, clean meme-profit-call euphoria — 5.5x/28x gain bragging — zero capitulation offset). Arm lapses per Section 5 step 5; a fresh arm would need to restart from a new first-occurrence ≥7/10 read.
+
+## EXIT POST-MORTEM — LINK (stage-1 half) — 2026-09-05 PM
+
+**P&L:** +$11.9236 realized (+0.2914R vs planned R=2.12) on the 41.837115 LINK stage-1 half, bought AM 09-05 at $11.728, sold PM 09-05 at $12.013 (+2.43% price move over one checkpoint). A modest gain, not a losing thesis call — the position ran in the right direction but the staged-entry confirmation mechanic still intervened because the very move that made money also flipped the DMA overextension check.
+
+**Thesis verdict:** Playing Out / Intact, right up to the cut — not a thesis failure. Section 5 step 9 requires confluence to hold ≥7/10 at the immediate next checkpoint to add the second half; LINK's confluence eased 7/10 (entry, 1 Bearish) → 5/10 (this checkpoint, 1 Bearish), two full parameters short. No confirmation → cut the half, per the rule as written.
+
+**Per-parameter verdict at entry (2026-09-05 AM, confluence 7/10, 1/10 Bearish) vs. this checkpoint's cut:**
+- p2 DMA: Bullish at entry (dev-from-50DMA +22.3%) → Bearish this checkpoint (dev crossed to +25.2%, just over the rubric's own 25% overextension override line). The price gain that would normally read as thesis-confirming instead tripped the rubric's overextension check — a genuine mechanical flip, not a misread, but a reminder that a fast, favorable move can itself be what kills a staged-entry confirmation.
+- p1 sentiment: Bearish (contrarian, euphoria dominant) at entry → Neutral this checkpoint. The rocket-emoji/"biblical pump"/"parabolic" $12-14.34 price-target stack that justified the entry's one caution flag cleared to thin, low-engagement chatter (Robinhood-leaderboard vote, generic trend-list mention) — a genuine cooldown, not a forced read either time.
+- p3 RSI, p6 funding, p7 OI, p8 stables, p9 MVRV: all stayed Bullish, unchanged — OI in particular strengthened (7d +14.6%→+20.2%, 24h -2.0%→+5.5%), directly confirming rather than contradicting the thesis test.
+- p4 rvol, p5 volz, p10 F&G: Neutral at both checkpoints — irrelevant to the confluence swing.
+
+**p calibration:** stated p=0.42 at entry; outcome was a flat-to-modest-gain round-trip, not a resolved bet either way (the staged-entry mechanic intervened before target or invalidation were ever tested) — consistent with every other closed leg this paper phase.
+
+**Sizing/timing verdict:** the staged half-entry worked as designed — a full-size position would have been sitting on the same overextension flag with 10% exposure instead of 5%, for no difference in outcome given the position is being closed rather than trimmed.
+
+**Counterfactual vs. runner-ups:** LINK was the sole confirmed candidate at its own entry (AM 09-05); no runner-up was displaced. This checkpoint (PM 09-05), BNB and ETH both newly armed at ≥7/10 (first occurrence each) — LINK's freed slot and cash sit available for either to confirm at AM 09-06.
+
+**One testable lesson:** a price move favorable enough to trip the p2_dma overextension override (25%) within a single checkpoint of a staged half-entry is a distinct non-confirmation pattern from the "sentiment/regime-only rollover" cases LESSONS.md Proposal 1 addresses — here the move that hurt confirmation was fundamentally bullish (price up 2.4%), not bearish. Worth tracking separately: does a "cut on its own overextension" case tend to re-arm quickly (since price/OI/RSI all stayed constructive), unlike a genuine deterioration cut?
+
+## SIGNAL — BNB armed — 2026-09-05 PM (first occurrence)
+
+Confluence 7/10 Bullish, 1/10 Bearish — first occurrence this checkpoint (mechanical count was <5 at AM 09-05, not fetched for sentiment; jumped to 7/9 mechanical Bullish this checkpoint on a strong Axiom-launch-driven session, 24h +7.4%/7d +11.9%, OI confirming sharply both windows +41.9%/+43.5%). Sole Bearish flag is p3_rsi (79.4, overheated, over the 75 threshold) — a real overextension caution on an otherwise clean board (dev-from-50DMA 23.6%, still under the 25% override line). p1 sentiment read Neutral — flat interest, Axiom-platform-launch excitement without a clean price-target euphoria stack, no capitulation offset either. Needs a 2nd consecutive ≥7/10 checkpoint (AM 09-06) to confirm. 3 open slots remain in the book (2/5 positions held after LINK's cut this checkpoint) if BNB confirms.
+
+## SIGNAL — ETH armed — 2026-09-05 PM (first occurrence, fresh sequence)
+
+Confluence 8/10 Bullish, 0/10 Bearish — first occurrence of a fresh arming sequence (ETH's prior confirmed position was fully closed at AM 09-05 on a staged-entry non-confirmation, breaking the earlier chain; this is a new first-occurrence read, not a continuation). Mechanical p2-10: 7/9 Bullish, 0 Bearish — golden-cross clean (dev-from-50DMA 18.5%, RSI 63.8 mid-band, OI confirming both windows, funding flat). p1 sentiment read Bullish (contrarian) — falling interest, a genuine capitulation stack ("momentum dead at $2418," "could dump to $2200," negative-ETF-flow framing), zero euphoria offset, against a mechanically clean structure — the same capitulation-with-intact-structure pattern that produced ETH's prior 8/10 confirmed entry three checkpoints ago. Needs a 2nd consecutive ≥7/10 checkpoint (AM 09-06) to confirm as a fresh sequence. 3 open slots remain in the book (2/5 positions held after LINK's cut this checkpoint) if ETH confirms.
