@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 8443.9974,
-  "portfolio_value_usdt": 9816.66,
+  "cash_usdt": 8444.2437,
+  "portfolio_value_usdt": 9813.3137,
   "positions": [
     {
       "ticker": "MORPHO",
@@ -12,7 +12,7 @@
       "qty": 174.417,
       "notional_usdt": 448.73,
       "avg_entry_price": 2.485638,
-      "size_pct_current": 4.49,
+      "size_pct_current": 4.47,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 3.0066,
@@ -166,6 +166,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (1/10 Bearish)",
           "action": "TRIM -- SECTOR-CAP CORRECTION (Section 3 rule 8, hard rule, never break no exceptions), not a thesis or conviction call. Since the AM 09-04 correction set DeFi Lending/DEX to an exact 50.0/50.0 split, MORPHO ran +1.65% (mark $2.487 -> $2.528) while JUP fell -1.79% (mark $0.2231 -> $0.2191) with zero trades in either position in between -- the sixth occurrence of this drift-only failure mode (LESSONS.md hypothesis #11), pushing DeFi Lending back to 50.86% of deployed capital ($456.38 of $897.30 deployed), a fresh breach of the <=50%-of-deployed-capital-per-sector hard rule. Caught by the standing per-checkpoint recompute habit and corrected this checkpoint. Corrected by trimming MORPHO to bring DeFi Lending back to exactly 50.0% of deployed capital. SOLD 6.1121 MORPHO @ $2.528 = $15.4514 proceeds, 2026-09-04T19:10:00Z (Binance spot, same parameters.py refresh used for this checkpoint). Realized P&L on the trimmed tranche: +$0.2589 (+4.15% vs avg entry $2.485638 on the trimmed shares). Position now 174.417 MORPHO (avg entry unchanged $2.485638). Underlying structure this checkpoint: price $2.528 (+1.69% vs avg entry $2.485638), still above 50DMA (dev +18.1%, comfortably under the 25% overextension line) and 200DMA in golden-cross structure. RSI mid-band with room. Funding flat (0.01%/8h, no crowding). p7_oi flipped Bullish->Bearish this checkpoint (mixed 24h/7d OI-vs-price cross-window read), the sole Bearish flag. Invalidation $2.2795 not breached (~9.8% headroom). Sentiment (p1) held Neutral -- flat interest, zero clean crowd-extreme dominance. Confluence held at 6/10 (0->1/10 Bearish) -- still the cleanest read of either holding this checkpoint alongside the newly-entered ETH. Thesis stays Playing Out, conviction stays Intact -- this trim is a compliance-driven resize only, not a read on MORPHO's thesis. This checkpoint's other action: ETH CONFIRMED and entered (see ETH position) -- DeFi Lending, DEX, and Major L1 now three single-position sectors each roughly a third of deployed capital, well under the 50% cap; a fourth position (or further drift) is the next thing to watch for this three-way-split failure mode."
+        },
+        {
+          "checkpoint": "2026-09-05 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "HOLD, no changes -- price $2.514 (+1.14% vs avg entry $2.485638, essentially flat vs PM close $2.528), still above 50DMA (dev +16.7%, comfortably under the 25% overextension line) and 200DMA in golden-cross structure. RSI 57.3 mid-band with room. Funding flat (0.01%/8h, no crowding). p7_oi stays Bearish, the sole Bearish flag, but the underlying OI print deepened sharply: 24h -24.6% (from prior checkpoint's smaller-magnitude mixed read), 7d -20.3% -- both windows now clearly negative and touching the entry thesis's own named test ('OI keeps expanding alongside price, not diverging'). Flagged explicitly as a fresh watch item given the size of the swing (this hold's largest single-checkpoint OI deterioration to date), but Bearish count is unchanged at 1/10 (same as the last two checkpoints, not an escalation of the gate) and every other leg of the thesis stayed clean -- judged not yet sufficient for a Weakening downgrade on a single reading, consistent with this hold's repeated history of single-checkpoint OI swings later proving to be OI_HISTORY.json rolling-window noise (a self-built, short window per the Section 0 amendment). Will treat a second consecutive deeply-negative OI print as the trigger to reassess. Invalidation $2.28 not breached (~9.3% headroom). Sentiment (p1) held Neutral -- interest falling, sparse technical/governance chatter, zero euphoria or capitulation, one unverified red-flag claim (Robinhood-chain listing rumor) not corroborated. Confluence held at 6/10 (1/10 Bearish) -- no exit or trim trigger of any kind. Interim review date 2026-09-09, not today. This checkpoint's other action: ETH's stage-1 half CUT on staged-entry non-confirmation (confluence 8->6/10) -- see ETH closed_positions entry; sector split reverts to two single-position sectors (DeFi Lending/MORPHO, DEX/JUP) plus LINK's new Oracle entry this checkpoint, still comfortably under the 50%-of-deployed-capital cap (~32%/32%/36%)."
         }
       ]
     },
@@ -177,7 +184,7 @@
       "qty": 2012.4425,
       "notional_usdt": 437.81,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 4.49,
+      "size_pct_current": 4.48,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -247,9 +254,50 @@
           "conviction": "Intact",
           "confluence": "5/10 (3/10 Bearish)",
           "action": "hold, no changes -- price $0.2191 (-1.79% vs AM close $0.2231, +0.71% vs avg entry $0.217553), still above 50DMA and 200DMA in golden-cross structure. p5_volz and p7_oi both flipped back to Bearish this checkpoint (the standing rvol/OI-divergence pattern reasserting), alongside the recurring p1 sentiment Bearish read (same euphoria stack: $4-$8 targets, rocket emojis, 'about to go on a RUN'/'liquidity tsunami', zero capitulation offset) -- Bearish count back to 3/10, matching the AM 09-03/PM 09-03 reads, still short of both the >=4/10-for-1-checkpoint trim gate and the >=4/10-for-2-consecutive exit gate. Invalidation $0.203 not breached (~7.35% headroom, narrower than AM's ~9.0% but still ample). Thesis stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue on JUP itself this checkpoint (see MORPHO status_history for this checkpoint's DeFi Lending-side correction, the sixth occurrence of the drift-only sector-cap failure mode). This checkpoint's other action: ETH CONFIRMED and entered (7/10 armed AM 09-04 -> 8/10 confirmed PM 09-04) -- the book's first new position since JUP itself (2026-09-01), now 3/5 positions held across three single-position sectors."
+        },
+        {
+          "checkpoint": "2026-09-05 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (1/10 Bearish)",
+          "action": "hold, no changes -- price $0.2186 (-0.23% vs PM close $0.2191, +0.48% vs avg entry $0.217553), still above 50DMA (dev +11.9%, moderate) and 200DMA in golden-cross structure. RSI 55.3, low edge of the 55-70 band but in range -- both named thesis-test conditions (price above 50DMA, RSI out of overbought) remain met. Funding flat (0.01%/8h, no crowding). The standing rvol/OI-divergence pattern eased again this checkpoint: p5_volz and p7_oi both flipped back to Neutral (rv_ratio 1.25, OI 24h -3.4%/7d +0.7%, no longer reading as a clean divergence). Sentiment (p1) held Bearish -- same recurring euphoria stack ($4-8 targets, 'about to go on a RUN', rising interest, YTD-outperformance bragging), zero capitulation offset, the pattern flagged every recent checkpoint. Confluence improved 5/10(3 Bearish) PM 09-04 -> 5/10(1 Bearish) AM 09-05 -- Bearish count down from 3 to 1 even as total held flat, the two mechanical divergence flags clearing again while p1 remains the lone standing Bearish. Invalidation $0.203 not breached (~7.15% headroom). Thesis stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue this checkpoint (DEX/JUP ~32.1% of deployed, well under the 50% cap alongside DeFi Lending/MORPHO ~32.0% and the book's new LINK entry ~35.8%). Interim review date 2026-09-15, not today."
         }
       ]
     },
+    {
+      "ticker": "LINK",
+      "sector": "Oracle",
+      "entry_utc": "2026-09-05T07:12:00Z",
+      "entry_price": 11.728,
+      "qty": 41.837115,
+      "notional_usdt": 490.6657,
+      "avg_entry_price": 11.728,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "half_open",
+      "target": 13.8,
+      "invalidation": 10.75,
+      "planned_R": 2.12,
+      "stated_p": 0.42,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-10-24",
+      "interim_review_date": "2026-09-19",
+      "thesis": "Oracle-monopoly bellwether in a clean golden-cross state: price $11.728 above both the 50DMA ($9.592) and 200DMA ($8.9945), moderately extended (+22.3% from the 50DMA), RSI 64.6 mid-band with room, rvol 0.78 (compression, setup intact), OI confirming the uptrend (7d +14.6%, 24h -2.0% a mild single-day dip on an otherwise strong weekly print), funding flat (0.01%/8h, no crowded-long risk). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (PM 09-04 7/10 armed -> AM 09-05 7/10 confirmed, held exactly steady, same sole Bearish parameter both times), 1/10 Bearish both checkpoints (p1 sentiment only). Sole confirmed candidate this checkpoint -- SOL, armed alongside LINK at PM 09-04 (7/10, 0 Bearish), lapsed this checkpoint (eased to 6/10, p7_oi rolled Bullish->Neutral and p1 flipped Bearish on rising meme-profit euphoria); ETH's own stage-2 add failed to confirm (confluence 8->6/10) and its stage-1 half was cut (see closed_positions). Sentiment (p1) read contrarian Bearish both checkpoints -- clear one-sided euphoria dominance (rocket emojis, $12-14.34 price-target chasing, 'pomp it'/'biblical pump'/'parabolic' language), zero capitulation offset; the $13.80 target below is set deliberately under the hyped $14.34 social-media level being faded, not adopted from it.",
+      "thesis_test": "OI keeps expanding alongside price (not diverging); price holds above the 50DMA ($9.592); RSI stays out of overbought (<75) as price extends toward target.",
+      "invalidation_conditions": "Price closes below $10.75 (a support level above the 50DMA $9.592, ~8.3% headroom at entry) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-09-05 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (1/10 Bearish)",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 09-04 7/10 armed -> AM 09-05 7/10 confirmed, held exactly steady on the same sole Bearish parameter, p1). Sole confirmed candidate this checkpoint. No anti-churn question -- 2 open slots pre-entry after ETH's stage-1 cut this same checkpoint (MORPHO, JUP held, max 5), no held position needed displacing. Tier C (R=2.12, p=0.42, EV=+2.58%; Entry $11.728, Target $13.80, Invalidation $10.75). Staged entry per rule: BUY 41.837115 LINK @ $11.728 = $490.6657 notional (5.0% of $9,813.3137 portfolio), 2026-09-05T07:12:00Z (Binance spot, same scripts/parameters.py refresh used for this checkpoint, generated_at 2026-09-05T07:07:11Z). Second half adds only if confluence holds >=7/10 at the 2026-09-05 PM checkpoint; no confirmation cuts the half. Sector: Oracle, previously empty on the book -- no cap conflict (MORPHO/DeFi Lending ~32.0%, JUP/DEX ~32.1%, LINK/Oracle ~35.8% of deployed capital, all comfortably under the 50%-per-sector cap; deployed capital ~14.0% of portfolio, 86.0% cash)."
+        }
+      ]
+    }
+  ],
+  "closed_positions": [
     {
       "ticker": "ETH",
       "sector": "Major L1",
@@ -260,7 +308,7 @@
       "avg_entry_price": 2454.07,
       "size_pct_current": 5.0,
       "target_size_pct": 10.0,
-      "stage": "half_open",
+      "stage": "stage1_half",
       "target": 2900.0,
       "invalidation": 2249.0,
       "planned_R": 2.17,
@@ -279,11 +327,21 @@
           "conviction": "Intact",
           "confluence": "8/10",
           "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (AM 09-04 7/10 armed -> PM 09-04 8/10 confirmed, strengthened). Sole confirmed candidate this checkpoint -- LINK and SOL both newly armed at 7/10 (first occurrence, runner-ups, logged to JOURNAL.md and carried into SIGNALS.csv for next-checkpoint confirmation tracking); ETHFI and NEAR both lapsed (armed at AM 09-04, fell to 6/10 this checkpoint, did not hold). No displacement question -- 2 open slots available pre-entry (MORPHO, JUP held, max 5), no anti-churn test needed. Tier C (R=2.17, p=0.43, EV=+3.05%; Entry $2454.07, Target $2900.00, Invalidation $2249.00). Staged entry per rule: BUY 0.2000 ETH @ $2454.07 = $490.814 notional (5.0% of $9,816.66 portfolio), 2026-09-04T19:11:00Z (Binance spot, same scripts/parameters.py refresh used for this checkpoint, generated_at 2026-09-04T19:05:56Z). Second half adds only if confluence holds >=7/10 at the 2026-09-05 AM checkpoint; no confirmation cuts the half. Sector: Major L1, previously empty on the book -- no cap conflict (DeFi Lending/MORPHO and DEX/JUP each drop from ~50% to ~32% of a now-three-way-split deployed capital, ETH ~36%, all comfortably under the 50%-per-sector cap)."
+        },
+        {
+          "checkpoint": "2026-09-05 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "STAGED-ENTRY NON-CONFIRMATION -- CUT THE HALF, executes the PM 09-04 entry's own pre-committed rule ('second half adds only if confluence holds >=7/10 at the 2026-09-05 AM checkpoint; no confirmation cuts the half'). Price $2454.56 (+0.02% vs entry $2454.07, essentially flat). p1 sentiment flipped Bullish (the capitulation stack that justified entry) -> Neutral this checkpoint -- interest flat, sentiment scores mixed around neutral (6.0/10, 81%/19% bull/bear split), zero clean euphoria or capitulation markers this read. p7_oi flipped Bullish -> Bearish -- 24h OI -3.0%, 7d OI +19.6%, a mixed cross-window read the mechanical rubric scores Bearish. Confluence eased 8/10 (0 Bearish) -> 6/10 (1 Bearish), two full parameters below the >=7/10 bar required to add the second half. No other dimension deteriorated: price essentially flat (not down), DMA structure still clean golden-cross (dev-from-50DMA 17.4%, comfortably under the 25% overextension line), RSI 62.5 still mid-band, funding flat, OI still positive on the 7d window even if mixed. This is a mechanical staged-entry non-confirmation, not a discretionary thesis call -- Section 5 step 9 draws no exception for which parameters rolled over or how far price itself moved. SOLD 0.2000 ETH @ $2454.56 = $490.912, 2026-09-05T07:12:00Z (Binance spot, same parameters.py refresh, generated_at 2026-09-05T07:07:11Z). Realized P&L: +$0.098 (+0.0024R vs planned R=2.17) -- essentially flat, the cut cost nothing beyond the round-trip; this was a rule-mechanic exit, not a stop-loss or a losing thesis call. Position fully closed (was only ever the stage-1 half)."
         }
-      ]
-    }
-  ],
-  "closed_positions": [
+      ],
+      "exit_utc": "2026-09-05T07:12:00Z",
+      "exit_price": 2454.56,
+      "realized_pnl_usdt": 0.098,
+      "realized_R": 0.0024,
+      "exit_reason": "Staged-entry non-confirmation (Section 5 step 9): confluence eased 8/10 (entry, PM 09-04) -> 6/10 (AM 09-05, the mandatory next-checkpoint confirmation check), below the required >=7/10 to add the second half. p1 sentiment flipped Bullish->Neutral (the capitulation stack cleared) and p7_oi flipped Bullish->Bearish (mixed 24h/7d OI read) -- both mechanical/regime-adjacent parameters, not a price or DMA breakdown (price was essentially flat, +0.02%, structure stayed clean golden-cross). Cut the half per the rule as written; no signed-off amendment (LESSONS.md Proposal 1 / REVIEW-2026-09.md, pending user sign-off) has relaxed this mechanic yet. Realized P&L +$0.098 (+0.0024R) -- a flat round-trip, not a loss."
+    },
     {
       "ticker": "ONDO",
       "sector": "RWA",

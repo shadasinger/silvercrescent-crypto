@@ -855,3 +855,54 @@ Armed at AM 09-04 (7/10, 2/10 Bearish, first occurrence) — did not hold at PM 
 ## SIGNAL — NEAR lapsed — 2026-09-04 PM
 
 Armed at AM 09-04 (7/10, 0/10 Bearish, first occurrence) — did not hold at PM 09-04, easing to 6/10 (1/10 Bearish) as p6_funding flipped Bullish→Neutral and p1 sentiment flipped Neutral→Bearish (clean euphoria — $10 targets, "gonna pump more during weekend" — with zero capitulation offset this checkpoint, unlike AM's mixed foundation-dumping-complaint read). Arm lapses per Section 5 step 5; a fresh arm would need to restart from a new first-occurrence ≥7/10 read.
+
+## CONFIRMED ENTRY — LINK — 2026-09-05 AM (Tier C, staged half)
+
+**Frozen 10-parameter table at entry (AM 09-05, confluence 7/10, 1/10 Bearish):**
+
+| # | Parameter | Label | Raw |
+|---|---|---|---|
+| p1 sentiment | Bearish (contrarian) | euphoria dominant: rocket emojis, $12-14.34 price-target chasing, "pomp it," "biblical pump," "parabolic"; zero capitulation offset |
+| p2 DMA | Bullish | price $11.728 above 50DMA $9.592 and 200DMA $8.9945, golden cross |
+| p3 RSI | Bullish | 64.6, mid-band with room |
+| p4 rvol | Bullish | 0.78 (compression, setup intact) |
+| p5 volz | Neutral | -1.21 |
+| p6 funding | Bullish | 0.01%/8h, flat, no crowding |
+| p7 OI | Bullish | 7d +14.6%, 24h -2.0% (mild single-day dip on a strong weekly print) |
+| p8 stables | Bullish | +0.36%/7d |
+| p9 MVRV | Bullish | BTC 1.50, ETH 1.09 |
+| p10 F&G | Neutral | 73, +5/7d |
+
+**Both consecutive checkpoint counts:** PM 09-04 7/10 Bullish (1/10 Bearish, first occurrence — armed) → AM 09-05 7/10 Bullish (1/10 Bearish, second consecutive — confirmed, held exactly steady on the same sole Bearish parameter, p1). Mechanical p2-10 unchanged (6/9 Bullish both checkpoints). This is the book's third confirmed entry this week (after MORPHO/JUP earlier and ETH PM 09-04), and the first to confirm at a flat (not strengthened) read.
+
+**Expectancy sheet:** Entry $11.728, Target $13.80 (+17.7%, set deliberately below the $14.34 social-media hype level flagged in the p1 fade — the thesis is not borrowing its target from the euphoria being contrarian-faded), Invalidation $10.75 (-8.3%, a support level above the 50DMA $9.592). R = 2.12. Stated p = 0.42 (standard Tier C baseline, consistent with a confirmed candidate carrying a single Bearish sentiment flag). EV = +2.58%. Tier C (R≥2, p≥0.40; confluence 7/10 keeps it out of Tier A regardless of R) → 5-15% size band, target 10%; staged half now at 5% of $9,813.3137 portfolio = $490.6657 notional, 41.837115 LINK.
+
+**Runner-up candidates this checkpoint:** SOL, armed alongside LINK at PM 09-04 (7/10, 0/10 Bearish), lapsed this checkpoint — eased to 6/10 as p7_oi rolled Bullish→Neutral (OI turned mildly negative both windows) and p1 flipped Neutral-leaning-Bullish→Bearish (rising interest, meme-profit-call euphoria, zero capitulation offset). No EV tie-break was needed — LINK was the sole confirmed candidate.
+
+**Sizing/sector context:** Oracle sector was empty pre-entry — no cap constraint. 2/5 positions held pre-entry (MORPHO, JUP, after ETH's stage-1 cut this same checkpoint freed a slot) → 3/5 post-entry, 2 slots remain open. Post-entry sector split: DeFi Lending ~32.0%, DEX ~32.1%, Oracle ~35.8% of deployed capital (~14.0% of portfolio, 86.0% cash) — mirrors the three-single-position-sector structure the book held briefly with ETH before its cut.
+
+**Red-team note (see AM checkpoint report for full pass):** LINK's confluence held exactly flat (7/10 both checkpoints) rather than strengthening, and dev-from-50DMA at +22.3% is the second-most-extended of the three current holdings (behind ETH's former +17.4%... actually ahead of it) — worth watching for overextension, though still under the 25% override line. The p1 Bearish flag (euphoria) is the sole drag on an otherwise clean 6/9 mechanical board, consistent with how every other genuinely euphoric name has been read this week (ADA, ARB, CAKE, ETHFI, HBAR, JUP, SOL) — not a forced override, a real crowd-extreme signal being faded as designed.
+
+## EXIT POST-MORTEM — ETH (stage-1 half) — 2026-09-05 AM
+
+**P&L:** +$0.098 realized (+0.0024R vs planned R=2.17) on the 0.2000 ETH stage-1 half, bought PM 09-04 at $2454.07, sold AM 09-05 at $2454.56 (+0.02% price move over one checkpoint). Essentially a flat round-trip — this was a rule-mechanic exit, not a losing thesis call, and not a stop-loss (invalidation $2249.00 was never remotely close).
+
+**Thesis verdict:** Playing Out / Intact, right up to the cut — this was not a thesis failure. The position was closed purely because Section 5 step 9's staged-entry confirmation mechanic requires confluence to hold ≥7/10 at the immediate next checkpoint to add the second half; ETH's confluence eased 8/10 (entry, 0 Bearish) → 6/10 (this checkpoint, 1 Bearish), two full parameters short. No confirmation → cut the half, per the rule as written. This is now the eighth instance of a staged-entry non-confirmation cut this paper phase (TRX-adjacent precedent aside: CAKE, ETH×2 [this is the second ETH cut of the phase, a different hold than the 08-19 one], ZEC, MORPHO-early, UNI, JUP-early, ASTER all preceded it).
+
+**Per-parameter verdict at entry (2026-09-04 PM, confluence 8/10, 0/10 Bearish) vs. this checkpoint's cut:**
+- p1 sentiment: Bullish (contrarian capitulation) at entry → Neutral this checkpoint. The despair-flavored stack that justified entry (sentiment scores dipping negative, "narrative exhaustion") did not persist — this checkpoint's fetch showed flat/mixed sentiment (6.0/10 scores, 81/19 bull/bear split) with zero clean euphoria or capitulation markers. Genuine data change, not a misread either time — sentiment is inherently noisy checkpoint-to-checkpoint and this is exactly the kind of parameter the book's own LESSONS.md (#2, #9) flags as prone to false-negative-driving rollovers.
+- p7 OI: Bullish (7d +20.4%, mild 24h dip) at entry → Bearish this checkpoint (24h -3.0%, 7d +19.6% — the 7d print is still strongly positive, but the mechanical rubric reads the mixed cross-window combination as Bearish). This is the named thesis-test's own pillar ("OI keeps expanding alongside price, not diverging") and the parameter LESSONS.md's Section-3 parameter scorecard flags as the highest-variance, most consequential single point of failure in the rubric.
+- p2 DMA, p3 RSI, p4 rvol, p6 funding, p8 stables, p9 MVRV: all stayed Bullish, unchanged — the structural/technical legs of the thesis never wavered. Price itself was essentially flat (+0.02%), not down.
+- p5 volz, p10 F&G: Neutral at both checkpoints — irrelevant to the confluence swing either way.
+
+**p calibration:** stated p=0.43 at entry; outcome was a flat round-trip, not a resolved bet either way (the staged-entry mechanic intervened before the probabilistic call was ever tested) — consistent with essentially every other closed leg this paper phase per the 2026-09-01 monthly review's calibration-audit finding (zero legs have yet reached target or invalidation).
+
+**Sizing/timing verdict:** the staged half-entry worked exactly as designed — capping exposure to 5% rather than the full 10% target meant a non-confirmation cost nothing beyond a flat round-trip trade, rather than exposing a full-size position to a two-parameter confluence swing driven mostly by mean-reverting/regime-adjacent readings (p1, p7) rather than a price breakdown.
+
+**Counterfactual vs. runner-ups:** LINK confirmed this same checkpoint (7/10, 1/10 Bearish, held steady) and took the freed slot with its own staged half — no capital sat idle as a result of ETH's cut. SOL, ETH's other PM 09-04 cohort-mate, also failed to confirm (lapsed from its own 7/10 arm) — a broader pattern this checkpoint of PM 09-04's three ≥7/10 reads (ETH confirmed+cut, LINK armed+confirmed, SOL armed+lapsed) resolving 1-for-3 by AM 09-05, worth watching as a shadow-book comparison point (ETH's virtual continuation vs. its actual flat cut) at the next Monday refresh.
+
+**One testable lesson (continuing evidence, not a new hypothesis):** this is a second, independent data point for the already-logged LESSONS.md Proposal 1 ("soft non-confirmation" when only mean-reverting/regime-overlay parameters roll over while price/OI hold) — except this case cuts *against* a blanket adoption of that proposal, since here p7 OI (one of the two parameters the proposal explicitly treats as thesis-defining, alongside price) was itself one of the two parameters that rolled over, not just p1/p3/p4/p6/p10. A future monthly review should track whether "soft non-confirmation" cases that include an OI rollover perform differently from ones that don't, before extending Proposal 1 to cover this pattern.
+
+## SIGNAL — SOL lapsed — 2026-09-05 AM
+
+Armed at PM 09-04 (7/10, 0/10 Bearish, first occurrence) — did not hold at AM 09-05, easing to 6/10 (1/10 Bearish) as p7_oi flipped Bullish→Neutral (OI turned mildly negative both windows, 24h -2.4%/7d -2.6%) and p1 sentiment flipped from a mixed/Bullish-leaning read to Bearish (rising interest, clean meme-profit-call euphoria — 5.5x/28x gain bragging — zero capitulation offset). Arm lapses per Section 5 step 5; a fresh arm would need to restart from a new first-occurrence ≥7/10 read.
