@@ -934,3 +934,36 @@ Confluence 7/10 Bullish, 1/10 Bearish — first occurrence this checkpoint (mech
 ## SIGNAL — ETH armed — 2026-09-05 PM (first occurrence, fresh sequence)
 
 Confluence 8/10 Bullish, 0/10 Bearish — first occurrence of a fresh arming sequence (ETH's prior confirmed position was fully closed at AM 09-05 on a staged-entry non-confirmation, breaking the earlier chain; this is a new first-occurrence read, not a continuation). Mechanical p2-10: 7/9 Bullish, 0 Bearish — golden-cross clean (dev-from-50DMA 18.5%, RSI 63.8 mid-band, OI confirming both windows, funding flat). p1 sentiment read Bullish (contrarian) — falling interest, a genuine capitulation stack ("momentum dead at $2418," "could dump to $2200," negative-ETF-flow framing), zero euphoria offset, against a mechanically clean structure — the same capitulation-with-intact-structure pattern that produced ETH's prior 8/10 confirmed entry three checkpoints ago. Needs a 2nd consecutive ≥7/10 checkpoint (AM 09-06) to confirm as a fresh sequence. 3 open slots remain in the book (2/5 positions held after LINK's cut this checkpoint) if ETH confirms.
+
+## ENTRY SNAPSHOT — ETH — 2026-09-06 AM
+
+**Frozen 10-parameter table (confluence 7/10 Bullish, 0/10 Bearish):**
+
+| # | Parameter | Label | Reading |
+|---|---|---|---|
+| p1 | Social sentiment (contrarian) | Neutral | Flat interest, zero euphoria/capitulation markers — dominant narrative purely factual (wave-4 consolidation holding the $2355 low, $226M ETF inflows, institutional targeting). Cooled from PM 09-05's genuine capitulation stack ("momentum dead at $2418," "could dump to $2200") that produced the arm. |
+| p2 | Price vs 50/200DMA | Bullish | $2507.31 above 50DMA ($2103.9476) and 200DMA ($2039.8348), golden-cross, dev-from-50DMA +19.2% (moderate, well under the 25% override). |
+| p3 | RSI-14 | Bullish | 65.4, mid-upper band with room. |
+| p4 | Realized vol ratio (7d/30d) | Bullish | 0.63 — compression, setup read. |
+| p5 | Volume z-score | Neutral | -1.05. |
+| p6 | Funding rate | Bullish | 0.01%/8h — near-zero, no crowded-long risk. |
+| p7 | Open interest Δ | Bullish | 24h +2.9%, 7d +16.6% — OI confirming alongside price on both windows. |
+| p8 | Stablecoin supply 7d Δ | Bullish | Global block, +0.6%. |
+| p9 | MVRV (BTC proxy) | Bullish | BTC 1.5, ETH 1.1 — healthy 1-2 band. |
+| p10 | Fear & Greed | Neutral | 73, Δ7d +4 — constructive but not the >75/falling-fast Bearish band nor the <25/rising-from-<30 Bullish band. |
+
+**Two-consecutive-checkpoint confirmation:** PM 09-05 8/10 Bullish (0/10 Bearish, armed, first occurrence of this fresh sequence) → AM 09-06 7/10 Bullish (0/10 Bearish, confirmed). Both checkpoints cleared the ≥7/10 gate with zero Bearish flags.
+
+**Expectancy sheet:** Entry $2507.31 | Target $2900.00 | Invalidation $2355.00 (sentiment-sourced wave-4 consolidation low) | R = (2900-2507.31)/(2507.31-2355) = **2.58** | p = 0.43 | upside 15.66% | downside 6.07% | EV = 0.43×15.66% - 0.57×6.07% = **+3.27%**. Floor (R≥2.0, EV>0) cleared comfortably; R≥2.5 clears the Tier B R-threshold but p=0.43 falls short of Tier B's p≥0.45 floor, so this is **Tier C** (R≥2, p≥0.40) — target size 10%, staged half now.
+
+**Runner-ups this checkpoint:** ETHFI newly armed 7/10 Bullish (2/10 Bearish, first occurrence) on rising interest + dominant euphoria ("10x potential," "sky is the limit") — needs PM 09-06 to confirm, not yet competing for a slot. BNB, armed at PM 09-05 (7/10, 1 Bearish), **lapsed** to 5/10 this checkpoint (p4_rvol and p5_volz both rolled Bullish→Neutral) — did not reach a second consecutive confirmation. No anti-churn conflict: 2/5 positions held pre-entry (MORPHO, JUP, both single-position sectors), 3/5 post-entry, ample room without displacing anything.
+
+**Staged entry:** BUY 0.196942 ETH @ $2507.31 = $493.7946 notional (5.0% of $9,875.8703 portfolio), 2026-09-06T07:12:00Z (Binance spot, same `parameters.py` refresh used for this checkpoint). Second half adds only if confluence holds ≥7/10 at the 2026-09-06 PM checkpoint; no confirmation cuts the half (per the standing Section 5 step 9 mechanic — LESSONS.md Proposal 1's "soft non-confirmation" relaxation remains unadopted pending explicit user sign-off).
+
+## SIGNAL — ETHFI armed — 2026-09-06 AM (first occurrence)
+
+Confluence 7/10 Bullish, 2/10 Bearish — first occurrence (PM 09-05 was 6/10, none). Mechanical p2-10 improved to 7/9 Bullish (p4_rvol flipped Neutral→Bullish), 1/9 Bearish (p5_volz). p1 sentiment read Bearish (contrarian) — rising interest, dominant euphoria ("10x potential," "sky is the limit," "strongest communities"), zero capitulation offset — the same recurring euphoria-driven pattern that has repeatedly capped ETHFI's confluence this phase (see AM/PM 09-04, AM 09-05 status history). Needs a 2nd consecutive ≥7/10 checkpoint (PM 09-06) to confirm. 2 open slots remain in the book (3/5 positions held after ETH's entry this checkpoint) if ETHFI confirms.
+
+## SIGNAL — BNB lapsed — 2026-09-06 AM
+
+Armed at PM 09-05 (7/10, 1/10 Bearish, first occurrence) — did not hold at AM 09-06, easing to 5/10 (1/10 Bearish) as p4_rvol and p5_volz both rolled Bullish→Neutral (RSI stays overheated at 75.6, p3_rsi still the standing Bearish flag). p1 sentiment stayed Neutral both checkpoints — hype-flavored narrative (BNB V2/"BSC super cycle") without a clean price-target euphoria stack, this checkpoint additionally offset by a genuine leverage-trap/OI-divergence caution. Arm lapses per Section 5 step 5; a fresh arm would need to restart from a new first-occurrence ≥7/10 read.

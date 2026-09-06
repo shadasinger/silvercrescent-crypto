@@ -1,14 +1,14 @@
-BRIEFING — 2026-09-05 PM
+BRIEFING — 2026-09-06 AM
 
 Top 5 considerations:
-1. ETH — confluence 8/10 — Freshly armed (its prior confirmed position was cut this morning, so this restarts the sequence): capitulation-flavored bearish social chatter against a fully clean bullish price/OI structure; needs a matching ≥7/10 read at AM 09-06 to confirm a new entry.
-2. BNB — confluence 7/10 — First-time arm on a strong Axiom-launch rally (OI +42%/24h, +44%/7d); RSI 79.4 is overheated, the one caution flag; needs AM 09-06 to confirm.
-3. MORPHO (held) — confluence 6/10 — Open-interest reversal stayed deeply negative on the 7d window a second checkpoint running, but the 24h reading improved sharply; judged still on track, with a firm commitment to trim if a third bad OI print shows up.
-4. XRP — confluence 6/10 — Cleanest non-held mechanical picture on the board (zero bearish flags); sentiment cooled from a prior "dead thesis" narrative back to flat, one parameter short of arming.
-5. AAVE — confluence 6/10 — Clean structure but sentiment flipped bearish on euphoric "100%+ rally" price-target chatter; needs that hype to cool for the gate.
+1. ETH — confluence 7/10 — CONFIRMED and re-entered (2nd consecutive ≥7/10 checkpoint): clean golden-cross structure, OI confirming both windows, sentiment cooled from capitulation to flat. Staged half-entry, 5% of portfolio.
+2. ETHFI — confluence 7/10 — First-time arm: mechanical picture improved to 7/9 bullish, but sentiment reads euphoric ("10x potential," "sky is the limit") — needs that to cool alongside a matching ≥7/10 at PM 09-06 to confirm.
+3. MORPHO (held) — confluence 6/10 — Third consecutive deeply-negative 7d open-interest print, but the 24h leg improved for a second checkpoint running (now positive) — the pre-committed trim trigger requires both legs bad, so held unchanged.
+4. PYTH — confluence 6/10 — Cleanest non-held mechanical picture on the board (zero bearish flags); flat sentiment, one parameter short of arming.
+5. SOL — confluence 6/10 — Also zero bearish flags; today's "euphoria" chatter was about unrelated Solana-ecosystem memecoins, not SOL itself, so read Neutral rather than forced Bearish.
 Holdings:
-MORPHO | 4.44% | entry $2.4856 -> now $2.502 | +0.7% | +$0.02/coin | position P&L +$2.85
-JUP | 4.44% | entry $0.2176 -> now $0.2192 | +0.8% | +$0.0016/coin | position P&L +$3.28
-Portfolio: $9,824.35 (-1.8% / -$175.65 since inception)
-Regime: Fear & Greed 73 (+5/7d, warm but not euphoric), stablecoin supply +0.58%/7d (sideline liquidity still growing), MVRV BTC 1.50 / ETH 1.09 (healthy, sub-2 band).
-Pre-mortem: BTC -15% overnight would hit ~-2% of the book at most (only 2 positions, ~9% deployed) — cash stays the dominant risk control, no de-risking action taken.
+MORPHO | 4.46% | entry $2.4856 -> now $2.528 | +1.7% | +$0.04/coin | position P&L +$7.39
+JUP | 4.89% | entry $0.2176 -> now $0.2428 | +11.6% | +$0.03/coin | position P&L +$50.26
+ETH | 5.00% | entry $2507.31 -> now $2507.31 | +0.0% | +$0.00/coin | position P&L +$0.00
+Portfolio: $9,875.87 (-1.2% / -$124.13 since inception)
+Regime: Fear & Greed 73 (+4/7d, warm but not euphoric), stablecoin supply +0.6%/7d (sideline liquidity still growing), MVRV BTC 1.50 / ETH 1.10 (healthy, sub-2 band).
