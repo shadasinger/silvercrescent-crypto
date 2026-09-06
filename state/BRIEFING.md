@@ -1,14 +1,15 @@
-BRIEFING — 2026-09-06 AM
+BRIEFING — 2026-09-06 MID
 
 Top 5 considerations:
-1. ETH — confluence 7/10 — CONFIRMED and re-entered (2nd consecutive ≥7/10 checkpoint): clean golden-cross structure, OI confirming both windows, sentiment cooled from capitulation to flat. Staged half-entry, 5% of portfolio.
-2. ETHFI — confluence 7/10 — First-time arm: mechanical picture improved to 7/9 bullish, but sentiment reads euphoric ("10x potential," "sky is the limit") — needs that to cool alongside a matching ≥7/10 at PM 09-06 to confirm.
-3. MORPHO (held) — confluence 6/10 — Third consecutive deeply-negative 7d open-interest print, but the 24h leg improved for a second checkpoint running (now positive) — the pre-committed trim trigger requires both legs bad, so held unchanged.
-4. PYTH — confluence 6/10 — Cleanest non-held mechanical picture on the board (zero bearish flags); flat sentiment, one parameter short of arming.
-5. SOL — confluence 6/10 — Also zero bearish flags; today's "euphoria" chatter was about unrelated Solana-ecosystem memecoins, not SOL itself, so read Neutral rather than forced Bearish.
+1. ETH (held) — confluence 7/10 — Confirmed and entered this AM; clean golden-cross structure held both checkpoints, sentiment cooled to flat/factual.
+2. ETHFI — confluence 7/10 — Armed this AM (first occurrence); needs a matching ≥7/10 at PM 09-06 to confirm. Sentiment still reads euphoric ("10x potential").
+3. PYTH — confluence 6/10 — Cleanest non-held mechanical picture on the board (zero bearish flags); flat sentiment, one parameter short of arming.
+4. SOL — confluence 6/10 — Also zero bearish flags; lapsed from a prior arm, needs a fresh 7/10 print to re-arm.
+5. AAVE — confluence 6/10 — One short of the gate; sentiment flat (whale-transfer chatter, no crowd extreme).
 Holdings:
-MORPHO | 4.46% | entry $2.4856 -> now $2.528 | +1.7% | +$0.04/coin | position P&L +$7.39
-JUP | 4.89% | entry $0.2176 -> now $0.2428 | +11.6% | +$0.03/coin | position P&L +$50.26
-ETH | 5.00% | entry $2507.31 -> now $2507.31 | +0.0% | +$0.00/coin | position P&L +$0.00
-Portfolio: $9,875.87 (-1.2% / -$124.13 since inception)
+MORPHO | 4.46% | entry $2.4856 -> now $2.571 | +3.4% | +$0.09/coin | position P&L +$14.89
+JUP | 4.89% | entry $0.2176 -> now $0.27 | +24.1% | +$0.05/coin | position P&L +$104.41
+ETH | 5.00% | entry $2507.31 -> now $2499.53 | -0.3% | -$7.78/coin | position P&L -$1.53
+Portfolio: $9,935.99 (-0.6% / -$64.01 since inception)
 Regime: Fear & Greed 73 (+4/7d, warm but not euphoric), stablecoin supply +0.6%/7d (sideline liquidity still growing), MVRV BTC 1.50 / ETH 1.10 (healthy, sub-2 band).
+Watchlist: SHIB dropped (catalyst spent, weakest liquidity of tied-lowest group), PENDLE added (DeFi Lending, dated 09-17/10-08 catalysts) — fills DeFi Lending's last open slot.
