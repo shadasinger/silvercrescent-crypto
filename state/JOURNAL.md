@@ -967,3 +967,42 @@ Confluence 7/10 Bullish, 2/10 Bearish — first occurrence (PM 09-05 was 6/10, n
 ## SIGNAL — BNB lapsed — 2026-09-06 AM
 
 Armed at PM 09-05 (7/10, 1/10 Bearish, first occurrence) — did not hold at AM 09-06, easing to 5/10 (1/10 Bearish) as p4_rvol and p5_volz both rolled Bullish→Neutral (RSI stays overheated at 75.6, p3_rsi still the standing Bearish flag). p1 sentiment stayed Neutral both checkpoints — hype-flavored narrative (BNB V2/"BSC super cycle") without a clean price-target euphoria stack, this checkpoint additionally offset by a genuine leverage-trap/OI-divergence caution. Arm lapses per Section 5 step 5; a fresh arm would need to restart from a new first-occurrence ≥7/10 read.
+
+## STAGE-2 ADD — ETH — 2026-09-06 PM
+
+Confluence held **8/10 Bullish, 0/10 Bearish** at this checkpoint (second consecutive checkpoint since the AM 09-06 half-open confirmation, strengthened from 7/10) — per Section 5 step 9, the second half opens at full target size, no confirmation needed beyond the hold itself.
+
+Mechanical parameters unchanged in shape from AM (DMA golden-state, dev-from-50DMA +18.5% moderate, RSI 64.7 mid-band, funding flat, OI confirming both windows, stables/MVRV healthy); p1 sentiment flipped Neutral (AM) → Bullish/contrarian (PM) as capitulation-flavored bearish trader chatter appeared (double-top calls, "bears gaining control," low single-digit sentiment scores) with zero euphoria offset — read as capitulation while the thesis stays Playing Out/Intact, not a deteriorating narrative.
+
+**Fill:** BUY 0.198078 ETH @ $2492.93 = $493.7946 notional (matching the stage-1 half's original ~$493.79 sizing), 2026-09-06T19:10:00Z (Binance spot via `parameters.py` refresh). Position now 0.395020 ETH, avg entry $2500.099323, ~9.92% of portfolio ($987.59 / $9,929.34) — full target size reached. No further staging; ongoing test is the same OI/price/RSI/DMA structure through the 2026-09-20 interim review.
+
+## CONFIRMED ENTRY — ETHFI — 2026-09-06 PM (Tier C, staged half)
+
+**Frozen 10-parameter table at entry (PM 09-06, confluence 7/10, 1/10 Bearish):**
+
+| # | Parameter | Label | Raw |
+|---|---|---|---|
+| p1 sentiment | Bearish (contrarian) | rising interest, euphoria dominant (whale-attention alerts, rocket emojis, breakout-momentum hype, "+87% spot almost 2x, patience paying off"), zero capitulation offset |
+| p2 DMA | Bullish | price $0.5722 above 50DMA $0.476054 and 200DMA $0.441853, golden cross |
+| p3 RSI | Bullish | 57.7, mid-band with room |
+| p4 rvol | Bullish | 0.76 (mild compression) |
+| p5 volz | Neutral | -0.59 |
+| p6 funding | Bullish | 0.01%/8h, flat, no crowding |
+| p7 OI | Bullish | 7d +23.7%, 24h +0.6% |
+| p8 stables | Bullish | +0.6%/7d |
+| p9 MVRV | Bullish | BTC 1.50, ETH 1.10 |
+| p10 F&G | Neutral | 73, +4/7d |
+
+**Both consecutive checkpoint counts:** AM 09-06 7/10 Bullish (2/10 Bearish, first occurrence — armed) → PM 09-06 7/10 Bullish (1/10 Bearish, second consecutive — confirmed). Mechanical p2-10 held clean 7/9 Bullish, 0/9 Bearish both checkpoints; p1 held Bearish both checkpoints on the same recurring euphoria-driven pattern that has capped ETHFI's confluence repeatedly this phase (AM/PM 09-04, AM 09-05) — this is the first time the p1 read has NOT prevented a confirmation, because mechanical p2-10 alone already clears 7/9.
+
+**Expectancy sheet:** Entry $0.5722, Target $0.68 (+18.84%), Invalidation $0.52 (-9.12%, a recent consolidation-support level with the 50DMA $0.476054 as further backstop). R = 2.07. Stated p = 0.41. EV = +2.34%. Tier C (R≥2, p≥0.40, R<2.5 keeps it out of Tier B) → 5-15% size band, target 10%; staged half now at 5% of $9,929.3401 portfolio = $496.467 notional, 867.6459 ETHFI.
+
+**Runner-up candidates this checkpoint:** ONDO (7/10, 0/10 Bearish) reached the gate for the first time this checkpoint — armed, not confirmed, awaiting AM 09-07 for its own 2nd consecutive read. Did not compete with ETHFI for a slot since ETHFI was the only *confirmed* candidate (1 open slot pre-entry, no anti-churn or EV tie-break needed).
+
+**Sizing/sector context:** Liquid Staking sector was empty pre-entry — no sector-cap constraint. 3/5 positions held pre-entry (MORPHO, JUP, ETH) → 4/5 post-entry, 1 slot remains open. Post-entry sector split (of deployed capital): DeFi Lending ~18.3%, DEX ~21.6%, Major L1 ~40.0%, Liquid Staking ~20.2% — four single-position sectors, each comfortably under the 50% cap.
+
+**Red-team note (see PM checkpoint report for full pass):** ETHFI's p1 read has been the recurring reason this ticker's arms lapsed three times already this phase (AM 09-04, and two earlier cycles) — is a 7/9-mechanical-clean confirmation with a *known* euphoria-driven p1 flag different from those prior failures, or just the same pattern finally clearing on a technicality? Mechanical p2-10 is genuinely stronger this time (7/9 Bullish both checkpoints vs. 6/9 or weaker on the prior lapses), and the entry gate is a confluence-count test, not a "p1 must agree" test — a Bearish p1 costs nothing against the bullish count as designed. Staged half-entry caps downside if the euphoria proves to be the leading edge of a blow-off rather than sustainable momentum.
+
+## SIGNAL — ONDO armed — 2026-09-06 PM (first occurrence)
+
+Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this checkpoint (was 6/10, 2/10 Bearish at AM 09-06, no prior qualifying read to confirm against). Mechanical p2-10 improved to 7/9 Bullish, 0/9 Bearish (golden-cross clean, RSI mid-band, OI confirming both windows). p1 sentiment read Neutral — flat interest, mild dismissive/capitulation-flavored chatter ("shit token," "no value," range-bound complaints) mixed with routine technical setups and factual RWA/tokenized-collateral narrative, not a clean crowd-extreme either way. Not currently held (exited 2026-08-29, sector-cap correction, not a thesis failure). Needs AM 09-07 to confirm. 1 open slot remains in the book (4/5 positions held post-ETHFI-entry) if ONDO confirms.

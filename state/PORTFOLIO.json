@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 8457.7744,
-  "portfolio_value_usdt": 9875.8703,
+  "cash_usdt": 7467.5128,
+  "portfolio_value_usdt": 9929.3401,
   "positions": [
     {
       "ticker": "MORPHO",
@@ -12,7 +12,7 @@
       "qty": 174.417,
       "notional_usdt": 448.73,
       "avg_entry_price": 2.485638,
-      "size_pct_current": 4.46,
+      "size_pct_current": 4.53,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 3.0066,
@@ -187,6 +187,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- price $2.528 (+1.69% vs avg entry $2.485638, +1.04% vs PM 09-05 close $2.502), still above 50DMA ($2.16404, dev +16.8%, comfortably under the 25% overextension line) and 200DMA ($1.94536) in golden-cross structure. RSI 57.7 mid-band with room. Funding flat (0.01%/8h, no crowding). p7_oi stays Bearish, the sole Bearish flag: 7d OI printed -17.7% -- a THIRD consecutive deeply-negative 7d print (AM 09-05 -20.3% -> PM 09-05 -19.2% -> AM 09-06 -17.7%), exactly the count named in the AM/PM 09-05 reassessment commitments. However the joint trigger condition ('third consecutive deeply-negative 7d AND no 24h improvement') is not fully met: 24h OI printed +7.6%, a further sharp improvement from PM 09-05's -5.3% (the second consecutive 24h improvement in a row) -- reinforcing the standing OI_HISTORY.json rolling-window-noise read rather than a genuinely worsening trend. Per the letter of the AM/PM 09-05 commitment, conviction stays Intact -- no half-trim triggered. Sentiment (p1) read Neutral -- falling interest, no euphoria/capitulation, narrative is trader positioning/technical talk (bearish setup, new shorts flagged, resistance-reclaim needed), not a genuine crowd-extreme read either way. Confluence held at 6/10 (1/10 Bearish) -- unchanged from PM 09-05. Invalidation $2.28 not breached (~9.8% headroom). Interim review date 2026-09-09, not today. No sector-cap issue this checkpoint (DeFi Lending ~31.2% of the post-ETH-entry three-position deployed base, well under the 50% cap)."
+        },
+        {
+          "checkpoint": "2026-09-06 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- price $2.578 (+3.71% vs avg entry $2.485638, +1.98% vs AM close $2.528), still above 50DMA ($2.16504, dev +19.1%, comfortably under the 25% overextension line) and 200DMA ($1.94561) in golden-cross structure. RSI 59.5 mid-band with room. Funding flat (0.01%/8h, no crowding). p7_oi eased back to Neutral this checkpoint (24h +16.5%, 7d -12.2%) -- the standing third-consecutive-deeply-negative-7d watch item from AM 09-06 resolved without escalating further, consistent with this hold's repeated OI_HISTORY.json rolling-window-noise pattern rather than genuine deterioration. Invalidation $2.28 not breached (~11.6% headroom). Sentiment (p1) held Neutral -- falling interest, zero euphoria/capitulation, sparse chatter (scalping-short list mention, small portfolio add, payment-card acceptance), no clean crowd-extreme dominance. Confluence held at 6/10, Bearish count improved 1->0/10 -- the cleanest read of any holding this checkpoint. Interim review date 2026-09-09, not today. No sector-cap issue this checkpoint (DeFi Lending ~18.3% of the post-ETHFI-entry four-position deployed base, well under the 50% cap)."
         }
       ]
     },
@@ -198,7 +205,7 @@
       "qty": 1990.8364,
       "notional_usdt": 437.81,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 4.89,
+      "size_pct_current": 5.35,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -289,6 +296,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- price $0.2428 (+11.6% vs avg entry $0.217553, +10.8% vs PM 09-05 close $0.2192), still above 50DMA ($0.19627, dev +23.7%, comfortably under the 25% overextension line) and 200DMA ($0.187656) in golden-cross structure. RSI 63.6 mid-upper band with room. Funding 0.0298%/8h, still reads Bullish per the near-zero band. OI strongly confirming again (24h +16.4%, 7d +20.5%), p7_oi back to Bullish this checkpoint (the recurring divergence pattern cleared). Invalidation $0.203 not breached (~16.4% headroom, the widest of the hold, on the back of the strong price move). Sentiment (p1) held Bearish -- flat interest, euphoria dominant ($0.45 price targets, rocket emojis, 'stack every dip') outweighing a single unverified scheme allegation, zero genuine capitulation offset -- the same recurring pattern flagged nearly every checkpoint this hold. Confluence held at 5/10 (1/10 Bearish, p1 only; mechanical p2-10 improved to 5/9 Bullish, 0/9 Bearish as p7_oi's divergence flag cleared) -- nowhere near the 4/10-for-2-consecutive exit gate despite the strong move. No sector-cap issue this checkpoint (DEX ~34.1% of the post-ETH-entry three-position deployed base, well under the 50% cap)."
+        },
+        {
+          "checkpoint": "2026-09-06 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (2/10 Bearish)",
+          "action": "HOLD, no changes -- price $0.2667 (+22.6% vs avg entry $0.217553, +9.8% vs AM close $0.2428), a very strong single-checkpoint move. Still above 50DMA ($0.196748) and 200DMA ($0.187776) in golden-cross structure, but dev-from-50DMA stretched to +35.6% -- past the 25% overextension line for the first time this hold, flipping p2_dma Bullish->Bearish. RSI 69.3, upper edge of the 55-70 Bullish band but not yet overheated (>75). rvol 1.43 and volume z-score +9.24 both confirm a genuine breakout, not a low-conviction spike. Funding flat (0.01%/8h, no crowding). OI strongly confirming (24h +96.2%, 7d +106.2%). Invalidation $0.203 not breached (~23.9% headroom, the widest of the hold). Sentiment (p1) held Bearish -- flat interest, euphoria dominant (rocket emojis, price targets, a +1393% PnL brag, whale-buying alerts), zero capitulation offset, the same recurring pattern. Confluence held/improved to 7/10 (2/10 Bearish: p1 + fresh p2_dma overextension) -- well short of the 4/10-for-2-consecutive exit gate, but the overextension crossover is flagged explicitly as the fresh watch item given the size and speed of today's move (Section 9: overextension IS a bearish signal even in an uptrend). Thesis stays Playing Out, conviction stays Intact -- hold, no changes, watch closely for a further extension without a pullback. No sector-cap issue this checkpoint (DEX ~21.6% of the post-ETHFI-entry four-position deployed base, well under the 50% cap)."
         }
       ]
     },
@@ -297,12 +311,12 @@
       "sector": "Major L1",
       "entry_utc": "2026-09-06T07:12:00Z",
       "entry_price": 2507.31,
-      "qty": 0.196942,
-      "notional_usdt": 493.7946,
-      "avg_entry_price": 2507.31,
-      "size_pct_current": 5.0,
+      "qty": 0.395020,
+      "notional_usdt": 987.5892,
+      "avg_entry_price": 2500.099323,
+      "size_pct_current": 9.92,
       "target_size_pct": 10.0,
-      "stage": "stage1_half",
+      "stage": "full_target",
       "target": 2900.0,
       "invalidation": 2355.0,
       "planned_R": 2.58,
@@ -321,6 +335,45 @@
           "conviction": "Intact",
           "confluence": "7/10",
           "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (PM 09-05 8/10 armed -> AM 09-06 7/10 confirmed, 0/10 Bearish both checkpoints). Sole confirmed candidate this checkpoint (ETHFI newly armed 7/10, first occurrence, not yet confirmed). Tier C (R=2.58, p=0.43, EV=+3.27%; Entry $2507.31, Target $2900.00, Invalidation $2355.00, the last named consolidation low per this checkpoint's sentiment fetch). Staged half-entry per rule: BUY 0.196942 ETH @ $2507.31 = $493.7946 notional (5.0% of $9,875.8703 portfolio), 2026-09-06T07:12:00Z (Binance spot, same scripts/parameters.py refresh used for the checkpoint). Second half adds only if confluence holds >=7/10 at the 2026-09-06 PM checkpoint; no confirmation cuts the half. Sector Major L1, previously empty on the book -- no cap conflict. No anti-churn issue (2/5 positions held pre-entry, both single-position sectors, 3/5 post-entry)."
+        },
+        {
+          "checkpoint": "2026-09-06 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "8/10 (0/10 Bearish)",
+          "action": "STAGE-2 ADD -- confluence held >=7/10 at the immediate next checkpoint since the AM 09-06 half-open confirmation (7/10 -> 8/10, strengthened; 0/10 Bearish both checkpoints). p1 sentiment flipped Neutral->Bullish/contrarian this checkpoint (capitulation-flavored bearish trader chatter -- double-top calls, 'bears gaining control', low single-digit sentiment scores -- zero euphoria offset, thesis Playing Out/Intact). Price $2492.93 (-0.56% vs AM entry $2507.31), still above 50DMA ($2103.66, dev +18.5%, comfortably under the 25% overextension line) and 200DMA ($2039.7629) in golden-cross structure. RSI 64.7 mid-band with room. Funding flat (0.01%/8h, no crowding). OI still confirming both windows (24h +3.6%, 7d +2.9%). Thesis test ('OI keeps expanding alongside price, price holds above the 50DMA, RSI stays under 75') cleanly satisfied. BUY 0.198078 ETH @ $2492.93 = $493.7946 notional (matching the stage-1 half's original ~$493.79 sizing), 2026-09-06T19:10:00Z (Binance spot, same parameters.py refresh). Position now 0.395020 ETH, avg entry $2500.099323, full target size ~9.9% of portfolio. Invalidation $2355 not breached (~5.5% headroom). No sector-cap issue (Major L1 ~40.0% of the post-ETHFI-entry four-position deployed base, well under the 50% cap)."
+        }
+      ]
+    },
+    {
+      "ticker": "ETHFI",
+      "sector": "Liquid Staking",
+      "entry_utc": "2026-09-06T19:10:00Z",
+      "entry_price": 0.5722,
+      "qty": 867.6459,
+      "notional_usdt": 496.467,
+      "avg_entry_price": 0.5722,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "stage1_half",
+      "target": 0.68,
+      "invalidation": 0.52,
+      "planned_R": 2.07,
+      "stated_p": 0.41,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-11-01",
+      "interim_review_date": "2026-09-20",
+      "thesis": "ETH staking/restaking beta with fee switch, in a clean golden-cross state: price $0.5722 above the 50DMA ($0.476054) and 200DMA ($0.441853), moderately extended (+20.2% from the 50DMA), RSI 57.7 mid-band with room, OI strongly confirming the uptrend (7d +23.7%, 24h +0.6%), funding flat (0.01%/8h, no crowded-long risk), rvol 0.76 (mild compression). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (AM 09-06 7/10 armed -> PM 09-06 7/10 confirmed), Bearish count eased 2/10 -> 1/10 (p1 the sole Bearish flag both checkpoints, mechanical p2-10 held clean 7/9 Bullish, 0/9 Bearish both times). Sentiment (p1) read Bearish both checkpoints -- recurring euphoria-driven pattern for this ticker (whale-attention alerts, rocket emojis, breakout-momentum hype, '+87% spot almost 2x' bragging), zero capitulation offset.",
+      "thesis_test": "OI keeps expanding alongside price (not diverging); price holds above the 50DMA ($0.476054); RSI stays out of overbought (<75) as price extends toward target.",
+      "invalidation_conditions": "Price closes below $0.52 (recent consolidation support, with the 50DMA $0.476054 as further backstop) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-09-06 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (AM 09-06 7/10 armed -> PM 09-06 7/10 confirmed, 2/10 -> 1/10 Bearish, p1 the sole Bearish flag both checkpoints). Mechanical p2-10 held clean 7/9 Bullish, 0/9 Bearish both checkpoints (golden-cross, RSI mid-band, OI strongly confirming). Sole confirmed candidate this checkpoint (ONDO newly armed 7/10, first occurrence, not yet confirmed). Tier C (R=2.07, p=0.41, EV=+2.34%; Entry $0.5722, Target $0.68, Invalidation $0.52). Staged half-entry per rule: BUY 867.6459 ETHFI @ $0.5722 = $496.467 notional (5.0% of $9,929.3401 portfolio), 2026-09-06T19:10:00Z (Binance spot, same scripts/parameters.py refresh used for the checkpoint). Second half adds only if confluence holds >=7/10 at the 2026-09-07 AM checkpoint; no confirmation cuts the half. Sector Liquid Staking, previously empty on the book -- no cap conflict. No anti-churn issue (4/5 positions held pre-entry, one per sector, 4 open sectors well under caps)."
         }
       ]
     }
