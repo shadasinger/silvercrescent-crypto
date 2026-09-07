@@ -1026,3 +1026,38 @@ Confluence 7/10 Bullish, 2/10 Bearish — first occurrence this fresh sequence (
 ## SIGNAL — XRP armed — 2026-09-07 AM (first occurrence)
 
 Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this fresh sequence (PM 09-06 was 5/10, none). Mechanical p2-10 clean (6/9 Bullish, 0/9 Bearish — dev-from-50DMA +18.5% moderate, RSI 60.6 mid-band, OI confirming 7d +7.9%, funding flat). p1 sentiment read Bullish (contrarian) — flat interest, zero euphoria markers, genuine capitulation-flavored dismissal (scam/trash/manipulation accusations, price-underperformance complaints) with no euphoria offset. Not currently held. Needs PM 09-07 to confirm. 1 open slot remains in the book (4/5 positions held) if XRP confirms.
+
+## CONFIRMED ENTRY — BNB — 2026-09-07 PM (Tier B-floor, staged half)
+
+**Frozen 10-parameter table at entry (PM 09-07, confluence 7/10, 0/10 Bearish):**
+
+| # | Parameter | Label | Raw |
+|---|---|---|---|
+| p1 sentiment | Neutral | flat interest, cautious/mixed technical chatter (overbought-RSI-79.7 correction-risk calls, "bearish distribution and sell pressure") mixed with unrelated BNB-chain meme-coin shilling — no clean crowd-extreme dominance |
+| p2 DMA | Bullish | price $739.53 above 50DMA $633.9506 and 200DMA $622.0518, golden cross |
+| p3 RSI | Bullish | 66.8, upper-mid band with some room |
+| p4 rvol | Bullish | 1.40 (expansion) |
+| p5 volz | Neutral | -0.27 |
+| p6 funding | Bullish | 0.01%/8h, flat, no crowding |
+| p7 OI | Bullish | 7d +27.2%, 24h -7.2% (single-day dip on a strong weekly print) |
+| p8 stables | Bullish | +0.55%/7d |
+| p9 MVRV | Bullish | BTC 1.51, ETH 1.12 |
+| p10 F&G | Neutral | 71, +9/7d |
+
+**Both consecutive checkpoint counts:** AM 09-07 7/10 Bullish (2/10 Bearish, first occurrence — armed) → PM 09-07 7/10 Bullish (0/10 Bearish, second consecutive — confirmed). Mechanical p2-10 held clean 7/9 Bullish both checkpoints (Bearish count eased 2→0 as p1 cooled from AM's euphoria-driven Bearish read to a fresh Neutral, and p5_volz's AM Bearish flag eased to Neutral).
+
+**Expectancy sheet:** Entry $739.53, Target $851.00 (+15.07%, mid-upper end of the sentiment-cited $775-880 short-squeeze/breakout zone, taken conservatively rather than at the top of that hype-flavored range), Invalidation $695.00 (-6.02%, the approximate price level from ~7 days before this breakout leg, with the 50DMA $633.9506 as further backstop). R = 2.50. Stated p = 0.45. EV = +3.47%. Both R and p sit exactly at the Tier B floor (R≥2.5, p≥0.45) — sized at the low end of the 15-25% Tier B range (15% target) given the borderline stats; staged half now at 7.5% of $9,885.6851 portfolio = $741.4264 notional, 1.002564 BNB.
+
+**Runner-up candidates this checkpoint:** XRP also confirmed 7/10 Bullish, 0/10 Bearish this checkpoint (its own 2nd consecutive read since AM 09-07's arm) — tied with BNB for the book's one open slot. EV tie-break per Section 5 step 6: BNB +3.47% > XRP +3.27% (R=2.41, p=0.42; Entry $1.3956, Target $1.65, Invalidation $1.29). XRP loses by a narrow margin and is logged as a rejected runner-up with a virtual entry in SHADOW_BOOK.md, to be marked-to-market at the next Monday shadow-book refresh (2026-09-14).
+
+**Sizing/sector context:** Exchange sector was empty pre-entry — no sector-cap constraint. 4/5 positions held pre-entry (MORPHO, JUP, ETH, ETHFI) → 5/5 post-entry — book now at the maximum concurrent-positions hard rule (Section 3 rule 1). Post-entry sector split (of deployed capital): DeFi Lending ~11.7%, DEX ~13.5%, Major L1 ~26.9%, Liquid Staking ~27.5%, Exchange ~20.3% — five single-position sectors, each comfortably under the 50% cap.
+
+**Red-team note (see PM checkpoint report for full pass):** with F&G at 71 (Greed) and both BNB and XRP arming/confirming in the same 24-hour window, is the entry gate simply easier to clear because the regime is hot rather than either name having a genuinely strong setup? p10_fg reads Neutral for every coin this checkpoint (71 sits inside the rubric's Neutral band, not yet the >75 Bearish trigger) — it isn't inflating anyone's count. BNB's confirmation is driven by coin-specific mechanical strength (7/9 mechanical Bullish on real OI/RSI/DMA confirmation, unchanged both checkpoints) rather than a regime tailwind on the count itself. The genuine risk from the hot regime is architectural, not a gate-integrity problem: taking the book to 5/5 positions (maximum concurrent) while F&G continues climbing raises the stakes of the standing "BTC -15% overnight" pre-mortem scenario, addressed explicitly below rather than by declining the confirmed entry.
+
+## SIGNAL — AAVE armed — 2026-09-07 PM (first occurrence)
+
+Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this fresh sequence (AM 09-07 and the two checkpoints before it were 6/10, none). Mechanical p2-10 clean (7/9 Bullish, 0/9 Bearish — golden-cross, RSI 62.0 mid-band, OI confirming both windows). p1 sentiment read Neutral — flat interest, thin excitement markers ("waking up for real, this could get wild") mixed with factual UK/HMRC tax-regulation-response news, too sparse for a clean crowd-extreme read (a cooldown from PM 09-06's euphoria-dominant contrarian-Bearish read). Not currently held. Needs AM 09-08 to confirm. No open slot remains in the book post-BNB-entry (5/5 positions held, at the maximum concurrent-positions hard rule) — would need a future anti-churn win or an open slot to enter even if it confirms.
+
+## SIGNAL — ONDO armed — 2026-09-07 PM (fresh first occurrence)
+
+Confluence 7/10 Bullish, 0/10 Bearish — fresh first occurrence (the AM 09-07 lapse broke the PM 09-06 arm's sequence). Funding rolled back Neutral→Bullish this checkpoint (0.0316%/8h AM → back inside the near-zero Bullish band), reversing the single-parameter shift that caused the AM lapse. Mechanical p2-10 clean (7/9 Bullish, 0/9 Bearish). p1 sentiment read Neutral — flat interest, zero euphoria/capitulation markers, purely technical chatter (rising-wedge/bearish-breakdown setups, tokenized-stock collateral narrative). Not currently held (exited 2026-08-29). Needs AM 09-08 to confirm. No open slot remains in the book post-BNB-entry (5/5 positions held).
