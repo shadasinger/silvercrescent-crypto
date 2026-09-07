@@ -1006,3 +1006,23 @@ Mechanical parameters unchanged in shape from AM (DMA golden-state, dev-from-50D
 ## SIGNAL — ONDO armed — 2026-09-06 PM (first occurrence)
 
 Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this checkpoint (was 6/10, 2/10 Bearish at AM 09-06, no prior qualifying read to confirm against). Mechanical p2-10 improved to 7/9 Bullish, 0/9 Bearish (golden-cross clean, RSI mid-band, OI confirming both windows). p1 sentiment read Neutral — flat interest, mild dismissive/capitulation-flavored chatter ("shit token," "no value," range-bound complaints) mixed with routine technical setups and factual RWA/tokenized-collateral narrative, not a clean crowd-extreme either way. Not currently held (exited 2026-08-29, sector-cap correction, not a thesis failure). Needs AM 09-07 to confirm. 1 open slot remains in the book (4/5 positions held post-ETHFI-entry) if ONDO confirms.
+
+## STAGE-2 ADD — ETHFI — 2026-09-07 AM
+
+Confluence held **7/10 Bullish, 1/10 Bearish** at this checkpoint (second consecutive checkpoint since the PM 09-06 confirmation, held flat) — per Section 5 step 9, the second half opens at full target size on the hold.
+
+Mechanical parameters unchanged in shape from PM 09-06 (DMA golden-state, dev-from-50DMA +20.4% moderate, RSI 58.4 mid-band, funding flat, OI confirming both windows, stables/MVRV healthy); p1 sentiment held Bearish both checkpoints on the same recurring euphoria-driven pattern for this ticker (rising interest, "+90% last week," rocket emojis, 50-100% breakout targets, whale-positioning hype, zero capitulation offset) — costs nothing against the bullish count, as with the PM 09-06 confirmation itself.
+
+**Fill:** BUY 860.8757 ETHFI @ $0.5767 = $496.467 notional (matching the stage-1 half's original ~$496.467 sizing), 2026-09-07T07:20:00Z (Binance spot via `parameters.py` refresh). Position now 1728.5216 ETHFI, avg entry $0.574441, ~10.06% of portfolio ($996.84 / $9,909.77) — full target size reached. No further staging; ongoing test is the same OI/price/RSI/DMA structure through the 2026-09-20 interim review.
+
+## SIGNAL — ONDO lapsed — 2026-09-07 AM
+
+Armed at PM 09-06 (7/10, 0/10 Bearish, first occurrence) — did not hold at AM 09-07, easing to 6/10 (0/10 Bearish) as p6_funding rolled Bullish→Neutral (funding ticked up to 0.0316%/8h, into the rubric's ambiguous 0.02-0.05% Neutral band). p1 sentiment held Neutral both checkpoints — falling interest, zero euphoria/capitulation markers, purely technical/factual chatter. Second consecutive ≥7/10 checkpoint not reached — arm lapses per Section 5 step 5. Not currently held (exited 2026-08-29). Would need a fresh first-occurrence ≥7/10 read to re-arm.
+
+## SIGNAL — BNB armed — 2026-09-07 AM (first occurrence)
+
+Confluence 7/10 Bullish, 2/10 Bearish — first occurrence this fresh sequence (PM 09-06 was 5/10, none; BNB previously armed PM 09-05 and lapsed AM 09-06). Mechanical p2-10 strong (7/9 Bullish, 1/9 Bearish — p5_volz Bearish on an elevated volume z-score despite the price surge). Price structure golden-cross, dev-from-50DMA +17.5%, RSI 69.0 upper band with some room, OI strongly confirming (24h +1.7%, 7d +34.7%), funding flat. p1 sentiment read Bearish (contrarian) — rising interest, euphoria dominant (price targets $775-880, short-squeeze/breakout framing, "$140M shorts liquidated"), zero capitulation offset. Not currently held. Needs PM 09-07 to confirm. 1 open slot remains in the book (4/5 positions held) if BNB confirms.
+
+## SIGNAL — XRP armed — 2026-09-07 AM (first occurrence)
+
+Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this fresh sequence (PM 09-06 was 5/10, none). Mechanical p2-10 clean (6/9 Bullish, 0/9 Bearish — dev-from-50DMA +18.5% moderate, RSI 60.6 mid-band, OI confirming 7d +7.9%, funding flat). p1 sentiment read Bullish (contrarian) — flat interest, zero euphoria markers, genuine capitulation-flavored dismissal (scam/trash/manipulation accusations, price-underperformance complaints) with no euphoria offset. Not currently held. Needs PM 09-07 to confirm. 1 open slot remains in the book (4/5 positions held) if XRP confirms.
