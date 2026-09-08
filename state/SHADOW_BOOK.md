@@ -85,3 +85,12 @@ No confirmed candidates were rejected for a slot this week (LINK, ETH, and ETHFI
 - Confluence at rejection: 7/10 Bullish, 0/10 Bearish (mechanical p2-10: 6 Bullish/0 Bearish/3 Neutral — p2_dma Neutral since the 50DMA sits below the 200DMA, not a full golden-cross state; p1 contrarian Bullish on genuine capitulation-flavored dismissal — "unreliable shitcoin," "retail really that weak," "getting outperformed by everything" — with zero euphoria offset, the same read as its AM 09-07 arm).
 
 To be marked-to-market at the next Monday AM shadow-book refresh (2026-09-14) against its virtual target/invalidation, same as the real positions' thesis tests.
+
+## Exited-position virtual continuation — MORPHO — 2026-09-08 AM (anti-churn displacement)
+
+**First anti-churn-triggered exit this paper phase** (as opposed to a thesis-broken exit or a staged-entry non-confirmation cut) — see `JOURNAL.md` for the full exit post-mortem and the AAVE entry it funded. MORPHO's thesis was not broken (still golden-cross, invalidation $2.28 never breached, 0/10 Bearish) when it was displaced by AAVE's fresh 7/10 confirmation exceeding MORPHO's eased 5/10 by the required ≥2-parameter gap. Tracked here per Section 11.2, and specifically as a same-sector, same-day head-to-head against the position that replaced it (a cleaner comparison than the book's other shadow-book pairs, which compare against whatever the market did broadly rather than against a specific named successor):
+
+- **MORPHO** — exited 174.417 @ $2.416 (2026-09-08T07:09:00Z), avg cost $2.485638. Realized P&L -$12.1461 (-0.34R vs planned R=2.07). Virtual continuation: hold the same qty at the same cost basis forward from this timestamp, mark at each weekly refresh against the original target ($3.0066) / invalidation ($2.2795).
+- **Paired comparison — AAVE** (the anti-churn winner, real position from this checkpoint): Entry $131.06, cost basis for the paired 3.76544 AAVE half-tranche. At each weekly refresh, compare MORPHO's virtual mark-to-now against AAVE's actual realized/unrealized performance from the same 2026-09-08 AM timestamp — this is the direct test of the anti-churn hypothesis logged in `JOURNAL.md` (whether displacing an OI-softening-but-not-broken holding for a fresh higher-confluence confirmation was the right capital-velocity call).
+
+To be marked-to-market at the next Monday AM shadow-book refresh (2026-09-14) alongside the XRP rejected-candidate tracking above.

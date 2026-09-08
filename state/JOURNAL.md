@@ -1061,3 +1061,62 @@ Confluence 7/10 Bullish, 0/10 Bearish — first occurrence this fresh sequence (
 ## SIGNAL — ONDO armed — 2026-09-07 PM (fresh first occurrence)
 
 Confluence 7/10 Bullish, 0/10 Bearish — fresh first occurrence (the AM 09-07 lapse broke the PM 09-06 arm's sequence). Funding rolled back Neutral→Bullish this checkpoint (0.0316%/8h AM → back inside the near-zero Bullish band), reversing the single-parameter shift that caused the AM lapse. Mechanical p2-10 clean (7/9 Bullish, 0/9 Bearish). p1 sentiment read Neutral — flat interest, zero euphoria/capitulation markers, purely technical chatter (rising-wedge/bearish-breakdown setups, tokenized-stock collateral narrative). Not currently held (exited 2026-08-29). Needs AM 09-08 to confirm. No open slot remains in the book post-BNB-entry (5/5 positions held).
+
+## SIGNAL — ONDO lapsed — 2026-09-08 AM
+
+Armed at PM 09-07 (7/10, 0/10 Bearish, fresh first occurrence) — did not hold at AM 09-08, easing to 6/10 (0/10 Bearish) as p3_rsi rolled Bullish→Neutral (RSI eased to 54.4 on a near-flat dev-from-50DMA of +2.1%, the setup losing its mid-band strength rather than breaking down). p1 sentiment stayed Neutral (flat interest, purely technical chart chatter, no clean crowd-extreme dominance) — honestly graded Neutral rather than forced Bullish to complete a 7th parameter, per the standing guardrail against manufacturing confirmations. Arm lapses per Section 5 step 5; a fresh arm would need to restart from a new first-occurrence ≥7/10 read. Moot for slot purposes this checkpoint regardless — the book's one open slot (freed by the MORPHO anti-churn exit) went to AAVE, which did confirm; see the AAVE entry below.
+
+## EXIT POST-MORTEM — MORPHO (anti-churn displacement) — 2026-09-08 AM
+
+**P&L:** -$12.1461 realized (-0.34R vs planned R=2.07) on the full 174.417 MORPHO position, entered 2026-08-26 at an avg cost of $2.485638, exited 2026-09-08 AM at $2.416 (-2.80% over the 13-day hold). A small realized loss, not a stop-out — invalidation ($2.28) was never remotely threatened (~5.6% headroom remained at exit).
+
+**Thesis verdict:** Playing Out / Intact, right up to the exit — this was not a thesis failure. MORPHO was closed purely because Section 5 step 7's anti-churn rule permits displacing a Playing-Out/Intact holding when a confirmed candidate's confluence exceeds it by ≥2: AAVE confirmed 7/10 Bullish (0/10 Bearish) this checkpoint while MORPHO's own confluence had eased to 5/10 (0/10 Bearish) — exactly a 2-parameter gap, the minimum required. Both names sit in the same DeFi Lending sector, so this is a direct like-for-like rotation rather than a diversification or cap-driven move.
+
+**Per-parameter verdict at entry (2026-08-26 AM, confluence 7/10, 0/10 Bearish) vs. this checkpoint's exit (5/10, 0/10 Bearish):**
+- p3 RSI: Bullish (61.9) at entry → Neutral this checkpoint (51.3) — RSI drifted toward the middle of its range as the position went essentially sideways-to-down; not a breakdown signal, just lost the mid-upper-band edge that scored Bullish at entry.
+- p7 OI: Bullish (7d +41.6%) at entry → Neutral this checkpoint (24h +4.8%, 7d -7.8%) — the single biggest driver of the confluence drift. This softness was flagged as a likely `OI_HISTORY.json` rolling-window artifact repeatedly across the hold (never definitively resolved either way), consistent with the parameter scorecard's standing note that p7 is the rubric's highest-variance, most consequential single point of failure.
+- p2 DMA, p4 rvol, p6 funding, p8 stables, p9 MVRV: all stayed Bullish, unchanged — the structural/technical legs of the thesis never wavered; price stayed above both DMAs in golden-cross structure the entire hold.
+- p1 sentiment, p5 volz, p10 F&G: Neutral across most of the hold — never a swing factor either way.
+- Thesis's own named risk ("thin volume") materialized as exactly the p7/OI softness that drove the confluence gap this checkpoint — the entry thesis correctly flagged the vulnerability that ultimately triggered the anti-churn displacement, even though it never became a genuine breakdown.
+
+**p calibration:** stated p=0.40 at entry; outcome was a small negative round-trip, not a resolved bet against target or invalidation (neither was reached) — the anti-churn mechanic intervened before the probabilistic call was ever tested, consistent with most other closed legs this paper phase.
+
+**Sizing/timing verdict:** MORPHO never reached its 10% target size (capped at 4.53% historically per its `trimmed_sector_cap` stage tag, though no sector cap was actually binding this checkpoint — five single-position sectors). The undersized position limited the loss to a modest $12.15 on what was, in dollar terms, a fairly muted -2.8% move; sizing discipline did its job here regardless of the exit trigger.
+
+**Counterfactual vs. runner-ups:** AAVE, the anti-churn winner, is the same-sector deeper-liquidity blue chip MORPHO's own entry thesis explicitly named as the competitor MORPHO was "taking share from." No other candidate competed for this slot this checkpoint (ONDO armed at PM 09-07 lapsed to 6/10 before it could confirm). Tracked as a virtual continuation in `SHADOW_BOOK.md` against AAVE's actual performance from this point forward — the cleanest head-to-head comparison the shadow book has run yet (same sector, same-day rotation, not a staged-entry non-confirmation or a thesis-broken exit).
+
+**One testable lesson:** this is the paper phase's first anti-churn displacement of a Playing-Out/Intact holding (as opposed to a thesis-broken exit or a staged-entry non-confirmation cut) — worth tracking as its own category going forward. Hypothesis: a displacement triggered by the *displaced* position's OI softening (rather than the *entering* candidate's outright strength) may be more prone to false-negative regret than one triggered by a genuinely superior new setup, since OI softness has repeatedly proven noisy/rolling-window-prone in this book's own parameter scorecard. The MORPHO/AAVE shadow-book pair over the next few weeks is the direct test.
+
+## CONFIRMED ENTRY — AAVE — 2026-09-08 AM (Tier C, staged half, anti-churn displacement)
+
+**Frozen 10-parameter table at entry (AM 09-08, confluence 7/10, 0/10 Bearish):**
+
+| # | Parameter | Label | Raw |
+|---|---|---|---|
+| p1 sentiment | Neutral | flat interest, zero euphoria/capitulation markers — purely factual protocol news (V4 rewards live, deposits crossing $600M, BTC-collateral testing, scattered whale-buy mentions) |
+| p2 DMA | Bullish | price $131.06 above 50DMA $106.334 and 200DMA $97.016, golden cross, dev +23.3% |
+| p3 RSI | Bullish | 61.1, mid-band with room |
+| p4 rvol | Bullish | 0.49 (compression/setup) |
+| p5 volz | Neutral | -1.02 |
+| p6 funding | Bullish | 0.01%/8h, flat, no crowding |
+| p7 OI | Bullish | 7d +5.1%, 24h -3.0% (single-day dip on an otherwise-positive weekly print) |
+| p8 stables | Bullish | +0.53%/7d |
+| p9 MVRV | Bullish | BTC 1.49, ETH 1.10 |
+| p10 F&G | Neutral | 69, +0/7d |
+
+**Both consecutive checkpoint counts:** PM 09-07 7/10 Bullish (0/10 Bearish, first occurrence — armed) → AM 09-08 7/10 Bullish (0/10 Bearish, second consecutive — confirmed). Mechanical p2-10 held clean 7/9 Bullish both checkpoints; p1 stayed Neutral both times (a cooldown from PM 09-06's euphoria-driven Bearish read, per the SIGNAL log).
+
+**Expectancy sheet:** Entry $131.06, Target $154.50 (+17.88%, a conservative ~18% swing target consistent with this book's typical Tier C sizing given no explicit sentiment-cited resistance zone was found — price has been broadly range-extending on the V4-deposits catalyst), Invalidation $120.00 (-8.44%, the approximate consolidation zone from the prior week before the latest advance leg, with the 50DMA $106.334 as further backstop). R = 2.12. Stated p = 0.42. EV = +2.61%. Tier C (R≥2, p≥0.40) — sized at the standard 10% target consistent with MORPHO/JUP/ETHFI's own Tier C sizing; staged half now at 5.0% of $9,869.9711 portfolio = $493.4986 notional, 3.76544 AAVE.
+
+**Anti-churn justification (Section 5 step 7):** the book was at 5/5 positions (maximum concurrent) pre-checkpoint with no staged-entry non-confirmation freeing a slot. AAVE's confluence (7, 0 Bearish) exceeds the weakest Playing-Out/Intact holding, MORPHO (5, 0 Bearish), by exactly the required ≥2-parameter gap — the minimum threshold, not a blowout. Both names are DeFi Lending, so this is a like-for-like sector rotation, not a diversification play: AAVE is the deeper-liquidity blue chip (vol/mcap 0.15 per its watchlist entry) that MORPHO's own thesis named as the incumbent it was "taking share from," while MORPHO's own thesis separately flagged thin volume as its standing risk — the OI softness that drove its confluence drift this checkpoint is exactly that risk materializing (see the MORPHO exit post-mortem above for the full per-parameter breakdown).
+
+**Runner-up candidates this checkpoint:** none — AAVE was the sole coin reaching 7/10 this checkpoint (ONDO, PM 09-07's other arm, lapsed to 6/10 before it could confirm; see the SIGNAL log above). No EV tie-break needed.
+
+**Red-team pass:** Three objections considered before executing.
+1. *Is this genuine signal or noise-driven churn?* MORPHO's thesis is not broken (still golden-cross, invalidation untouched, 0/10 Bearish) — displacing it purely on a 2-point confluence gap risks reacting to day-to-day parameter noise (p3 RSI and p7 OI both softened, and OI has read mixed/soft on MORPHO for multiple recent checkpoints, flagged repeatedly as a possible rolling-window artifact that never fully resolved). Counter: the anti-churn rule was written explicitly to permit exactly this kind of capital-velocity rotation at a ≥2 gap — refusing to ever use it defeats its purpose, and MORPHO's own entry thesis independently named the exact vulnerability (thin volume/liquidity) that is now showing up as OI softness.
+2. *Same-sector concentration risk.* Rotating MORPHO→AAVE keeps DeFi Lending at exactly one position (no net sector-count change) but makes the book's DeFi Lending exposure entirely dependent on one thesis (institutional/RWA-adjacent lending demand) rather than diversified across two related-but-distinct plays. Accepted as a reasonable tradeoff — AAVE is the structurally stronger, deeper-liquidity name of the two, and Hard Rule 8 (max 2/5 positions, ≤50% capital per sector) is nowhere close to binding with a single position.
+3. *Realizing a loss to fund a marginal-edge entry.* The MORPHO exit locks in a small realized loss (-$12.15, -0.34R) rather than waiting for the 2026-09-09 interim review date (one day out) where a Stalled-designation trim might have applied more gradually. Counter: the entry gate's 2-consecutive-checkpoint confirmation is time-sensitive by design (Section 9: "action bias is your enemy," but so is *inaction* bias once a candidate has genuinely cleared the bar) — delaying AAVE's entry by a day to avoid a small realized loss on MORPHO would be optimizing for paper-loss-aversion over the stated capital-velocity rule.
+
+Net: proceed. The gap is real (not forced), the rotation is sector-neutral and thesis-coherent (challenger → incumbent within the same narrative), and the realized loss is small and within normal expectancy variance.
+
+**Sizing/sector context:** DeFi Lending sector unchanged at one position (MORPHO's slot passed directly to AAVE). Post-trade sector split (of deployed capital): DEX ~4.9%, Major L1 ~9.9%, Liquid Staking ~10.2%, Exchange ~15.1%, DeFi Lending ~5.0% (staged half) — five single-position sectors, all comfortably under the 50% cap. Book remains at 5/5 positions (maximum concurrent, Hard Rule 1).
