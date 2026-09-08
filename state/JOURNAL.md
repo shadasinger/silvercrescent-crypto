@@ -1120,3 +1120,23 @@ Armed at PM 09-07 (7/10, 0/10 Bearish, fresh first occurrence) — did not hold 
 Net: proceed. The gap is real (not forced), the rotation is sector-neutral and thesis-coherent (challenger → incumbent within the same narrative), and the realized loss is small and within normal expectancy variance.
 
 **Sizing/sector context:** DeFi Lending sector unchanged at one position (MORPHO's slot passed directly to AAVE). Post-trade sector split (of deployed capital): DEX ~4.9%, Major L1 ~9.9%, Liquid Staking ~10.2%, Exchange ~15.1%, DeFi Lending ~5.0% (staged half) — five single-position sectors, all comfortably under the 50% cap. Book remains at 5/5 positions (maximum concurrent, Hard Rule 1).
+
+## EXIT POST-MORTEM — AAVE — 2026-09-08 PM (staged-entry non-confirmation)
+
+**P&L:** -$7.0414 realized on the 3.76544 AAVE half-tranche (entry $131.06, exit $129.19, -1.43%). Realized R -0.169 vs planned R=2.12 (a small loss on a fraction of a full position; the second half was never opened).
+
+**Thesis verdict:** Playing Out / Intact at exit — this was not a thesis failure and not a Bearish-count trigger (0/10 Bearish at both the AM 09-08 entry and this PM 09-08 exit). AAVE was closed purely because Section 5's staged-entry mechanic requires confluence to hold ≥7/10 at the immediate next trading checkpoint to justify adding the second half; it eased to 6/10 instead. Per the standing rule (applied identically to LINK on 2026-09-05 PM and ETH on 2026-09-05 AM), no confirmation at that checkpoint means the half is cut, not carried forward to wait for a later recovery.
+
+**Per-parameter verdict at entry (AM 09-08, confluence 7/10, 0/10 Bearish) vs. this checkpoint's exit (6/10, 0/10 Bearish):**
+- p7 OI: Bullish (7d +5.1%, 24h -3.0%) at entry → Neutral this checkpoint (24h -2.1%, 7d -1.6%) — the sole parameter that flipped, and the entire driver of the confluence drop. A mixed-soft two-window read rather than a genuine reversal; this is the same OI-metric fragility flagged repeatedly in this book's parameter scorecard (MORPHO's own exit post-mortem immediately above names the identical failure mode).
+- p2 DMA, p3 RSI, p4 rvol, p6 funding, p8 stables, p9 MVRV: all stayed Bullish, unchanged — golden-cross structure, RSI mid-band (59.0), and funding/stablecoin/MVRV backdrop never wavered across the one-checkpoint hold.
+- p1 sentiment, p5 volz, p10 F&G: Neutral at both checkpoints — never a swing factor.
+- No thesis-test condition was breached (invalidation $120.00 never approached within ~7.5%; RSI never overbought).
+
+**p calibration:** stated p=0.42 at entry; the position was closed before the probabilistic bet against target/invalidation was ever tested — the staged-entry mechanic intervened on a single-parameter wobble, consistent with the LINK/ETH precedents from 2026-09-05.
+
+**Sizing/timing verdict:** the staged-entry rule did exactly what it is designed to do — capped downside to a half-size tranche ($493.50 notional, 5.0% of portfolio) and a modest $7.04 loss rather than committing the full 10% target size on a read that didn't hold for even one additional checkpoint.
+
+**Counterfactual vs. runner-ups:** no competing candidate existed at entry (AAVE was the sole confirmed candidate via anti-churn displacement of MORPHO). ONDO, this same PM 09-08 checkpoint's fresh arm at 7/10 (0/10 Bearish), is the closest live comparison — logged as newly armed, not yet a confirmed alternative. Tracked for the next Monday (2026-09-14) shadow-book weekly refresh alongside the other staged-entry cuts.
+
+**One testable lesson:** this is the third staged-entry non-confirmation cut driven specifically by a single p7_oi flip (Bullish→Neutral on a mixed 24h/7d read), following ETH and LINK's own 2025-09-05 cuts (though those were driven by p2_dma overextension, not p7_oi). Given the parameter scorecard's standing note that OI is the rubric's highest-variance single point of failure (also named in the MORPHO exit above, same checkpoint), this strengthens the case for the next monthly review to examine whether p7_oi's Hyperliquid-fallback-sourced 24h/7d dual-window read is unusually prone to flipping a position's confluence by exactly one parameter — right at the margin of the 7/10 gate — more often than the other eight parameters combined.

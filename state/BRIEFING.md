@@ -1,19 +1,18 @@
-BRIEFING — 2026-09-08 MID
+BRIEFING — 2026-09-08 PM
 
 Top 5 considerations:
-1. AAVE — confluence 7/10 — confirmed and entered this AM via anti-churn (replaced MORPHO); staged half-position live, second half adds only if confluence holds ≥7/10 at the PM checkpoint.
-2. BNB — confluence 7/10 — stage-2 add completed this AM, now full ~15% target size; clean 0/10 Bearish read.
-3. ETH — confluence 7/10 — held at full size; clean 0/10 Bearish but tightest invalidation cushion on the book (~5%).
-4. ETHFI — confluence 7/10 — held at full size; sentiment is the lone Bearish flag every checkpoint, otherwise clean.
-5. JUP — confluence 7/10 — conviction upgraded to Strengthening as prior overextension unwinds; size still partial (~5%) after repeated sector-cap trims.
+1. ETH — confluence 7/10 — golden-cross, OI confirming, 0 Bearish; held at full size, ~5.4% invalidation cushion is the tightest on the book.
+2. BNB — confluence 7/10 — clean uptrend continuation, OI strongly confirming, 0 Bearish; held at full size, ~7.4% cushion.
+3. ONDO — confluence 7/10 — ARMED (first occurrence, RSI firmed back to Bullish); needs one more ≥7/10 read at AM 09-09 to confirm entry.
+4. JUP — confluence 7/10 — held; overextension from early Sept fully unwound, conviction eased to Intact; widest cushion on the book (~17.8%).
+5. SOL — confluence 6/10 — not held; sentiment stuck Neutral on memecoin-adjacent hype disambiguation, needs OI or volume to flip Bullish to reach the gate.
 
 Holdings:
-JUP | 4.9% | entry $0.2176 -> now $0.2412 | +10.9% | +$0.024/coin | position P&L +$47.08
-ETH | 9.9% | entry $2500.10 -> now $2473.98 | -1.0% | -$26.12/coin | position P&L -$10.32
-ETHFI | 10.2% | entry $0.5744 -> now $0.5906 | +2.8% | +$0.016/coin | position P&L +$27.93
-BNB | 15.1% | entry $744.51 -> now $752.62 | +1.1% | +$8.11/coin | position P&L +$16.16
-AAVE | 5.0% | entry $131.06 -> now $129.25 | -1.4% | -$1.81/coin | position P&L -$6.82
+JUP | 4.81% | entry $0.2176 -> now $0.2392 | +9.9% | +$0.0216/coin | position P&L +$43.10
+ETH | 9.92% | entry $2500.10 -> now $2488.32 | -0.5% | -$11.78/coin | position P&L -$4.65
+ETHFI | 10.63% | entry $0.5744 -> now $0.6093 | +6.1% | +$0.0349/coin | position P&L +$60.25
+BNB | 15.08% | entry $744.51 -> now $750.22 | +0.8% | +$5.71/coin | position P&L +$11.38
 
-Portfolio: $9,880.11 (-1.2% / -$119.89 since inception)
-Regime: Fear & Greed 69 (flat, Δ7d 0, Greed but not overheated) | stablecoin supply +0.53%/7d (still growing) | MVRV BTC 1.49 / ETH 1.10 (healthy, sub-2 band).
-Watchlist: no changes (1/5 slot-change budget used this week; MORPHO re-reviewed after its exit unlocked it from rotation — catalysts intact, stays on the list).
+Portfolio: $9,909.11 (-0.91% / -$90.89 since inception)
+Regime: Fear & Greed 69 (flat, Greed but below the 75 overheat line), stablecoin supply still growing (+0.58%/7d), MVRV healthy (BTC 1.49 / ETH 1.10).
+Pre-mortem: BTC -15% overnight would hit all 4 holdings via BTC-beta — ETH's tight ~5.4% cushion likely trips first; no proactive de-risk taken, invalidation levels are the designed response, cash (~59.6%) is the buffer.
