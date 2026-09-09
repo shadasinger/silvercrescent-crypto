@@ -1,8 +1,8 @@
 {
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
-  "cash_usdt": 5902.5431,
-  "portfolio_value_usdt": 9983.1087,
+  "cash_usdt": 5407.7304,
+  "portfolio_value_usdt": 9896.2535,
   "positions": [
     {
       "ticker": "JUP",
@@ -12,7 +12,7 @@
       "qty": 1990.8364,
       "notional_usdt": 437.81,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 5.03,
+      "size_pct_current": 4.99,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -145,6 +145,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (2/10 Bearish)",
           "action": "HOLD, no changes -- full target size already reached. Price $0.2521 (+15.88% vs avg entry $0.217553, +5.39% vs PM 09-08 close $0.2392), a strong continued move. Dev-from-50DMA stretched to +26.0% -- back past the 25% overextension line, flipping p2_dma Bullish->Bearish again (echoing the early-September episode, which unwound within two checkpoints without ever threatening the trim gate). RSI 60.1 mid-band, comfortably under 75. rvol 1.53 (expansion) still reads Bullish per the breakout branch. Funding flat (0.01%/8h). OI very strongly confirming (24h +0.2%, 7d +65.0%). Invalidation $0.203 not breached (~24.2% headroom, the widest on the book). Sentiment (p1) read Bearish -- same recurring euphoria pattern (price targets $0.255-$0.275, rocket emojis, 'WE ARE GOING TO EXPLODE', 'always bullish on JUP'), zero capitulation offset. Confluence eased 7/10(0 Bearish) PM 09-08 -> 6/10(2 Bearish: p1 + fresh p2_dma overextension) AM 09-09 -- still well short of the >=4/10-for-1-checkpoint trim gate. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-09-09 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- full target size already reached. Price $0.2478 (-0.31% vs AM close $0.2521, +13.90% vs avg entry $0.217553). Dev-from-50DMA eased to +23.9% -- back under the 25% overextension line (from AM's +26.0%), p2_dma flipped Bearish->Bullish -- the same unwind-within-two-checkpoints pattern as JUP's own early-September overextension episode. RSI 59.1 mid-band, comfortably under 75. rvol 1.53 (expansion) still reads Bullish per the breakout branch. Funding flat (0.01%/8h). OI very strongly confirming (24h +5.1%, 7d +60.2%). Invalidation $0.203 not breached (~22.4% headroom, the widest on the book). Sentiment (p1) cooled to Neutral -- zero euphoria/capitulation markers this checkpoint, purely factual trade-setup talk (specific entries/targets, a leveraged-long position note), a genuine break from the recurring euphoria-dominant pattern flagged nearly every checkpoint of this hold. Confluence improved 6/10(2 Bearish) AM -> 7/10(0 Bearish) PM. Thesis stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue post-TRX-entry (DEX/JUP ~10.99% of the five-position deployed base, well under the 50% cap)."
         }
       ]
     },
@@ -156,7 +163,7 @@
       "qty": 0.39502,
       "notional_usdt": 987.5892,
       "avg_entry_price": 2500.099323,
-      "size_pct_current": 9.94,
+      "size_pct_current": 9.89,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 2900.0,
@@ -219,6 +226,13 @@
           "conviction": "Intact",
           "confluence": "7/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- full target size already reached. Price $2512.82 (+0.51% vs avg entry $2500.099323, +0.99% vs PM 09-08 close $2488.32), still golden-cross (dev-from-50DMA +17.4%, comfortably under the 25% overextension line). RSI 64.6 mid-band with room. p5_volz flipped Bullish->Bearish this checkpoint (volume z -1.25 in an active uptrend -- the rubric's literal 'no conviction' branch). OI still confirming both windows (24h +4.2%, 7d +13.4%), funding flat. Invalidation $2355 not breached (~6.7% headroom, still the tightest cushion on the book). Sentiment (p1) read Neutral -- flat interest, zero euphoria/capitulation markers, narrative purely factual (quantum-resistance roadmap discussion, EIP evaluations, neutral price framing around $2500). Confluence held at 7/10 (0->1/10 Bearish). Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-09-09 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- full target size already reached. Price $2478.91 (-0.85% vs avg entry $2500.099323, -1.35% vs AM close $2512.82), still golden-cross (dev-from-50DMA +15.9%, comfortably under the 25% overextension line). RSI 62.2 mid-band with room. p5_volz cleared back to Neutral this checkpoint. OI still confirming both windows (24h +0.7%, 7d +11.2%), funding flat. Invalidation $2355 not breached (~4.98% headroom, still the tightest cushion on the book). Sentiment (p1) read Neutral -- flat interest, genuinely mixed (euphoria: $3500-4000 price targets, bullish-flag chart calls; capitulation: short trade setups, an anonymous 11k-ETH sale report) -- no clean dominance. Confluence held at 7/10, improved to 0/10 Bearish (from AM's 1/10). Thesis stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue post-TRX-entry: Major L1 now holds two positions (ETH + TRX), ~32.84% of the five-position deployed base, well under the 50% cap and within the 2-of-5-positions-per-sector limit."
         }
       ]
     },
@@ -230,7 +244,7 @@
       "qty": 1728.5216,
       "notional_usdt": 996.84,
       "avg_entry_price": 0.574441,
-      "size_pct_current": 10.80,
+      "size_pct_current": 10.58,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 0.68,
@@ -286,6 +300,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (3/10 Bearish)",
           "action": "HOLD, no changes -- full target size already reached. Price $0.6239 (+8.61% vs avg entry $0.574441, +2.39% vs PM 09-08 close $0.6093). Dev-from-50DMA deepened to +28.6% (from PM's +26.4%) -- still past the 25% overextension line, p2_dma stays Bearish. RSI 65.3 mid-upper band, still under 75. p5_volz flipped Bullish->Bearish this checkpoint (volume z -1.27, the same 'no conviction in a rally' pattern flagged on ETH/BNB this checkpoint) -- Bearish count has now climbed three checkpoints straight (1 -> 2 -> 3/10: PM 09-07 -> PM 09-08 -> AM 09-09). Funding flat. OI still strongly confirming (24h +14.0%, 7d +30.6%). Invalidation $0.52 not breached (~19.9% headroom). Sentiment (p1) held Bearish -- same recurring euphoria pattern (rocket emojis, +42%/50-100%-move price targets, bullish-pennant continuation), zero capitulation offset, flagged every checkpoint of this hold. Confluence held at 6/10 (2->3/10 Bearish) -- still short of the >=4/10-for-1-checkpoint trim gate, but this is now the primary watch item on the book: unlike JUP's own overextension episode (which peaked and unwound within two checkpoints), ETHFI's overextension is deepening rather than reversing, and the Bearish count is trending up rather than oscillating. Thesis stays Playing Out, conviction stays Intact for now -- hold, no changes, but flagged explicitly for close attention at PM 09-09: a further Bearish-count rise to >=4 would trigger a trim-half review."
+        },
+        {
+          "checkpoint": "2026-09-09 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- full target size already reached. Price $0.6060 (+5.48% vs avg entry $0.574441, -2.87% vs AM close $0.6239). Dev-from-50DMA eased sharply to +25.0% (right at the overextension line, down from AM's +28.6%) -- the deepening-overextension watch item flagged at AM has reversed into an unwind this checkpoint, p2_dma flipped back Bullish, echoing JUP's own early-September overextension-then-unwind pattern rather than continuing to deepen. RSI 62.8 mid-upper band, comfortably under 75. p5_volz cleared back to Neutral. Funding flat. OI still strongly confirming (24h +4.3%, 7d +32.2%). Invalidation $0.52 not breached (~14.2% headroom). Sentiment (p1) cooled to Neutral -- zero euphoria/capitulation markers this checkpoint, purely technical/factual talk (rewards-vote mechanics, whale-position brags, bullish-pennant chart calls without hype language), a genuine break from six straight checkpoints of euphoria-dominant Bearish reads. Confluence improved 6/10(3 Bearish) AM -> 7/10(0 Bearish) PM -- the sharpest single-checkpoint clean-up on the book this run, resolving the standing watch item. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -297,7 +318,7 @@
       "qty": 1.991726,
       "notional_usdt": 1482.8526,
       "avg_entry_price": 744.5063,
-      "size_pct_current": 15.10,
+      "size_pct_current": 14.89,
       "target_size_pct": 15.0,
       "stage": "full_target",
       "target": 851.0,
@@ -339,6 +360,45 @@
           "conviction": "Intact",
           "confluence": "6/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- full target size already reached. Price $756.95 (+1.67% vs avg entry $744.5063, +0.90% vs PM 09-08 close $750.22), still golden-cross (dev-from-50DMA +18.0%, comfortably under the 25% overextension line). RSI 70.1, right at the top edge of the 55-70 Bullish band -- reads Neutral (borderline, not overheated). p5_volz flipped Bullish->Bearish this checkpoint (volume z -1.21 in an active uptrend, the same 'no conviction' pattern flagged on ETH/ETHFI this checkpoint). Funding flat (0.01%/8h). OI still confirming (24h -1.1%, 7d +27.8%). Invalidation $695.00 not breached (~8.9% headroom). Sentiment (p1) read Neutral -- falling interest, zero euphoria/capitulation markers, scattered low-engagement chatter not genuinely BNB-specific. Confluence eased 7/10(0 Bearish) PM 09-08 -> 6/10(1 Bearish) AM 09-09. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-09-09 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- full target size already reached. Price $739.90 (-0.62% vs avg entry $744.5063, -2.25% vs AM close $756.95), still golden-cross (dev-from-50DMA +15.4%, comfortably under the 25% overextension line). RSI 64.4 mid-band with room, cooled from AM's borderline 70.1. p5_volz cleared back to Neutral this checkpoint. Funding flat (-0.0013%/8h, immaterial). OI still confirming 7d (+29.2%) despite a 24h dip (-4.8%). Invalidation $695.00 not breached (~6.1% headroom). Sentiment (p1) read Neutral -- flat interest, mild euphoria (rocket emojis, bStocks-meta live) alongside mild capitulation-flavored grumbling ('BNB szn never lasts'), narrative shifting toward RWA/bStocks fundamentals over hype, no clean dominance. Confluence improved 6/10(1 Bearish) AM -> 7/10(0 Bearish) PM. Thesis stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue post-TRX-entry (Exchange/BNB ~32.83% of the five-position deployed base, well under the 50% cap)."
+        }
+      ]
+    },
+    {
+      "ticker": "TRX",
+      "sector": "Major L1",
+      "entry_utc": "2026-09-09T19:10:00Z",
+      "entry_price": 0.3398,
+      "qty": 1456.1881,
+      "notional_usdt": 494.8127,
+      "avg_entry_price": 0.3398,
+      "size_pct_current": 5.00,
+      "target_size_pct": 10.0,
+      "stage": "half_open",
+      "target": 0.378,
+      "invalidation": 0.322,
+      "planned_R": 2.15,
+      "stated_p": 0.42,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-11-04",
+      "interim_review_date": "2026-09-23",
+      "thesis": "Stablecoin-settlement-rails major back at confluence following the live 2026-09-09 Cboe TRXS staked-TRX ETF launch (Canary Capital), a genuine dated institutionalization catalyst: price $0.3398, low-vol/low-beta profile (only +2.1% above the 50DMA $0.33265, +4.4% above the 200DMA $0.325559), RSI 57.9 mid-band with room, funding flat (0.0067%/8h, no crowded-long risk), OI immaterial to the gate (24h -0.5%, 7d -9.4%, both mild). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (AM 09-09 7/10 armed -> PM 09-09 7/10 confirmed), 0/10 Bearish both checkpoints -- mechanical p2-10 held clean 6/9 Bullish both checkpoints (p7_oi Neutral throughout, immaterial mixed-window OI read). Sentiment (p1) flipped Neutral -> Bullish at AM 09-09 and held Bullish this checkpoint: rising interest with euphoria markers read as factual catalyst coverage of the ETF launch and TRON Inc./TRXS dual-structure narrative rather than manic crowd hype, zero capitulation -- improving interest without euphoria, the clean Bullish branch of the rubric. Sole confirmed candidate this checkpoint (PYTH newly armed 7/10, first occurrence, not yet confirmed).",
+      "thesis_test": "OI stabilizes or turns positive as ETF-driven institutional flow builds; price holds above the 50DMA ($0.33265); RSI stays out of overbought (<75) as price extends toward target.",
+      "invalidation_conditions": "Price closes below $0.322 (just under the 200DMA $0.325559, the structural golden-cross backstop) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-09-09 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (AM 09-09 7/10 armed -> PM 09-09 7/10 confirmed, 0/10 Bearish both checkpoints). Sole confirmed candidate this checkpoint (PYTH newly armed 7/10, first occurrence, not yet confirmed). Tier C (R=2.15, p=0.42, EV=+1.68%; Entry $0.3398, Target $0.378, Invalidation $0.322 -- tight bands consistent with TRX's low-vol/low-beta profile, sized off the 200DMA as structural support). Staged half-entry per rule: BUY 1456.1881 TRX @ $0.3398 = $494.8127 notional (5.0% of $9,896.2535 portfolio), 2026-09-09T19:10:00Z (Binance spot, same scripts/parameters.py refresh used for the checkpoint). Second half adds only if confluence holds >=7/10 at the 2026-09-10 AM checkpoint; no confirmation cuts the half. Sector Major L1 already held via ETH -- post-entry Major L1 holds 2 of 5 positions (within the Section 3 rule 8 max-2-per-sector limit) at ~32.84% of deployed capital (within the <=50%-of-deployed-capital-per-sector cap). No anti-churn issue: this was the book's one open slot (4/5 -> 5/5, now at maximum concurrent positions), not a displacement."
         }
       ]
     }

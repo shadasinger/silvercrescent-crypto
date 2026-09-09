@@ -1140,3 +1140,35 @@ Net: proceed. The gap is real (not forced), the rotation is sector-neutral and t
 **Counterfactual vs. runner-ups:** no competing candidate existed at entry (AAVE was the sole confirmed candidate via anti-churn displacement of MORPHO). ONDO, this same PM 09-08 checkpoint's fresh arm at 7/10 (0/10 Bearish), is the closest live comparison — logged as newly armed, not yet a confirmed alternative. Tracked for the next Monday (2026-09-14) shadow-book weekly refresh alongside the other staged-entry cuts.
 
 **One testable lesson:** this is the third staged-entry non-confirmation cut driven specifically by a single p7_oi flip (Bullish→Neutral on a mixed 24h/7d read), following ETH and LINK's own 2025-09-05 cuts (though those were driven by p2_dma overextension, not p7_oi). Given the parameter scorecard's standing note that OI is the rubric's highest-variance single point of failure (also named in the MORPHO exit above, same checkpoint), this strengthens the case for the next monthly review to examine whether p7_oi's Hyperliquid-fallback-sourced 24h/7d dual-window read is unusually prone to flipping a position's confluence by exactly one parameter — right at the margin of the 7/10 gate — more often than the other eight parameters combined.
+
+## CONFIRMED ENTRY — TRX — 2026-09-09 PM (Tier C, staged half)
+
+**Frozen 10-parameter table at entry (PM 09-09, confluence 7/10, 0/10 Bearish):**
+
+| # | Parameter | Label | Raw |
+|---|---|---|---|
+| p1 sentiment | Bullish | rising interest, euphoria markers read as factual catalyst coverage of the live Cboe TRXS staked-TRX ETF launch (Canary Capital) and TRON Inc./TRXS dual-structure narrative rather than manic crowd hype, zero capitulation — improving interest without euphoria around a genuine dated catalyst |
+| p2 DMA | Bullish | price $0.3398 above 50DMA $0.33265 and 200DMA $0.325559, golden cross, dev only +2.1% — low-vol/low-beta profile |
+| p3 RSI | Bullish | 57.9, mid-band with room |
+| p4 rvol | Bullish | 0.58 (compression/setup) |
+| p5 volz | Neutral | -0.88 |
+| p6 funding | Bullish | 0.0067%/8h, flat, no crowding |
+| p7 OI | Neutral | 24h -0.5%, 7d -9.4% — mild mixed read, immaterial to the gate |
+| p8 stables | Bullish | +0.58%/7d |
+| p9 MVRV | Bullish | BTC 1.47, ETH 1.10 |
+| p10 F&G | Neutral | 66, +3/7d |
+
+**Both consecutive checkpoint counts:** AM 09-09 7/10 Bullish (0/10 Bearish, first occurrence — armed) → PM 09-09 7/10 Bullish (0/10 Bearish, second consecutive — confirmed). Mechanical p2-10 held clean 6/9 Bullish, 0/9 Bearish both checkpoints (p7_oi Neutral throughout); p1 sentiment is what tipped the gate both times, flipping from its long-standing Neutral read to Bullish specifically around the dated ETF-launch catalyst.
+
+**Expectancy sheet:** Entry $0.3398, Target $0.378 (+11.24%), Invalidation $0.322 (-5.24%, set just under the 200DMA $0.325559 as the structural golden-cross backstop) — deliberately tight bands reflecting TRX's low-vol/low-beta profile (only +2.1% above its own 50DMA at entry, the tightest extension of any position on the book). R = 2.15. Stated p = 0.42. EV = +1.68%. Tier C (R≥2, p≥0.40) — sized at the standard 10% target; staged half now at 5.0% of $9,896.2535 portfolio = $494.8127 notional, 1456.1881 TRX.
+
+**Runner-up candidates this checkpoint:** PYTH newly armed at 7/10 (0/10 Bearish) — first occurrence, not yet confirmed (needs AM 09-10 to confirm). No EV tie-break needed since PYTH did not confirm this checkpoint. Book was at 4/5 positions pre-checkpoint (one open slot) — TRX fills it directly, no anti-churn displacement required.
+
+**Red-team pass:** Three objections considered before executing.
+1. *Is the ETF-launch catalyst genuinely durable, or a one-day news spike?* The Cboe TRXS staked-TRX ETF launched today (09-09) — the euphoria markers observed are explicitly catalyst-linked (ETF-listing coverage, TRON Inc./TRXS dual-structure discussion) rather than generic price-target hype, and this same factual-coverage read held across both the AM armed checkpoint and this PM confirmation, giving two independent data points rather than a single-day spike. Counter-risk: once the launch-day news cycle fades, p1 could just as quickly revert to its long-standing Neutral baseline, which would drop TRX to 6/10 — the position is already staged (half-size) specifically to manage this risk, and the second half explicitly requires the read to hold one more checkpoint.
+2. *R:R math is thin for the confluence spent.* TRX's low volatility genuinely constrains the achievable R — a wider, more typical Tier-C target (15-20%) was not defensible against TRX's own price history (only +4.5% over the past 7 days), so both target and invalidation were compressed to stay proportional. R=2.15 clears the 2.0 floor but with little margin; a larger adverse slippage on the actual fill would have failed the gate entirely. Accepted — the floor is the floor, and forcing a wider target purely to build R margin would fabricate an unrealistic price target for a genuinely low-beta asset.
+3. *Sector concentration.* TRX shares Major L1 with the held ETH position, taking that sector to 2 of 5 positions (~32.84% of deployed capital) — within both the max-2-per-sector and the 50%-of-deployed-capital caps, but now the book's largest single-sector concentration. Accepted — both names have genuinely distinct theses (ETH settlement-layer/RWA vs. TRX stablecoin-rails/ETF-institutionalization) and the cap is nowhere close to binding.
+
+Net: proceed with a staged half-entry. The catalyst is real and dated, the expectancy math clears the floor (if narrowly), and sector/position limits are respected with room to spare.
+
+**Sizing/sector context:** Post-trade sector split (of deployed capital): DEX (JUP) ~10.99%, Major L1 (ETH+TRX) ~32.84%, Liquid Staking (ETHFI) ~23.34%, Exchange (BNB) ~32.83% — four sectors, Major L1 now two positions, all comfortably under the 50% cap. Book now at 5/5 positions, maximum concurrent per Hard Rule 1.
