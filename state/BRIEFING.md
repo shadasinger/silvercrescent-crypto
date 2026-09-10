@@ -1,18 +1,16 @@
-BRIEFING — 2026-09-10 MID
+BRIEFING — 2026-09-10 PM
 Top 5 considerations:
-1. TRX — confluence 7/10 (0 Bearish) — full target size now (stage-2 add on the live Cboe TRXS staked-ETF catalyst); confluence clean, nothing missing.
-2. ETHFI — confluence 6/10 (3 Bearish) — held, full target; overextension and euphoria-driven sentiment both resurfaced overnight — a rise to 4 Bearish next checkpoint would trigger a trim review.
-3. JUP — confluence 6/10 (0 Bearish) — held, full target; eased on an overnight pullback but stays clean of Bearish flags, golden-cross intact.
-4. ETH — confluence 6/10 (1 Bearish) — held, full target; OI-vs-price divergence flagged, tightest invalidation cushion on the book (~5%).
-5. PYTH — confluence 6/10 — arm lapsed at AM (needed a 2nd consecutive ≥7/10 to confirm); sentiment cooled from rising to flat, an honest non-forced miss.
-
+1. TRX — confluence 7/10 — cleanest read on the book; low-beta, flat price, live Cboe Staked-TRX ETF event lands tomorrow (Sept 11). Held at full target, no action needed.
+2. ETH — confluence 6/10 — golden-cross intact, only OI/price divergence (1 Bearish) holds it under 7. Held at full target.
+3. FIL — confluence 6/10 — clean mechanical read, factual AI-storage narrative; not armed (would need 2 consecutive ≥7/10 reads and a slot — book is full).
+4. ETHFI — confluence 5/10 (2 Bearish) — up +22% since entry, but now the book's most overextended position (43% above 50DMA, RSI 73.5, nearing overbought). Primary watch item; held, no action yet.
+5. BNB — confluence 5/10 (1 Bearish) — invalidation cushion compressed to ~2.6%, tightest on the book. Held; would exit immediately (no wait) if $695 breaks.
 Holdings:
-JUP | 4.57% | entry $0.2176 -> now $0.2247 | +3.3% | +$0.0071 per coin | position P&L +$14.23
-ETH | 9.76% | entry $2500.10 -> now $2417.88 | -3.3% | -$82.22 per coin | position P&L -$32.48
-ETHFI | 11.01% | entry $0.5744 -> now $0.6236 | +8.6% | +$0.0492 per coin | position P&L +$84.97
-BNB | 14.39% | entry $744.51 -> now $706.91 | -5.0% | -$37.60 per coin | position P&L -$74.88
-TRX | 10.08% | entry $0.3398 -> now $0.3386 | -0.4% | -$0.0012 per coin | position P&L -$3.49
-
-Portfolio: $9,787.38 (-2.1% / -$212.62 since inception)
-Regime: Fear & Greed 69 (Greed, Δ7d +4, short of the >75 overheated line); stablecoin supply growing (+0.46% 7d); MVRV BTC 1.47 / ETH 1.09, both healthy sub-2.
-Watchlist: no changes — DASH excluded again as a >50%-7d chaser (DashCon 2026/Platform v1.1/ZEC-ETF rotation catalyst, but momentum already run); no red flags found.
+JUP | 4.51% | entry $0.2176 -> now $0.2256 | +3.7% | +$0.0080/coin | position P&L +$16.02
+ETH | 9.78% | entry $2500.10 -> now $2465.04 | -1.4% | -$35.06/coin | position P&L -$13.85
+ETHFI | 12.16% | entry $0.5744 -> now $0.7007 | +22.0% | +$0.1263/coin | position P&L +$218.24
+BNB | 14.28% | entry $744.51 -> now $713.73 | -4.1% | -$30.77/coin | position P&L -$61.30
+TRX | 9.93% | entry $0.3398 -> now $0.3395 | -0.1% | -$0.0003/coin | position P&L -$0.87
+Portfolio: $9,957.27 (-0.43% / -$42.73 since inception)
+Regime: Greed (F&G 69, +4 7d) with stablecoin supply still growing (+0.45% 7d) and MVRV healthy (BTC 1.47 / ETH 1.09) — no overheated or bottoming override triggered.
+Pre-mortem: BTC -15% overnight hits all 5 holdings (correlated book); ETHFI/JUP likely hardest, ETH/BNB stop out first on their tight invalidations — no pre-emptive de-risk, ~49% cash cushion and stops already armed.
