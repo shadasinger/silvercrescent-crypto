@@ -1172,3 +1172,15 @@ Net: proceed. The gap is real (not forced), the rotation is sector-neutral and t
 Net: proceed with a staged half-entry. The catalyst is real and dated, the expectancy math clears the floor (if narrowly), and sector/position limits are respected with room to spare.
 
 **Sizing/sector context:** Post-trade sector split (of deployed capital): DEX (JUP) ~10.99%, Major L1 (ETH+TRX) ~32.84%, Liquid Staking (ETHFI) ~23.34%, Exchange (BNB) ~32.83% — four sectors, Major L1 now two positions, all comfortably under the 50% cap. Book now at 5/5 positions, maximum concurrent per Hard Rule 1.
+
+## STAGE-2 ADD — TRX — 2026-09-10 AM
+
+Confluence held **7/10 Bullish, 0/10 Bearish** at this checkpoint (second consecutive checkpoint since the PM 09-09 half-open confirmation) — per Section 5 step 9, the second half opens at full target size, no confirmation needed beyond the hold itself.
+
+Mechanical parameters unchanged in shape from PM 09-09 (golden-cross intact, dev-from-50DMA a modest +2.1% — the least-extended position on the book, RSI 58.0 mid-band, funding flat, OI Neutral-mixed); p1 sentiment held Bullish — rising interest, narrative still centered on the live Cboe TRXS staked-ETF launch and TRX's expanding reach into TradFi, described as factual catalyst coverage ("no artificial pump, just strong activity") rather than crowd hype, zero capitulation.
+
+**Fill:** BUY 1456.1881 TRX @ $0.3398 = $494.8127 notional (matching the stage-1 half's original ~$494.8127 sizing), 2026-09-10T07:10:00Z (Binance spot via `parameters.py` refresh). Position now 2912.3762 TRX, avg entry $0.3398, ~10.04% of portfolio ($989.63 / $9,854.84) — full target size reached. No further staging; ongoing test is the same OI/price/RSI/DMA structure through the 2026-09-23 interim review.
+
+## SIGNAL — PYTH lapsed — 2026-09-10 AM
+
+PYTH's PM 09-09 arm (7/10, first occurrence) did not confirm: confluence eased to 6/10 (0/10 Bearish) this checkpoint as p1 sentiment cooled from Bullish (rising interest, factual record-metrics reporting) to Neutral (flat interest; mild community-fandom euphoria language — "Pyth pilled," "never stop cooking," a gamified rewards-wheel — without a genuine price-target mania, so neither a clean euphoria call nor "improving interest" applied cleanly). Mechanical p2-10 held flat at 6/9 Bullish, 0/9 Bearish both checkpoints — the swing was entirely on the p1 judgment call, applied honestly rather than forced to confirm a trade into an already-full (5/5) book that would have required an anti-churn displacement. No action; sequence resets, would need two fresh consecutive ≥7/10 reads to re-arm and confirm.
