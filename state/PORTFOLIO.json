@@ -2,7 +2,7 @@
   "inception_utc": "2026-08-02T19:23:46Z",
   "paper_capital_usdt": 10000.0,
   "cash_usdt": 4912.9177,
-  "portfolio_value_usdt": 9957.2719,
+  "portfolio_value_usdt": 9944.0505,
   "positions": [
     {
       "ticker": "JUP",
@@ -12,7 +12,7 @@
       "qty": 1990.8364,
       "notional_usdt": 437.81,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 4.51,
+      "size_pct_current": 4.69,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -166,6 +166,13 @@
           "conviction": "Intact",
           "confluence": "4/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- full target size already reached. Confluence eased 6/10(0 Bearish, AM) -> 4/10(1/10 Bearish) this checkpoint as p4_rvol flipped Bullish->Bearish (the only mechanical change). Price $0.2256 (+3.70% vs avg entry $0.217553, -2.42% vs AM close $0.2312), still above 50DMA (dev +12.6%, comfortably under the 25% overextension line) and 200DMA in golden-cross structure. RSI 52.2 back inside neutral, off PM 09-09's overbought approach. Funding flat. OI mixed (24h -24.0%, 7d -4.2%). Invalidation $0.203 not breached (~10.0% headroom). Sentiment (p1) read Neutral -- rising interest, genuinely mixed (euphoria on price targets/RWA narrative vs real community frustration over an underwhelming countdown reveal), no clean dominance. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-09-11 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (1/10 Bearish)",
+          "action": "HOLD, no changes -- full target size already reached. Confluence improved 4/10(1 Bearish, PM 09-10) -> 5/10(1/10 Bearish) as p4_rvol flipped back to Bullish (rv_ratio 1.52, genuine breakout expansion) and p7_oi held Bullish (24h -1.6%/7d +4.9% against a rising 7d price of +8.12%). Price $0.2344 (+3.90% vs PM 09-10 close $0.2256, +7.74% vs avg entry $0.217553), still above 50DMA (dev +16.5%, comfortably under the 25% overextension line) and 200DMA in golden-cross structure. RSI 54.8, just under the 55-70 Bullish band (Neutral). Funding flat (0.0026%/8h). Sentiment (p1) read Neutral -- flat interest, zero euphoria/capitulation, purely technical trading-signal chatter with measured price targets ($0.25-$0.27), no clean crowd extreme. Invalidation $0.203 not breached (~15.5% headroom). Bearish count 1/10 (p10_fg global only) -- nowhere near either gate. Thesis stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue (DEX ~9.27% of deployed capital)."
         }
       ]
     },
@@ -177,7 +184,7 @@
       "qty": 0.39502,
       "notional_usdt": 987.5892,
       "avg_entry_price": 2500.099323,
-      "size_pct_current": 9.78,
+      "size_pct_current": 9.81,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 2900.0,
@@ -261,6 +268,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- full target size already reached. Confluence held 6/10 (1/10 Bearish, p7_oi unchanged from AM -- OI-vs-price divergence persists). Price $2465.04 (-1.40% vs avg entry $2500.099323, -0.37% vs AM close $2474.09), still golden-cross (dev-from-50DMA +14.7%, comfortably under the 25% overextension line). RSI 60.7 mid-band with room. Funding flat. Invalidation $2355 not breached (~4.46% headroom, still one of the tightest cushions on the book). Sentiment (p1) read Neutral -- flat interest, genuinely mixed (euphoria targets/rockets vs a contrarian-framed 'parabolic when everyone is bearish' post, no real despair), no clean dominance. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-09-11 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (1/10 Bearish)",
+          "action": "HOLD, no changes -- full target size already reached. Confluence eased 6/10(1 Bearish, PM 09-10) -> 5/10(1/10 Bearish) as p7_oi flipped back toward mixed/Neutral (24h -1.9%, 7d +0.8%, both thin). Price $2469.61 (+0.19% vs PM 09-10 close $2465.04, -1.22% vs avg entry $2500.099323), still golden-cross (dev-from-50DMA +14.3%, comfortably under the 25% overextension line). RSI 60.2 mid-band with room. Funding flat. Sentiment (p1) read Neutral -- flat interest, genuinely mixed (some capitulation flavor: stagnant-price gripes, a 2.0/10 sentiment score, bearish MACD; alongside a later improvement to 6-7/10 and fundamentals-focused bulls), no clean dominance either way. Invalidation $2355 not breached (~4.65% headroom, still the tightest cushion on the book). Bearish count 1/10 (p10_fg global only) -- nowhere near either gate. Thesis stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue (Major L1/ETH+TRX ~38.99% of deployed capital, 2 of 5 positions -- at the max-2-per-sector limit but not breaching it)."
         }
       ]
     },
@@ -272,7 +286,7 @@
       "qty": 1728.5216,
       "notional_usdt": 996.84,
       "avg_entry_price": 0.574441,
-      "size_pct_current": 12.16,
+      "size_pct_current": 11.83,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 0.68,
@@ -349,6 +363,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (2/10 Bearish)",
           "action": "HOLD, no changes -- full target size already reached. Confluence eased 6/10(AM, 3 Bearish) -> 5/10(2/10 Bearish: p1+p2_dma) as p5_volz cleared back to Bullish (genuine breakout volume, not a no-conviction spike). Price $0.7007 (+21.98% vs avg entry $0.574441), continuing a very strong run. Dev-from-50DMA deepened to +43.0% -- the deepest overextension of the entire hold -- and RSI 73.5, now within striking distance of the >75 Bearish-override line. OI and funding both still strongly confirming (24h OI +48.1%, 7d +57.5%, funding 0.0136%/8h still near-zero, no crowded-long risk). Invalidation $0.52 not breached (~25.8% headroom, the widest on the book). Sentiment (p1) read Bearish -- rising interest, euphoria dominant (rocket emojis on top-movers lists, price targets $0.75-$0.80, '+13-15% top gainer' framing), zero capitulation offset, contrarian Bearish. Thesis stays Playing Out, conviction stays Intact -- hold, no changes, but flagged explicitly as the checkpoint's primary watch item: this is the deepest overextension and closest RSI approach to the overbought override of the entire hold, even though OI/funding/volume all still read as a genuine breakout rather than exhaustion."
+        },
+        {
+          "checkpoint": "2026-09-11 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "4/10 (3/10 Bearish)",
+          "action": "HOLD, no changes -- full target size already reached. Confluence eased 5/10(2 Bearish, PM 09-10) -> 4/10(3/10 Bearish: p1 + p2_dma overextension; p7_oi flipped back to Bullish this checkpoint) as dev-from-50DMA eased only slightly to +37.8% (from PM's +43.0%, still the deepest overextension on the book) and RSI eased to 71.9 (from 73.5, still within striking distance of the >75 override line). OI and funding both still strongly confirming a genuine breakout (OI 24h +23.4%, 7d +53.9%, funding flat at 0.01%/8h, no crowding). Price $0.6807 (-2.85% vs PM 09-10 close $0.7007, +18.50% vs avg entry $0.574441). Sentiment (p1) read Bearish -- rising interest, clear euphoria dominance (price targets $0.75-$0.80, rocket emojis, 'extreme strength' framing, leading-gainers-board mentions), zero capitulation offset, the same recurring pattern flagged nearly every checkpoint of this hold. Invalidation $0.52 not breached (~30.9% headroom, the widest on the book). Bearish count 3/10 -- still short of the >=4/10-for-1-checkpoint trim gate, but flagged again as the checkpoint's primary watch item given the persistent deep overextension and RSI proximity to the mechanical override -- a further RSI print above 75, or the Bearish count reaching 4, would be the next mechanical triggers to watch. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -360,7 +381,7 @@
       "qty": 1.991726,
       "notional_usdt": 1482.8526,
       "avg_entry_price": 744.5063,
-      "size_pct_current": 14.28,
+      "size_pct_current": 14.34,
       "target_size_pct": 15.0,
       "stage": "full_target",
       "target": 851.0,
@@ -423,6 +444,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- full target size already reached. Confluence held 5/10 (1/10 Bearish, p7_oi unchanged from AM). Price $713.73 (-4.13% vs avg entry $744.5063, -0.55% vs AM close $718.52), still golden-cross (dev-from-50DMA +10.9%, comfortably under the 25% overextension line). RSI 55.9. Funding flat. Invalidation $695.00 not breached, but the cushion has compressed further to ~2.62% -- now the tightest on the entire book (tighter than AM's ~3.38%), flagged explicitly as BNB's own primary watch item; a further leg down risks the exit trigger. Sentiment (p1) read Neutral -- flat interest, thin community-loyalty euphoria only (diamond-hands/HODL/maximalist language, no specific price-target mania), zero capitulation, too thin for clean dominance. Thesis stays Playing Out, conviction stays Intact -- hold, no changes; the rule is a breach-triggers-exit rule, not a pre-emptive cushion-threshold rule."
+        },
+        {
+          "checkpoint": "2026-09-11 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "4/10 (2/10 Bearish)",
+          "action": "HOLD, no changes -- full target size already reached. Confluence eased 5/10(1 Bearish, PM 09-10) -> 4/10(2/10 Bearish) as p4_rvol flipped Bullish->Bearish (rv_ratio 1.32 against a mild down 7d print of -0.78% -- the rubric's >1.3-on-downside-moves branch). Price $715.77 (+0.04% vs PM 09-10 close $715.47, -3.86% vs avg entry $744.5063), still above 50DMA (dev +10.8%, comfortably under the 25% overextension line) and 200DMA in golden-cross structure. RSI 56.1 low-mid band with room. Funding flat. Sentiment (p1) read Neutral -- falling interest, zero euphoria, zero capitulation, narrative purely utility/payments (Binance Card real-world spend) and community memes, one thin low-engagement FOMO mention insufficient for dominance. Invalidation $695 not breached (~2.99% headroom, still the tightest cushion on the book -- flagged again as the standing watch item; a further ~3% adverse move would trigger an immediate exit with no confirmation wait, per Section 3 rule 4). Bearish count 2/10 -- still well short of the >=4/10-for-1-checkpoint trim gate. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -434,7 +462,7 @@
       "qty": 2912.3762,
       "notional_usdt": 989.6254,
       "avg_entry_price": 0.3398,
-      "size_pct_current": 9.93,
+      "size_pct_current": 9.92,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 0.378,
@@ -469,6 +497,13 @@
           "conviction": "Intact",
           "confluence": "7/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- full target size already reached (stage-2 added AM 09-10). Confluence held 7/10 (0/10 Bearish), unchanged from AM -- still the cleanest read on the book. Price $0.3395, essentially flat vs avg entry $0.3398 and vs AM close, TRX's own low-beta profile intact (dev-from-50DMA only +2.0%, least-extended position on the book). RSI 57.6. Funding mildly negative (-0.022%/8h, still reads Bullish per the near-zero/crowded-short band). Invalidation $0.322 not breached (~5.15% headroom). Sentiment (p1) read Neutral -- interest cooled to flat (from rising at PM 09-09/AM 09-10), zero euphoria/capitulation markers, narrative purely factual (TRON DAO promoting the live Staked-TRX-ETF filing, Sept 11 institutional discussion event) -- a genuine cooldown from 'improving interest' rather than a forced continuation, honest Neutral this checkpoint despite the still-live catalyst. Thesis stays Playing Out, conviction stays Intact -- the live Sept 11 ETF event is tomorrow; no action needed pre-event."
+        },
+        {
+          "checkpoint": "2026-09-11 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (1/10 Bearish)",
+          "action": "HOLD, no changes -- full target size already reached (no further staging). Confluence eased 7/10(0 Bearish, PM 09-10) -> 5/10(1/10 Bearish) entirely on the p1 reversion to Neutral -- mechanical p2-10 held flat and clean (golden-cross intact at only +1.7% dev-from-50DMA, the tightest extension on the book, RSI 56.1 mid-band, funding flat, OI thin/flat both windows). Sentiment (p1) reverted Bullish -> Neutral: narrative reverted to routine technical/educational content (gas-fee rental, GasFree stablecoin transfers) plus giveaway spam, with no further mention of the Cboe TRXS ETF-launch catalyst that drove the 09-09/09-10 Bullish reads -- the launch-day news cycle has faded exactly as flagged as the risk in the original JOURNAL.md entry-snapshot red-team pass ('once the launch-day news cycle fades, p1 could just as quickly revert to its long-standing Neutral baseline'). Price $0.3388 (-0.03% vs PM 09-10 close $0.3388, -0.29% vs avg entry $0.3398). Invalidation $0.322 not breached (~5.2% headroom). Bearish count 1/10 (p10_fg global only) -- nowhere near either gate. Thesis stays Playing Out, conviction stays Intact -- hold, no changes. No sector-cap issue (Major L1/ETH+TRX ~38.99% of deployed capital, 2 of 5 positions -- at the max-2-per-sector limit but not breaching it)."
         }
       ]
     }
