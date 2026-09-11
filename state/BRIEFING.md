@@ -1,18 +1,19 @@
-BRIEFING — 2026-09-11 AM
+BRIEFING — 2026-09-11 MID
 
 Top 5 considerations:
-1. ETH — confluence 5/10 — golden-cross intact, RSI mid-band with room, but OI confirmation softened to mixed; needs 2 more Bullish flags (and a clean 7/10 stretch, it's already held at full size, so this is a health check, not an entry question).
-2. JUP — confluence 5/10 — rvol/OI cleared back to Bullish and price is running (+7.7% since entry); sentiment stayed flat/Neutral, no euphoria to worry about; already full size, nothing to do.
-3. TRX — confluence 5/10 — mechanicals still clean (tightest 50DMA extension on the book) but sentiment cooled from Bullish to Neutral as the ETF-launch news cycle faded; already full size, no action needed.
-4. BTC — confluence 5/10 — golden-cross, RSI mid-band, but F&G/volume both soft; would need sentiment to flip and 2 more mechanical flags to even arm.
-5. FIL — confluence 5/10 — OI strongly confirming (7d +72%) on an AI-storage narrative; sentiment flat/factual, no crowd extreme; not held, would need a repeat 7/10+ to arm.
+1. BTC — confluence 5/10 — Clean golden-cross/RSI/funding/MVRV read, but sentiment and OI stay Neutral; needs 2 more Bullish flags at 2 straight trading checkpoints to arm.
+2. ETH — confluence 5/10 (held) — Golden-cross intact, OI cooled to a mixed 24h/7d read this checkpoint; sentiment Neutral on genuinely split chatter. Already at full 10% target size.
+3. FIL — confluence 5/10 — Mechanically clean, but sentiment reads flat/factual with no crowd extreme, capping it 2 short of the 7/10 gate.
+4. JUP — confluence 5/10 (held) — Volume/OI flipped back Bullish; sentiment flat and purely technical, no euphoria or capitulation to tip it further. Already at full target size.
+5. SOL — confluence 5/10 — Parameters mostly clean but sentiment reads Neutral (scattered, not SOL-specific chatter); 2 short of the gate.
 
 Holdings:
-JUP | 4.69% | entry $0.2176 -> now $0.2344 | +7.7% | +$0.02/coin | position P&L +$33.54
-ETH | 9.81% | entry $2500.10 -> now $2469.61 | -1.2% | -$30.49/coin | position P&L -$12.04
-ETHFI | 11.83% | entry $0.5744 -> now $0.6807 | +18.5% | +$0.11/coin | position P&L +$183.67 (deepest overextension on the book — RSI 71.9, watch item)
-BNB | 14.34% | entry $744.51 -> now $715.77 | -3.9% | -$28.74/coin | position P&L -$57.23 (tightest invalidation cushion, ~3.0% — watch item)
-TRX | 9.92% | entry $0.3398 -> now $0.3388 | -0.3% | -$0.001/coin | position P&L -$2.91
+JUP | 4.87% | entry $0.2176 -> now $0.2426 | +11.5% | +$0.0250/coin | P&L +$49.86
+ETH | 9.98% | entry $2500.10 -> now $2505.58 | +0.2% | +$5.48/coin | P&L +$2.16
+ETHFI | 11.26% | entry $0.5744 -> now $0.6459 | +12.4% | +$0.0715/coin | P&L +$123.52
+BNB | 14.48% | entry $744.51 -> now $721.11 | -3.1% | -$23.40/coin | P&L -$46.60
+TRX | 9.87% | entry $0.3398 -> now $0.3363 | -1.0% | -$0.0035/coin | P&L -$10.19
 
-Portfolio: $9,944.05 (-0.6% / -$55.95 since inception)
-Regime: Fear & Greed 56 and falling fast (-18 over 7d off a prior >70 read), stablecoin supply flat (+0.08% 7d, no fresh sideline liquidity), MVRV healthy (BTC 1.44 / ETH 1.08) — a cooling-but-not-fearful regime, no change to posture.
+Portfolio: $9,917.79 (-0.82% / -$82.21 since inception)
+Regime: F&G 56, falling fast (Δ7d -18) off a prior >70 read; MVRV BTC 1.44 / ETH 1.08, both in the healthy 1-2 zone; stablecoin supply barely growing (+0.12% 7d) — no strong sideline-liquidity signal either way.
+Watchlist: no changes — DOT rechecked fresh on a genuine dotUSD/XCM-driven rally but stays sector-blocked (Major L1 4/4); LDO rechecked, catalyst still diffuse/back-end. No red flags found; no coin newly entry_blocked.
