@@ -1,19 +1,19 @@
-BRIEFING — 2026-09-12 MID
+BRIEFING — 2026-09-12 PM
 Top 5 considerations:
-1. ETH — confluence 7/10 — Clean sweep (0 Bearish) carried from this AM: OI, RSI, DMA, funding all confirming; already held at full size, nothing left to arm.
-2. JUP — confluence 7/10 — Same clean 0-Bearish read; held near full size (still under target from a standing sector-cap trim).
-3. TRX — confluence 7/10 — Same clean 0-Bearish read; held at full target size, low-beta profile intact.
-4. BTC — confluence 6/10 — Golden-cross, OI and funding all clean; sentiment stayed Neutral (thin, falling-interest chatter) — one parameter short of arming. Not held.
-5. FIL — confluence 6/10 — Storage/AI narrative; sentiment stayed Neutral (mild euphoria markers but too thin/spammy to count) — one parameter short of arming. Not held.
-(No coin armed or confirmed this checkpoint — MID does not re-score confluence; counts carried from the AM 09-12 checkpoint.)
+1. ETH — confluence 7/10 (1 Bearish) — Held at full size; still confirming on price/RSI/OI, but sentiment just flipped bearish on rising hype language ($4,700 targets) — first euphoria read of this hold, a new watch item, not yet action-worthy.
+2. JUP — confluence 7/10 (0 Bearish) — Held at full size; cleanest read on the book, sentiment flat/neutral, no watch items.
+3. TRX — confluence 6/10 (0 Bearish) — Held; trimmed $90 today purely to fix a sector-cap rule tripped by ETHFI's exit (not weakness); no gate concerns.
+4. SOL — confluence 6/10 — Not held; one parameter short of the 7/10 gate, sentiment reads as off-topic memecoin noise rather than SOL-specific signal.
+5. FIL — confluence 6/10 — Not held; one parameter short of the gate, Oct supply-cliff catalyst still ~3 weeks out, sentiment neutral.
 
 Holdings:
-JUP | 4.82% | entry $0.2176 -> now $0.2455 | +12.8% | +$0.028/coin | position P&L +$55.64
-ETH | 9.88% | entry $2500.10 -> now $2535.47 | +1.4% | +$35.37/coin | position P&L +$13.97
-ETHFI | 6.35% (trimmed half this AM, thesis Weakening) | entry $0.5744 -> now $0.7452 | +29.7% | +$0.171/coin | position P&L +$147.58 (unrealized on remaining half)
-BNB | 14.47% | entry $744.51 -> now $736.19 | -1.1% | -$8.32/coin | position P&L -$16.56
-TRX | 9.80% | entry $0.3398 -> now $0.3409 | +0.3% | +$0.0011/coin | position P&L +$3.20
+JUP | 4.83% | entry $0.2176 -> now $0.2450 | +12.6% | +$0.027/coin | position P&L +$54.64
+ETH | 9.86% | entry $2500.10 -> now $2521.42 | +0.9% | +$21.32/coin | position P&L +$8.42
+BNB | 14.36% | entry $744.51 -> now $728.59 | -2.1% | -$15.92/coin | position P&L -$31.70
+TRX | 8.90% | entry $0.3398 -> now $0.3398 | +0.0% | +$0.00/coin | position P&L +$0.00
 
-Portfolio: $10,136.09 (+1.4% / +$136.09 since inception)
-Regime: Fear & Greed 63 (Δ7d -10, cooling off Greed but not falling fast); stablecoin supply +0.35% 7d (mild sideline-liquidity growth); MVRV BTC 1.45 / ETH 1.11 (both healthy, sub-2 band).
-Watchlist: no changes (1/5 slot-change budget used this week, week closes today). INJ newly excluded on a fresh Sept 1 protocol exploit despite strong catalysts; DASH's big 30d run already topped/correcting, not actioned.
+Portfolio: $10,104.38 (+1.0% / +$104.38 since inception)
+Regime: Fear & Greed 63 (Δ7d -10, easing off Greed but not falling fast); stablecoin supply +0.36% 7d (mild sideline-liquidity growth); MVRV BTC 1.45 / ETH 1.11 (both healthy, sub-2 band).
+Pre-mortem: "BTC -15% overnight" would likely breach BNB's and TRX's tight invalidation cushions (~4.6%/~5.2%) but probably not ETH's or JUP's; est. drawdown ~8-11% ($800-1,100), the book's lowest exposure to date at 62% cash — no de-risking action taken, cash stands as the buffer.
+
+Note: ETHFI (Liquid Staking) fully exited this checkpoint — named thesis-test breach (RSI>75, overextension) confirmed for a 2nd straight checkpoint. Realized +$273.99 total (+2.83R then +2.99R) across both trims, the best closed position of the paper phase.
