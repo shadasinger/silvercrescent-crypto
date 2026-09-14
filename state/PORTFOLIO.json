@@ -1263,7 +1263,7 @@
     }
   ],
   "cash_usdt": 6269.8376,
-  "portfolio_value_usdt": 10078.32470413,
+  "portfolio_value_usdt": 10101.44738671,
   "positions": [
     {
       "ticker": "JUP",
@@ -1273,7 +1273,7 @@
       "qty": 1990.8364,
       "notional_usdt": 489.3476,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 4.6875,
+      "size_pct_current": 4.7675,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -1476,6 +1476,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- full target size (net of standing sector-cap trim). Confluence improved 4/10(PM 09-13)->5/10 AM: the global p8 stablecoin parameter flipped back Neutral->Bullish book-wide (7d supply growth reaccelerated 0.09%->0.26%, not JUP-specific) and p1 cleared Bearish->Neutral as the DAO-governance-halt story flagged last checkpoint was specifically re-checked and confirmed stale (dated June 2025, governance resumed in 2026) -- watch item cleared. Price $0.2373 (+0.85% vs PM 09-13's $0.2353, -14.51%->-6.46% 7d improving), dev-from-50DMA +16.1% (comfortably under the 25% overextension line), RSI 54.5 mid-band. OI 24h +0.2% (flat, no longer falling), 7d -31.4% (still contracted but less negative than PM's -50.6% -- the thesis_test's 'OI not diverging from price' condition continues to ease rather than worsen). 0/10 Bearish -- no trim/exit gate approached. Invalidation $0.203 not breached (~14.46% cushion, widest on the book)."
+        },
+        {
+          "checkpoint": "2026-09-14 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "HOLD, no changes -- full target size (net of standing sector-cap trim). Confluence held at mechanical 6/9 Bullish (AM's improved level carries through); p1 flipped Neutral->Bearish -- web-search fallback found explicit scanner/technical-account feedback-loop language after a 7d spike, with September forecast ceilings sitting below current spot -- momentum-chasing crowd attention outrunning fundamentals, contrarian Bearish. Still only 1/10 Bearish -- well short of the >=4/10 trim gate. Price $0.2419 (+2.1% vs AM's $0.2373), dev-from-50DMA +18.3% (comfortably under the 25% overextension line), RSI 55.8 mid-band. OI 24h +5.8% (confirming), 7d -23.6% (still contracted, continuing watch item, not worsening materially). Invalidation $0.203 not breached (~16.08% cushion, widest on the book)."
         }
       ]
     },
@@ -1487,7 +1494,7 @@
       "qty": 0.39502,
       "notional_usdt": 996.2009,
       "avg_entry_price": 2500.099323,
-      "size_pct_current": 9.8707,
+      "size_pct_current": 9.9176,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 2900.0,
@@ -1620,6 +1627,13 @@
           "conviction": "Strengthening",
           "confluence": "7/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- full target size. Confluence improved 5/10(PM 09-13)->7/10 AM, the cleanest read of the hold alongside AM 09-13's 8/10: p7 OI flipped back Bearish->Bullish (24h +4.2%, 7d +7.0%, now confirming with price rather than diverging) and the global p8 stablecoin parameter flipped back Bullish book-wide; p1 held Neutral (web-search fallback found a genuine tug-of-war -- hedging/caution language against continuing ETF inflows, no clean extreme). Price $2,518.36 (+0.28% vs PM 09-13's $2,511.38), dev-from-50DMA +14.6% (comfortably under the 25% overextension line), RSI 61.4 mid-band with room. thesis_test fully intact (OI confirming, price above 50DMA, RSI<75). 0/10 Bearish -- no trim/exit gate approached. Invalidation $2,355 not breached (~6.49% cushion). Already at full target size -- no rule provides for adding off a confluence read alone; conviction upgraded to Strengthening given the clean confirming re-read on the thesis_test's own named metric (OI) after last checkpoint's wobble."
+        },
+        {
+          "checkpoint": "2026-09-14 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Strengthening",
+          "confluence": "7/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- full target size. Confluence held at 7/10 (0 Bearish), the cleanest read of the hold alongside AM's own 7/10; p1 held Neutral (web-search fallback: leaning improving-interest but F&G 63 Greed plus a widely-shared $100M-25x-long story edges toward crowded, not a clean bullish extreme). Price $2,536.14 (+0.71% vs AM's $2,518.36), dev-from-50DMA +15.4% (comfortably under 25%), RSI 62.6 mid-upper band with room. thesis_test fully intact (OI confirming +8.5%/24h +12.3%/7d, price above 50DMA, RSI<75). Already at full target size -- no rule provides for adding off a confluence read alone. Invalidation $2,355 not breached (~7.14% cushion)."
         }
       ]
     },
@@ -1631,7 +1645,7 @@
       "qty": 1.991726,
       "notional_usdt": 1458.1028,
       "avg_entry_price": 744.5063,
-      "size_pct_current": 14.3122,
+      "size_pct_current": 14.3167,
       "target_size_pct": 15.0,
       "stage": "full_target",
       "target": 851.0,
@@ -1743,6 +1757,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- full target size. Confluence improved 4/10(PM 09-13)->5/10 AM entirely on the global p8 stablecoin flip back to Bullish (not BNB-specific); p1 held Bearish for a third consecutive checkpoint -- web-search fallback again found 'unwavering bullish conviction' language persisting near resistance despite our feed's real -2.13% 7d pullback off referenced highs, the same denial-phase-euphoria pattern as the prior two checkpoints. Still only 1/10 Bearish -- well short of the >=4/10 trim gate. Price $724.21 (+0.19% vs PM 09-13's $722.85), dev-from-50DMA +10.5% (comfortably under the 25% overextension line), RSI 57.1 mid-band. OI mixed (24h -0.7%, 7d -29.1% -- the same standing weekly-unwind watch item, still not accompanied by a funding flip or price breakdown). Invalidation $695 not breached, cushion ~4.03% (essentially unchanged from PM's ~3.85%) -- tightest cushion on the book, standing multi-checkpoint watch item; conviction held Intact rather than downgraded on sentiment alone per Section 3 rule 6 (no other deterioration signal accompanies the repeated p1 Bearish read)."
+        },
+        {
+          "checkpoint": "2026-09-14 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- full target size. Confluence held at mechanical 5/9 Bullish; p1 cleared Bearish->Neutral this checkpoint, breaking the prior 3-checkpoint denial-phase-euphoria pattern -- this run's search found generic constructive framing paired with a real bearish-daily-chart technical note but no explicit crowd-chanting-targets quote, genuinely mixed rather than a repeat of the denial-phase read (evaluated fresh on this run's own evidence). 0/10 Bearish -- no trim/exit gate approached. Price $726.10 (+0.26% vs AM's $724.21), dev-from-50DMA +10.7% (comfortably under 25%), RSI 57.6 mid-band. OI mixed (24h -2.7%, 7d -24.5%, the same standing weekly-unwind watch item, still not accompanied by a funding flip or price breakdown). Invalidation $695 not breached, cushion ~4.28% (essentially unchanged, tightest on the book) -- standing multi-checkpoint watch item."
         }
       ]
     },
@@ -1754,7 +1775,7 @@
       "qty": 2647.5145,
       "notional_usdt": 899.6254,
       "avg_entry_price": 0.3398,
-      "size_pct_current": 8.9185,
+      "size_pct_current": 8.9295,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.378,
@@ -1838,6 +1859,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- full target size (post sector-cap trim). Confluence improved 5/10(PM 09-13)->6/10 AM entirely on the global p8 stablecoin flip back to Bullish (not TRX-specific); p1 held Neutral (web-search fallback: mixed -- a real broken-trendline technical caution offset by genuine fundamental strength, record $91.8B USDT settlement volume). 0/10 Bearish -- no trim/exit gate approached. Price $0.3395 (-0.58% vs PM 09-13's $0.3415), dev-from-50DMA a thin +1.8%, RSI 56.4 mid-band. OI 24h -1.8%, 7d -4.2% (continuing to stabilize vs PM's -5.5% -- thesis_test's 'OI stabilizes or turns positive' still not cleanly satisfied but trending the right way, continuing watch item not a rule trigger). Invalidation $0.322 not breached (~5.15% cushion). Interim review due 2026-09-23."
+        },
+        {
+          "checkpoint": "2026-09-14 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (1/10 Bearish)",
+          "action": "HOLD, no changes -- full target size (post sector-cap trim). Confluence held at mechanical 6/9 Bullish; p1 flipped Neutral->Bearish this checkpoint -- web-search fallback found a coin-specific F&G cited at 73 (approaching euphoria) alongside confident 'defies crowd doubt' framing persisting even as TRX lost a 7-month trendline, a real technical deterioration -- complacent greed paired with a fraying narrative, contrarian Bearish (same denial-phase reasoning used for BNB in prior checkpoints). Still only 1/10 Bearish -- well short of the >=4/10 trim gate. Price $0.3407 (+0.29% vs AM's $0.3395), dev-from-50DMA a thin +2.1%, RSI 58.1 mid-band. OI 24h -0.2%, 7d -2.3% (continuing to stabilize vs AM's -4.2%). Invalidation $0.322 not breached (~5.49% cushion). Interim review due 2026-09-23."
         }
       ]
     }
