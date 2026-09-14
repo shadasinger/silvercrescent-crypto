@@ -1,15 +1,17 @@
-BRIEFING — 2026-09-13 PM
+BRIEFING — 2026-09-14 AM
+
 Top 5 considerations:
-1. AAVE — confluence 6/10 — cleanest non-held read: trend/RSI/OI/funding/MVRV all bullish, and fear-driven whale buying ($157.5M net, 30d) into a real -7.1% pullback pushed sentiment bullish too; needs one more mechanical param to flip for a 7/10 arm. Not held, not armed.
-2. BTC — confluence 5/10 — regime coin cooling off from AM's extreme-greed sentiment read to neutral (no mania language found); no gate proximity. Not held.
-3. SOL — confluence 5/10 — clean mechanical trend/RSI/OI, but sentiment stayed neutral after a cited "+25.5% rally" was caught contradicting our feed's real -5.0% 7d. Not held.
-4. TRX (held) — confluence 5/10 (0 Bearish) — eased from 6/10 purely on a book-wide stablecoin-supply parameter dip, not TRX-specific weakness; thesis intact, invalidation cushion ~5.7%.
-5. ETH (held) — confluence 5/10 (1 Bearish) — cooled sharply from AM's 8/10 as sentiment flipped from capitulation-bullish to neutral and open interest began rising while price stayed flat (a fresh watch item); thesis intact, cushion ~6.2%.
+1. ETH — confluence 7/10 (0 Bearish) — OI flipped back to confirm price, cleanest hold read since 09-13 AM's 8/10; held at full target size, no action available/needed.
+2. SOL — confluence 7/10 (0 Bearish) — ARMED (first occurrence, was 5/10 at PM 09-13); ETF-speculation sentiment read Bullish, but OI hasn't confirmed yet (7d -15.3%) — needs a second ≥7/10 checkpoint at PM to confirm entry.
+3. TRX — confluence 6/10 (0 Bearish) — held; improved purely on the stablecoin-supply parameter reverting Bullish; OI still mildly negative but stabilizing, one point off arming further.
+4. BTC — confluence 6/10 (0 Bearish) — calm-to-greedy social mood, no euphoria found; one point short of arming, nothing actionable.
+5. ENA — confluence 6/10 (0 Bearish) — a genuine fear reading (F&G 30) paired with a fresh buyback/reform catalyst read as contrarian bullish; not held, one point off arming.
+
 Holdings:
-JUP | 4.7% | entry $0.2176 -> now $0.2357 | +8.3% | +$0.0181 per coin | position P&L +$36.13
-ETH | 9.8% | entry $2500.10 -> now $2511.38 | +0.5% | +$11.28 per coin | position P&L +$4.46
-BNB | 14.3% | entry $744.51 -> now $722.85 | -2.9% | -$21.66 per coin | position P&L -$43.13
-TRX | 9.0% | entry $0.3398 -> now $0.3415 | +0.5% | +$0.0017 per coin | position P&L +$4.50
-Portfolio: $10,074.97 (+0.7% / +$74.97 since inception)
-Regime: Fear & Greed 61 (Greed, down 12pts over 7d) — cooling off; stablecoin supply growth decelerating (+0.09% 7d, was +0.33%); MVRV BTC 1.45 / ETH 1.11, both in the healthy 1-2 band, well below cycle-top.
-Pre-mortem: "BTC -15% overnight" — BNB (tightest cushion, ~3.9%) and TRX (~5.7%) most exposed, ETH borderline (~6.2%), JUP safest (~13.9%); no action taken today since no formal gate fired and cash (62%) already covers this per Section 9 — flagged for closer watch next checkpoint.
+JUP | 4.69% | entry $0.2176 -> now $0.2373 | +9.1% | +$0.0197/coin | position P&L +$39.31
+ETH | 9.87% | entry $2500.10 -> now $2518.36 | +0.7% | +$18.26/coin | position P&L +$7.21
+BNB | 14.31% | entry $744.51 -> now $724.21 | -2.7% | -$20.30/coin | position P&L -$40.42
+TRX | 8.92% | entry $0.3398 -> now $0.3395 | -0.1% | -$0.0003/coin | position P&L -$0.79
+
+Portfolio: $10,078.32 (+0.78% / +$78.32 since inception)
+Regime: Fear & Greed 57 (Δ7d -14, cooling from Greed), stablecoin supply +0.26% 7d (sideline liquidity building back in), MVRV BTC 1.44 / ETH 1.09 (healthy, no cycle-top signal).
