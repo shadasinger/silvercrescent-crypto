@@ -1,18 +1,18 @@
-BRIEFING — 2026-09-15 MID
+BRIEFING — 2026-09-15 PM
 
 Top 5 considerations:
-1. AAVE — confluence 7/10 — Whales buying into an AAVE-specific "Fear" reading while price holds up (capitulation-with-thesis-intact); ARMED, needs another 7/10 at today's PM checkpoint to confirm.
-2. ETH (held) — confluence 6/10 — Holding steady; OI's daily confirmation softened a touch so conviction stepped back to Intact, no action needed.
-3. BTC — confluence 6/10 — Crowd enthusiasm lagging the rally, but OI rose while price fell this week — a real divergence, not noise; yesterday's arm LAPSED, no trade.
-4. XRP — confluence 6/10 — Genuine institutional catalysts, price still flat; one point off arming.
-5. SOL — confluence 6/10 — SEC "Core ETF Asset" label + strong ETF inflows; one point off arming, and its sector (Major L1) is already full via ETH+TRX regardless.
+1. AAVE — confluence 6/10 — Whale accumulation ($157.5M) into the dip plus a new Kalshi listing kept sentiment Bullish, but this morning's 7/10 arm LAPSED (mechanical count eased one notch) — no trade, could re-arm next checkpoint.
+2. JUP (held) — confluence 6/10 — Steepest 24h decliner (-7.3%) but no JUP-specific bad news; reads as broad-market flush with Lend TVL still growing — capitulation-with-thesis-intact.
+3. PENDLE — confluence 6/10 (2 Bearish) — Strong real rally (Robinhood Chain, Monad expansion) tipped into overbought/euphoria territory (RSI ~79); missed arming.
+4. ETH (held) — confluence 5/10 — Holding, but invalidation cushion compressed to ~2.1% (tightest on the book) heading into tomorrow's Fed decision — top watch item.
+5. TRX (held) — confluence 5/10 — Price retreating but usage fundamentals (TVL $28B, 3.88M daily addresses) strengthening — capitulation-with-thesis-intact.
 
 Holdings:
-JUP | 4.61% | entry $0.2208 -> now $0.2325 | +6.87% | +$29.76 | position P&L +$29.76
-ETH | 9.75% | entry $2507.31 -> now $2479.80 | -0.81% | -$8.02 | position P&L -$8.02
-BNB | 14.30% | entry $739.53 -> now $720.91 | -3.17% | -$47.00 | position P&L -$47.00
-TRX | 8.92% | entry $0.3398 -> now $0.3383 | -0.44% | -$3.97 | position P&L -$3.97
+JUP | 4.42% | entry $0.2176 -> now $0.2215 | +1.81% | +$0.0039 | position P&L +$7.86
+ETH | 9.52% | entry $2500.10 -> now $2404.52 | -3.82% | -$95.58 | position P&L -$37.76
+BNB | 14.38% | entry $744.51 -> now $720.00 | -3.29% | -$24.51 | position P&L -$48.81
+TRX | 8.83% | entry $0.3398 -> now $0.3327 | -2.09% | -$0.0071 | position P&L -$18.80
 
-Portfolio: $10,043.79 (+0.44% / +$43.79 since inception)
-Regime: F&G 69 (Greed, flat 7d) | stablecoins +0.34% 7d (liquidity building) | MVRV BTC 1.47 / ETH 1.11 (healthy, not cycle-top zone).
-Watchlist: no adds/drops — ETHFI marked `entry_blocked` (small, resolved Sept 11 hack on its own Liquid vault contract; review 09-29). NEAR's Sept 9 breach reviewed and cleared (third-party ecosystem exploit, not NEAR's own protocol).
+Portfolio: $9,975.51 (-0.24% / -$24.49 since inception)
+Regime: F&G 69 (Greed, flat 7d) | stablecoins +0.22% 7d ($311.4B) | MVRV BTC 1.47 / ETH 1.11 (healthy, not cycle-top zone) — but a real broad pullback underway (BTC -2.73%/24h).
+Pre-mortem: BTC-led leg down into tomorrow's FOMC could breach ETH's tight $2,355 invalidation first, then pressure BNB/TRX; no pre-emptive trim — invalidation levels are the automatic trigger, 62.85% cash is the buffer.

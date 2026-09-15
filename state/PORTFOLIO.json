@@ -1263,7 +1263,7 @@
     }
   ],
   "cash_usdt": 6269.8376,
-  "portfolio_value_usdt": 10044.4215808,
+  "portfolio_value_usdt": 9975.51214715,
   "positions": [
     {
       "ticker": "JUP",
@@ -1273,7 +1273,7 @@
       "qty": 1990.8364,
       "notional_usdt": 489.3476,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 4.6677,
+      "size_pct_current": 4.4205,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -1490,6 +1490,14 @@
           "conviction": "Intact",
           "confluence": "5/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- full target size (net of standing sector-cap trim). Confluence eased 6/10(PM 09-14)->5/10 AM as p1 cleared Bearish->Neutral (web-search fallback: an unexplained Sept 7 spike faded back on no verified catalyst, balanced derivatives positioning, no clean extreme) and mechanical eased by one (p7_oi remains Neutral, oi24h -2.8%/7d -29.5%, continuing contraction, standing watch item). Price $0.2355 (avg entry $0.217553, +8.25% unrealized), dev-from-50DMA +14.6% (comfortably under 25%), RSI 53.8 mid-band. 0/10 Bearish -- no trim/exit gate approached. Invalidation $0.203 not breached (~16.0% cushion, widest on the book). INTERIM REVIEW DUE TODAY (2026-09-15): thesis graded Playing Out (position profitable, +8.25% vs avg entry, no stagnation in either price or the entry narrative) -- not Stalled, so the Section 5 step 4 capital-velocity 50% trim does not apply; standard hold continues unchanged."
+        },
+        {
+          "checkpoint": "2026-09-15 PM",
+          "timestamp_utc": "2026-09-15T19:10:45.025654Z",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- full target size (net of standing sector-cap trim). Confluence firmed 5/10(AM 09-15)->6/10 PM as p1 read Bullish (web-search fallback: JUP the steepest decliner in today's researched batch on broad-market beta flush, no JUP-specific bad news, Jupiter Lend TVL climbing toward $800M -- capitulation-while-thesis-intact) and mechanical held flat (5/9 Bullish, p7_oi Neutral, oi24h -15.3%/7d -31.4%, continuing contraction, standing watch item). Invalidation $0.203 not breached, cushion ~9.11% at current $0.2215. Interim review handled AM 09-15 (Playing Out, no Stalled trim); not due again until 2026-10-13 (hold-until)."
         }
       ]
     },
@@ -1501,7 +1509,7 @@
       "qty": 0.39502,
       "notional_usdt": 996.2009,
       "avg_entry_price": 2500.099323,
-      "size_pct_current": 9.7652,
+      "size_pct_current": 9.5217,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 2900.0,
@@ -1648,6 +1656,14 @@
           "conviction": "Intact",
           "confluence": "6/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- full target size. Confluence eased 7/10(PM 09-14)->6/10 AM: p7_oi's mechanical Bearish print (chg_7d_pct -0.08%, noise-level per the same materiality logic as BTC's PM 09-14 override, hypothesis #22) was overridden to Neutral rather than left Bearish or pushed to Bullish, since ETH's own 24h window is itself mixed (price -1.3%, OI -0.5%) and doesn't cleanly confirm either direction -- the conservative non-forcing read. p1 held Neutral (web-search fallback: F&G ~63 Greed, not extreme; ETH described as trading on macro/Fed-decision positioning rather than its own fundamentals -- genuinely mixed). thesis_test still intact: OI 7d +6.3% (rising, though 24h softened to -0.5% from PM's +8.5%), price above 50DMA (dev +12.4%), RSI 57.8<75. Conviction downgraded Strengthening -> Intact -- the OI reconfirmation that drove the prior Strengthening call has eased (24h OI now mildly negative), not reversed, so this is a step back from an above-baseline read rather than a deterioration signal. 0/10 Bearish -- no trim/exit gate approached. Already at full target size -- no rule provides for adding off a confluence read alone. Invalidation $2,355 not breached (~5.44% cushion)."
+        },
+        {
+          "checkpoint": "2026-09-15 PM",
+          "timestamp_utc": "2026-09-15T19:10:45.025654Z",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- full target size. Confluence eased 6/10(AM 09-15)->5/10 PM as p1 read Neutral (web-search fallback: perp/derivatives Net Taker Volume flipped negative for the first time in ~a month, bearish tilt, against a 4th consecutive week of spot ETH ETF net inflows -- genuinely split, no clean extreme) and mechanical held flat (5/9 Bullish, p7_oi Neutral -- 24h -13.0%/7d -2.7%, both falling together, de-leveraging rather than a clean divergence pattern, no override needed). **Invalidation cushion has compressed materially: $2355 not breached, but cushion is now ~2.10% at current $2404.52 (down from ~5.44% at AM 09-15 and further still from PM 09-14), the tightest on the book** -- flagged as an elevated watch item given tomorrow's Sept 16 FOMC decision (multiple independent sources cite a hawkish-hike risk explicitly threatening a push toward/through the $2,400 level). Conviction held at Intact (no thesis-test condition has failed, confluence stays healthy at 0 Bearish) -- not downgraded further on cushion compression alone per Section 3 rule 6 (no single non-price signal is a standalone trigger) and because the invalidation price itself, not discretionary judgment, is the system's pre-committed circuit breaker; will exit immediately and without confirmation if $2355 is breached, no waiting for a second checkpoint."
         }
       ]
     },
@@ -1659,7 +1675,7 @@
       "qty": 1.991726,
       "notional_usdt": 1458.1028,
       "avg_entry_price": 744.5063,
-      "size_pct_current": 14.2423,
+      "size_pct_current": 14.3756,
       "target_size_pct": 15.0,
       "stage": "full_target",
       "target": 851.0,
@@ -1785,6 +1801,14 @@
           "conviction": "Intact",
           "confluence": "5/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- full target size. Confluence held at mechanical 5/9 Bullish; p1 flipped Neutral->Bearish (web-search fallback: broke above $779/crossed $100B mcap in early Sept, has since faded to $718 with Sept 13 sources explicitly calling the trend \"bearish as sellers regain momentum\", F&G 73 Greed during the topping process -- a euphoric new-high push followed by a rollover with sentiment still elevated, a genuine contrarian-Bearish read rather than the mixed/denial-phase reads of the prior several checkpoints). Still only 1/10 Bearish -- well short of the >=4/10 trim gate. Price $718.25 (-1.08% vs PM 09-14's $726.10), dev-from-50DMA +9.1% (comfortably under 25%), RSI 55.5 mid-band. OI mixed (24h 0.0%, 7d -25.6%, the same standing weekly-unwind watch item, still not accompanied by a funding flip or price breakdown -- funding flat 0.0093%/8h). Invalidation $695 not breached, cushion ~3.35% -- tightened from PM's ~4.28%, tightest on the book, standing multi-checkpoint watch item now reinforced by a genuine (not mixed) Bearish sentiment read; conviction held Intact per Section 3 rule 6 (sentiment alone is never a standalone action trigger), but flagging increased vigilance given the cushion compression -- a further tightening or a funding/OI deterioration alongside it would warrant a closer look next checkpoint."
+        },
+        {
+          "checkpoint": "2026-09-15 PM",
+          "timestamp_utc": "2026-09-15T19:10:45.025654Z",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (1/10 Bearish)",
+          "action": "HOLD, no changes -- full target size. Confluence held flat (5/9 Bullish mechanical, p1 Bearish for a second consecutive checkpoint -- web-search fallback: broke above $779/crossed $100B mcap early Sept, has since faded further to ~$720 with Sept 13 coverage still calling the trend 'bearish as sellers regain momentum' against resistance near $741, continuing deterioration not a one-off). Still only 1/10 Bearish, well short of the >=4/10 trim gate. Invalidation $695 not breached, cushion ~3.60% at current $720.00 (roughly stable vs AM's ~3.35% at $718) -- standing tightest-cushion watch item, now on its second consecutive genuine (not denial-phase) Bearish sentiment read; conviction held Intact per Section 3 rule 6, increased vigilance flagged again."
         }
       ]
     },
@@ -1796,7 +1820,7 @@
       "qty": 2647.5145,
       "notional_usdt": 899.6254,
       "avg_entry_price": 0.3398,
-      "size_pct_current": 8.9038,
+      "size_pct_current": 8.8299,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.378,
@@ -1894,6 +1918,14 @@
           "conviction": "Intact",
           "confluence": "5/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- full target size (post sector-cap trim). Confluence eased 6/10(PM 09-14)->5/10 AM: p1 cleared Bearish->Neutral (web-search fallback: the TRXS staked-TRX ETF launch drew almost no demand -- $16,700 first-day volume, zero net inflows -- despite Sun's public buyback promotion; muted/indifferent crowd interest, neither euphoria nor capitulation) and mechanical eased by one. 0/10 Bearish -- no trim/exit gate approached. Price $0.3378, dev-from-50DMA a thin +1.2%, RSI 53.6 mid-band. OI 24h +1.8%, 7d -1.3% (continuing to stabilize, thesis_test's 'OI stabilizes or turns positive' condition trending the right way). Invalidation $0.322 not breached (~4.91% cushion). Interim review due 2026-09-23."
+        },
+        {
+          "checkpoint": "2026-09-15 PM",
+          "timestamp_utc": "2026-09-15T19:10:45.025654Z",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- full target size (post sector-cap trim). Confluence held flat (4/9 Bullish mechanical, p7_oi Neutral immaterial mixed read; p1 read Bullish -- web-search fallback: price retreating/'losing a seven-month trendline' per technical coverage while usage fundamentals keep strengthening, TVL $28B, DeFi TVL >$5.18B top-5 chain, 3.88M daily active addresses, 401M total accounts -- clean capitulation-while-thesis-intact). Invalidation $0.322 not breached, cushion ~3.32% at current $0.3327. Interim review not due again until 2026-09-23."
         }
       ]
     }
