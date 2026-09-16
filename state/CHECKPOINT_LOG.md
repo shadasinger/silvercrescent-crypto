@@ -4329,3 +4329,28 @@ Watchlist changes: n/a — AM is not a MID routine. Excluded (red flags): n/a fo
 Simulated fills: n/a — no trades this checkpoint.
 
 Learning artifacts written: `state/PARAMETERS.json` (refreshed, 30 coins + global; sentiment API failed for all 5 attempted coins both the initial call and a retry, full web-search fallback used instead), `state/SIGNALS.csv` (30 rows appended, individualized p1 reasoning for the 5 researched coins), `state/PORTFOLIO.json` (all 4 holdings' status_history appended, cash_usdt/portfolio_value_usdt/size_pct_current refreshed — no trades), `state/BRIEFING.md` (rewritten), this report. Not Monday — no shadow-book weekly refresh (last done AM 09-14, next due Monday 09-21). Not first AM of month — no monthly review (already written 2026-09-01, next due 2026-10-01).
+
+## CHECKPOINT — 2026-09-16, MID (sourcing)
+
+Global params: stablecoins +0.01% 7d ($311.0B) | MVRV BTC 1.42 / ETH 1.06 | F&G 51 (Δ7d −15, cooling out of Greed toward neutral) | funding regime: near-zero to mildly positive across held names | futures: fapi.binance.com still geo-blocked — params 6-7 sourced from Hyperliquid fallback for all 30 coins.
+Deployed: ~37.0% across 4 positions | Cash: ~63.0% ($6,269.84). No trading decisions this routine (MID never trades).
+
+Universe build: `scripts/universe.py` → 120 candidates (12 stablecoin/wrapped excluded, generated_at 2026-09-16T13:16:34Z per CoinGecko cache).
+
+No-chase check: LSK (+475.1% 7d, rank 223) excluded from new-add consideration as an extreme chaser — lone name over the 50% line this run, too small/illiquid-rank to be a serious candidate regardless. No held/watchlist incumbent breached the line.
+
+Red-flag screen: fresh web-search pass, window 2026-09-15 to 2026-09-16 — hack/exploit, SEC/CFTC enforcement, team-exit/founder-scandal sweeps. No new incident tied to any of the 30 watchlist tickers. Searches surfaced only unrelated infra CVEs (WSO2 API Manager, a WooCommerce plugin — not crypto-asset protocols), the standing Coldcard hardware-wallet hack (since 08-04, non-protocol-specific), an unchanged broadly-supportive SEC/CFTC Regulation-Crypto-Assets/MOU-coordination backdrop (not ticker-specific), and Story Protocol's Aug-16 co-founder "soft rug pull" exit plus Eric Trump's Alt5 Sigma departure (neither a watchlist ticker or protocol tie). ETHFI's Sept 11 AtomicQueue exploit (still `entry_blocked`, drop review due 2026-09-29) and NEAR's Sept 9 breach (reviewed, not blocked) both reconfirmed with no new information — neither due for a fresh weigh-in this run.
+
+**No coin newly `entry_blocked`.** VET clears its own 2-week minimum today (added 09-02) — no longer lock-protected, scores 7, no catalyst decay reported — not a drop consideration.
+
+Scoring & rotation review: tied-lowest droppable rotating incumbents (MORPHO, ETHFI, CAKE, HBAR, PEPE, TAO, ARB, score 6 each) not re-deep-dived today — no new triggering event since the last fresh check, unchanged conclusions stand. Outside-candidate review: top-60-by-mcap non-watchlist names (XLM, BCH, LTC, GRAM, AVAX, SHIB, SUI, WLFI, PUMP, DOT, ICP) all show flat-to-negative 7d momentum this run (only WLFI +2.2%), none present a fresh catalyst beating the tied-lowest incumbents; full-universe momentum leaders outside the watchlist (AI +21.1%, JST +12.0%, SENT +5.5%, AWE +5.4%, RAY +2.2%) are all sub-$300M-mcap/low-rank speculative names with no dated catalyst — not actioned. RENDER, QNT, GRT, DOT, ICP, STX, AVAX, SUI, ATOM, LTC, AERO, CRV, GRAM, VIRTUAL, WLD, INJ, PUMP, SHIB not re-deep-dived today — exhaustively reviewed across 9+ prior MIDs, no new triggering event for any of them.
+
+Decisions & reasoning: **No coin adds/drops** — 0/5 slot-change budget used this week (Sun 09-13 – Sat 09-19). Held/armed/locked: JUP, ETH, BNB, TRX held (4/5 positions, one slot open since the 09-12 PM ETHFI exit, all locked from rotation-out regardless of score); no coin armed as of the AM 09-16 checkpoint — the market-wide p8_stables flip (stablecoin 7d Δ compressing to near-flat) capped every coin's mechanical count at ≤5/10 this morning, ceiling was NEAR at 5/10 (still true on this refresh). PENDLE (unlocks 09-20), FIL (unlocks 09-18) remain inside their own 2-week minimums, locked from drop regardless of budget. `coins` array unchanged this run.
+
+Sector exposure (of deployed capital): DEX (JUP) 11.55% | Major L1 (ETH+TRX) 49.82% | Exchange (BNB) 38.55%. Of portfolio: DEX 4.27% | Major L1 18.45% | Exchange 14.27% | Cash 63.01% | Deployed 36.99% (prices as of this run's `parameters.py` refresh, informational only — no PORTFOLIO.json changes at MID). Sector caps unchanged: Major L1 4/4, Meme 3/4, DEX 4/4 (Major L1/DEX permanent-capped), DeFi Lending 4/4, Oracle 2/4, Enterprise 2/4, AI 2/4, L2 2/4, DePIN/Storage 1/4, Store of Value 1/4, Exchange 1/4, Payments 1/4, Privacy 1/4, RWA 1/4, Liquid Staking 1/4 (ETHFI entry_blocked but still occupies the sector's sole slot).
+
+Watchlist changes (MID only): none. Excluded (red flags): ETHFI (entry_blocked, standing, drop review 09-29); NEAR reviewed and cleared, not blocked.
+
+Simulated fills: n/a — MID never trades.
+
+Learning artifacts written: `data/universe.json` (120 candidates), `state/WATCHLIST.json` (notes appended, `updated_utc` refreshed, no `coins` array changes), `state/PARAMETERS.json` (refreshed, 30 coins + global block, warm for the PM checkpoint), `state/BRIEFING.md` (rewritten), this report.
