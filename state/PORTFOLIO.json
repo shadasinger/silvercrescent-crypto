@@ -1263,7 +1263,7 @@
     }
   ],
   "cash_usdt": 6269.8376,
-  "portfolio_value_usdt": 9956.8041,
+  "portfolio_value_usdt": 9967.9285,
   "positions": [
     {
       "ticker": "JUP",
@@ -1273,7 +1273,7 @@
       "qty": 1990.8364,
       "notional_usdt": 489.3476,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 4.2909,
+      "size_pct_current": 4.2801,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -1505,6 +1505,13 @@
           "conviction": "Intact",
           "confluence": "4/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- price $0.2146 (-0.69%/24h, -1.36% vs avg entry $0.217553). Confluence eased 6/10 PM 09-15 -> 4/10 AM 09-16, driven by two moves: p1 cooled Bullish (PM capitulation read) -> Neutral (today's sentiment trackers read mostly neutral, JUP 'becoming less newsworthy' -- no clean crowd extreme, not a deterioration, the capitulation framing simply didn't recur), and p8_stables flipped Bullish -> Neutral market-wide (stablecoin 7d growth decelerated to +0.05% from +0.22%, a global-parameter shift affecting all 30 coins equally, not JUP-specific). 0/10 Bearish, mechanical structure clean: price above 50DMA ($0.20553, dev +4.4%), RSI 47.3 mid-band, funding flat. Invalidation $0.203 not breached, cushion ~5.41% (compressed from PM's ~9.11% on the broader pullback). Watch item: 7d OI printed -40.5% (24h -15.5%) -- a large decline, but price is also down on the week (chg_7d -8.02%), so this is co-directional de-risking, not the OI-collapsing-after-a-rally divergence pattern the p7 rubric flags Bearish (mechanically still Neutral, not overridden -- doesn't meet the written rubric's divergence condition). This does mean JUP's named thesis-test condition ('OI keeps expanding alongside price') is not currently being met; flagging for the next checkpoint rather than downgrading on one read, consistent with this book's standing practice of requiring convergence with DMA/RSI deterioration before a Weakening call, neither of which has occurred. No trim/exit trigger. Interim review already handled 2026-09-15 AM; not due again until 2026-10-13."
+        },
+        {
+          "checkpoint": "2026-09-16 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "3/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- price $0.2143 (-0.83%/24h, roughly flat vs AM's ~$0.2146). Confluence flat at 3/10 (0/10 Bearish, unchanged from AM per SIGNALS.csv's own p2-p10 mechanical count -- p2/p6/p9 Bullish, rest Neutral). xAI sentiment API returned HTTP 403 this run (first outage of this kind) -- fell back to web search per Section 0: mixed picture (4.7/5 average social score but Twitter reads 'mostly neutral', a JUP-specific F&G print of 74/Greed against a 57%-bearish technical read) -- no clean euphoria or capitulation dominance, contrarian Neutral (unchanged). Mechanical structure clean: price above 50DMA (dev +4.3%), RSI 47.2 mid-band, funding flat, p7_oi Neutral (24h -9.4%, 7d -40.8% -- still a large weekly OI decline, still co-directional with the week's -8.14% price softness, not the rubric's named divergence pattern; the named thesis-test condition 'OI keeps expanding alongside price' is still not being met, now a second consecutive checkpoint -- watch item, not yet a Weakening trigger absent DMA/RSI deterioration). Invalidation $0.203 not breached, cushion ~5.62% (widened slightly from AM's ~5.41% on the modest price recovery). Interim review not due again until 2026-10-13."
         }
       ]
     },
@@ -1516,7 +1523,7 @@
       "qty": 0.39502,
       "notional_usdt": 996.2009,
       "avg_entry_price": 2500.099323,
-      "size_pct_current": 9.5524,
+      "size_pct_current": 9.5514,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 2900.0,
@@ -1678,6 +1685,13 @@
           "conviction": "Intact",
           "confluence": "4/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- price $2407.76 (+0.4%/24h, essentially flat vs PM 09-15 close ~$2404.52). Confluence eased 5/10 PM 09-15 -> 4/10 AM 09-16, entirely the market-wide p8_stables flip Bullish->Neutral (stablecoin 7d growth decelerated to +0.05%), not an ETH-specific deterioration -- p1 held Neutral both checkpoints (today's web-search fallback: genuinely mixed pre-FOMC picture, bullish crypto-bill optimism and a large whale long against fresh whale shorts on ETH/BTC/ZEC and fading volume -- no clean crowd extreme). 0/10 Bearish, mechanical structure still clean: price comfortably above 50DMA ($2218.04, dev +8.6%), RSI 51.1 mid-band, funding flat, p7_oi Neutral (24h -10.5%, 7d -8.7%, softening but not the divergence pattern the rubric flags Bearish). **Invalidation $2,355 not breached -- cushion ~2.19% (essentially unchanged from PM's ~2.10%), still the tightest on the book**, with today's 2 PM ET FOMC rate decision (widely expected 25bp hike) the standing binary catalyst risk flagged in the PM 09-15 pre-mortem; no rule triggers pre-emptively on cushion width alone (Section 5 step 4's mechanics require Bearish-count or invalidation-breach triggers, neither of which is present), so this remains a logged watch item, not an action. Interim review not due until 2026-09-20."
+        },
+        {
+          "checkpoint": "2026-09-16 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "4/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- price $2410.21 (+0.5%/24h vs AM's $2407.76, essentially flat). Confluence held flat at 4/10 (0/10 Bearish), unchanged from AM. Today's 2 PM ET FOMC decision resolved: the Fed hiked 25bp to 3.75-4.00% (first hike since July 2023, hawkish tone -- inflation 'too high...for too long', 16/18 officials expect another hike this year) -- the standing binary catalyst risk flagged in the PM 09-15 pre-mortem has now fired, and ETH's price is essentially unchanged through it, a mild positive tell. xAI sentiment API returned HTTP 403 this run -- web-search fallback: still genuinely split (positive long-term/analyst sentiment and ~$350M ETH quietly leaving exchanges -- holding, not panic-selling, into the hike -- against broader risk-off macro pressure and repeated rejections near $2,550), contrarian Neutral (unchanged). Mechanical structure clean: price above 50DMA (dev +8.7%), RSI 51.3 mid-band, funding flat, p7_oi Neutral (24h -0.5%, 7d -3.8%, mild and co-directional). **Invalidation $2,355 not breached -- cushion ~2.34% (essentially unchanged from AM's ~2.19%), still the tightest on the book** and now sitting through a realized hawkish-hike event rather than an anticipated one; flagged again for tonight's pre-mortem given crypto's 24/7 gap risk. Interim review not due until 2026-09-20."
         }
       ]
     },
@@ -1689,7 +1703,7 @@
       "qty": 1.991726,
       "notional_usdt": 1458.1028,
       "avg_entry_price": 744.5063,
-      "size_pct_current": 14.284,
+      "size_pct_current": 14.3494,
       "target_size_pct": 15.0,
       "stage": "full_target",
       "target": 851.0,
@@ -1830,6 +1844,13 @@
           "conviction": "Intact",
           "confluence": "4/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- price $714.07 (+0.28%/24h, essentially flat vs PM 09-15 close ~$715.99). Confluence eased 5/10 PM 09-15 -> 4/10 AM 09-16, driven by the market-wide p8_stables flip Bullish->Neutral (not BNB-specific). p1 read Bearish for a THIRD consecutive checkpoint (PM 09-14, PM 09-15, now AM 09-16) -- today's web-search fallback found Santiment social dominance collapsed to 0.019%, a level not seen since December 2020 (retail attention genuinely fading, not just price softness), compounding the still-live MiCA EU-passporting-rejection risk cited as BNB's key regulatory overhang; judged this a continuing deterioration, not a one-off, per the same standard applied the prior two checkpoints. Still only 1/10 Bearish overall, well short of the >=4/10 trim gate (Section 3 rule 6: sentiment alone is never a standalone trigger). Mechanical structure stays clean: price above 50DMA ($661.36, dev +8.0%), RSI 54.0 mid-band, funding flat, p7_oi Neutral (24h -12.6%, 7d -34.3% -- a large weekly OI decline, co-directional with the week's price softness, not the rubric's named divergence pattern). **Invalidation $695 not breached, but cushion has compressed to ~2.67% (from PM's ~3.60%), now the second-tightest on the book behind ETH** -- flagged as an elevated watch item given the three-checkpoint sentiment deterioration streak plus today's pending FOMC decision, though no named thesis-test condition (DMA, RSI, OI-divergence) has actually broken, so conviction stays Intact per this book's standing precedent (Weakening calls require structural convergence, not sentiment alone). Interim review not due until 2026-09-21."
+        },
+        {
+          "checkpoint": "2026-09-16 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- price $718.14 (+0.85%/24h vs AM's $714.07). Confluence improved 4/10 (1 Bearish) AM -> 5/10 (0 Bearish) PM: p3_rsi flipped Neutral->Bullish (RSI now 55.2, back inside the 55-70 band) and p1 sentiment cooled Bearish->Neutral, ending a 3-consecutive-checkpoint deterioration streak. xAI sentiment API returned HTTP 403 this run -- web-search fallback found no fresh confirmation of continued Santiment social-dominance fade or a new MiCA development (only a stale early-Sept 'crowd buzzing/$3,000 target' item and a generic F&G 69/Greed print) -- genuinely inconclusive today, not forcing the prior read forward absent supporting evidence, contrarian Neutral. Mechanical structure clean: price above 50DMA (dev +8.6%), funding flat (-0.0008%/8h, essentially zero), p7_oi Neutral (24h -6.9%, 7d -29.2% -- still a large weekly decline, still co-directional with the week's -0.62% price softness, not the rubric's divergence pattern). Invalidation $695 not breached, cushion ~3.32% (roughly unchanged from AM's ~2.67%, slightly widened). Today's hawkish 25bp FOMC hike passed without incident for BNB. Interim review not due until 2026-09-21."
         }
       ]
     },
@@ -1841,7 +1862,7 @@
       "qty": 2647.5145,
       "notional_usdt": 899.6254,
       "avg_entry_price": 0.3398,
-      "size_pct_current": 8.9023,
+      "size_pct_current": 8.919,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.378,
@@ -1954,6 +1975,13 @@
           "conviction": "Intact",
           "confluence": "4/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- price $0.3348 (+0.57%/24h, roughly flat vs PM 09-15 close ~$0.3330). Confluence held flat at 4-5/10 range: mechanical p2-p10 unchanged/clean (4/9 Bullish, 0 Bearish), p1 cooled from PM's Bullish (capitulation-while-thesis-intact) to Neutral this checkpoint -- today's web-search fallback found sentiment reading genuinely flat/neutral (CMC explicitly: 'Neutral Sentiment Offsets Flows'; Twitter mostly neutral; a TRX-specific Fear&Greed print of 73/Greed, which actively cuts against a capitulation framing) rather than the clearer crowd-doubt read of the prior checkpoint -- not forcing yesterday's read forward when today's evidence doesn't support it. 0/10 Bearish, mechanical structure clean: price essentially at the 50DMA ($0.33383, dev +0.3%, the least-extended structure on the book), RSI 48.7 mid-band, funding flat, p7_oi Neutral (24h -3.6%, 7d -2.4% -- close to flat, consistent with the thesis test's own 'OI stabilizes' framing rather than a divergence). Invalidation $0.322 not breached, cushion ~3.82% (improved from PM's ~3.32%). Interim review not due until 2026-09-23."
+        },
+        {
+          "checkpoint": "2026-09-16 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "4/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- price $0.3358 (+0.87%/24h vs AM's $0.3348). Confluence held flat at 4/10 (0/10 Bearish), unchanged from AM. xAI sentiment API returned HTTP 403 this run -- web-search fallback: still flat/split (social sentiment score 4.8/5 with tweets skewing bullish 30.4% vs 4.4% bearish, well short of 'everyone's in' dominance, against a bearish technical break of the token's 7-month trendline) -- no clean crowd extreme, contrarian Neutral (unchanged). Mechanical structure clean: price essentially at the 50DMA (dev +0.6%), RSI 50.3 mid-band, funding flat, p7_oi Neutral (24h -0.9%, 7d -1.6%, close to flat, consistent with the thesis test's 'OI stabilizes' framing). Invalidation $0.322 not breached, cushion ~4.28% (improved slightly from AM's ~3.82%). Interim review not due until 2026-09-23."
         }
       ]
     }

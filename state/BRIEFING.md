@@ -1,15 +1,18 @@
-BRIEFING — 2026-09-16 MID
+BRIEFING — 2026-09-16 PM
+
 Top 5 considerations:
-1. NEAR — confluence 5/10 — record 118M monthly active addresses plus DMA/RSI/rvol/funding/MVRV all Bullish; split social read (bearish technical warning vs. bullish fundamentals) keeps sentiment Neutral and OI/stables/F&G flat — needs 2 more to arm; not armed.
-2. BTC — confluence 4/10 — clean golden-cross/funding/MVRV trend; sentiment wasn't researched (under the ≥5 threshold) and OI/stables/F&G read flat — needs sentiment plus 3 more; not armed.
-3. AAVE — confluence 4/10 — same golden-cross/funding/MVRV setup; armed 7/10 twice this week (PM 09-14, PM 09-15) but lapsed both times as sentiment/OI softened; not currently armed.
-4. ENA — confluence 4/10 — DMA/rvol/funding/MVRV Bullish, capped by under-threshold sentiment and flat OI/stables/F&G; not armed, no recent arm history.
-5. LINK — confluence 4/10 — same mechanical profile as ENA/BTC; capped by under-threshold sentiment and flat OI/stables/F&G; not armed.
+1. ARB — confluence 6/10 — closest to the gate; today's 92.6M-token unlock (~1.4% of mcap) splits bulls (Robinhood Chain fees, ArbOS Elara) vs. bears, and the lone Bearish read is mechanical overextension (+56.8% above 50DMA) — not armed, needs the overextension to cool while momentum holds.
+2. BNB — confluence 5/10 — held; RSI just moved back into the bullish band and sentiment ended a 3-checkpoint bearish streak (inconclusive today, not confirmed better) — still needs shrinking OI (-29.2% 7d) to stabilize and the MiCA overhang to clear.
+3. ZEC — confluence 5/10 (2 Bearish) — parabolic +130% monthly move now reads contrarian Bearish on sentiment (retail "extremely bullish," RSI 69, +78.4% above 50DMA) — blow-off-top risk, not a watchlist holding.
+4. ETH — confluence 4/10 — held; cleared today's 25bp hawkish Fed hike without breaching $2,355, but its ~2.34% cushion is the tightest on the book — top overnight gap-risk watch item.
+5. TRX — confluence 4/10 — held; flat and clean, hugging its 50DMA with no fresh catalyst either direction.
+
 Holdings:
-JUP | 4.29% | entry $0.2176 -> now $0.2136 | -1.8% | -$0.0040/coin | position P&L -$64.10
-ETH | 9.55% | entry $2500.10 -> now $2405.00 | -3.8% | -$95.10/coin | position P&L -$46.18
-BNB | 14.28% | entry $744.51 -> now $712.80 | -4.3% | -$31.71/coin | position P&L -$38.40
-TRX | 8.90% | entry $0.3398 -> now $0.3349 | -1.4% | -$0.0049/coin | position P&L -$12.97
-Portfolio: $9,951.46 (-0.49% / -$48.54 since inception)
-Regime: F&G 51, cooling fast (Δ7d -15) out of Greed toward neutral; stablecoin supply flat (+0.01% 7d, $311.0B, little fresh sideline liquidity); MVRV BTC 1.42 / ETH 1.06, both mid-cycle-healthy, no cycle-top signal.
-Watchlist: no changes this run.
+JUP | 4.28% | entry $0.2176 -> now $0.2143 | -1.5% | -$0.0033/coin | position P&L -$6.48
+ETH | 9.55% | entry $2500.10 -> now $2410.21 | -3.6% | -$89.89/coin | position P&L -$35.51
+BNB | 14.35% | entry $744.51 -> now $718.14 | -3.5% | -$26.37/coin | position P&L -$52.51
+TRX | 8.92% | entry $0.3398 -> now $0.3358 | -1.2% | -$0.0040/coin | position P&L -$10.59
+
+Portfolio: $9,967.93 (-0.3% / -$32.07 since inception)
+Regime: F&G 51 (neutral, down from Greed over 7d), stablecoin supply flat (0.0% 7d — sideline liquidity stalled, not fleeing), MVRV BTC 1.42/ETH 1.06 (mid-cycle, not overheated).
+Pre-mortem: today's hawkish 25bp Fed hike resolved without breaking any invalidation, but a delayed risk-off leg in BTC (-10-15%) would hit all 4 holdings via correlation, ETH first (tightest cushion) — no pre-emptive trim taken (no rule triggered), 62.9% cash is the buffer, AM 09-17 treats any breach as an immediate exit.
