@@ -1263,7 +1263,7 @@
     }
   ],
   "cash_usdt": 6269.8376,
-  "portfolio_value_usdt": 10036.8556,
+  "portfolio_value_usdt": 10162.07,
   "positions": [
     {
       "ticker": "JUP",
@@ -1273,7 +1273,7 @@
       "qty": 1990.8364,
       "notional_usdt": 489.3476,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 4.6057,
+      "size_pct_current": 5.02,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -1526,6 +1526,13 @@
           "conviction": "Intact",
           "confluence": "3/10 (1/10 Bearish)",
           "action": "HOLD -- confluence 3/10 (1/10 Bearish, p10_fg market overlay only), unchanged in substance vs AM. Price $0.2322 (+4.13% vs AM's $0.223), still above 50DMA in golden-cross structure. xAI sentiment API returned HTTP 403 again; web-search fallback: still mixed (41.91% bullish vs 5.11% bearish tweets but 58.09% neutral, avg social score 4.7/5) -- no dominant euphoria or capitulation, contrarian Neutral, unchanged. Invalidation $0.203 not breached, cushion ~12.6% (widened materially from AM's ~8.97% on today's price move). 7d OI thesis-test watch item (still negative, co-directional with price) carries forward, no override."
+        },
+        {
+          "checkpoint": "2026-09-18 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (0/10 Bearish)",
+          "action": "HOLD -- confluence 6/10 (0/10 Bearish), up from PM 09-17's 3/10 on a broad mechanical refresh (RSI, rvol, funding, OI, MVRV all flipped Bullish this run). Price $0.2563 (+10.38% vs PM's $0.2322), still above 50DMA in golden-cross structure, dev+23.4% (below the 25% overextension line). xAI sentiment API returned HTTP 403 again; web-search fallback: still mixed (bullish weekly pattern vs analyst range-caution, wallet-concentration risk flagged) -- no dominant crowd extreme, contrarian Neutral, unchanged. Invalidation $0.203 not breached, cushion widened to ~20.8% (from PM's ~12.6%)."
         }
       ]
     },
@@ -1537,7 +1544,7 @@
       "qty": 0.39502,
       "notional_usdt": 996.2009,
       "avg_entry_price": 2500.099323,
-      "size_pct_current": 9.6621,
+      "size_pct_current": 9.7,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 2900.0,
@@ -1720,6 +1727,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (1/10 Bearish)",
           "action": "HOLD -- confluence 5/10 (1/10 Bearish, p10_fg overlay only), unchanged vs AM. Price $2,455.00 (+0.29% vs AM's $2,448.04). xAI sentiment API returned HTTP 403; web-search fallback: F&G reading Greed (mid-60s) but $520M net spot ETF outflows 09-16 (BlackRock ETHA -$110M) diverging from retail greed -- no clean crowd extreme, contrarian Neutral, unchanged. Invalidation $2,355 not breached -- cushion ~4.07% (improved from AM's ~3.80%), still the tightest cushion on the book and the top pre-mortem watch item."
+        },
+        {
+          "checkpoint": "2026-09-18 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (1/10 Bearish)",
+          "action": "HOLD -- confluence 5/10 (1/10 Bearish, p5_volz), unchanged in substance vs PM 09-17. Price $2,495.59 (+1.65% vs PM's $2,455.00). xAI sentiment API returned HTTP 403; web-search fallback: F&G Greed (~69) with a fear-to-cautious-greed swing mid-Sept, ETF inflows offsetting residual fear -- no clean crowd extreme, contrarian Neutral, unchanged. Invalidation $2,355 not breached -- cushion ~5.64% (improved from PM's ~4.07%), remains the tightest cushion on the book and the top pre-mortem watch item."
         }
       ]
     },
@@ -1731,7 +1745,7 @@
       "qty": 1.991726,
       "notional_usdt": 1458.1028,
       "avg_entry_price": 744.5063,
-      "size_pct_current": 14.459,
+      "size_pct_current": 14.83,
       "target_size_pct": 15.0,
       "stage": "full_target",
       "target": 851.0,
@@ -1893,6 +1907,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (1/10 Bearish)",
           "action": "HOLD -- confluence 5/10 (1/10 Bearish, p10_fg overlay only), unchanged vs AM. Price $728.63 (+0.24% vs AM's $726.89). xAI sentiment API returned HTTP 403; web-search fallback: still mixed (bullish conviction near resistance vs overheating warnings, BNB-specific F&G 69/Greed against a 41%-bearish technical read) -- no clean dominance, contrarian Neutral, unchanged. Invalidation $695 not breached, cushion ~4.62% (improved from AM's ~4.39%). MiCA overhang remains an unresolved standing watch item."
+        },
+        {
+          "checkpoint": "2026-09-18 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (0/10 Bearish)",
+          "action": "HOLD -- confluence 6/10 (0/10 Bearish), up from PM 09-17's 5/10 on a mechanical improvement (RSI/rvol/OI turning Bullish). Price $756.30 (+3.80% vs PM's $728.63). xAI sentiment API returned HTTP 403; web-search fallback: F&G 69/Greed with 'persistent positive sentiment... lack of fear' language coexisting with a separately-reported bearish price-trend narrative -- no clean dominance, contrarian Neutral, unchanged. Invalidation $695 not breached, cushion ~8.11% (improved from PM's ~4.62%). MiCA overhang remains a standing watch item."
         }
       ]
     },
@@ -1904,7 +1925,7 @@
       "qty": 2647.5145,
       "notional_usdt": 899.6254,
       "avg_entry_price": 0.3398,
-      "size_pct_current": 8.805,
+      "size_pct_current": 8.76,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.378,
@@ -2038,6 +2059,13 @@
           "conviction": "Intact",
           "confluence": "4/10 (1/10 Bearish)",
           "action": "HOLD -- confluence 4/10 (1/10 Bearish, p10_fg overlay only), unchanged vs AM. Price $0.3338 (-0.60% vs AM's $0.3358). xAI sentiment API returned HTTP 403; web-search fallback found a fresh, specific read this checkpoint: Santiment reports crowd hesitation/fear/doubt still dominant across social discussion even as price climbs through 2026 -- a disbelief-rally pattern (skepticism persisting despite an intact thesis), read as capitulation-adjacent, contrarian Bullish (fresh call, prior checkpoints held Neutral; total confluence still only 4/10, well short of any gate). Invalidation $0.322 not breached, cushion ~3.54% (essentially unchanged from AM's ~4.11%, narrowest move today)."
+        },
+        {
+          "checkpoint": "2026-09-18 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (0/10 Bearish)",
+          "action": "HOLD -- confluence 5/10 (0/10 Bearish), up from PM 09-17's 4/10 (1/10 Bearish clears -- p1 no longer counted Bullish this round). Price $0.3361 (+0.69% vs PM's $0.3338). xAI sentiment API returned HTTP 403; web-search fallback this run shows elevated readings (4.8/5 social score, F&G 73/Greed) diverging from price action described as 'losing a seven-month trendline' -- optimism running ahead of weakening technicals but no explicit 'everyone's in' euphoria language -- contrarian Neutral (revised from PM 09-17's Bullish disbelief-rally read; fresher data shows elevated Greed rather than dominant crowd hesitation). Invalidation $0.322 not breached, cushion ~4.20% (essentially flat vs PM's ~3.54%)."
         }
       ]
     }
