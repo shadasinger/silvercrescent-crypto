@@ -1,15 +1,16 @@
-BRIEFING — 2026-09-18 MID
+BRIEFING — 2026-09-18 PM
 Top 5 considerations:
-1. ASTER — confluence 7/10 — armed (first occurrence AM); buyback/burn mechanics + extended team lock still reading clean, needs a second 7/10 at PM to confirm entry.
-2. POL — confluence 7/10 — armed (first occurrence AM), lifted partly by today's board-wide F&G-reversion tailwind; needs PM to hold ≥7/10 to prove it's more than a one-day regime bounce.
-3. SOL — confluence 7/10 — armed (first occurrence AM, permanent slot, no rotation stakes); sentiment trough-recovery plus clean technicals, needs PM confirmation.
-4. AAVE — confluence 6/10 — one short of arming; golden-cross technicals intact but missed today's market-wide tailwind that lifted others into range.
-5. BTC — confluence 6/10 — one short of the gate; cycle proxy tracking the same board-wide bullish flip, MVRV 1.44 still mid-cycle healthy, not overheated.
+1. SOL — confluence 8/10 — confirmed (2nd straight ≥7/10 read) but BLOCKED from entry: Major L1 sector is already full (ETH+TRX hold the 2-position cap), so it can't be bought regardless of score unless one of those two exits first.
+2. POL — confluence 7/10 — confirmed too, but lost the coin-flip to ASTER for the book's one open slot (both cleared the profit-math floor; ASTER's edge was marginal). First in line for the next open slot, no re-qualifying needed.
+3. ONDO — confluence 7/10 — armed for the first time tonight; needs one more ≥7/10 read at tomorrow's AM checkpoint to actually confirm.
+4. BTC — confluence 6/10 — one short of the gate; sentiment read flipped Bearish tonight as multiple sources questioned whether today's rally through $82K marks a local top — a regime risk to watch, not a trade signal on BTC itself.
+5. NEAR — confluence 6/10 — jumped from 5/10 on a fresh, real catalyst (a privacy-focused product launch with $70M already deposited); one short of arming.
 Holdings:
-JUP | 5.06% | entry $0.2208 -> now $0.2582 | +16.9% | +$0.0374/coin | position P&L +$74.46
-ETH | 9.73% | entry $2507.31 -> now $2499.88 | -0.3% | -$7.43/coin | position P&L -$2.93
-BNB | 14.66% | entry $739.53 -> now $747.16 | +1.0% | +$7.63/coin | position P&L +$15.20
-TRX | 8.82% | entry $0.3398 -> now $0.3381 | -0.5% | -$0.0017/coin | position P&L -$4.50
-Portfolio: $10,154.64 (+1.5% / +$154.64 since inception)
-Regime: F&G 56 (Δ7d 0, Neutral), stablecoins +0.17% 7d ($310.9B, mild sideline-liquidity growth), MVRV BTC 1.44/ETH 1.08 (both mid-cycle healthy, no cycle-top signal).
-Watchlist: no changes this run.
+JUP | 5.13% | entry $0.2176 -> now $0.2642 | +21.4% | +$0.0467/coin | position P&L +$92.87
+ETH | 10.10% | entry $2500.10 -> now $2620.97 | +4.8% | +$120.87/coin | position P&L +$47.75
+BNB | 14.88% | entry $744.51 -> now $765.72 | +2.8% | +$21.21/coin | position P&L +$42.26
+TRX | 8.74% | entry $0.3398 -> now $0.3384 | -0.4% | -$0.0014/coin | position P&L -$3.71
+ASTER | 5.00% | entry $0.7520 -> now $0.7520 | +0.0% | +$0.0000/coin | position P&L +$0.00 (opened this checkpoint, half-size)
+Portfolio: $10,252.18 (+2.5% / +$252.18 since inception)
+Regime: F&G 56 (Δ7d 0, Neutral), stablecoins +0.25% 7d ($311.2B), MVRV BTC 1.44/ETH 1.08 (mid-cycle healthy) — but tonight's BTC sentiment read flagged "local top" language after the day's rally.
+Pre-mortem: an overnight reversal of today's rally would hit all 5 holdings; TRX's ~5.1% invalidation cushion is tightest — no pre-emptive trim taken, a breach triggers an immediate exit, no confirmation wait.

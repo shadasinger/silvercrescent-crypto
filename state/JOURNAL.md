@@ -1231,3 +1231,41 @@ Mechanical p2_dma and p3_rsi both flipped Bearish this checkpoint — the first 
 **Counterfactual vs runner-ups (PM 09-06 entry):** ONDO armed 7/10 the same checkpoint but did not compete for a slot (ETHFI was the sole confirmed candidate, 1 open slot). No selection-skill miss here — the entry pick was correct and the position was this phase's best single-name outcome by realized P&L.
 
 **One testable lesson:** *This closes the loop opened by LESSONS.md hypothesis #18's "evidence to confirm" case: an unrealized-gain position's named thesis-test condition breached, a half-trim was taken, and the remaining half was exited cleanly one checkpoint later because the breached metric (RSI>75, dev-from-50DMA) did not reclaim its band and instead printed new worse highs on both measures. Proposed rule change (formalizing hypothesis #1/#18 into a general staged-exit protocol): when a named thesis-test condition breaches and triggers a half-trim, treat the very next checkpoint as a binary confirmation test on that same named metric alone (not the general Bearish-count gate) — metric reclaims its band → hold the remainder as a normal position; metric fails to reclaim or worsens further → exit the remainder in full, no third-checkpoint grace period. Evidence that would confirm: future thesis-test-breach trims where this binary rule produces a better realized outcome than waiting for the general ≥4/10-Bearish-for-2-consecutive gate. Evidence that would kill it: a case where the metric round-trips back into its healthy band on the very next checkpoint after a premature full exit was already taken, showing the one-checkpoint grace window is too short.*
+
+## ENTRY — ASTER — 2026-09-18 PM
+
+**Confluence history:** armed AM 2026-09-18 (7/10, first occurrence — PM 09-17 was 6/10), confirmed PM 2026-09-18 (7/10) — 2 consecutive trading checkpoints >=7/10, per Section 5 step 5-6.
+
+**Frozen 10-parameter table (PM 2026-09-18, confirming checkpoint):**
+
+| # | Parameter | Value | Label | Reasoning |
+|---|---|---|---|---|
+| 1 | Sentiment (contrarian) | 400M-token team-lock extension to Sept 2027 (float overhang reduced), buyback/burn to veASTER, "rises 3.3% on positive news and social flows," whale accumulation, new perp-listing buzz; explicit "consensus mixed but leaning cautiously bullish" framing | Bullish | Improving interest without euphoria — 4th consecutive checkpoint on this read, no blow-off-top language at any point. |
+| 2 | Price vs 50/200DMA | $0.752 vs 50DMA $0.6684; dev +12.5% | Bullish | Golden state, moderate (non-overextended) deviation. |
+| 3 | RSI-14 | 60.4 | Bullish | Healthy 55-70 band. |
+| 4 | Realized vol ratio 7d/30d | 0.72 | Bullish | Compression, under 0.8. |
+| 5 | Volume z-score | -0.34 | Neutral | Doesn't clear either Bullish or Bearish band. |
+| 6 | Funding rate | 0.01%/8h | Bullish | Near-zero, no crowded-long risk. |
+| 7 | Open interest Δ | -4.2%/24h, -5.1%/7d | Neutral | Mild pullback on both windows, not a clean divergence against price either direction. |
+| 8 | Stablecoin supply 7d Δ | +0.25% | Bullish | Sideline liquidity growing (global). |
+| 9 | MVRV (BTC proxy) | BTC 1.44 / ETH 1.08 | Bullish | Healthy sub-2 band (global). |
+| 10 | Fear & Greed | 56, Δ7d 0 | Neutral | Mid-band, not at either contrarian extreme (global). |
+
+**Confluence: 7/10 Bullish, 0/10 Bearish.** (Mechanical p2-10 held flat at 6/9 Bullish, 0/9 Bearish both the AM armed and PM confirming checkpoints.)
+
+**Expectancy sheet:**
+- Entry: $0.752 (Binance spot, fetched 2026-09-18T19:06:07Z via `parameters.py`)
+- Target: $0.93 (+23.7%) — measured-move estimate off the buyback/burn + team-lock-driven float-shrink thesis within the 2-8wk horizon
+- Invalidation: $0.665 (-11.6%) — near the 50DMA ($0.6684); a close below breaks the golden-cross structure this thesis rests on
+- R = 23.7 / 11.6 = **2.05** (clears the 2.0 floor)
+- Stated p = **0.42** (Tier C default for a fresh, non-A/B-tier confirmed candidate with no idiosyncratic edge over the book's standard estimate)
+- EV = 0.42×23.7% − 0.58×11.6% = **+3.24%** (clears EV>0 floor)
+- Tier: **C** (R>=2, p>=0.40; confluence 7/10 falls short of Tier A's 8/10) → size band 5-15%
+- Sizing: target 10% (mid-Tier-C), staged half-open this checkpoint = **5% ($512.61 notional, 681.6606 ASTER)**. Second half opens only if confluence holds >=7/10 at the next checkpoint (AM 2026-09-19); no confirmation cuts the half per Section 5 step 9.
+
+**Runner-up candidates this checkpoint (did not enter):**
+- **POL** — confirmed the same checkpoint at 7/10 (2nd consecutive, AM 09-18 armed → PM 09-18 confirmed, 0/10 Bearish both). Expectancy: Entry $0.10473, Target $0.128, Invalidation $0.093, R=2.03, p=0.40, EV=+2.36%. Lost the EV/R tiebreak to ASTER (Section 5 step 6: "highest confluence wins; EV breaks ties" — confluence tied at 7/10, ASTER's EV and R both marginally higher). Logged `confirmed-no-slot` in SIGNALS.csv, carried forward for the next open slot rather than requiring a fresh 2-checkpoint re-arm (precedent: XRP, PM 09-07).
+- **SOL** — also confirmed at 8/10 (2nd consecutive, AM 09-18 armed → PM 09-18 confirmed), the highest confluence count of the three, but hard-rule-BLOCKED from entry: Major L1 sector already holds its 2-position cap (ETH, TRX) per Section 3 rule 8 — cannot enter regardless of confluence unless a Major L1 position exits first. This is a genuine "would have won the slot on confluence alone" case that the sector-cap rule overrides; flagged as a LESSONS.md hypothesis given the rulebook doesn't explicitly sequence sector caps against the highest-confluence-wins tiebreak rule.
+- **ONDO** — newly armed this checkpoint at 7/10 (first occurrence, AM 09-18 was 6/10) — one checkpoint away from its own confirmation, not yet competing for a slot.
+
+**Sector:** DEX (already held via JUP, 1→2/5 positions in-sector post-entry, within the max-2-per-sector cap; ~23.1% of deployed capital post-entry, within the 50%-of-deployed-capital sector cap). Book now at 5/5 positions — maximum concurrent per Section 3 rule 1.
