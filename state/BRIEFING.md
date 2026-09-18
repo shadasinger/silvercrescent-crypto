@@ -1,14 +1,15 @@
-BRIEFING — 2026-09-18 AM
+BRIEFING — 2026-09-18 MID
 Top 5 considerations:
-1. ASTER — confluence 7/10 — armed (first checkpoint at the gate). Buyback/burn mechanics (99% of fees to veASTER) plus a team-token lock extended to Sept 2027 driving a steady grind higher, no euphoria in the sentiment read. Needs tonight's PM to hold ≥7/10 to confirm entry.
-2. POL — confluence 7/10 — armed (first checkpoint at the gate). A broad mechanical pickup (RSI/OI/MVRV) meets a "fading momentum vs. 8B-tx milestone" tug-of-war on sentiment (read Neutral). Needs PM confirmation.
-3. SOL — confluence 7/10 — armed (first checkpoint, up sharply from 3/10 yesterday). Sentiment recovering off a mid-year trough as price pushes through $100. Needs PM confirmation.
-4. AAVE — confluence 6/10 — one short of the gate. Sentiment reads Neutral (no clean crowd-sentiment data found, only mixed analyst framing). Would need one more mechanical flip or a decisive sentiment read to arm.
-5. BTC — confluence 6/10 — one short of the gate. F&G cooled to 56 (neutral); funding/MVRV supportive but no sentiment extreme found either way.
+1. ASTER — confluence 7/10 — armed (first occurrence AM); buyback/burn mechanics + extended team lock still reading clean, needs a second 7/10 at PM to confirm entry.
+2. POL — confluence 7/10 — armed (first occurrence AM), lifted partly by today's board-wide F&G-reversion tailwind; needs PM to hold ≥7/10 to prove it's more than a one-day regime bounce.
+3. SOL — confluence 7/10 — armed (first occurrence AM, permanent slot, no rotation stakes); sentiment trough-recovery plus clean technicals, needs PM confirmation.
+4. AAVE — confluence 6/10 — one short of arming; golden-cross technicals intact but missed today's market-wide tailwind that lifted others into range.
+5. BTC — confluence 6/10 — one short of the gate; cycle proxy tracking the same board-wide bullish flip, MVRV 1.44 still mid-cycle healthy, not overheated.
 Holdings:
-JUP | 5.0% | entry $0.2176 -> now $0.2563 | +17.8% | +$0.0387 per coin | position P&L +$77.14
-ETH | 9.7% | entry $2500.10 -> now $2495.59 | -0.2% | -$4.51 per coin | position P&L -$1.78
-BNB | 14.8% | entry $744.51 -> now $756.30 | +1.6% | +$11.79 per coin | position P&L +$23.49
-TRX | 8.8% | entry $0.3398 -> now $0.3361 | -1.1% | -$0.0037 per coin | position P&L -$9.80
-Portfolio: $10,162.07 (+1.6% / +$162.07 since inception)
-Regime: F&G 56 (flat 7d, neutral) | stablecoin supply +0.47% 7d (mild sideline liquidity) | MVRV BTC 1.44 / ETH 1.08 (both healthy, no cycle-top signal).
+JUP | 5.06% | entry $0.2208 -> now $0.2582 | +16.9% | +$0.0374/coin | position P&L +$74.46
+ETH | 9.73% | entry $2507.31 -> now $2499.88 | -0.3% | -$7.43/coin | position P&L -$2.93
+BNB | 14.66% | entry $739.53 -> now $747.16 | +1.0% | +$7.63/coin | position P&L +$15.20
+TRX | 8.82% | entry $0.3398 -> now $0.3381 | -0.5% | -$0.0017/coin | position P&L -$4.50
+Portfolio: $10,154.64 (+1.5% / +$154.64 since inception)
+Regime: F&G 56 (Δ7d 0, Neutral), stablecoins +0.17% 7d ($310.9B, mild sideline-liquidity growth), MVRV BTC 1.44/ETH 1.08 (both mid-cycle healthy, no cycle-top signal).
+Watchlist: no changes this run.
