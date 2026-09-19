@@ -1269,3 +1269,63 @@ Mechanical p2_dma and p3_rsi both flipped Bearish this checkpoint — the first 
 - **ONDO** — newly armed this checkpoint at 7/10 (first occurrence, AM 09-18 was 6/10) — one checkpoint away from its own confirmation, not yet competing for a slot.
 
 **Sector:** DEX (already held via JUP, 1→2/5 positions in-sector post-entry, within the max-2-per-sector cap; ~23.1% of deployed capital post-entry, within the 50%-of-deployed-capital sector cap). Book now at 5/5 positions — maximum concurrent per Section 3 rule 1.
+
+## EXIT POST-MORTEM — ASTER — 2026-09-19 AM (staged-entry non-confirmation)
+
+**P&L:** +$4.7716 realized on the 681.6606 ASTER half-tranche (entry $0.752, exit $0.759, +0.93%). Realized R +0.0805 vs planned R=2.05 (a small gain on a fraction of a full position; the second half was never opened).
+
+**Thesis verdict:** Playing Out / Intact at exit — not a thesis failure and not a Bearish-count trigger (0/10 Bearish at both the PM 09-18 confirming checkpoint and this AM 09-19 exit). Closed purely because Section 5's staged-entry mechanic requires confluence to hold ≥7/10 at the immediate next trading checkpoint; it eased to 5/10 instead. Per the standing rule (applied identically to AAVE 09-08 PM, ETH/LINK 09-05), no confirmation means the half is cut, not carried forward to wait for a later recovery.
+
+**Per-parameter verdict at entry (PM 09-18, confluence 7/10, 0/10 Bearish) vs. this checkpoint's exit (5/10, 0/10 Bearish):**
+- p4 rvol: Bullish (0.72, compression) at entry → Neutral this checkpoint (0.81, crossed back above the 0.8 compression line) — one of the two parameters that flipped.
+- p1 sentiment: Bullish (steady improving-interest read, 4 consecutive checkpoints) at entry → Neutral this checkpoint — the ticker-specific F&G-76/euphoria and unlock-drop data surfaced this run both traced to an early-Sept (~Sept 4) event already described by its own source as faded, so the read eased rather than flipped hard to Bearish; still the second parameter driving the drop below the reconfirmation bar.
+- p2 DMA, p3 RSI, p6 funding, p8 stables, p9 MVRV: all stayed Bullish, unchanged — golden-cross structure, RSI mid-band (60.7), funding/stablecoin/MVRV backdrop never wavered across the one-checkpoint hold.
+- p5 volz, p7 OI, p10 F&G: Neutral at both checkpoints — never a swing factor (p7 OI stayed soft-mixed, 24h +0.4%/7d -3.6%, consistent with the mild pullback flagged at entry).
+- No thesis-test condition was breached (invalidation $0.665 never approached within ~14% at either checkpoint; RSI never overbought).
+
+**p calibration:** stated p=0.42 at entry; the position was closed before the probabilistic bet against target/invalidation was ever tested — the staged-entry mechanic intervened on a two-parameter wobble (rvol + sentiment) after a single checkpoint, consistent with the AAVE/ETH/LINK precedents.
+
+**Sizing/timing verdict:** the staged-entry rule did what it is designed to do — capped downside to a half-size tranche ($512.61 notional, 5.0% of portfolio) rather than committing the full 10% target size on a read that held for only one checkpoint. In this instance the tranche closed with a small gain rather than a loss, since price (barely) held above the entry despite the confluence reversal.
+
+**Counterfactual vs. runner-ups:** POL, logged `confirmed-no-slot` at the same PM 09-18 checkpoint ASTER entered, filled the slot this ASTER cut freed — see the POL entry snapshot below, same checkpoint. Tracked for the next Monday (2026-09-21) shadow-book weekly refresh alongside other staged-entry cuts.
+
+**One testable lesson:** this is the first staged-entry non-confirmation cut driven by a *joint* rvol+sentiment easing (both parameters moving only one notch, neither cleanly reversing) rather than a single clean flip (contrast AAVE's lone p7_oi flip, ETH/LINK's p2_dma overextension flips). Worth tracking whether a "two parameters easing by one notch each" pattern behaves differently on re-arm odds than a "one parameter flipping hard" pattern — ASTER's underlying fundamentals (team-lock, buyback/burn) never weakened, only the sentiment read cooled off a stale news cycle and the vol-compression setup normalized, which could mean this re-arms faster than a genuine deterioration-driven cut would. Evidence to confirm: ASTER re-arming to ≥7/10 within 2-3 checkpoints on a fresh sentiment or rvol reclaim. Evidence to kill: ASTER staying suppressed below 7/10 for a longer stretch, suggesting the two-notch easing was actually the leading edge of a genuine cooling rather than noise.
+
+## ENTRY — POL — 2026-09-19 AM (carried-forward confirmed-no-slot)
+
+**Confluence history:** originally armed AM 2026-09-18 (7/10) → confirmed PM 2026-09-18 (7/10, lost the EV/R tiebreak to ASTER, logged `confirmed-no-slot` per LESSONS #24/XRP-precedent) → confluence held exactly at 7/10 again this checkpoint (mechanical-only, 7/9 Bullish, p1 Neutral both checkpoints) — no re-arm required since it never dropped below 7/10 in the interim. Slot opened this checkpoint via ASTER's staged-entry non-confirmation cut (see exit post-mortem above).
+
+**Frozen 10-parameter table (2026-09-19 AM, entering checkpoint):**
+
+| # | Parameter | Value | Label | Reasoning |
+|---|---|---|---|---|
+| 1 | Sentiment (contrarian) | CMC-AI: "consensus mixed but leaning bullish," fundamentals (8B cumulative tx, enterprise adoption, rumored Coinme chatter) outperforming price action; F&G 61/Greed vs. technical-sentiment gauge only ~37% bullish | Neutral | Same mixed, no-dominance split as the original PM 09-18 confirmation — unchanged. |
+| 2 | Price vs 50/200DMA | $0.10286, dev +13.6% | Bullish | Golden state, moderate deviation. |
+| 3 | RSI-14 | 57.4 | Bullish | Healthy 55-70 band. |
+| 4 | Realized vol ratio 7d/30d | 0.74 | Bullish | Compression, under 0.8. |
+| 5 | Volume z-score | -0.8 | Neutral | Doesn't clear either band. |
+| 6 | Funding rate | 0.01%/8h | Bullish | Near-zero, no crowded-long risk. |
+| 7 | Open interest Δ | +18.6%/24h, +29.7%/7d | Bullish | Confirming the uptrend on both windows. |
+| 8 | Stablecoin supply 7d Δ | +0.27% | Bullish | Sideline liquidity growing (global). |
+| 9 | MVRV (BTC proxy) | BTC 1.52 / ETH 1.15 | Bullish | Healthy sub-2 band (global). |
+| 10 | Fear & Greed | 71, Δ7d +8 | Neutral | Elevated but not past the 75/falling-fast contrarian thresholds (global). |
+
+**Confluence: 7/10 Bullish, 0/10 Bearish.**
+
+**Expectancy sheet (refreshed on today's fill price; Target/Invalidation carried forward as technical levels from the original PM 09-18 estimate):**
+- Entry: $0.10286 (Binance spot, fetched 2026-09-19T07:07:14Z via `parameters.py`)
+- Target: $0.128 (+24.4%) — unchanged technical level
+- Invalidation: $0.093 (-9.6%) — unchanged technical level
+- R = 24.4 / 9.6 = **2.55** (improved from the original estimate's 2.03, since entry pulled back closer to invalidation while the target held fixed)
+- Stated p = **0.40** (unchanged Tier C default — underlying thesis unchanged from the original PM 09-18 assessment)
+- EV = 0.40×24.4% − 0.60×9.6% = **+4.03%** (improved from the original +2.36%)
+- Tier: **C** (R≥2, p≥0.40; confluence 7/10 falls short of Tier A's 8/10, p=0.40 falls short of Tier B's 0.45) → size band 5-15%
+- Sizing: target 10% (mid-Tier-C), staged half-open this checkpoint = **5% ($513.2116 notional, 4989.4186 POL)**. Second half opens only if confluence holds ≥7/10 at the next checkpoint.
+
+**Runner-up candidates this checkpoint:** none newly competing — ONDO's PM 09-18 arm lapsed this checkpoint (mechanical eased 7/9→5/9 Bullish, capping total confluence at 6/10 regardless of p1); SOL remains confirmed at 7/10 but hard-rule-blocked by the Major L1 sector cap (ETH, TRX unchanged).
+
+**Red-team pass:** Two objections considered before executing.
+1. *Is carrying forward a confirmed status from 12+ hours ago, on an unrelated position's exit, too mechanical?* POL's own confluence was independently re-verified this checkpoint (still 7/10 mechanical-only, unchanged in composition from PM 09-18) rather than assumed — this is a fresh confirmation reading, not a stale one being rubber-stamped. Per LESSONS #24's proposed codification, a confirmed candidate whose confluence hasn't dropped below 7/10 in the interim is treated as still qualifying without a fresh 2-checkpoint re-arm; that condition is met here on independently re-checked data.
+2. *Sizing math relies on the same $0.128/$0.093 technical levels set 12 hours ago — are they stale?* No material news or technical-structure shift was found for POL between PM 09-18 and this checkpoint (same mixed fundamentals-vs-price narrative persists); the levels are support/resistance-based, not time-decaying, so carrying them forward while refreshing only the entry price (as any staged second-half add already does) is consistent with existing practice.
+
+Net: proceed with a staged half-entry. Sector L2 — POL is the book's only L2 position, no cap issue; DEX drops to 1/5 (JUP only) with ASTER's exit. Book stays at 5/5 positions (ASTER out, POL in) — maximum concurrent per Section 3 rule 1.

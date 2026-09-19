@@ -1260,10 +1260,48 @@
       "realized_pnl_usdt": 273.9862,
       "realized_R": 2.9915,
       "exit_reason": "Named thesis-test breach (RSI>75, dev-from-50DMA overextension) confirmed and worsened across 2 consecutive checkpoints (AM 09-12 half-trim -> PM 09-12 full exit); Weakening -> Failing conviction, thesis marked Broken on its own technical test despite OI/funding still confirming healthy flow. Staged two-tranche exit, both on strength (avg realized +2.91R combined), not a loss-cutting exit."
+    },
+    {
+      "ticker": "ASTER",
+      "sector": "DEX",
+      "entry_utc": "2026-09-18T19:06:07Z",
+      "entry_price": 0.752,
+      "qty": 681.6606,
+      "notional_usdt": 512.6088,
+      "avg_entry_price": 0.752,
+      "size_pct_current": 5.0,
+      "target_size_pct": 10.0,
+      "stage": "closed_stage1_cut",
+      "target": 0.93,
+      "invalidation": 0.665,
+      "planned_R": 2.05,
+      "stated_p": 0.42,
+      "tier": "C",
+      "confluence_at_entry": 7,
+      "hold_until": "2026-10-30",
+      "interim_review_date": "2026-10-02",
+      "thesis": "Perp-DEX competing with Hyperliquid: AOS-2 permissionless perpetual-listing standard (2026-08), buyback/burn mechanics (99% of fees to veASTER buybacks), 400M-token team allocation locked to Sept 2027 (reduces float overhang). Price $0.752, dev-from-50DMA +12.5% (moderate), RSI 60.4 mid-band, funding flat (0.01%/8h, no crowding), OI mixed but not diverging (24h -4.2%, 7d -5.1%, a mild pullback not read as a Bearish divergence against price). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (AM 09-18 armed -> PM 09-18 confirmed), 0/10 Bearish both checkpoints -- clean mechanical p2-10 6/9 Bullish, 0/9 Bearish both checkpoints. Sentiment (p1) read Bullish both checkpoints (4th consecutive Bullish p1 read overall) -- steady incremental improving interest without euphoria, no blow-off-top language.",
+      "thesis_test": "Price holds above the 50DMA ($0.6684); funding/OI stay non-crowded (no sustained rise past ~0.05%/8h or a rising-OI/falling-price divergence); RSI stays out of overbought (<75) as price extends toward target.",
+      "invalidation_conditions": "Price closes below $0.665 (near the 50DMA support) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "status_history": [
+        {
+          "checkpoint": "2026-09-18 PM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "7/10",
+          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (AM 09-18 7/10 armed -> PM 09-18 7/10 confirmed, 0/10 Bearish both checkpoints). Mechanical p2-10 held flat at 6/9 Bullish, 0/9 Bearish both checkpoints; p1 sentiment read Bullish both checkpoints -- team-lock extension (400M tokens, cliff to Sept 2027) reducing float overhang, buyback/burn mechanics, AOS-2 permissionless perpetual-listing standard, no blow-off-top language. Won the EV tiebreak over POL for the book's one open slot: both confirmed at 7/10 this checkpoint, but ASTER's expectancy sheet (Entry $0.752, Target $0.93, Invalidation $0.665, p=0.42, R=2.05, EV=+3.24%) edged POL's (Entry $0.10473, Target $0.128, Invalidation $0.093, p=0.40, R=2.03, EV=+2.36%) on both EV and R; POL logged confirmed-no-slot, carried forward for the next open slot (see SIGNALS.csv, LESSONS.md). SOL also confirmed this checkpoint at 8/10 but is hard-rule-blocked from entry: Major L1 sector already holds its 2-position cap (ETH, TRX) per Section 3 rule 8 -- cannot enter regardless of confluence unless a Major L1 position first exits. Sector check: DEX currently holds JUP only (1/5 positions) -- adding ASTER brings DEX to 2/5, within the max-2-per-sector cap, and to ~23.1% of post-entry deployed capital, well under the 50%-of-deployed-capital-per-sector cap. Tier C (R=2.05, p=0.42, EV=+3.24%; Entry $0.752, Target $0.93, Invalidation $0.665). Staged half-entry per rule: BUY 681.6606 ASTER @ $0.752 = $512.6088 notional (5.00% of $10,252.18 portfolio), 2026-09-18T19:06:07Z (Binance spot, same scripts/parameters.py refresh used for this checkpoint). Second half adds only if confluence holds >=7/10 at the next trading checkpoint (AM 09-19); no confirmation cuts the half. Book now at 5/5 positions -- maximum concurrent per Section 3 rule 1."
+        }
+      ],
+      "exit_utc": "2026-09-19T07:07:14.866420+00:00",
+      "exit_price": 0.759,
+      "realized_pnl": 4.7716,
+      "realized_R": 0.0805,
+      "status": "closed",
+      "exit_reason": "staged-entry non-confirmation (Section 5 step 9) -- confluence eased 7/10 (PM 09-18 confirming checkpoint) to 5/10 (AM 09-19), below the >=7/10 bar to add the second half. No confirmation -> cut the half."
     }
   ],
-  "cash_usdt": 5757.2288,
-  "portfolio_value_usdt": 10252.18,
+  "cash_usdt": 5761.3976,
+  "portfolio_value_usdt": 10264.2311,
   "positions": [
     {
       "ticker": "JUP",
@@ -1273,7 +1311,7 @@
       "qty": 1990.8364,
       "notional_usdt": 489.3476,
       "avg_entry_price": 0.217553,
-      "size_pct_current": 5.13,
+      "size_pct_current": 5.28,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.2582,
@@ -1540,6 +1578,13 @@
           "conviction": "Intact",
           "confluence": "5/10 (1/10 Bearish)",
           "action": "HOLD, no changes -- price $0.2642 (+3.08% vs AM 09-18's $0.2563, +21.44% vs avg entry $0.217553). Still above 200DMA in golden-cross structure, but dev-from-50DMA crossed to +27.1% -- past the 25% overextension line for the first time this hold, flipping p2_dma Bullish->Bearish (Section 9: overextension IS a bearish signal even in an uptrend). RSI 60.8 mid-band, in range. Funding flat (0.01%/8h). OI confirming (24h +18.1%, 7d +10.0%). Invalidation $0.203 not breached -- cushion ~30.1% (widest of the hold, on the back of today's strong move). Sentiment (p1) held Neutral -- no fresher data than Sept 12's mixed 41.91%/5.11%/58.09% split, no dominant crowd extreme, not forcing a change on stale data. Confluence 5/10 (1/10 Bearish: p2_dma overextension only) -- nowhere near the 4/10-for-2-consecutive exit gate. Thesis stays Playing Out, conviction stays Intact -- hold, no changes. Flagging the fresh overextension crossover as the standing watch item for the next checkpoint, mirroring past precedent (ETHFI, ASTER) where a similar crossing eventually forced a trim on further extension. Sector-cap check: DEX now 2/5 positions (JUP + this checkpoint's new ASTER entry) at ~23.1% of deployed capital -- well under both the max-2-per-sector and 50%-of-deployed-capital caps."
+        },
+        {
+          "checkpoint": "2026-09-19 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (2/10 Bearish)",
+          "action": "HOLD, no changes -- price $0.2721 (+3.03% vs PM 09-18's $0.2642). p1 sentiment flipped Neutral->Bearish (JUP-specific F&G 73-74/Greed, hotter than the broad market, sitting atop a deepening overextension -- dev-from-50DMA now 29.9%, up from 27.1%) -- Bearish count ticked 1/10->2/10, joining the standing p2_dma overextension flag. Still nowhere near the >=4/10-for-2-consecutive exit gate. OI still confirms (24h +17.8%, 7d +27.5%) and RSI stays in-band (62.6, well under the thesis-test's 75 ceiling) -- no named thesis-test breach, conviction held Intact (not downgraded to Weakening on a single sentiment parameter, per Section 3 rule 6). Invalidation $0.203 not breached -- cushion ~34.04%. Deepening overextension remains the standing watch item, now joined by a fresh Bearish sentiment flag."
         }
       ]
     },
@@ -1551,7 +1596,7 @@
       "qty": 0.39502,
       "notional_usdt": 996.2009,
       "avg_entry_price": 2500.099323,
-      "size_pct_current": 10.1,
+      "size_pct_current": 10.11,
       "target_size_pct": 10.0,
       "stage": "full_target",
       "target": 2900.0,
@@ -1748,6 +1793,13 @@
           "conviction": "Intact",
           "confluence": "6/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- price $2,620.97 (+4.98% vs AM 09-18's $2,495.59, +4.84% vs avg entry $2,500.099323). Still above 50DMA and 200DMA in golden-cross structure, dev-from-50DMA 16.8% (moderate, well under the 25% overextension line). RSI 64.9, upper-mid band with room. Funding flat (0.01%/8h). OI strongly confirming (24h +16.6%, 7d +10.2%). **Invalidation $2,355 not breached -- cushion widened sharply to ~11.30% (from AM's ~5.64%), no longer the tightest cushion on the book.** Sentiment (p1) held Neutral -- divergent F&G reads (one 'extreme fear' headline, another Neutral), ETF net inflows as an institutional counterweight, no clean crowd extreme, unchanged. Confluence improved to 6/10 (0/10 Bearish) as p2_dma held Bullish and RSI stayed in-band -- clean read, nowhere near the exit gate. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-09-19 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- price $2626.27 (+0.21% vs PM 09-18's $2,620.97). p1 sentiment held Neutral (ETH-specific F&G 69/Greed against a broader 61/Greed, social score described as 'mostly neutral' on Twitter, sentiment 'caught between robust accumulation and deteriorating technical structure,' fresh CLARITY Act regulatory headwind noted -- no clean crowd extreme). Invalidation $2,355 not breached -- cushion ~11.52% (widened slightly from ~11.30%). Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -1759,7 +1811,7 @@
       "qty": 1.991726,
       "notional_usdt": 1458.1028,
       "avg_entry_price": 744.5063,
-      "size_pct_current": 14.88,
+      "size_pct_current": 14.77,
       "target_size_pct": 15.0,
       "stage": "full_target",
       "target": 851.0,
@@ -1935,6 +1987,13 @@
           "conviction": "Intact",
           "confluence": "7/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- price $765.72 (+1.24% vs AM 09-18's $756.30, +2.85% vs avg entry $744.5063). Still above 50DMA and 200DMA in golden-cross structure, dev-from-50DMA 14.6% (moderate). RSI 66.2, upper-mid band with room. p4_rvol flipped Bullish this checkpoint (rv_ratio 0.71, a genuine compression/breakout setup). Funding flat (0.0144%/8h). OI confirming (24h +18.9%, 7d +7.3%). Invalidation $695 not breached -- cushion ~10.17% (improved from AM's ~8.11%). Sentiment (p1) held Neutral -- BNB-specific F&G 67/Greed with the standing 'comfortable, confident, slower to panic' complacency framing, elevated but not literal euphoria language, no clean crowd extreme, unchanged. Confluence improved to 7/10 (0/10 Bearish) -- the cleanest read of the hold so far, all mechanical p2-10 Bullish except the market-wide p10_fg (Neutral). MiCA overhang remains an unresolved standing watch item. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-09-19 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "6/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- price $761.36 (+0.61% vs PM 09-18's $765.72, essentially flat). Confluence eased 7/10->6/10 as p7_oi rolled Bullish->Neutral (24h +3.6%, 7d +0.1%, a mild pullback not a divergence). p1 sentiment held Neutral (BNB-specific F&G 67/Greed running hotter than the broad market's 50/Neutral -- the standing complacency gap -- 'overbought' warnings found this run are 3-4 weeks stale, discounted). Invalidation $695 not breached -- cushion ~9.55%. MiCA overhang remains the standing unresolved watch item. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
@@ -1946,7 +2005,7 @@
       "qty": 2647.5145,
       "notional_usdt": 899.6254,
       "avg_entry_price": 0.3398,
-      "size_pct_current": 8.74,
+      "size_pct_current": 8.71,
       "target_size_pct": 10.0,
       "stage": "trimmed_sector_cap",
       "target": 0.378,
@@ -2094,38 +2153,45 @@
           "conviction": "Intact",
           "confluence": "5/10 (0/10 Bearish)",
           "action": "HOLD, no changes -- price $0.3384 (+0.68% vs AM 09-18's $0.3361, -0.41% vs avg entry $0.3398). Still above 50DMA in golden-cross structure, dev-from-50DMA a modest 1.2%. RSI 54.4, low edge of the 55-70 band (just under). p4_rvol flipped Bullish (rv_ratio 0.73), p7_oi eased to Neutral (24h -3.0%, 7d -4.4%, mild pullback not a clean divergence). Funding flat (0.0048%/8h). Invalidation $0.322 not breached -- cushion ~5.09% (essentially flat vs AM's ~4.20%), the tightest cushion on the book, now the top pre-mortem watch item (ETH's own cushion widened materially this checkpoint). Sentiment (p1) held Neutral -- F&G 70-73/Greed persists, the trendline picture stays genuinely contradictory between same-day sources ('losing a seven-month trendline' vs. 'climbing steadily along one held for months'), no fresh capitulation language, network usage at record highs -- still two-sided, unchanged from AM. Confluence held at 5/10 (0/10 Bearish). Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
+        },
+        {
+          "checkpoint": "2026-09-19 AM",
+          "thesis_status": "Playing Out",
+          "conviction": "Intact",
+          "confluence": "5/10 (0/10 Bearish)",
+          "action": "HOLD, no changes -- price $0.3377 (-0.15% vs PM 09-18's $0.3384). p1 sentiment held Neutral (genuinely conflicting data: 'community bearish' vs a bullish 4.7/5 social score in the same source, F&G cited 72-78 across sources, a bearish trendline-break headline -- no dominant extreme). Data-quality flag: source's RSI-14 claim of 79.01 contradicts this run's own computed RSI of 53.2 -- discounted per LESSONS #20, our own feed is authoritative. Invalidation $0.322 not breached -- cushion ~4.88%, essentially flat and still the tightest on the book -- standing pre-mortem watch item, unchanged. Thesis stays Playing Out, conviction stays Intact -- hold, no changes."
         }
       ]
     },
     {
-      "ticker": "ASTER",
-      "sector": "DEX",
-      "entry_utc": "2026-09-18T19:06:07Z",
-      "entry_price": 0.752,
-      "qty": 681.6606,
-      "notional_usdt": 512.6088,
-      "avg_entry_price": 0.752,
+      "ticker": "POL",
+      "sector": "L2",
+      "entry_utc": "2026-09-19T07:07:14.866420+00:00",
+      "entry_price": 0.10286,
+      "qty": 4989.4186,
+      "notional_usdt": 513.2116,
+      "avg_entry_price": 0.10286,
       "size_pct_current": 5.0,
       "target_size_pct": 10.0,
       "stage": "stage1_half",
-      "target": 0.93,
-      "invalidation": 0.665,
-      "planned_R": 2.05,
-      "stated_p": 0.42,
+      "target": 0.128,
+      "invalidation": 0.093,
+      "planned_R": 2.5497,
+      "stated_p": 0.4,
       "tier": "C",
       "confluence_at_entry": 7,
-      "hold_until": "2026-10-30",
-      "interim_review_date": "2026-10-02",
-      "thesis": "Perp-DEX competing with Hyperliquid: AOS-2 permissionless perpetual-listing standard (2026-08), buyback/burn mechanics (99% of fees to veASTER buybacks), 400M-token team allocation locked to Sept 2027 (reduces float overhang). Price $0.752, dev-from-50DMA +12.5% (moderate), RSI 60.4 mid-band, funding flat (0.01%/8h, no crowding), OI mixed but not diverging (24h -4.2%, 7d -5.1%, a mild pullback not read as a Bearish divergence against price). Confluence confirmed 7/10 Bullish at 2 consecutive checkpoints (AM 09-18 armed -> PM 09-18 confirmed), 0/10 Bearish both checkpoints -- clean mechanical p2-10 6/9 Bullish, 0/9 Bearish both checkpoints. Sentiment (p1) read Bullish both checkpoints (4th consecutive Bullish p1 read overall) -- steady incremental improving interest without euphoria, no blow-off-top language.",
-      "thesis_test": "Price holds above the 50DMA ($0.6684); funding/OI stay non-crowded (no sustained rise past ~0.05%/8h or a rising-OI/falling-price divergence); RSI stays out of overbought (<75) as price extends toward target.",
-      "invalidation_conditions": "Price closes below $0.665 (near the 50DMA support) OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
+      "hold_until": "2026-10-31",
+      "interim_review_date": "2026-10-03",
+      "thesis": "Polygon L2: fundamentals outperforming price action -- 8B cumulative transactions with record stablecoin volume (Sept 1), enterprise-adoption narrative building (rumored Coinme acquisition chatter) even as technical-sentiment gauges stay cautious (~37% bullish) and F&G reads 61/Greed against that caution -- the same mixed, no-dominance split logged at both the original PM 09-18 confirmation and this entry checkpoint. Confluence confirmed 7/10 Bullish (mechanical-only: p2,p3,p4,p6,p7,p8,p9 all Bullish, p1 sentiment Neutral both checkpoints), 0/10 Bearish. Originally confirmed PM 09-18 alongside ASTER and SOL for the book's one open slot -- lost the EV/R tiebreak to ASTER at that checkpoint (both floor-qualifying) and was logged confirmed-no-slot, carried forward per the XRP PM 09-07 precedent (LESSONS #24) since confluence never dropped below 7/10. Entered this checkpoint when ASTER's own staged-entry non-confirmation cut freed the book's DEX slot down to 4/5 positions.",
+      "thesis_test": "Price holds above the 50DMA; funding/OI stay non-crowded; RSI stays out of overbought (<75) as price extends toward target.",
+      "invalidation_conditions": "Price closes below $0.093 OR confluence reads >=4/10 Bearish for 2 consecutive checkpoints OR thesis marked Broken.",
       "status_history": [
         {
-          "checkpoint": "2026-09-18 PM",
+          "checkpoint": "2026-09-19 AM",
           "thesis_status": "Playing Out",
           "conviction": "Intact",
           "confluence": "7/10",
-          "action": "CONFIRMED ENTRY -- 2nd consecutive checkpoint >=7/10 (AM 09-18 7/10 armed -> PM 09-18 7/10 confirmed, 0/10 Bearish both checkpoints). Mechanical p2-10 held flat at 6/9 Bullish, 0/9 Bearish both checkpoints; p1 sentiment read Bullish both checkpoints -- team-lock extension (400M tokens, cliff to Sept 2027) reducing float overhang, buyback/burn mechanics, AOS-2 permissionless perpetual-listing standard, no blow-off-top language. Won the EV tiebreak over POL for the book's one open slot: both confirmed at 7/10 this checkpoint, but ASTER's expectancy sheet (Entry $0.752, Target $0.93, Invalidation $0.665, p=0.42, R=2.05, EV=+3.24%) edged POL's (Entry $0.10473, Target $0.128, Invalidation $0.093, p=0.40, R=2.03, EV=+2.36%) on both EV and R; POL logged confirmed-no-slot, carried forward for the next open slot (see SIGNALS.csv, LESSONS.md). SOL also confirmed this checkpoint at 8/10 but is hard-rule-blocked from entry: Major L1 sector already holds its 2-position cap (ETH, TRX) per Section 3 rule 8 -- cannot enter regardless of confluence unless a Major L1 position first exits. Sector check: DEX currently holds JUP only (1/5 positions) -- adding ASTER brings DEX to 2/5, within the max-2-per-sector cap, and to ~23.1% of post-entry deployed capital, well under the 50%-of-deployed-capital-per-sector cap. Tier C (R=2.05, p=0.42, EV=+3.24%; Entry $0.752, Target $0.93, Invalidation $0.665). Staged half-entry per rule: BUY 681.6606 ASTER @ $0.752 = $512.6088 notional (5.00% of $10,252.18 portfolio), 2026-09-18T19:06:07Z (Binance spot, same scripts/parameters.py refresh used for this checkpoint). Second half adds only if confluence holds >=7/10 at the next trading checkpoint (AM 09-19); no confirmation cuts the half. Book now at 5/5 positions -- maximum concurrent per Section 3 rule 1."
+          "action": "CONFIRMED ENTRY (carried-forward confirmed-no-slot) -- confluence held exactly at 7/10 this checkpoint (mechanical-only, unchanged from PM 09-18's original confirmation), 0/10 Bearish. Slot opened via ASTER's staged-entry non-confirmation cut this same checkpoint (see ASTER exit). Expectancy sheet refreshed on today's fill price (Target $0.128 / Invalidation $0.093 carried forward as technical levels): Entry $0.10286, R=2.5497, p=0.4, EV=+4.025% -- both floor conditions clear more comfortably than the original PM 09-18 estimate (R=2.03, EV=+2.36%). Tier C. Staged half-entry: BUY 4989.4186 POL @ $0.10286 = $513.2116 notional (5.00% of $10264.2311 portfolio), 2026-09-19T07:07:14.866420+00:00 (Binance spot, same parameters.py refresh used for this checkpoint). Second half adds only if confluence holds >=7/10 at the next checkpoint. Sector L2 -- POL is the book's only L2 position (1/5 in-sector), no cap issue."
         }
       ]
     }
